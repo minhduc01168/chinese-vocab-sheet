@@ -1,0 +1,3754 @@
+[
+  {
+    "id": 1,
+    "originalIndex": 1,
+    "hanzi": "我",
+    "validAnswers": [
+      "我"
+    ],
+    "meaning": "tôi, mình, tao, tớ",
+    "pinyin": "wǒ",
+    "sinoVietnamese": "ngã",
+    "example": "我想你了"
+  },
+  {
+    "id": 2,
+    "originalIndex": 2,
+    "hanzi": "你",
+    "validAnswers": [
+      "你"
+    ],
+    "meaning": "bạn",
+    "pinyin": "nǐ",
+    "sinoVietnamese": "nhĩ",
+    "example": "你去哪？\n我和你是好朋友"
+  },
+  {
+    "id": 3,
+    "originalIndex": 3,
+    "hanzi": "我们",
+    "validAnswers": [
+      "我们"
+    ],
+    "meaning": "chúng tôi",
+    "pinyin": "wǒmen",
+    "sinoVietnamese": "ngã môn",
+    "example": "我们能讲中文"
+  },
+  {
+    "id": 4,
+    "originalIndex": 4,
+    "hanzi": "你们",
+    "validAnswers": [
+      "你们"
+    ],
+    "meaning": "các bạn",
+    "pinyin": "nǐmen",
+    "sinoVietnamese": "nhĩ môn",
+    "example": "你们是同学吗？"
+  },
+  {
+    "id": 5,
+    "originalIndex": 5,
+    "hanzi": "好",
+    "validAnswers": [
+      "好"
+    ],
+    "meaning": "tốt",
+    "pinyin": "hǎo",
+    "sinoVietnamese": "hảo",
+    "example": "我很好"
+  },
+  {
+    "id": 6,
+    "originalIndex": 6,
+    "hanzi": "您",
+    "validAnswers": [
+      "您"
+    ],
+    "meaning": "ngài, ông",
+    "pinyin": "nín",
+    "sinoVietnamese": "nâm",
+    "example": "您今年多大了？"
+  },
+  {
+    "id": 7,
+    "originalIndex": 7,
+    "hanzi": "对不起",
+    "validAnswers": [
+      "对不起"
+    ],
+    "meaning": "xin lỗi",
+    "pinyin": "duìbuqǐ",
+    "sinoVietnamese": "đối bất khởi"
+  },
+  {
+    "id": 8,
+    "originalIndex": 8,
+    "hanzi": "没关系",
+    "validAnswers": [
+      "没关系"
+    ],
+    "meaning": "không sao đâu",
+    "pinyin": "méiguānxi",
+    "sinoVietnamese": "một quan hệ"
+  },
+  {
+    "id": 9,
+    "originalIndex": 9,
+    "hanzi": "猫",
+    "validAnswers": [
+      "猫"
+    ],
+    "meaning": "con mèo",
+    "pinyin": "māo",
+    "sinoVietnamese": "miêu",
+    "example": "我有两只小猫"
+  },
+  {
+    "id": 10,
+    "originalIndex": 10,
+    "hanzi": "鱼",
+    "validAnswers": [
+      "鱼"
+    ],
+    "meaning": "cá",
+    "pinyin": "yú",
+    "sinoVietnamese": "ngư",
+    "example": "我很喜欢吃鱼"
+  },
+  {
+    "id": 11,
+    "originalIndex": 11,
+    "hanzi": "咖啡",
+    "validAnswers": [
+      "咖啡"
+    ],
+    "meaning": "cà phê",
+    "pinyin": "kāfēi",
+    "sinoVietnamese": "ca phê",
+    "example": "请喝咖啡，你想喝什么？"
+  },
+  {
+    "id": 12,
+    "originalIndex": 12,
+    "hanzi": "可乐",
+    "validAnswers": [
+      "可乐"
+    ],
+    "meaning": "coke",
+    "pinyin": "kělè",
+    "sinoVietnamese": "khả lạc",
+    "example": "我不喜欢喝可乐"
+  },
+  {
+    "id": 13,
+    "originalIndex": 13,
+    "hanzi": "烤鸭",
+    "validAnswers": [
+      "烤鸭"
+    ],
+    "meaning": "vịt quay",
+    "pinyin": "kǎoyā",
+    "sinoVietnamese": "khảo áp",
+    "example": "我妈妈很喜欢吃烤鸭"
+  },
+  {
+    "id": 14,
+    "originalIndex": 14,
+    "hanzi": "火锅",
+    "validAnswers": [
+      "火锅"
+    ],
+    "meaning": "lẩu",
+    "pinyin": "huǒguō",
+    "sinoVietnamese": "hảo oa",
+    "example": "我 爸爸喜欢吃火锅"
+  },
+  {
+    "id": 15,
+    "originalIndex": 15,
+    "hanzi": "谢谢",
+    "validAnswers": [
+      "谢谢"
+    ],
+    "meaning": "cảm ơn",
+    "pinyin": "xièxie",
+    "sinoVietnamese": "tạ tạ"
+  },
+  {
+    "id": 16,
+    "originalIndex": 16,
+    "hanzi": "不客气",
+    "validAnswers": [
+      "不客气"
+    ],
+    "meaning": "đừng khách sáo",
+    "pinyin": "bù kèqi",
+    "sinoVietnamese": "bất khách khí"
+  },
+  {
+    "id": 17,
+    "originalIndex": 17,
+    "hanzi": "再见",
+    "validAnswers": [
+      "再见"
+    ],
+    "meaning": "tạm biệt",
+    "pinyin": "zàijiàn",
+    "sinoVietnamese": "tái kiến"
+  },
+  {
+    "id": 18,
+    "originalIndex": 18,
+    "hanzi": "叫",
+    "validAnswers": [
+      "叫"
+    ],
+    "meaning": "tên là",
+    "pinyin": "jiào",
+    "sinoVietnamese": "khiếu",
+    "example": "你叫什么名字？"
+  },
+  {
+    "id": 19,
+    "originalIndex": 19,
+    "hanzi": "什么",
+    "validAnswers": [
+      "什么"
+    ],
+    "meaning": "cái gì?",
+    "pinyin": "shénme",
+    "sinoVietnamese": "thậm ma",
+    "example": "今天你想学什么？"
+  },
+  {
+    "id": 20,
+    "originalIndex": 20,
+    "hanzi": "名字",
+    "validAnswers": [
+      "名字"
+    ],
+    "meaning": "tên",
+    "pinyin": "míngzi",
+    "sinoVietnamese": "danh dự",
+    "example": "我能知道你的名字吗？"
+  },
+  {
+    "id": 21,
+    "originalIndex": 21,
+    "hanzi": "老师",
+    "validAnswers": [
+      "老师"
+    ],
+    "meaning": "thầy giáo, cô giáo",
+    "pinyin": "lǎoshī",
+    "sinoVietnamese": "lão sư",
+    "example": "李老师在哪儿？"
+  },
+  {
+    "id": 22,
+    "originalIndex": 22,
+    "hanzi": "学生",
+    "validAnswers": [
+      "学生"
+    ],
+    "meaning": "học sinh",
+    "pinyin": "xuéshēng",
+    "sinoVietnamese": "học sinh",
+    "example": "你奴儿是学生吗？"
+  },
+  {
+    "id": 23,
+    "originalIndex": 23,
+    "hanzi": "吗",
+    "validAnswers": [
+      "吗"
+    ],
+    "meaning": "không?",
+    "pinyin": "ma",
+    "example": "好吃吗？"
+  },
+  {
+    "id": 24,
+    "originalIndex": 24,
+    "hanzi": "中国",
+    "validAnswers": [
+      "中国"
+    ],
+    "meaning": "TQ",
+    "pinyin": "Zhōngguó",
+    "example": "我的同学是中国人"
+  },
+  {
+    "id": 25,
+    "originalIndex": 25,
+    "hanzi": "美国",
+    "validAnswers": [
+      "美国"
+    ],
+    "meaning": "nước Mỹ",
+    "pinyin": "Měiguó",
+    "example": "我想去美国"
+  },
+  {
+    "id": 26,
+    "originalIndex": 26,
+    "hanzi": "英国",
+    "validAnswers": [
+      "英国"
+    ],
+    "meaning": "nước Anh",
+    "pinyin": "yīngguó",
+    "example": "你去过英国吗/"
+  },
+  {
+    "id": 27,
+    "originalIndex": 27,
+    "hanzi": "是",
+    "validAnswers": [
+      "是"
+    ],
+    "meaning": "là",
+    "pinyin": "shì",
+    "sinoVietnamese": "thị",
+    "example": "你是Lily 的同事吗？"
+  },
+  {
+    "id": 28,
+    "originalIndex": 28,
+    "hanzi": "他",
+    "validAnswers": [
+      "他"
+    ],
+    "meaning": "anh ấy",
+    "pinyin": "tā"
+  },
+  {
+    "id": 29,
+    "originalIndex": 29,
+    "hanzi": "她",
+    "validAnswers": [
+      "她"
+    ],
+    "meaning": "cô ấy",
+    "pinyin": "tā"
+  },
+  {
+    "id": 30,
+    "originalIndex": 30,
+    "hanzi": "谁",
+    "validAnswers": [
+      "谁"
+    ],
+    "meaning": "ai?",
+    "pinyin": "shéi",
+    "sinoVietnamese": "thùy",
+    "example": "你后面那个人是谁？"
+  },
+  {
+    "id": 31,
+    "originalIndex": 31,
+    "hanzi": "的",
+    "validAnswers": [
+      "的"
+    ],
+    "meaning": "của",
+    "pinyin": "de",
+    "sinoVietnamese": "đích",
+    "example": "我的汉语老师是英国人"
+  },
+  {
+    "id": 32,
+    "originalIndex": 32,
+    "hanzi": "A....B 呢？",
+    "validAnswers": [
+      "A....B 呢？"
+    ],
+    "meaning": "a,,,b thì sao",
+    "pinyin": "A...B  ne",
+    "sinoVietnamese": "ni",
+    "example": "星期日我和同事去公园， 你呢？"
+  },
+  {
+    "id": 33,
+    "originalIndex": 33,
+    "hanzi": "同学",
+    "validAnswers": [
+      "同学"
+    ],
+    "meaning": "bạn học",
+    "pinyin": "tóngxué",
+    "sinoVietnamese": "đồng học",
+    "example": "我同学会说英语"
+  },
+  {
+    "id": 34,
+    "originalIndex": 34,
+    "hanzi": "哪",
+    "validAnswers": [
+      "哪"
+    ],
+    "meaning": "nào, đâu?",
+    "pinyin": "nǎ",
+    "sinoVietnamese": "na",
+    "example": "你爸爸在医院工作， 你妈妈在哪儿工作？"
+  },
+  {
+    "id": 35,
+    "originalIndex": 35,
+    "hanzi": "朋友",
+    "validAnswers": [
+      "朋友"
+    ],
+    "meaning": "bằng hữu",
+    "pinyin": "péngyou",
+    "example": "你的朋友能做中国菜吗？"
+  },
+  {
+    "id": 36,
+    "originalIndex": 36,
+    "hanzi": "女儿",
+    "validAnswers": [
+      "女儿"
+    ],
+    "meaning": "con gái",
+    "pinyin": "Nǔ ěr",
+    "example": "您 女儿在哪儿工作？"
+  },
+  {
+    "id": 37,
+    "originalIndex": 37,
+    "hanzi": "今年",
+    "validAnswers": [
+      "今年"
+    ],
+    "meaning": "năm nay",
+    "pinyin": "jīnnián",
+    "sinoVietnamese": "kim niên",
+    "example": "我今年二十三岁了"
+  },
+  {
+    "id": 38,
+    "originalIndex": 38,
+    "hanzi": "昨年\n去年",
+    "validAnswers": [
+      "昨年",
+      "去年"
+    ],
+    "meaning": "năm ngoái",
+    "pinyin": "Zuónián",
+    "sinoVietnamese": "tạc niên",
+    "example": "昨年我还在上学"
+  },
+  {
+    "id": 39,
+    "originalIndex": 39,
+    "hanzi": "明年",
+    "validAnswers": [
+      "明年"
+    ],
+    "meaning": "năm sau",
+    "pinyin": "míngnián",
+    "sinoVietnamese": "minh niên",
+    "example": "明年我会去中国"
+  },
+  {
+    "id": 40,
+    "originalIndex": 40,
+    "hanzi": "岁",
+    "validAnswers": [
+      "岁"
+    ],
+    "meaning": "tuế",
+    "pinyin": "suì",
+    "sinoVietnamese": "tuổi",
+    "example": "我妹妹十六岁了"
+  },
+  {
+    "id": 41,
+    "originalIndex": 41,
+    "hanzi": "几",
+    "validAnswers": [
+      "几"
+    ],
+    "meaning": "mấy, vài dùng hỏi ngày mấy",
+    "pinyin": "jǐ",
+    "sinoVietnamese": "kỉ",
+    "example": "今天几号？"
+  },
+  {
+    "id": 42,
+    "originalIndex": 42,
+    "hanzi": "家",
+    "validAnswers": [
+      "家"
+    ],
+    "meaning": "nhà",
+    "pinyin": "jiā",
+    "sinoVietnamese": "gia",
+    "example": "我 弟弟在家看电影"
+  },
+  {
+    "id": 43,
+    "originalIndex": 43,
+    "hanzi": "有",
+    "validAnswers": [
+      "有"
+    ],
+    "meaning": "có",
+    "pinyin": "yǒu",
+    "sinoVietnamese": "hữu",
+    "example": "你有钱吗？"
+  },
+  {
+    "id": 44,
+    "originalIndex": 44,
+    "hanzi": "多",
+    "validAnswers": [
+      "多"
+    ],
+    "meaning": "nhiều, lắm",
+    "pinyin": "duō",
+    "sinoVietnamese": "đa",
+    "example": "这一杯咖啡 多少钱"
+  },
+  {
+    "id": 45,
+    "originalIndex": 45,
+    "hanzi": "大",
+    "validAnswers": [
+      "大"
+    ],
+    "meaning": "to, lớn, rộng",
+    "pinyin": "dà",
+    "sinoVietnamese": "đại",
+    "example": "李老师家很大"
+  },
+  {
+    "id": 46,
+    "originalIndex": 46,
+    "hanzi": "弟弟",
+    "validAnswers": [
+      "弟弟"
+    ],
+    "meaning": "em trai",
+    "pinyin": "dìdi",
+    "sinoVietnamese": "đệ đệ",
+    "example": "我弟弟是大学生"
+  },
+  {
+    "id": 47,
+    "originalIndex": 47,
+    "hanzi": "妹妹",
+    "validAnswers": [
+      "妹妹"
+    ],
+    "meaning": "em gái",
+    "pinyin": "mèimei",
+    "sinoVietnamese": "muội muội",
+    "example": "你妹妹今年多大了"
+  },
+  {
+    "id": 48,
+    "originalIndex": 48,
+    "hanzi": "爷爷",
+    "validAnswers": [
+      "爷爷"
+    ],
+    "meaning": "ông nội",
+    "pinyin": "yéye",
+    "example": "我爷爷 每天早上都喝茶"
+  },
+  {
+    "id": 49,
+    "originalIndex": 49,
+    "hanzi": "都",
+    "validAnswers": [
+      "都"
+    ],
+    "meaning": "đều",
+    "pinyin": "dōu",
+    "example": "我妈妈每天都喝咖啡"
+  },
+  {
+    "id": 50,
+    "originalIndex": 50,
+    "hanzi": "每天",
+    "validAnswers": [
+      "每天"
+    ],
+    "meaning": "mỗi ngày",
+    "pinyin": "měitiān",
+    "example": "我每天晚上做饭"
+  },
+  {
+    "id": 51,
+    "originalIndex": 51,
+    "hanzi": "现在",
+    "validAnswers": [
+      "现在"
+    ],
+    "meaning": "hiện tại, bây giờ",
+    "pinyin": "xiànzài",
+    "example": "现在是三点二十分"
+  },
+  {
+    "id": 52,
+    "originalIndex": 52,
+    "hanzi": "住",
+    "validAnswers": [
+      "住"
+    ],
+    "meaning": "ở, sống",
+    "pinyin": "zhù",
+    "example": "你住哪里？/你住在哪儿？\n我在河内 （hénèi）/我在富寿 （fù shòu）"
+  },
+  {
+    "id": 53,
+    "originalIndex": 53,
+    "hanzi": "早上",
+    "validAnswers": [
+      "早上"
+    ],
+    "meaning": "buổi sáng (5-8h)",
+    "pinyin": "zǎoshang",
+    "sinoVietnamese": "tảo thượng",
+    "example": "早上好，今天我们会开始一个新的项目（xiàngmù）"
+  },
+  {
+    "id": 54,
+    "originalIndex": 54,
+    "hanzi": "中午",
+    "validAnswers": [
+      "中午"
+    ],
+    "meaning": "buổi trưa",
+    "pinyin": "zhōngwǔ",
+    "sinoVietnamese": "trung ngọ",
+    "example": "我每天中午都去商店买一公斤（gōngjīn）橙子"
+  },
+  {
+    "id": 55,
+    "originalIndex": 55,
+    "hanzi": "下午",
+    "validAnswers": [
+      "下午"
+    ],
+    "meaning": "buổi chiều",
+    "pinyin": "xiàwǔ",
+    "sinoVietnamese": "hạ ngọ",
+    "example": "我每天下午下班以后都买一公斤葡萄（pútao）"
+  },
+  {
+    "id": 56,
+    "originalIndex": 56,
+    "hanzi": "晚上",
+    "validAnswers": [
+      "晚上"
+    ],
+    "meaning": "buổi tối",
+    "pinyin": "wǎnshang",
+    "sinoVietnamese": "vãn thượng",
+    "example": "我晚上经常（[jīngcháng）喝茶"
+  },
+  {
+    "id": 57,
+    "originalIndex": 57,
+    "hanzi": "上午",
+    "validAnswers": [
+      "上午"
+    ],
+    "meaning": "buổi sáng 5-12h",
+    "pinyin": "shàngwǔ",
+    "sinoVietnamese": "thượng ngọ",
+    "example": "我上午去上班"
+  },
+  {
+    "id": 58,
+    "originalIndex": 58,
+    "hanzi": "傍晚",
+    "validAnswers": [
+      "傍晚"
+    ],
+    "meaning": "chập tối, chiều tối",
+    "pinyin": "bàngwǎn",
+    "sinoVietnamese": "bàng vãn",
+    "example": "我每天傍晚打羽毛球 （dǎ yǔ máo qiú）"
+  },
+  {
+    "id": 59,
+    "originalIndex": 59,
+    "hanzi": "凌晨",
+    "validAnswers": [
+      "凌晨"
+    ],
+    "meaning": "tờ mờ sáng, rạng sáng",
+    "pinyin": "língchén",
+    "sinoVietnamese": "lăng thần",
+    "example": "我每天凌晨在公园锻炼"
+  },
+  {
+    "id": 60,
+    "originalIndex": 60,
+    "hanzi": "白天",
+    "validAnswers": [
+      "白天"
+    ],
+    "meaning": "ban ngày",
+    "pinyin": "báitiān",
+    "sinoVietnamese": "bạch thiên",
+    "example": "我白天去上班"
+  },
+  {
+    "id": 61,
+    "originalIndex": 61,
+    "hanzi": "夜里",
+    "validAnswers": [
+      "夜里"
+    ],
+    "meaning": "ban đêm",
+    "pinyin": "yèlǐ",
+    "sinoVietnamese": "[dạ lí",
+    "example": "夜里天气很凉快 （liángkuai）"
+  },
+  {
+    "id": 62,
+    "originalIndex": 62,
+    "hanzi": "见面",
+    "validAnswers": [
+      "见面"
+    ],
+    "meaning": "gặp nhau",
+    "pinyin": "jiànmiàn",
+    "sinoVietnamese": "kiến diện",
+    "example": "我们约定在公园见面"
+  },
+  {
+    "id": 63,
+    "originalIndex": 63,
+    "hanzi": "分",
+    "validAnswers": [
+      "分"
+    ],
+    "meaning": "phút",
+    "pinyin": "fēn",
+    "sinoVietnamese": "phân",
+    "example": "一小时等于六十分钟"
+  },
+  {
+    "id": 64,
+    "originalIndex": 64,
+    "hanzi": "刻",
+    "validAnswers": [
+      "刻"
+    ],
+    "meaning": "15 phút = 1 khắc",
+    "pinyin": "kè",
+    "sinoVietnamese": "khắc",
+    "example": "一刻等于十五分钟"
+  },
+  {
+    "id": 65,
+    "originalIndex": 65,
+    "hanzi": "半",
+    "validAnswers": [
+      "半"
+    ],
+    "meaning": "1 nửa， rưỡi",
+    "pinyin": "[bàn",
+    "sinoVietnamese": "bán",
+    "example": "我八点半去 上班"
+  },
+  {
+    "id": 66,
+    "originalIndex": 66,
+    "hanzi": "差",
+    "validAnswers": [
+      "差"
+    ],
+    "meaning": "kém， dở; tệ;",
+    "pinyin": "chà",
+    "sinoVietnamese": "sai",
+    "example": "我差十分十点在公园锻炼 （duànliàn）"
+  },
+  {
+    "id": 67,
+    "originalIndex": 67,
+    "hanzi": "时候",
+    "validAnswers": [
+      "时候"
+    ],
+    "meaning": "lúc, khi, thời điểm",
+    "pinyin": "shíhou",
+    "sinoVietnamese": "thì hậu",
+    "example": "你什么时候下班？"
+  },
+  {
+    "id": 68,
+    "originalIndex": 68,
+    "hanzi": "有时候",
+    "validAnswers": [
+      "有时候"
+    ],
+    "meaning": "có khi, có lúc",
+    "pinyin": "yǒu shíhou",
+    "example": "我有时候喝咖啡"
+  },
+  {
+    "id": 69,
+    "originalIndex": 69,
+    "hanzi": "小时",
+    "validAnswers": [
+      "小时"
+    ],
+    "meaning": "giờ, tiếng",
+    "pinyin": "xiǎoshí",
+    "sinoVietnamese": "tiểu thì",
+    "example": "一天有二十四小时"
+  },
+  {
+    "id": 70,
+    "originalIndex": 70,
+    "hanzi": "时间",
+    "validAnswers": [
+      "时间"
+    ],
+    "meaning": "thời gian",
+    "pinyin": "[shíjiān",
+    "sinoVietnamese": "thì gian",
+    "example": "你什么时候有时间？"
+  },
+  {
+    "id": 71,
+    "originalIndex": 71,
+    "hanzi": "钟",
+    "validAnswers": [
+      "钟"
+    ],
+    "meaning": "chuông; cái chuông\nđồng hồ\n分钟：phút\ncốc; chung; chén \nhọ Chung",
+    "pinyin": "zhōng",
+    "sinoVietnamese": "chung",
+    "example": "我昨天去商店买了一个钟"
+  },
+  {
+    "id": 72,
+    "originalIndex": 72,
+    "hanzi": "回",
+    "validAnswers": [
+      "回"
+    ],
+    "meaning": "về, quay lại",
+    "pinyin": "huí",
+    "sinoVietnamese": "hồi",
+    "example": "我星期日要回家乡"
+  },
+  {
+    "id": 73,
+    "originalIndex": 73,
+    "hanzi": "也",
+    "validAnswers": [
+      "也"
+    ],
+    "meaning": "cũng",
+    "pinyin": "yě",
+    "sinoVietnamese": "[dã",
+    "example": "我也觉得学汉语很难"
+  },
+  {
+    "id": 74,
+    "originalIndex": 74,
+    "hanzi": "忙",
+    "validAnswers": [
+      "忙"
+    ],
+    "meaning": "bận",
+    "pinyin": "máng",
+    "sinoVietnamese": "mang]",
+    "example": "你晚上忙吗"
+  },
+  {
+    "id": 75,
+    "originalIndex": 75,
+    "hanzi": "主人",
+    "validAnswers": [
+      "主人"
+    ],
+    "meaning": "chủ; chủ nhân; người chủ",
+    "pinyin": "zhǔrén",
+    "sinoVietnamese": "chủ nhân",
+    "example": "主人给我们准备了晚餐"
+  },
+  {
+    "id": 76,
+    "originalIndex": 76,
+    "hanzi": "家乡\n老家",
+    "validAnswers": [
+      "家乡",
+      "老家"
+    ],
+    "meaning": "quê nhà, quê hương",
+    "pinyin": "jiāxiāng\nlǎojiā",
+    "sinoVietnamese": "gia hương\nlão gia",
+    "example": "我星期天经常（jīngcháng回老家"
+  },
+  {
+    "id": 77,
+    "originalIndex": 77,
+    "hanzi": "觉得",
+    "validAnswers": [
+      "觉得"
+    ],
+    "meaning": "thấy; cảm thấy\nnghĩ; cho rằng; thấy rằng; nghĩ rằng",
+    "pinyin": "juéde",
+    "sinoVietnamese": "giác đắc",
+    "example": "我觉得我们应该早点出发"
+  },
+  {
+    "id": 78,
+    "originalIndex": 78,
+    "hanzi": "左边",
+    "validAnswers": [
+      "左边"
+    ],
+    "meaning": "bên trái",
+    "pinyin": "zuǒbiān",
+    "sinoVietnamese": "tả biên",
+    "example": "我站在他的左边/学校左边有一个医院"
+  },
+  {
+    "id": 79,
+    "originalIndex": 79,
+    "hanzi": "右边",
+    "validAnswers": [
+      "右边"
+    ],
+    "meaning": "bên phải",
+    "pinyin": "yòubiān",
+    "sinoVietnamese": "hữu biên",
+    "example": "咖啡店在公司的右边"
+  },
+  {
+    "id": 80,
+    "originalIndex": 80,
+    "hanzi": "一起",
+    "validAnswers": [
+      "一起"
+    ],
+    "meaning": "cùng nhau làm gì, tổng cộng",
+    "pinyin": "yīqǐ",
+    "sinoVietnamese": "nhất khởi",
+    "example": "我跟你一起去"
+  },
+  {
+    "id": 81,
+    "originalIndex": 81,
+    "hanzi": "知道",
+    "validAnswers": [
+      "知道"
+    ],
+    "meaning": "biết; hiểu; rõ; hay biết; hiểu rõ",
+    "pinyin": "zhīdào",
+    "sinoVietnamese": "tri đạo"
+  },
+  {
+    "id": 82,
+    "originalIndex": 82,
+    "hanzi": "上学",
+    "validAnswers": [
+      "上学"
+    ],
+    "meaning": "đến trường\n đi học",
+    "pinyin": "shàngxué",
+    "sinoVietnamese": "thượng học",
+    "example": "我去年还上学，今年我已经上班了"
+  },
+  {
+    "id": 83,
+    "originalIndex": 83,
+    "hanzi": "还",
+    "validAnswers": [
+      "还"
+    ],
+    "meaning": "1. còn; vẫn; vẫn còn\n2.còn; càng; còn muốn; còn thêm\n3. hơn; càng; còn hơn",
+    "pinyin": "hái",
+    "sinoVietnamese": "hoàn",
+    "example": "我还在工作"
+  },
+  {
+    "id": 84,
+    "originalIndex": 84,
+    "hanzi": "已经",
+    "validAnswers": [
+      "已经"
+    ],
+    "meaning": "đã",
+    "pinyin": "yǐjīng",
+    "sinoVietnamese": "dĩ kinh",
+    "example": "我已经回家了"
+  },
+  {
+    "id": 85,
+    "originalIndex": 85,
+    "hanzi": "可以",
+    "validAnswers": [
+      "可以"
+    ],
+    "meaning": "có thể; có khả năng; có năng lực",
+    "pinyin": "[kěyǐ]",
+    "sinoVietnamese": "khả dĩ",
+    "example": "你可以帮我拿一杯冰水吗？"
+  },
+  {
+    "id": 86,
+    "originalIndex": 86,
+    "hanzi": "帮",
+    "validAnswers": [
+      "帮"
+    ],
+    "meaning": "giúp; giúp đỡ; trợ giúp\nàm thuê; làm mướn",
+    "pinyin": "bāng]",
+    "sinoVietnamese": "bang",
+    "example": "你可以帮我一个忙吗"
+  },
+  {
+    "id": 87,
+    "originalIndex": 87,
+    "hanzi": "拿",
+    "validAnswers": [
+      "拿"
+    ],
+    "meaning": "cầm; đưa; lấy; nắm",
+    "pinyin": "ná",
+    "sinoVietnamese": "[nã",
+    "example": "他拿着一个水果盒子"
+  },
+  {
+    "id": 88,
+    "originalIndex": 88,
+    "hanzi": "要",
+    "validAnswers": [
+      "要"
+    ],
+    "meaning": "1. muốn; hi vọng\n2. cần có; muốn có\n3. xin; đòi; yêu cầu\n4. nhờ; thỉnh cầu",
+    "pinyin": "yào",
+    "sinoVietnamese": "yếu",
+    "example": "我要买一件毛衣"
+  },
+  {
+    "id": 89,
+    "originalIndex": 89,
+    "hanzi": "当然",
+    "validAnswers": [
+      "当然"
+    ],
+    "meaning": "đương nhiên",
+    "pinyin": "dāngrán",
+    "sinoVietnamese": "đương nhiên",
+    "example": "当然可以"
+  },
+  {
+    "id": 90,
+    "originalIndex": 90,
+    "hanzi": "天气",
+    "validAnswers": [
+      "天气"
+    ],
+    "meaning": "thời tiết",
+    "pinyin": "tiānqì",
+    "sinoVietnamese": "thiên khí",
+    "example": "明天天气怎么样"
+  },
+  {
+    "id": 91,
+    "originalIndex": 91,
+    "hanzi": "怎么样",
+    "validAnswers": [
+      "怎么样"
+    ],
+    "meaning": "thế nào; như thế nào",
+    "pinyin": "zěnmeyàng",
+    "sinoVietnamese": "chẩm ma dạng"
+  },
+  {
+    "id": 92,
+    "originalIndex": 92,
+    "hanzi": "冷",
+    "validAnswers": [
+      "冷"
+    ],
+    "meaning": "1. lạnh; rét; rét mướt\n2. lạnh nhạt; nhạt nhẽ\n3. yên tĩnh; im ắng; vắng lặng",
+    "pinyin": "lěng",
+    "sinoVietnamese": "lãnh",
+    "example": "今天天气特别冷"
+  },
+  {
+    "id": 93,
+    "originalIndex": 93,
+    "hanzi": "热",
+    "validAnswers": [
+      "热"
+    ],
+    "meaning": "1. nóng",
+    "pinyin": "rè",
+    "sinoVietnamese": "nhiệt",
+    "example": "今天天气很热"
+  },
+  {
+    "id": 94,
+    "originalIndex": 94,
+    "hanzi": "身体",
+    "validAnswers": [
+      "身体"
+    ],
+    "meaning": "sức khỏe",
+    "pinyin": "shēntǐ",
+    "sinoVietnamese": "thân thể",
+    "example": "她的身体很好"
+  },
+  {
+    "id": 95,
+    "originalIndex": 95,
+    "hanzi": "水果",
+    "validAnswers": [
+      "水果"
+    ],
+    "meaning": "thủy quả",
+    "pinyin": "shuǐguǒ",
+    "sinoVietnamese": "trái cây; hoa quả",
+    "example": "我喜欢吃水果捞"
+  },
+  {
+    "id": 96,
+    "originalIndex": 96,
+    "hanzi": "太",
+    "validAnswers": [
+      "太"
+    ],
+    "meaning": "rất; quá (khen ngợi)\nắm (nhấn mạnh sự phủ định)",
+    "pinyin": "tài",
+    "sinoVietnamese": "thái",
+    "example": "他今天不太高兴"
+  },
+  {
+    "id": 97,
+    "originalIndex": 97,
+    "hanzi": "下雨",
+    "validAnswers": [
+      "下雨"
+    ],
+    "meaning": "mưa; mưa rơi; trời mưa",
+    "pinyin": "xiàyǔ",
+    "sinoVietnamese": "[hạ vũ",
+    "example": "河内七月常常下雨"
+  },
+  {
+    "id": 98,
+    "originalIndex": 98,
+    "hanzi": "姑娘",
+    "validAnswers": [
+      "姑娘"
+    ],
+    "meaning": "em chồng; chị chồng",
+    "pinyin": "gūniáng",
+    "sinoVietnamese": "cô nương",
+    "example": "姑娘给我买了衣服"
+  },
+  {
+    "id": 99,
+    "originalIndex": 99,
+    "hanzi": "美女",
+    "validAnswers": [
+      "美女"
+    ],
+    "meaning": "mĩ nữ， gái đẹp; mỹ nhân; người đẹp; chị đẹp",
+    "pinyin": "měinǚ",
+    "sinoVietnamese": "mĩ nữ",
+    "example": "她的朋友都是美女"
+  },
+  {
+    "id": 100,
+    "originalIndex": 100,
+    "hanzi": "小妹",
+    "validAnswers": [
+      "小妹"
+    ],
+    "meaning": "em gái",
+    "pinyin": "xiǎo mèi",
+    "sinoVietnamese": "tiểu muội",
+    "example": "我的小妹已经长大了"
+  },
+  {
+    "id": 101,
+    "originalIndex": 101,
+    "hanzi": "服务员",
+    "validAnswers": [
+      "服务员"
+    ],
+    "meaning": "người phục vụ; nhân viên phục vụ",
+    "pinyin": "fúwùyuán",
+    "sinoVietnamese": "[phục vụ viên",
+    "example": "我叫服务员点餐"
+  },
+  {
+    "id": 102,
+    "originalIndex": 102,
+    "hanzi": "来",
+    "validAnswers": [
+      "来"
+    ],
+    "meaning": "đến; tới (từ chỗ khác đến chỗ người nói)",
+    "pinyin": "lái",
+    "example": "你有时间来我家玩儿吧"
+  },
+  {
+    "id": 103,
+    "originalIndex": 103,
+    "hanzi": "些",
+    "validAnswers": [
+      "些"
+    ],
+    "meaning": "những; một ít; một vài",
+    "pinyin": "xiē",
+    "sinoVietnamese": "ta",
+    "example": "我买一些场子下班以后"
+  },
+  {
+    "id": 104,
+    "originalIndex": 104,
+    "hanzi": "样子",
+    "validAnswers": [
+      "样子"
+    ],
+    "meaning": "hình dạng; kiểu dáng; hình dáng\nvẻ; thần sắc; dáng vẻ",
+    "pinyin": "yàngzi",
+    "sinoVietnamese": "dạng tử",
+    "example": "这个花瓶的样子很特别"
+  },
+  {
+    "id": 105,
+    "originalIndex": 105,
+    "hanzi": "一样",
+    "validAnswers": [
+      "一样"
+    ],
+    "meaning": "như nhau; y hệt; giống hệt",
+    "pinyin": "yīyàng",
+    "sinoVietnamese": "nhất dạng",
+    "example": "今天的天气和昨天一样"
+  },
+  {
+    "id": 106,
+    "originalIndex": 106,
+    "hanzi": "多云",
+    "validAnswers": [
+      "多云"
+    ],
+    "meaning": "nhiều mây; đầy mây (khí tượng học)",
+    "pinyin": "duōyún",
+    "sinoVietnamese": "đa vân",
+    "example": "今天天气多云"
+  },
+  {
+    "id": 107,
+    "originalIndex": 107,
+    "hanzi": "晴天",
+    "validAnswers": [
+      "晴天"
+    ],
+    "meaning": "trời nắng; ngày nắng; tốt trời",
+    "pinyin": "qíngtiān",
+    "sinoVietnamese": "tình thiên",
+    "example": "晴天的早晨特别宜人"
+  },
+  {
+    "id": 108,
+    "originalIndex": 108,
+    "hanzi": "热情",
+    "validAnswers": [
+      "热情"
+    ],
+    "meaning": "sự hăng hái; sự nhiệt tình; sự say mê\nnhiệt tình; niềm nở; nhiệt huyết",
+    "pinyin": "rèqíng",
+    "sinoVietnamese": "nhiệt tình",
+    "example": "谢谢你的热情帮助"
+  },
+  {
+    "id": 109,
+    "originalIndex": 109,
+    "hanzi": "爱情",
+    "validAnswers": [
+      "爱情"
+    ],
+    "meaning": "ái tình; tình yêu",
+    "pinyin": "àiqíng",
+    "sinoVietnamese": "ái tình",
+    "example": "我希望有一个幸福的爱情"
+  },
+  {
+    "id": 110,
+    "originalIndex": 110,
+    "hanzi": "爱",
+    "validAnswers": [
+      "爱"
+    ],
+    "meaning": "quý; yêu; thương; yêu mến; yêu quý",
+    "pinyin": "ài",
+    "sinoVietnamese": "ái",
+    "example": "我很爱我的父母"
+  },
+  {
+    "id": 111,
+    "originalIndex": 111,
+    "hanzi": "这里",
+    "validAnswers": [
+      "这里"
+    ],
+    "meaning": "ở đây; nơi này; nơi đây; tại đây; bên này",
+    "pinyin": "zhèlǐ",
+    "sinoVietnamese": "giá lí",
+    "example": "这家中国商店 在这里"
+  },
+  {
+    "id": 112,
+    "originalIndex": 112,
+    "hanzi": "苹果",
+    "validAnswers": [
+      "苹果"
+    ],
+    "meaning": "cây táo; quả táo",
+    "pinyin": "píngguǒ",
+    "sinoVietnamese": "bình quả",
+    "example": "桌子上有一个苹果"
+  },
+  {
+    "id": 113,
+    "originalIndex": 113,
+    "hanzi": "香蕉",
+    "validAnswers": [
+      "香蕉"
+    ],
+    "meaning": "quả chuối; trái chuối; quả chuối tiêu",
+    "pinyin": "xiāngjiāo",
+    "sinoVietnamese": "hương tiêu",
+    "example": "我去商店买一些香蕉"
+  },
+  {
+    "id": 114,
+    "originalIndex": 114,
+    "hanzi": "草莓",
+    "validAnswers": [
+      "草莓"
+    ],
+    "meaning": "dâu tây",
+    "pinyin": "cǎoméi",
+    "sinoVietnamese": "thảo môi",
+    "example": "草莓很甜，很好吃"
+  },
+  {
+    "id": 115,
+    "originalIndex": 115,
+    "hanzi": "橙子",
+    "validAnswers": [
+      "橙子"
+    ],
+    "meaning": "cam; trái cam; quả cam",
+    "pinyin": "chéngzi",
+    "sinoVietnamese": "tranh tử",
+    "example": "橙子很甜，你想吃吗？"
+  },
+  {
+    "id": 116,
+    "originalIndex": 116,
+    "hanzi": "橘子",
+    "validAnswers": [
+      "橘子"
+    ],
+    "meaning": "quả quýt; quýt",
+    "pinyin": "júzi",
+    "sinoVietnamese": "quất tử",
+    "example": "你要橘子水吗？"
+  },
+  {
+    "id": 117,
+    "originalIndex": 117,
+    "hanzi": "柚子",
+    "validAnswers": [
+      "柚子"
+    ],
+    "meaning": "quả bưởi; cây bưởi",
+    "pinyin": "yòuzi",
+    "sinoVietnamese": "dữu tử",
+    "example": "这个柚子很甜"
+  },
+  {
+    "id": 118,
+    "originalIndex": 118,
+    "hanzi": "桃子",
+    "validAnswers": [
+      "桃子"
+    ],
+    "meaning": "đào; quả đào",
+    "pinyin": "táozi",
+    "sinoVietnamese": "đào tử",
+    "example": "这个桃子很好吃"
+  },
+  {
+    "id": 119,
+    "originalIndex": 119,
+    "hanzi": "李子",
+    "validAnswers": [
+      "李子"
+    ],
+    "meaning": "cây mận; quả mận",
+    "pinyin": "lǐzi",
+    "sinoVietnamese": "lí tử",
+    "example": "w哦喜欢吃李子"
+  },
+  {
+    "id": 120,
+    "originalIndex": 120,
+    "hanzi": "梨",
+    "validAnswers": [
+      "梨"
+    ],
+    "meaning": "cây lê\nhọ Lê",
+    "pinyin": "lí",
+    "sinoVietnamese": "lê",
+    "example": "我喜欢吃梨"
+  },
+  {
+    "id": 121,
+    "originalIndex": 121,
+    "hanzi": "芒果",
+    "validAnswers": [
+      "芒果"
+    ],
+    "meaning": "xoài; quả xoài; cây xoài",
+    "pinyin": "mángguǒ",
+    "sinoVietnamese": "mang quả",
+    "example": "我喜欢吃芒果因为芒果很甜"
+  },
+  {
+    "id": 122,
+    "originalIndex": 122,
+    "hanzi": "菠萝",
+    "validAnswers": [
+      "菠萝"
+    ],
+    "meaning": "dứa; khóm; thơm",
+    "pinyin": "bōluó",
+    "sinoVietnamese": "ba la",
+    "example": "我喜欢吃菠萝因为菠萝很甜"
+  },
+  {
+    "id": 123,
+    "originalIndex": 123,
+    "hanzi": "榴莲",
+    "validAnswers": [
+      "榴莲"
+    ],
+    "meaning": "sầu riêng; cây sầu riêng; trái sầu riêng; quả sầu riêng",
+    "pinyin": "liúlián",
+    "sinoVietnamese": "lựu liên",
+    "example": "我妹妹很喜欢吃榴莲因为榴莲很好吃"
+  },
+  {
+    "id": 124,
+    "originalIndex": 124,
+    "hanzi": "特别",
+    "validAnswers": [
+      "特别"
+    ],
+    "meaning": "rất; vô cùng; đặc biệt",
+    "pinyin": "tèbié",
+    "sinoVietnamese": "đặc biệt",
+    "example": "我喜欢吃水果特别是葡萄"
+  },
+  {
+    "id": 125,
+    "originalIndex": 125,
+    "hanzi": "最喜欢",
+    "validAnswers": [
+      "最喜欢"
+    ],
+    "meaning": "thích nhất",
+    "pinyin": "zuìxǐhuan",
+    "example": "我最喜欢吃橙子"
+  },
+  {
+    "id": 126,
+    "originalIndex": 126,
+    "hanzi": "东西",
+    "validAnswers": [
+      "东西"
+    ],
+    "meaning": "đồ vật",
+    "pinyin": "dōngxī",
+    "sinoVietnamese": "đông tây",
+    "example": "今天我回国。我买了很多东西"
+  },
+  {
+    "id": 127,
+    "originalIndex": 127,
+    "hanzi": "打电话",
+    "validAnswers": [
+      "打电话"
+    ],
+    "meaning": "gọi điện thoại",
+    "pinyin": "[dǎ diànhuà]",
+    "example": "我给妈妈打电话"
+  },
+  {
+    "id": 128,
+    "originalIndex": 128,
+    "hanzi": "给",
+    "validAnswers": [
+      "给"
+    ],
+    "meaning": "đưa, cho",
+    "pinyin": "gěi",
+    "sinoVietnamese": "cấp",
+    "example": "你可以给我一杯冰水吗"
+  },
+  {
+    "id": 129,
+    "originalIndex": 129,
+    "hanzi": "电话号码",
+    "validAnswers": [
+      "电话号码"
+    ],
+    "meaning": "số điện thoại",
+    "pinyin": "diànhuà hàomǎ",
+    "example": "你电话号码是多少，你可以给我你的电话号码吗"
+  },
+  {
+    "id": 130,
+    "originalIndex": 130,
+    "hanzi": "小心",
+    "validAnswers": [
+      "小心"
+    ],
+    "meaning": "cẩn thận",
+    "pinyin": "xiǎoxīn",
+    "sinoVietnamese": "tiểu tâm"
+  },
+  {
+    "id": 131,
+    "originalIndex": 131,
+    "hanzi": "睡觉",
+    "validAnswers": [
+      "睡觉"
+    ],
+    "meaning": "đi ngủ",
+    "pinyin": "shuìjiào",
+    "sinoVietnamese": "thụy giác",
+    "example": "我困了，我想去睡觉"
+  },
+  {
+    "id": 132,
+    "originalIndex": 132,
+    "hanzi": "平时",
+    "validAnswers": [
+      "平时"
+    ],
+    "meaning": "bình thường; lúc thường; ngày thường",
+    "pinyin": "píngshí",
+    "sinoVietnamese": "bình thì",
+    "example": "我平时很晚才回家"
+  },
+  {
+    "id": 133,
+    "originalIndex": 133,
+    "hanzi": "一点儿",
+    "validAnswers": [
+      "一点儿"
+    ],
+    "meaning": "chút xíu; chút ít; một ít; chút đỉnh; một chút",
+    "pinyin": "yīdiǎnr",
+    "sinoVietnamese": "nhất điểm nhi",
+    "example": "我 下班以后去商店买一点儿橙子"
+  },
+  {
+    "id": 134,
+    "originalIndex": 134,
+    "hanzi": "先",
+    "validAnswers": [
+      "先"
+    ],
+    "meaning": "trước (hành động xảy ra trước",
+    "pinyin": "xiān",
+    "sinoVietnamese": "tiên",
+    "example": "你先说吧"
+  },
+  {
+    "id": 135,
+    "originalIndex": 135,
+    "hanzi": "开始",
+    "validAnswers": [
+      "开始"
+    ],
+    "meaning": "bắt đầu; khởi đầu",
+    "pinyin": "kāishǐ",
+    "sinoVietnamese": "khai thủy",
+    "example": "新的一天开始了"
+  },
+  {
+    "id": 136,
+    "originalIndex": 136,
+    "hanzi": "先生",
+    "validAnswers": [
+      "先生"
+    ],
+    "meaning": "ông; ngài; thầy (cách gọi tôn trọng đối với những người trí thức)",
+    "pinyin": "xiānsheng",
+    "sinoVietnamese": "tiên sinh",
+    "example": "这位先生 请您稍等一下"
+  },
+  {
+    "id": 137,
+    "originalIndex": 137,
+    "hanzi": "看见",
+    "validAnswers": [
+      "看见"
+    ],
+    "meaning": "thấy; trông thấy; thấy được; nhìn thấy",
+    "pinyin": "kànjiàn",
+    "sinoVietnamese": "khán kiến",
+    "example": "你看见李老师了吗？"
+  },
+  {
+    "id": 138,
+    "originalIndex": 138,
+    "hanzi": "开门",
+    "validAnswers": [
+      "开门"
+    ],
+    "meaning": "mở rộng cửa",
+    "pinyin": "kāimén",
+    "sinoVietnamese": "khai môn",
+    "example": "银行九点才开门"
+  },
+  {
+    "id": 139,
+    "originalIndex": 139,
+    "hanzi": "关门",
+    "validAnswers": [
+      "关门"
+    ],
+    "meaning": "đóng cửa; nghỉ bán; ngưng hoạt động",
+    "pinyin": "guānmén",
+    "sinoVietnamese": "quan môn",
+    "example": "商店晚上十一点才关门"
+  },
+  {
+    "id": 140,
+    "originalIndex": 140,
+    "hanzi": "开关",
+    "validAnswers": [
+      "开关"
+    ],
+    "meaning": "công tắc; bộ chuyển mạch",
+    "pinyin": "kāiguān",
+    "sinoVietnamese": "khai quan",
+    "example": "打开开关吧/开灯吧"
+  },
+  {
+    "id": 141,
+    "originalIndex": 141,
+    "hanzi": "开车",
+    "validAnswers": [
+      "开车"
+    ],
+    "meaning": "lái; lái xe; chạy xe; điều khiển xe",
+    "pinyin": "kāichē",
+    "sinoVietnamese": "khai xa",
+    "example": "你 会开车吗？"
+  },
+  {
+    "id": 142,
+    "originalIndex": 142,
+    "hanzi": "上车",
+    "validAnswers": [
+      "上车"
+    ],
+    "meaning": "lên xe; chuyến đi",
+    "pinyin": "shàng chē",
+    "sinoVietnamese": "thượng xa",
+    "example": "上车吧"
+  },
+  {
+    "id": 143,
+    "originalIndex": 143,
+    "hanzi": "下车",
+    "validAnswers": [
+      "下车"
+    ],
+    "meaning": "xuống xe",
+    "pinyin": "xià chē",
+    "sinoVietnamese": "hạ xa",
+    "example": "下车了/我们到了"
+  },
+  {
+    "id": 144,
+    "originalIndex": 144,
+    "hanzi": "回来",
+    "validAnswers": [
+      "回来"
+    ],
+    "meaning": "về; trở về; trở lại; quay về",
+    "pinyin": "huílái",
+    "sinoVietnamese": "hồi lai",
+    "example": "你什么时候回来"
+  },
+  {
+    "id": 145,
+    "originalIndex": 145,
+    "hanzi": "衣服",
+    "validAnswers": [
+      "衣服"
+    ],
+    "meaning": "đồ mặc; quần áo; xống áo",
+    "pinyin": "yīfu",
+    "sinoVietnamese": "y phục",
+    "example": "外边冷，多穿些衣服"
+  },
+  {
+    "id": 146,
+    "originalIndex": 146,
+    "hanzi": "里边",
+    "validAnswers": [
+      "里边"
+    ],
+    "meaning": "trong; bên trong; phía trong",
+    "pinyin": "lǐbian",
+    "sinoVietnamese": "lí biên",
+    "example": "我们在里边车等你"
+  },
+  {
+    "id": 147,
+    "originalIndex": 147,
+    "hanzi": "外边",
+    "validAnswers": [
+      "外边"
+    ],
+    "meaning": "ngoài; bên ngoài; mặt ngoài",
+    "pinyin": "wàibian",
+    "sinoVietnamese": "ngoại biên",
+    "example": "外边很冷，多穿些衣服"
+  },
+  {
+    "id": 148,
+    "originalIndex": 148,
+    "hanzi": "右边",
+    "validAnswers": [
+      "右边"
+    ],
+    "meaning": "bên phải; phía hữu",
+    "pinyin": "yòubiān",
+    "sinoVietnamese": "hữu biên",
+    "example": "我家右边有一个面包店"
+  },
+  {
+    "id": 149,
+    "originalIndex": 149,
+    "hanzi": "件",
+    "validAnswers": [
+      "件"
+    ],
+    "meaning": "chiếc; kiện; cái; bộ",
+    "pinyin": "jiàn",
+    "sinoVietnamese": "kiện",
+    "example": "我买一件衣服"
+  },
+  {
+    "id": 150,
+    "originalIndex": 150,
+    "hanzi": "票",
+    "validAnswers": [
+      "票"
+    ],
+    "meaning": "vé; phiếu; thẻ; hoá đơn",
+    "pinyin": "piào",
+    "sinoVietnamese": "phiếu",
+    "example": "这张车票是去北京的"
+  },
+  {
+    "id": 151,
+    "originalIndex": 151,
+    "hanzi": "张",
+    "validAnswers": [
+      "张"
+    ],
+    "meaning": "tờ; bức; tấm; trang (lượng từ dùng cho giấy, da)",
+    "pinyin": "zhāng",
+    "sinoVietnamese": "trương",
+    "example": "一张车票"
+  },
+  {
+    "id": 152,
+    "originalIndex": 152,
+    "hanzi": "漂亮",
+    "validAnswers": [
+      "漂亮"
+    ],
+    "meaning": "đẹp; xinh xắn; xinh đẹp; có dáng",
+    "pinyin": "piàoliang",
+    "sinoVietnamese": "phiếu lượng",
+    "example": "你真是一位漂亮姑娘"
+  },
+  {
+    "id": 153,
+    "originalIndex": 153,
+    "hanzi": "帅",
+    "validAnswers": [
+      "帅"
+    ],
+    "meaning": "đẹp; đẹp trai; anh tuấn",
+    "pinyin": "shuài",
+    "sinoVietnamese": "soái",
+    "example": "他真是很帅"
+  },
+  {
+    "id": 154,
+    "originalIndex": 154,
+    "hanzi": "丑",
+    "validAnswers": [
+      "丑"
+    ],
+    "meaning": "xấu, xấu xí",
+    "pinyin": "chǒu",
+    "sinoVietnamese": "sửu",
+    "example": "他很丑"
+  },
+  {
+    "id": 155,
+    "originalIndex": 155,
+    "hanzi": "有名",
+    "validAnswers": [
+      "有名"
+    ],
+    "meaning": "có tiếng; nổi tiếng; nức danh; nức tiếng",
+    "pinyin": "[yǒumíng",
+    "sinoVietnamese": "hữu danh",
+    "example": "这作者很有名"
+  },
+  {
+    "id": 156,
+    "originalIndex": 156,
+    "hanzi": "不少·",
+    "validAnswers": [
+      "不少·"
+    ],
+    "meaning": "nhiều; rất nhiều; không ít",
+    "pinyin": "bù shǎo",
+    "sinoVietnamese": "bất thiểu",
+    "example": "今天我去商店买了不少衣服"
+  },
+  {
+    "id": 157,
+    "originalIndex": 157,
+    "hanzi": "认识",
+    "validAnswers": [
+      "认识"
+    ],
+    "meaning": "biết; quen; nhận biết; quen biết",
+    "pinyin": "rènshi",
+    "sinoVietnamese": "nhận thức",
+    "example": "很高兴认识你"
+  },
+  {
+    "id": 158,
+    "originalIndex": 158,
+    "hanzi": "高兴",
+    "validAnswers": [
+      "高兴"
+    ],
+    "meaning": "vui; vui vẻ; vui mừng; phấn chấn; cao hứng",
+    "pinyin": "gāoxìng",
+    "sinoVietnamese": "[cao hứng",
+    "example": "他今天很高兴"
+  },
+  {
+    "id": 159,
+    "originalIndex": 159,
+    "hanzi": "出去",
+    "validAnswers": [
+      "出去"
+    ],
+    "meaning": "ra; ra ngoài",
+    "pinyin": "chūqù",
+    "sinoVietnamese": "xuất khứ",
+    "example": "孩子们都出去了"
+  },
+  {
+    "id": 160,
+    "originalIndex": 160,
+    "hanzi": "出来",
+    "validAnswers": [
+      "出来"
+    ],
+    "meaning": "ra; đi ra; ra đây (từ trong ra ngoài)",
+    "pinyin": "chūlái",
+    "sinoVietnamese": "xuất lai",
+    "example": "你出来，我跟你收据话"
+  },
+  {
+    "id": 161,
+    "originalIndex": 161,
+    "hanzi": "出租车",
+    "validAnswers": [
+      "出租车"
+    ],
+    "meaning": "xe taxi",
+    "pinyin": "chūzūchē",
+    "sinoVietnamese": "xuất tô xa",
+    "example": "我想叫辆出租车"
+  },
+  {
+    "id": 162,
+    "originalIndex": 162,
+    "hanzi": "听",
+    "validAnswers": [
+      "听"
+    ],
+    "meaning": "nghe",
+    "pinyin": "tīng",
+    "sinoVietnamese": "thính",
+    "example": "耳朵聋了听不见/你手大声一点儿， 我听不见"
+  },
+  {
+    "id": 163,
+    "originalIndex": 163,
+    "hanzi": "汽车",
+    "validAnswers": [
+      "汽车"
+    ],
+    "meaning": "ô-tô; xe hơi",
+    "pinyin": "qìchē",
+    "sinoVietnamese": "khí xa",
+    "example": "我想叫辆汽车"
+  },
+  {
+    "id": 164,
+    "originalIndex": 164,
+    "hanzi": "飞机",
+    "validAnswers": [
+      "飞机"
+    ],
+    "meaning": "máy bay; phi cơ; tàu bay",
+    "pinyin": "fēijī",
+    "sinoVietnamese": "phi cơ",
+    "example": "飞机飞上天了"
+  },
+  {
+    "id": 165,
+    "originalIndex": 165,
+    "hanzi": "火车",
+    "validAnswers": [
+      "火车"
+    ],
+    "meaning": "xe lửa; tàu hoả; hoả xa",
+    "pinyin": "huǒchē",
+    "sinoVietnamese": "hỏa xa",
+    "example": "我喜欢坐火车去旅行"
+  },
+  {
+    "id": 166,
+    "originalIndex": 166,
+    "hanzi": "手机",
+    "validAnswers": [
+      "手机"
+    ],
+    "meaning": "điện thoại di động; điện thoại",
+    "pinyin": "shǒujī",
+    "sinoVietnamese": "thủ cơ",
+    "example": "我的手机在哪儿？"
+  },
+  {
+    "id": 167,
+    "originalIndex": 167,
+    "hanzi": "还是",
+    "validAnswers": [
+      "还是"
+    ],
+    "meaning": "vẫn; còn; vẫn còn",
+    "pinyin": "háishi",
+    "sinoVietnamese": "hoàn thị]",
+    "example": "明天还是下雨，记得带伞"
+  },
+  {
+    "id": 168,
+    "originalIndex": 168,
+    "hanzi": "大巴",
+    "validAnswers": [
+      "大巴"
+    ],
+    "meaning": "xe buýt; xe khách; xe đò",
+    "pinyin": "dàbā",
+    "sinoVietnamese": "đại ba",
+    "example": "这辆大巴痕迹"
+  },
+  {
+    "id": 169,
+    "originalIndex": 169,
+    "hanzi": "超市",
+    "validAnswers": [
+      "超市"
+    ],
+    "meaning": "siêu thị",
+    "pinyin": "chāoshì",
+    "sinoVietnamese": "siêu thị",
+    "example": "去超市吧，我想买酸奶"
+  },
+  {
+    "id": 170,
+    "originalIndex": 170,
+    "hanzi": "等于",
+    "validAnswers": [
+      "等于"
+    ],
+    "meaning": "1. bằng; là\n2. như; giống như; chẳng khác nào",
+    "pinyin": "děngyú",
+    "sinoVietnamese": "đẳng vu",
+    "example": "三加二等于五"
+  },
+  {
+    "id": 171,
+    "originalIndex": 171,
+    "hanzi": "同时",
+    "validAnswers": [
+      "同时"
+    ],
+    "meaning": "cùng; song song; trong khi; cùng lúc",
+    "pinyin": "tóngshí",
+    "sinoVietnamese": "đồng thì",
+    "example": "今天，我和他们同时出发"
+  },
+  {
+    "id": 172,
+    "originalIndex": 172,
+    "hanzi": "最近",
+    "validAnswers": [
+      "最近"
+    ],
+    "meaning": "gần đây; mới đây; vừa qua; dạo này",
+    "pinyin": "zuìjìn",
+    "sinoVietnamese": "tối cận",
+    "example": "最近，我早上很喜欢喝牛奶"
+  },
+  {
+    "id": 173,
+    "originalIndex": 173,
+    "hanzi": "图书馆",
+    "validAnswers": [
+      "图书馆"
+    ],
+    "meaning": "thư viện",
+    "pinyin": "túshūguǎn",
+    "sinoVietnamese": "đồ thư quán",
+    "example": "我想去图书馆看书"
+  },
+  {
+    "id": 174,
+    "originalIndex": 174,
+    "hanzi": "牛仔裤",
+    "validAnswers": [
+      "牛仔裤"
+    ],
+    "meaning": "quần bò; quần jean",
+    "pinyin": "niúzǎikù",
+    "sinoVietnamese": "ngưu tể khố",
+    "example": "这条牛仔裤是我在商场买的"
+  },
+  {
+    "id": 175,
+    "originalIndex": 175,
+    "hanzi": "服务员",
+    "validAnswers": [
+      "服务员"
+    ],
+    "meaning": "người phục vụ; nhân viên phục vụ",
+    "pinyin": "fúwùyuán",
+    "sinoVietnamese": "phục vụ viên",
+    "example": "我叫服务员点餐"
+  },
+  {
+    "id": 176,
+    "originalIndex": 176,
+    "hanzi": "博物馆",
+    "validAnswers": [
+      "博物馆"
+    ],
+    "meaning": "bảo tàng; viện bảo tàng",
+    "pinyin": "bówùguǎn",
+    "sinoVietnamese": "bác vật quán",
+    "example": "我星期天经常去博物馆"
+  },
+  {
+    "id": 177,
+    "originalIndex": 177,
+    "hanzi": "参观",
+    "validAnswers": [
+      "参观"
+    ],
+    "meaning": "tham quan; đi thăm",
+    "pinyin": "cānguān",
+    "sinoVietnamese": "tham quan",
+    "example": "我喜欢参观工厂"
+  },
+  {
+    "id": 178,
+    "originalIndex": 178,
+    "hanzi": "原来",
+    "validAnswers": [
+      "原来"
+    ],
+    "meaning": "cũ; ban đầu; lúc đầu\nhoá ra; thì ra; té ra",
+    "pinyin": "yuánlái",
+    "sinoVietnamese": "nguyên lai"
+  },
+  {
+    "id": 179,
+    "originalIndex": 179,
+    "hanzi": "相信",
+    "validAnswers": [
+      "相信"
+    ],
+    "meaning": "tin; tin tưởng; tin rằng",
+    "pinyin": "xiāngxìn",
+    "sinoVietnamese": "tương tín"
+  },
+  {
+    "id": 180,
+    "originalIndex": 180,
+    "hanzi": "感谢",
+    "validAnswers": [
+      "感谢"
+    ],
+    "meaning": "cảm tạ; cảm ơn; cám ơn; biết ơn",
+    "pinyin": "gǎnxiè",
+    "sinoVietnamese": "cảm tạ"
+  },
+  {
+    "id": 181,
+    "originalIndex": 181,
+    "hanzi": "邀请",
+    "validAnswers": [
+      "邀请"
+    ],
+    "meaning": "mời; chào mời; gọi mời; mời gọi; kính mời",
+    "pinyin": "yāoqǐng",
+    "sinoVietnamese": "yêu thỉnh"
+  },
+  {
+    "id": 182,
+    "originalIndex": 182,
+    "hanzi": "眼眸",
+    "validAnswers": [
+      "眼眸"
+    ],
+    "meaning": "mắt; đôi mắt",
+    "pinyin": "yǎnmóu]",
+    "sinoVietnamese": "nhãn mâu"
+  },
+  {
+    "id": 183,
+    "originalIndex": 183,
+    "hanzi": "慌张",
+    "validAnswers": [
+      "慌张"
+    ],
+    "meaning": "bối rối; luống cuống; lật đật; hoang mang; lúng túng; hoảng hốt; cuống lên; căng thẳng; hoảng loạn; cuống cuồng",
+    "pinyin": "huāngzhāng",
+    "sinoVietnamese": "hoảng trương"
+  },
+  {
+    "id": 184,
+    "originalIndex": 184,
+    "hanzi": "内心",
+    "validAnswers": [
+      "内心"
+    ],
+    "meaning": "trong lòng; nội tâm; thâm tâm; đáy lòng",
+    "pinyin": "nèixīn",
+    "sinoVietnamese": "nội tâm"
+  },
+  {
+    "id": 185,
+    "originalIndex": 185,
+    "hanzi": "希望",
+    "validAnswers": [
+      "希望"
+    ],
+    "meaning": "mong; mong muốn; hy vọng; ước ao; ao ước",
+    "pinyin": "xīwàng",
+    "sinoVietnamese": "hy vọng"
+  },
+  {
+    "id": 186,
+    "originalIndex": 186,
+    "hanzi": "好像",
+    "validAnswers": [
+      "好像"
+    ],
+    "meaning": "như; hình như; dường như; giống như; giống hệt; na ná; y như; có vẻ",
+    "pinyin": "hǎoxiàng",
+    "sinoVietnamese": "hảo tượng"
+  },
+  {
+    "id": 187,
+    "originalIndex": 187,
+    "hanzi": "花瓶",
+    "validAnswers": [
+      "花瓶"
+    ],
+    "meaning": "bình hoa; lọ hoa",
+    "pinyin": "huāpíng",
+    "sinoVietnamese": "hoa bình",
+    "example": "我昨天买了一个花瓶"
+  },
+  {
+    "id": 188,
+    "originalIndex": 188,
+    "hanzi": "工厂",
+    "validAnswers": [
+      "工厂"
+    ],
+    "meaning": "công xưởng; xưởng; nhà máy",
+    "pinyin": "gōngchǎng",
+    "sinoVietnamese": "công xưởng"
+  },
+  {
+    "id": 189,
+    "originalIndex": 189,
+    "hanzi": "旅游",
+    "validAnswers": [
+      "旅游"
+    ],
+    "meaning": "du lịch",
+    "pinyin": "lǚyóu",
+    "sinoVietnamese": "lữ du"
+  },
+  {
+    "id": 190,
+    "originalIndex": 190,
+    "hanzi": "踢足球",
+    "validAnswers": [
+      "踢足球"
+    ],
+    "meaning": "đá bóng; chơi bóng đá",
+    "pinyin": "tī zúqiú",
+    "sinoVietnamese": "thích túc cầu"
+  },
+  {
+    "id": 191,
+    "originalIndex": 191,
+    "hanzi": "精神",
+    "validAnswers": [
+      "精神"
+    ],
+    "meaning": "tinh thần; trí óc",
+    "pinyin": "jīngshén",
+    "sinoVietnamese": "tinh thần"
+  },
+  {
+    "id": 192,
+    "originalIndex": 192,
+    "hanzi": "让",
+    "validAnswers": [
+      "让"
+    ],
+    "meaning": "khiến cho",
+    "pinyin": "ràng",
+    "sinoVietnamese": "nhượng"
+  },
+  {
+    "id": 193,
+    "originalIndex": 193,
+    "hanzi": "因为",
+    "validAnswers": [
+      "因为"
+    ],
+    "meaning": "bởi vì; bởi rằng; vì; số là; tại đâu; tại vì; vì rằng",
+    "pinyin": "yīnwèi",
+    "sinoVietnamese": "nhân vị"
+  },
+  {
+    "id": 194,
+    "originalIndex": 194,
+    "hanzi": "所以",
+    "validAnswers": [
+      "所以"
+    ],
+    "meaning": "nên; cho nên; vậy nên; thành thử ra",
+    "pinyin": "suǒyǐ",
+    "sinoVietnamese": "sở dĩ"
+  },
+  {
+    "id": 195,
+    "originalIndex": 195,
+    "hanzi": "运动",
+    "validAnswers": [
+      "运动"
+    ],
+    "meaning": "thể thao; hoạt động thể thao; các môn thể thao",
+    "pinyin": "yùndòng",
+    "sinoVietnamese": "vận động"
+  },
+  {
+    "id": 196,
+    "originalIndex": 196,
+    "hanzi": "旅行",
+    "validAnswers": [
+      "旅行"
+    ],
+    "meaning": "du lịch; lữ hành (động từ bất cập vật)",
+    "pinyin": "lǚxíng",
+    "sinoVietnamese": "lữ hành"
+  },
+  {
+    "id": 197,
+    "originalIndex": 197,
+    "hanzi": "旅游者",
+    "validAnswers": [
+      "旅游者"
+    ],
+    "meaning": "du khách; khách du lịch",
+    "pinyin": "[lǚyóu zhě",
+    "sinoVietnamese": "lữ du giả"
+  },
+  {
+    "id": 198,
+    "originalIndex": 198,
+    "hanzi": "为什么",
+    "validAnswers": [
+      "为什么"
+    ],
+    "meaning": "vì sao; tại sao; vì cái gì; hà cớ gì",
+    "pinyin": "wèishénme",
+    "sinoVietnamese": "[vị thậm ma"
+  },
+  {
+    "id": 199,
+    "originalIndex": 199,
+    "hanzi": "新",
+    "validAnswers": [
+      "新"
+    ],
+    "meaning": "mới",
+    "pinyin": "xīn",
+    "sinoVietnamese": "tân"
+  },
+  {
+    "id": 200,
+    "originalIndex": 200,
+    "hanzi": "它",
+    "validAnswers": [
+      "它"
+    ],
+    "meaning": "nó; cái đó; điều đó; việc ấy (đại từ chỉ sự vật, con vật)",
+    "pinyin": "tā",
+    "sinoVietnamese": "xà"
+  },
+  {
+    "id": 201,
+    "originalIndex": 201,
+    "hanzi": "眼睛",
+    "validAnswers": [
+      "眼睛"
+    ],
+    "meaning": "mắt; con mắt",
+    "pinyin": "yǎnjing",
+    "sinoVietnamese": "nhãn tình"
+  },
+  {
+    "id": 202,
+    "originalIndex": 202,
+    "hanzi": "准备",
+    "validAnswers": [
+      "准备"
+    ],
+    "meaning": ". chuẩn bị; sắp sửa; sẵn sàng\n dự định; định; định bụng",
+    "pinyin": "zhǔnbèi",
+    "sinoVietnamese": "chuẩn bị"
+  },
+  {
+    "id": 203,
+    "originalIndex": 203,
+    "hanzi": "外国",
+    "validAnswers": [
+      "外国"
+    ],
+    "meaning": "nước ngoài; ngoại quốc",
+    "pinyin": "wàiguó",
+    "sinoVietnamese": "ngoại quốc"
+  },
+  {
+    "id": 204,
+    "originalIndex": 204,
+    "hanzi": "非常",
+    "validAnswers": [
+      "非常"
+    ],
+    "meaning": "đặc biệt; bất thường; không bình",
+    "pinyin": "fēicháng",
+    "sinoVietnamese": "phi thường"
+  },
+  {
+    "id": 205,
+    "originalIndex": 205,
+    "hanzi": "困",
+    "validAnswers": [
+      "困"
+    ],
+    "meaning": "mệt; mệt mỏi",
+    "pinyin": "kùn",
+    "sinoVietnamese": "khốn"
+  },
+  {
+    "id": 206,
+    "originalIndex": 206,
+    "hanzi": "出名",
+    "validAnswers": [
+      "出名"
+    ],
+    "meaning": "ra mặt; đứng ra",
+    "pinyin": "chūmíng",
+    "sinoVietnamese": "xuất danh"
+  },
+  {
+    "id": 207,
+    "originalIndex": 207,
+    "hanzi": "游泳",
+    "validAnswers": [
+      "游泳"
+    ],
+    "meaning": "bơi; bơi lội",
+    "pinyin": "yóuyǒng",
+    "sinoVietnamese": "du vịnh"
+  },
+  {
+    "id": 208,
+    "originalIndex": 208,
+    "hanzi": "两难",
+    "validAnswers": [
+      "两难"
+    ],
+    "meaning": "lưỡng nan; khó cả đôi đường",
+    "pinyin": "liǎngnán",
+    "sinoVietnamese": "lưỡng nan"
+  },
+  {
+    "id": 209,
+    "originalIndex": 209,
+    "hanzi": "真是",
+    "validAnswers": [
+      "真是"
+    ],
+    "meaning": "chân thị]",
+    "pinyin": "zhēnshi",
+    "sinoVietnamese": "chân thị]"
+  },
+  {
+    "id": 210,
+    "originalIndex": 210,
+    "hanzi": "健康",
+    "validAnswers": [
+      "健康"
+    ],
+    "meaning": "khoẻ mạnh; tráng kiện",
+    "pinyin": "jiànkāng",
+    "sinoVietnamese": "kiện khang"
+  },
+  {
+    "id": 211,
+    "originalIndex": 211,
+    "hanzi": "麻烦",
+    "validAnswers": [
+      "麻烦"
+    ],
+    "meaning": "rắc rối; phiền phức; phiền toái",
+    "pinyin": "máfan",
+    "sinoVietnamese": "ma phiền"
+  },
+  {
+    "id": 212,
+    "originalIndex": 212,
+    "hanzi": "贵",
+    "validAnswers": [
+      "贵"
+    ],
+    "meaning": "đắt đỏ",
+    "pinyin": "guì",
+    "sinoVietnamese": "[quý"
+  },
+  {
+    "id": 213,
+    "originalIndex": 213,
+    "hanzi": "但是",
+    "validAnswers": [
+      "但是"
+    ],
+    "meaning": "nhưng; mà; nhưng mà; song; song le",
+    "pinyin": "dànshì",
+    "sinoVietnamese": "đãn thị",
+    "example": "我很喜欢唱歌，但是唱的不好"
+  },
+  {
+    "id": 214,
+    "originalIndex": 214,
+    "hanzi": "跳舞",
+    "validAnswers": [
+      "跳舞"
+    ],
+    "meaning": "múa; nhảy; nhảy múa; khiêu vũ; vũ đạo",
+    "pinyin": "tiàowǔ",
+    "sinoVietnamese": "khiêu vũ",
+    "example": "我们经常一起去跳舞"
+  },
+  {
+    "id": 215,
+    "originalIndex": 215,
+    "hanzi": "听说",
+    "validAnswers": [
+      "听说"
+    ],
+    "meaning": "nghe nói",
+    "pinyin": "tīngshuō",
+    "sinoVietnamese": "thính thuyết",
+    "example": "我们听说你搬家了"
+  },
+  {
+    "id": 216,
+    "originalIndex": 216,
+    "hanzi": "走",
+    "validAnswers": [
+      "走"
+    ],
+    "meaning": "đi; đi bộ; đi qua",
+    "pinyin": "zǒu",
+    "sinoVietnamese": "tẩu",
+    "example": "我们明天要走了"
+  },
+  {
+    "id": 217,
+    "originalIndex": 217,
+    "hanzi": "到",
+    "validAnswers": [
+      "到"
+    ],
+    "meaning": "đi; đến; đi đến",
+    "pinyin": "dào",
+    "sinoVietnamese": "đáo",
+    "example": "他到了"
+  },
+  {
+    "id": 218,
+    "originalIndex": 218,
+    "hanzi": "玩",
+    "validAnswers": [
+      "玩"
+    ],
+    "meaning": "đùa; chơi; nghịch; chơi đùa\nchơi (thể thao)\ngiở; giở trò (thủ đoạn, mánh khoé",
+    "pinyin": "wán",
+    "sinoVietnamese": "ngoạn",
+    "example": "我们每天一起玩羽毛球"
+  },
+  {
+    "id": 219,
+    "originalIndex": 219,
+    "hanzi": "人生",
+    "validAnswers": [
+      "人生"
+    ],
+    "meaning": "nhân sinh; đời người; cuộc đời; cuộc sống; đường đời",
+    "pinyin": "rénshēng",
+    "sinoVietnamese": "[nhân sinh",
+    "example": "他的人生 经历很丰富"
+  },
+  {
+    "id": 220,
+    "originalIndex": 220,
+    "hanzi": "生活",
+    "validAnswers": [
+      "生活"
+    ],
+    "meaning": "đời sống; cuộc đời; cuộc sống; sinh hoạt",
+    "pinyin": "shēnghuó",
+    "sinoVietnamese": "sinh hoạt",
+    "example": "他的生活经历很丰富"
+  },
+  {
+    "id": 221,
+    "originalIndex": 221,
+    "hanzi": "盘子",
+    "validAnswers": [
+      "盘子"
+    ],
+    "meaning": "khay; đĩa; mâm\ntình hình buôn bán; giao dịch buôn bán",
+    "pinyin": "pánzi",
+    "sinoVietnamese": "bàn tử",
+    "example": "这个盘子很漂亮"
+  },
+  {
+    "id": 222,
+    "originalIndex": 222,
+    "hanzi": "叉子",
+    "validAnswers": [
+      "叉子"
+    ],
+    "meaning": "cái dĩa; cái nĩa; cái xiên",
+    "pinyin": "[chāzi]",
+    "sinoVietnamese": "xoa tử",
+    "example": "我去超市买了一个叉子"
+  },
+  {
+    "id": 223,
+    "originalIndex": 223,
+    "hanzi": "筷子",
+    "validAnswers": [
+      "筷子"
+    ],
+    "meaning": "đũa; đôi đũa",
+    "pinyin": "kuàizi",
+    "sinoVietnamese": "khoái tử",
+    "example": "我的英国同事不会用筷子"
+  },
+  {
+    "id": 224,
+    "originalIndex": 224,
+    "hanzi": "勺子",
+    "validAnswers": [
+      "勺子"
+    ],
+    "meaning": "cái muôi; cái thìa; cái muỗng; muỗng",
+    "pinyin": "sháozi",
+    "sinoVietnamese": "thược tử"
+  },
+  {
+    "id": 225,
+    "originalIndex": 225,
+    "hanzi": "刀子",
+    "validAnswers": [
+      "刀子"
+    ],
+    "meaning": "dao nhỏ; dao nhíp; dao con",
+    "pinyin": "dāozi",
+    "sinoVietnamese": "đao tử"
+  },
+  {
+    "id": 226,
+    "originalIndex": 226,
+    "hanzi": "有用",
+    "validAnswers": [
+      "有用"
+    ],
+    "meaning": "có lợi; hữu ích; hữu dụng; có ích",
+    "pinyin": "yǒuyòng",
+    "sinoVietnamese": "hữu dụng"
+  },
+  {
+    "id": 227,
+    "originalIndex": 227,
+    "hanzi": "教师",
+    "validAnswers": [
+      "教师"
+    ],
+    "meaning": "giáo viên; nhà giáo",
+    "pinyin": "[jiàoshī",
+    "sinoVietnamese": "giáo sư"
+  },
+  {
+    "id": 228,
+    "originalIndex": 228,
+    "hanzi": "打篮球",
+    "validAnswers": [
+      "打篮球"
+    ],
+    "meaning": "đánh bóng rổ; chơi bóng rổ",
+    "pinyin": "dǎ lánqiú",
+    "sinoVietnamese": "đả lam cầu"
+  },
+  {
+    "id": 229,
+    "originalIndex": 229,
+    "hanzi": "起床",
+    "validAnswers": [
+      "起床"
+    ],
+    "meaning": "thức dậy; ngủ dậy",
+    "pinyin": "qǐ//chuáng",
+    "sinoVietnamese": "khởi sàng"
+  },
+  {
+    "id": 230,
+    "originalIndex": 230,
+    "hanzi": "公共汽车",
+    "validAnswers": [
+      "公共汽车"
+    ],
+    "meaning": "xe buýt; xe buýt công cộng; xe ca; xe đò; ô-tô ca",
+    "pinyin": "gōnggòng qìchē",
+    "sinoVietnamese": "công cộng khí xa"
+  },
+  {
+    "id": 231,
+    "originalIndex": 231,
+    "hanzi": "出院",
+    "validAnswers": [
+      "出院"
+    ],
+    "meaning": "ra viện; xuất viện (bệnh nhân)",
+    "pinyin": "chūyuàn",
+    "sinoVietnamese": "xuất viện",
+    "example": "医生说下个星期可以出院"
+  },
+  {
+    "id": 232,
+    "originalIndex": 232,
+    "hanzi": "高",
+    "validAnswers": [
+      "高"
+    ],
+    "meaning": "cao",
+    "pinyin": "gāo",
+    "sinoVietnamese": "cao",
+    "example": "他多高？"
+  },
+  {
+    "id": 233,
+    "originalIndex": 233,
+    "hanzi": "米",
+    "validAnswers": [
+      "米"
+    ],
+    "meaning": "cơm; gạo; hạt gạo",
+    "pinyin": "mǐ",
+    "sinoVietnamese": "mễ",
+    "example": "我每天吃米饭"
+  },
+  {
+    "id": 234,
+    "originalIndex": 234,
+    "hanzi": "生病",
+    "validAnswers": [
+      "生病"
+    ],
+    "meaning": "bị ốm; bị bệnh; phát bệnh; nổi bệnh",
+    "pinyin": "shēng//bìng",
+    "sinoVietnamese": "sinh bệnh",
+    "example": "你很多少生病"
+  },
+  {
+    "id": 235,
+    "originalIndex": 235,
+    "hanzi": "累",
+    "validAnswers": [
+      "累"
+    ],
+    "meaning": "mệt mỏi; vất vả (quá tải)",
+    "pinyin": "lèi",
+    "sinoVietnamese": "lụy",
+    "example": "我累了"
+  },
+  {
+    "id": 236,
+    "originalIndex": 236,
+    "hanzi": "跑步",
+    "validAnswers": [
+      "跑步"
+    ],
+    "meaning": "chạy bộ; chạy",
+    "pinyin": "pǎo//bù",
+    "sinoVietnamese": "bào bộ",
+    "example": "早上我经常去公园跑步"
+  },
+  {
+    "id": 237,
+    "originalIndex": 237,
+    "hanzi": "药",
+    "validAnswers": [
+      "药"
+    ],
+    "meaning": "thuốc; vị thuốc",
+    "pinyin": "yào",
+    "sinoVietnamese": "dược",
+    "example": "你吃药了吗"
+  },
+  {
+    "id": 238,
+    "originalIndex": 238,
+    "hanzi": "休息",
+    "validAnswers": [
+      "休息"
+    ],
+    "meaning": "nghỉ; nghỉ ngơi",
+    "pinyin": "xiūxi",
+    "sinoVietnamese": "hưu tức",
+    "example": "休息吧"
+  },
+  {
+    "id": 239,
+    "originalIndex": 239,
+    "hanzi": "手表",
+    "validAnswers": [
+      "手表"
+    ],
+    "meaning": "đồng hồ (đeo tay)",
+    "pinyin": "shǒubiǎo",
+    "sinoVietnamese": "thủ biểu",
+    "example": "这块手表很贵"
+  },
+  {
+    "id": 240,
+    "originalIndex": 240,
+    "hanzi": "红色",
+    "validAnswers": [
+      "红色"
+    ],
+    "meaning": "đỏ; màu đỏ",
+    "pinyin": "hóngsè",
+    "sinoVietnamese": "hồng sắc",
+    "example": "我喜欢红色"
+  },
+  {
+    "id": 241,
+    "originalIndex": 241,
+    "hanzi": "蓝色",
+    "validAnswers": [
+      "蓝色"
+    ],
+    "meaning": "xanh; xanh lam; màu xanh da trời",
+    "pinyin": "lánsè",
+    "sinoVietnamese": "lam sắc",
+    "example": "我的号同事最喜欢蓝色"
+  },
+  {
+    "id": 242,
+    "originalIndex": 242,
+    "hanzi": "报纸",
+    "validAnswers": [
+      "报纸"
+    ],
+    "meaning": "báo; báo giấy",
+    "pinyin": "bàozhǐ",
+    "sinoVietnamese": "báo chỉ",
+    "example": "早上你看见谁送报纸吗"
+  },
+  {
+    "id": 243,
+    "originalIndex": 243,
+    "hanzi": "牛奶",
+    "validAnswers": [
+      "牛奶"
+    ],
+    "meaning": "sữa bò",
+    "pinyin": "niúnǎi",
+    "sinoVietnamese": "ngưu nãi",
+    "example": "我喜欢喝牛奶"
+  },
+  {
+    "id": 244,
+    "originalIndex": 244,
+    "hanzi": "房间",
+    "validAnswers": [
+      "房间"
+    ],
+    "meaning": "gian phòng; phòng; buồng; căn phòng",
+    "pinyin": "fángjiān",
+    "sinoVietnamese": "phòng gian",
+    "example": "我的房间是粉色"
+  },
+  {
+    "id": 245,
+    "originalIndex": 245,
+    "hanzi": "丈夫",
+    "validAnswers": [
+      "丈夫"
+    ],
+    "meaning": "chồng; ông xã",
+    "pinyin": "zhàngfu",
+    "sinoVietnamese": "trượng phu",
+    "example": "我的丈夫是AI工程师"
+  },
+  {
+    "id": 246,
+    "originalIndex": 246,
+    "hanzi": "送",
+    "validAnswers": [
+      "送"
+    ],
+    "meaning": "đem; đưa; gửi; nộp; giao; chuyển giao",
+    "pinyin": "sòng",
+    "sinoVietnamese": "tống",
+    "example": "我送礼物给邻居"
+  },
+  {
+    "id": 247,
+    "originalIndex": 247,
+    "hanzi": "旁边",
+    "validAnswers": [
+      "旁边"
+    ],
+    "meaning": "cạnh; bên cạnh; hai bên trái phải",
+    "pinyin": "pángbiān",
+    "sinoVietnamese": "bàng biên",
+    "example": "我坐 在他旁边"
+  },
+  {
+    "id": 248,
+    "originalIndex": 248,
+    "hanzi": "粉色",
+    "validAnswers": [
+      "粉色"
+    ],
+    "meaning": "màu hồng; hồng nhạt; hồng phấn",
+    "pinyin": "fěnsè",
+    "sinoVietnamese": "phấn sắc",
+    "example": "我最喜欢粉色"
+  },
+  {
+    "id": 249,
+    "originalIndex": 249,
+    "hanzi": "介绍",
+    "validAnswers": [
+      "介绍"
+    ],
+    "meaning": "mở đầu; giới thiệu",
+    "pinyin": "jièshào",
+    "sinoVietnamese": "mở đầu; giới thiệu",
+    "example": "我想介绍一下。我是小玉"
+  },
+  {
+    "id": 250,
+    "originalIndex": 250,
+    "hanzi": "快乐",
+    "validAnswers": [
+      "快乐"
+    ],
+    "meaning": "vui vẻ; sung sướng; hạnh phúc; khoái",
+    "pinyin": "kuàilè",
+    "sinoVietnamese": "khoái lạc",
+    "example": "我们今天好快乐"
+  },
+  {
+    "id": 251,
+    "originalIndex": 251,
+    "hanzi": "礼物",
+    "validAnswers": [
+      "礼物"
+    ],
+    "meaning": "quà; quà cáp; quà biếu; lễ vật; tặng phẩm",
+    "pinyin": "lǐwù",
+    "sinoVietnamese": "lễ vật",
+    "example": "我送礼物给邻居"
+  },
+  {
+    "id": 252,
+    "originalIndex": 252,
+    "hanzi": "长",
+    "validAnswers": [
+      "长"
+    ],
+    "meaning": "dài; xa\ndư thừa; còn lại",
+    "pinyin": "cháng",
+    "sinoVietnamese": "trường",
+    "example": "我家里没有常务\n这个项目拖得太长了"
+  },
+  {
+    "id": 253,
+    "originalIndex": 253,
+    "hanzi": "邻居",
+    "validAnswers": [
+      "邻居"
+    ],
+    "meaning": "hàng xóm; láng giềng; xóm giềng",
+    "pinyin": "línjū",
+    "sinoVietnamese": "lân cư",
+    "example": "他是我的邻居"
+  },
+  {
+    "id": 254,
+    "originalIndex": 254,
+    "hanzi": "自行车",
+    "validAnswers": [
+      "自行车"
+    ],
+    "meaning": "xe đạp; thiết mã",
+    "pinyin": "zìxíngchē",
+    "sinoVietnamese": "tự hành xa",
+    "example": "有时候我们骑自行车去公园运动"
+  },
+  {
+    "id": 255,
+    "originalIndex": 255,
+    "hanzi": "场",
+    "validAnswers": [
+      "场"
+    ],
+    "meaning": "sân; sân phơi\n chợ; phiên chợ",
+    "pinyin": "cháng",
+    "sinoVietnamese": "trường",
+    "example": "我在运动场打羽毛球"
+  },
+  {
+    "id": 256,
+    "originalIndex": 256,
+    "hanzi": "鸳鸯",
+    "validAnswers": [
+      "鸳鸯"
+    ],
+    "meaning": "chim uyên ương; uyên ương",
+    "pinyin": "yuānyāng",
+    "sinoVietnamese": "uyên ương",
+    "example": "湖里有两只鸳鸯"
+  },
+  {
+    "id": 257,
+    "originalIndex": 257,
+    "hanzi": "只有",
+    "validAnswers": [
+      "只有"
+    ],
+    "meaning": "chỉ có; chỉ khi",
+    "pinyin": "zhǐyǒu",
+    "sinoVietnamese": "chỉ hữu",
+    "example": "只有死亡才能把我们分开"
+  },
+  {
+    "id": 258,
+    "originalIndex": 258,
+    "hanzi": "会客室",
+    "validAnswers": [
+      "会客室"
+    ],
+    "meaning": "phòng khách",
+    "pinyin": "huì kèshì",
+    "sinoVietnamese": "hội khách thất",
+    "example": "我们在会客室等他"
+  },
+  {
+    "id": 259,
+    "originalIndex": 259,
+    "hanzi": "进去",
+    "validAnswers": [
+      "进去"
+    ],
+    "meaning": "vào trong; đi vào; hướng vào trong (dùng sau động từ, biểu thị đi vào trong)",
+    "pinyin": "[jìnqù",
+    "sinoVietnamese": "tiến khứ",
+    "example": "他马上进去回家了"
+  },
+  {
+    "id": 260,
+    "originalIndex": 260,
+    "hanzi": "错",
+    "validAnswers": [
+      "错"
+    ],
+    "meaning": "sai lầm; sai sót; lỗi sai （n）\nsai; nhầm; không đúng （adj）",
+    "pinyin": "cuò",
+    "sinoVietnamese": "thác",
+    "example": "这件衣服还不错，你喜欢就买吧"
+  },
+  {
+    "id": 261,
+    "originalIndex": 261,
+    "hanzi": "考试",
+    "validAnswers": [
+      "考试"
+    ],
+    "meaning": "thi; kiểm tra; sát hạch",
+    "pinyin": "kǎo//shì",
+    "sinoVietnamese": "khảo thí",
+    "example": "考试的时候不能说话"
+  },
+  {
+    "id": 262,
+    "originalIndex": 262,
+    "hanzi": "意思",
+    "validAnswers": [
+      "意思"
+    ],
+    "meaning": "nghĩa; ý; ý tứ; ý nghĩa\nthú vị; hứng thú\ntặng; thưởng; có lòng; tỏ ý; tỏ lòng (để bày tỏ tấm lòng)",
+    "pinyin": "yìsi",
+    "sinoVietnamese": "yìsi",
+    "example": "大家的意思是一起去"
+  },
+  {
+    "id": 263,
+    "originalIndex": 263,
+    "hanzi": "对",
+    "validAnswers": [
+      "对"
+    ],
+    "meaning": "về; với; đối với\nđúng; chính xác",
+    "pinyin": "duì",
+    "sinoVietnamese": "đối",
+    "example": "医生说和茶对身体好"
+  },
+  {
+    "id": 264,
+    "originalIndex": 264,
+    "hanzi": "地方",
+    "validAnswers": [
+      "地方"
+    ],
+    "meaning": "bản xứ; bản địa\n địa phương",
+    "pinyin": "dìfāng",
+    "sinoVietnamese": "địa phương",
+    "example": "这个工程是地方管理"
+  },
+  {
+    "id": 265,
+    "originalIndex": 265,
+    "hanzi": "哭",
+    "validAnswers": [
+      "哭"
+    ],
+    "meaning": "khóc; khóc lóc",
+    "pinyin": "[kū",
+    "sinoVietnamese": "khốc",
+    "example": "你哭哭什么？"
+  },
+  {
+    "id": 266,
+    "originalIndex": 266,
+    "hanzi": "苦",
+    "validAnswers": [
+      "苦"
+    ],
+    "meaning": "đắng\n đau khổ; khổ\n sâu; tả tơi; hao tốn qua nhiều",
+    "pinyin": "kǔ",
+    "sinoVietnamese": "khổ",
+    "example": "你瞧他太苦了"
+  },
+  {
+    "id": 267,
+    "originalIndex": 267,
+    "hanzi": "骑",
+    "validAnswers": [
+      "骑"
+    ],
+    "meaning": "cưỡi; đi",
+    "pinyin": "qí",
+    "sinoVietnamese": "kỵ",
+    "example": "他经常骑自行车"
+  },
+  {
+    "id": 268,
+    "originalIndex": 268,
+    "hanzi": "羊肉",
+    "validAnswers": [
+      "羊肉"
+    ],
+    "meaning": "thịt dê, thịt cừu",
+    "pinyin": "yángròu",
+    "sinoVietnamese": "dương nhục",
+    "example": "这个星期天天吃羊肉，我想吃烤鸭"
+  },
+  {
+    "id": 269,
+    "originalIndex": 269,
+    "hanzi": "猪肉",
+    "validAnswers": [
+      "猪肉"
+    ],
+    "meaning": "thịt lợn; thịt heo",
+    "pinyin": "[zhūròu",
+    "sinoVietnamese": "trư nhục",
+    "example": "这个星期你天天做猪肉，我不想吃"
+  },
+  {
+    "id": 270,
+    "originalIndex": 270,
+    "hanzi": "难吃",
+    "validAnswers": [
+      "难吃"
+    ],
+    "meaning": "dở; khó ăn; không ngon",
+    "pinyin": "nán chī",
+    "sinoVietnamese": "nan cật",
+    "example": "这家饭馆的猪肉菜太难吃"
+  },
+  {
+    "id": 271,
+    "originalIndex": 271,
+    "hanzi": "面条",
+    "validAnswers": [
+      "面条"
+    ],
+    "meaning": "mì sợi; mì",
+    "pinyin": "miàntiáo",
+    "sinoVietnamese": "diện điều",
+    "example": "早上我经常吃面条"
+  },
+  {
+    "id": 272,
+    "originalIndex": 272,
+    "hanzi": "跟",
+    "validAnswers": [
+      "跟"
+    ],
+    "meaning": "cùng; với",
+    "pinyin": "gēn",
+    "sinoVietnamese": "cân",
+    "example": "我跟你一起去看望爷爷和奶奶"
+  },
+  {
+    "id": 273,
+    "originalIndex": 273,
+    "hanzi": "讨厌",
+    "validAnswers": [
+      "讨厌"
+    ],
+    "meaning": "đáng ghét\nphiền phức",
+    "pinyin": "tǎoyàn",
+    "sinoVietnamese": "thảo yếm",
+    "example": "这件事真讨厌啊，办不完"
+  },
+  {
+    "id": 274,
+    "originalIndex": 274,
+    "hanzi": "性格",
+    "validAnswers": [
+      "性格"
+    ],
+    "meaning": "tính tình; tâm tính; tính cách; tính nết",
+    "pinyin": "xìnggé",
+    "sinoVietnamese": "tính cách",
+    "example": "他的性格非常开朗"
+  },
+  {
+    "id": 275,
+    "originalIndex": 275,
+    "hanzi": "游泳",
+    "validAnswers": [
+      "游泳"
+    ],
+    "meaning": "bơi; bơi lội",
+    "pinyin": "yóu//yǒng",
+    "sinoVietnamese": "du vịnh",
+    "example": "我喜欢在夏天游泳"
+  },
+  {
+    "id": 276,
+    "originalIndex": 276,
+    "hanzi": "教室",
+    "validAnswers": [
+      "教室"
+    ],
+    "meaning": "phòng học; lớp học; giảng đường",
+    "pinyin": "jiàoshì",
+    "sinoVietnamese": "giáo thất",
+    "example": "他在教室学习"
+  },
+  {
+    "id": 277,
+    "originalIndex": 277,
+    "hanzi": "休息室",
+    "validAnswers": [
+      "休息室"
+    ],
+    "meaning": "phòng nghỉ; chỗ nghỉ ngơi",
+    "pinyin": "xiūxi shì",
+    "example": "机场有一个舒适的休息室"
+  },
+  {
+    "id": 278,
+    "originalIndex": 278,
+    "hanzi": "安静",
+    "validAnswers": [
+      "安静"
+    ],
+    "meaning": "yên lặng; yên tĩnh; yên bình",
+    "pinyin": "ānjìng",
+    "sinoVietnamese": "an tĩnh",
+    "example": "病人需要安静"
+  },
+  {
+    "id": 279,
+    "originalIndex": 279,
+    "hanzi": "时机",
+    "validAnswers": [
+      "时机"
+    ],
+    "meaning": "dịp; cơ hội; thời cơ; thời điểm",
+    "pinyin": "shíjī",
+    "sinoVietnamese": "thì cơ",
+    "example": "抓住时机才能成功"
+  },
+  {
+    "id": 280,
+    "originalIndex": 280,
+    "hanzi": "机会",
+    "validAnswers": [
+      "机会"
+    ],
+    "meaning": "dịp; cơ hội; thời cơ",
+    "pinyin": "jīhuì",
+    "sinoVietnamese": "cơ hội",
+    "example": "她给了我一个机会"
+  },
+  {
+    "id": 281,
+    "originalIndex": 281,
+    "hanzi": "广场",
+    "validAnswers": [
+      "广场"
+    ],
+    "meaning": "quảng trường",
+    "pinyin": "guǎngchǎng",
+    "sinoVietnamese": "quảng trường",
+    "example": "我们在广场散步"
+  },
+  {
+    "id": 282,
+    "originalIndex": 282,
+    "hanzi": "机场",
+    "validAnswers": [
+      "机场"
+    ],
+    "meaning": "sân bay; phi trường",
+    "pinyin": "[jīchǎng",
+    "sinoVietnamese": "cơ trường"
+  },
+  {
+    "id": 283,
+    "originalIndex": 283,
+    "hanzi": "应该",
+    "validAnswers": [
+      "应该"
+    ],
+    "meaning": "cần; nên; phải; cần phải\nchắc; có lẽ; hẳn là",
+    "pinyin": "yīnggāi",
+    "sinoVietnamese": "ưng cai",
+    "example": "这是我应该做的"
+  },
+  {
+    "id": 284,
+    "originalIndex": 284,
+    "hanzi": "愿望",
+    "validAnswers": [
+      "愿望"
+    ],
+    "meaning": "ước vọng; ước mơ; nguyện vọng; ý nguyện; mong muốn; sở nguyện",
+    "pinyin": "yuànwàng",
+    "sinoVietnamese": "nguyện vọng",
+    "example": "她的愿望是成为医生"
+  },
+  {
+    "id": 285,
+    "originalIndex": 285,
+    "hanzi": "满足",
+    "validAnswers": [
+      "满足"
+    ],
+    "meaning": "thỏa mãn; đầy đủ; hài lòng\nđáp ứng; làm thoả mãn",
+    "pinyin": "mǎnzú",
+    "sinoVietnamese": "mãn túc",
+    "example": "我希望能满足你的愿望"
+  },
+  {
+    "id": 286,
+    "originalIndex": 286,
+    "hanzi": "两肋插刀",
+    "validAnswers": [
+      "两肋插刀"
+    ],
+    "meaning": "liều mạng đến quên mình",
+    "pinyin": "liǎng lèi chā dāo",
+    "example": "她很讲义气，愿意为朋友两肋插刀"
+  },
+  {
+    "id": 287,
+    "originalIndex": 287,
+    "hanzi": "赴汤蹈火",
+    "validAnswers": [
+      "赴汤蹈火"
+    ],
+    "meaning": "xả thân vì nghĩa; bất chấp hiểm nguy; đi vào nơi sôi lửa bỏng; bất chấp gian nguy; vào nơi nước sôi lửa bỏng; xông pha khói lửa",
+    "pinyin": "fùtāngdǎohuǒ",
+    "example": "战士们，赴汤蹈火，保卫家园"
+  },
+  {
+    "id": 288,
+    "originalIndex": 288,
+    "hanzi": "干什么",
+    "validAnswers": [
+      "干什么"
+    ],
+    "meaning": "làm gì; tại sao; làm cái gì; làm sao",
+    "pinyin": "gànshénme",
+    "sinoVietnamese": "cán thậm ma",
+    "example": "你干什么不早说呀"
+  },
+  {
+    "id": 289,
+    "originalIndex": 289,
+    "hanzi": "挂了",
+    "validAnswers": [
+      "挂了"
+    ],
+    "meaning": "thôi xong rồi, chết rồi",
+    "pinyin": "Guàle"
+  },
+  {
+    "id": 290,
+    "originalIndex": 290,
+    "hanzi": "有缘",
+    "validAnswers": [
+      "有缘"
+    ],
+    "meaning": "hữu duyên; có duyên",
+    "pinyin": "yǒuyuán",
+    "sinoVietnamese": "hữu duyên",
+    "example": "我们有缘结为夫妻"
+  },
+  {
+    "id": 291,
+    "originalIndex": 291,
+    "hanzi": "直接",
+    "validAnswers": [
+      "直接"
+    ],
+    "meaning": "trực tiếp; thẳng thắn; lập tức",
+    "pinyin": "zhíjiē",
+    "sinoVietnamese": "trực tiếp",
+    "example": "他讲话很直接"
+  },
+  {
+    "id": 292,
+    "originalIndex": 292,
+    "hanzi": "同生共死 ~同甘共苦",
+    "validAnswers": [
+      "同生共死 ~同甘共苦"
+    ],
+    "meaning": "sống chết có nhau\nđồng cam cộng khổ",
+    "pinyin": "tóngshēnggòngsǐ\ntónggāngòngkǔ",
+    "sinoVietnamese": "sống chết có nhau\nđồng cam cộng khổ",
+    "example": "我们同生共死和同甘共苦"
+  },
+  {
+    "id": 293,
+    "originalIndex": 293,
+    "hanzi": "条件反射",
+    "validAnswers": [
+      "条件反射"
+    ],
+    "meaning": "phản xạ có điều kiện",
+    "pinyin": "tiáojiàn fǎnshè",
+    "sinoVietnamese": "điều kiện phản xạ"
+  },
+  {
+    "id": 294,
+    "originalIndex": 294,
+    "hanzi": "胆小",
+    "validAnswers": [
+      "胆小"
+    ],
+    "meaning": "nhát; nhút nhát; nhát gan; rụt rè; khiếp",
+    "pinyin": "dǎnxiǎo",
+    "sinoVietnamese": "đảm tiểu",
+    "example": "他是胆小的人"
+  },
+  {
+    "id": 295,
+    "originalIndex": 295,
+    "hanzi": "从今往后",
+    "validAnswers": [
+      "从今往后"
+    ],
+    "meaning": "Từ bây giờ trở đi",
+    "pinyin": "Cóng jīn wǎng hòu",
+    "sinoVietnamese": "tòng kim vãng hậu",
+    "example": "从今往后我会爱护你"
+  },
+  {
+    "id": 296,
+    "originalIndex": 296,
+    "hanzi": "感激",
+    "validAnswers": [
+      "感激"
+    ],
+    "meaning": "cảm kích; biết ơn; cảm ơn",
+    "pinyin": "gǎnjī",
+    "sinoVietnamese": "cảm kích",
+    "example": "他感激朋友的支持"
+  },
+  {
+    "id": 297,
+    "originalIndex": 297,
+    "hanzi": "宾馆",
+    "validAnswers": [
+      "宾馆"
+    ],
+    "meaning": "nhà khách; khách sạn",
+    "pinyin": "bīnguǎn",
+    "sinoVietnamese": "tân quán",
+    "example": "这件宾馆不错"
+  },
+  {
+    "id": 298,
+    "originalIndex": 298,
+    "hanzi": "前台",
+    "validAnswers": [
+      "前台"
+    ],
+    "meaning": "quầy lễ tân",
+    "pinyin": "qiántái]",
+    "sinoVietnamese": "tiền đài",
+    "example": "前台小姐很热情接待我"
+  },
+  {
+    "id": 299,
+    "originalIndex": 299,
+    "hanzi": "商场",
+    "validAnswers": [
+      "商场"
+    ],
+    "meaning": "cửa hàng; trung tâm thương mại; trung tâm mua sắm",
+    "pinyin": "shāngchǎng",
+    "sinoVietnamese": "thương trường",
+    "example": "我家前面有一个商场"
+  },
+  {
+    "id": 300,
+    "originalIndex": 300,
+    "hanzi": "停车场",
+    "validAnswers": [
+      "停车场"
+    ],
+    "meaning": "bãi đỗ xe; bãi đậu xe",
+    "pinyin": "tíngchēchǎng",
+    "sinoVietnamese": "đình xa trường",
+    "example": "停车场里有很多车"
+  },
+  {
+    "id": 301,
+    "originalIndex": 301,
+    "hanzi": "运动场",
+    "validAnswers": [
+      "运动场"
+    ],
+    "meaning": "sân vận động; vận động trường",
+    "pinyin": "yùndòngchǎng",
+    "sinoVietnamese": "vận động trường",
+    "example": "我们学校的运动场很大"
+  },
+  {
+    "id": 302,
+    "originalIndex": 302,
+    "hanzi": "韶华",
+    "validAnswers": [
+      "韶华"
+    ],
+    "meaning": "thanh xuân; cảnh xuân tươi đẹp",
+    "pinyin": "sháohuá",
+    "sinoVietnamese": "thiều hoa",
+    "example": "奋斗点亮青春韶华"
+  },
+  {
+    "id": 303,
+    "originalIndex": 303,
+    "hanzi": "疯狂",
+    "validAnswers": [
+      "疯狂"
+    ],
+    "meaning": "điên cuồng; điên khùng; phát điên; mạnh mẽ",
+    "pinyin": "fēngkuáng",
+    "sinoVietnamese": "phong cuồng",
+    "example": "他的想法简直太疯狂了"
+  },
+  {
+    "id": 304,
+    "originalIndex": 304,
+    "hanzi": "文雅",
+    "validAnswers": [
+      "文雅"
+    ],
+    "meaning": "văn nhã; nho nhã; lịch sự; nhã nhặn; thanh lịch; văn vẻ",
+    "pinyin": "wényǎ",
+    "sinoVietnamese": "văn nhã"
+  },
+  {
+    "id": 305,
+    "originalIndex": 305,
+    "hanzi": "男性",
+    "validAnswers": [
+      "男性"
+    ],
+    "meaning": "nam giới; đàn ông",
+    "pinyin": "nánxìng",
+    "sinoVietnamese": "nam tính"
+  },
+  {
+    "id": 306,
+    "originalIndex": 306,
+    "hanzi": "唱歌",
+    "validAnswers": [
+      "唱歌"
+    ],
+    "meaning": "hát; ca hát; hát xướng",
+    "pinyin": "chàng//gē",
+    "sinoVietnamese": "xướng ca",
+    "example": "我很喜欢唱歌但是长的不好"
+  },
+  {
+    "id": 307,
+    "originalIndex": 307,
+    "hanzi": "永远",
+    "validAnswers": [
+      "永远"
+    ],
+    "meaning": "vĩnh viễn; mãi mãi; luôn luôn",
+    "pinyin": "yǒngyuǎn",
+    "sinoVietnamese": "vĩnh viễn",
+    "example": "关于这个段爱情永远是他们的秘密"
+  },
+  {
+    "id": 308,
+    "originalIndex": 308,
+    "hanzi": "段",
+    "validAnswers": [
+      "段"
+    ],
+    "meaning": "đoạn; khúc (đồ vật)",
+    "pinyin": "duàn",
+    "sinoVietnamese": "đoạn",
+    "example": "关于这个段爱情永远是我们的秘密"
+  },
+  {
+    "id": 309,
+    "originalIndex": 309,
+    "hanzi": "秘密",
+    "validAnswers": [
+      "秘密"
+    ],
+    "meaning": "bí mật",
+    "pinyin": "mìmì",
+    "sinoVietnamese": "bí mật",
+    "example": "这个秘密对我很重要"
+  },
+  {
+    "id": 310,
+    "originalIndex": 310,
+    "hanzi": "总是",
+    "validAnswers": [
+      "总是"
+    ],
+    "meaning": "luôn luôn; lúc nào cũng; bao giờ cũng\nvẫn; chung quy",
+    "pinyin": "zǒngshì",
+    "sinoVietnamese": "tổng thị"
+  },
+  {
+    "id": 311,
+    "originalIndex": 311,
+    "hanzi": "今生",
+    "validAnswers": [
+      "今生"
+    ],
+    "meaning": "kiếp này; đời này; kiếp hiện tại; hiện thế",
+    "pinyin": "jīnshēng",
+    "sinoVietnamese": "kim sinh",
+    "example": "今生我们注定无缘"
+  },
+  {
+    "id": 312,
+    "originalIndex": 312,
+    "hanzi": "亏钱",
+    "validAnswers": [
+      "亏钱"
+    ],
+    "meaning": "thiếu hụt; mắc nợ; thiếu nợ",
+    "pinyin": "kuīqiàn",
+    "sinoVietnamese": "khuy khiếm"
+  },
+  {
+    "id": 313,
+    "originalIndex": 313,
+    "hanzi": "相见",
+    "validAnswers": [
+      "相见"
+    ],
+    "meaning": "gặp; gặp nhau; gặp trực tiếp",
+    "pinyin": "xiāng jiàn",
+    "sinoVietnamese": "[tương kiến]"
+  },
+  {
+    "id": 314,
+    "originalIndex": 314,
+    "hanzi": "依赖",
+    "validAnswers": [
+      "依赖"
+    ],
+    "meaning": "ỷ lại; phụ thuộc vào",
+    "pinyin": "yīlài]",
+    "sinoVietnamese": "y lại",
+    "example": "我们都不应该依赖别人"
+  },
+  {
+    "id": 315,
+    "originalIndex": 315,
+    "hanzi": "去年",
+    "validAnswers": [
+      "去年"
+    ],
+    "meaning": "năm ngoái; năm qua; năm rồi; năm trước",
+    "pinyin": "qùnián",
+    "sinoVietnamese": "khứ niên"
+  },
+  {
+    "id": 316,
+    "originalIndex": 316,
+    "hanzi": "上个星期",
+    "validAnswers": [
+      "上个星期"
+    ],
+    "meaning": "tuần trước",
+    "pinyin": "shàng gè xīngqī"
+  },
+  {
+    "id": 317,
+    "originalIndex": 317,
+    "hanzi": "上个月",
+    "validAnswers": [
+      "上个月"
+    ],
+    "meaning": "tháng trước",
+    "pinyin": "shàng gè yuè"
+  },
+  {
+    "id": 318,
+    "originalIndex": 318,
+    "hanzi": "前天",
+    "validAnswers": [
+      "前天"
+    ],
+    "meaning": "hôm kia; hôm trước; bữa trước; hôm xưa; bữa hỗm",
+    "pinyin": "qiántiān"
+  },
+  {
+    "id": 319,
+    "originalIndex": 319,
+    "hanzi": "便宜",
+    "validAnswers": [
+      "便宜"
+    ],
+    "meaning": "rẻ; hời; giá rẻ\ntiện lợi; tuỳ nghi; thuận tiện; tiện nghi",
+    "pinyin": "piányi\nbiànyí]"
+  },
+  {
+    "id": 320,
+    "originalIndex": 320,
+    "hanzi": "混乱",
+    "validAnswers": [
+      "混乱"
+    ],
+    "meaning": "hỗn loạn; lẫn lộn; pha trộn; lộn xộn; lung tung; rối loạn; xộn xạo; tanh bành",
+    "pinyin": "hùnluàn]",
+    "sinoVietnamese": "hỗn loạn",
+    "example": "他的计划非常混乱"
+  }
+]
