@@ -88,11 +88,22 @@ export function useQuizSession(allItems: VocabItem[]) {
     return filteredItems;
   }, [filteredItems, isShuffle]);
 
-  // Reset or adjust index when activeItems change
+  // Reset session when user deliberately switches filter or shuffle mode
   useEffect(() => {
     setCurrentIndex(0);
     setCardsState({});
-  }, [studyRange, isShuffle, allItems]);
+  }, [studyRange, isShuffle]);
+
+  // When items list updates from background sync, keep current card index in bounds
+  useEffect(() => {
+    setCurrentIndex(prev => {
+      if (activeItems.length === 0) return 0;
+      if (prev >= activeItems.length) {
+        return Math.max(0, activeItems.length - 1);
+      }
+      return prev;
+    });
+  }, [activeItems.length]);
 
   const currentItem = activeItems[currentIndex] || null;
 

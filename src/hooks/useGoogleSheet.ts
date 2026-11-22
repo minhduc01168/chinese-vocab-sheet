@@ -253,7 +253,17 @@ export function useGoogleSheet(initialUrl: string) {
             return;
           }
 
-          setData(parsedItems);
+          setData(prev => {
+            if (
+              prev.length === parsedItems.length &&
+              prev[0]?.hanzi === parsedItems[0]?.hanzi &&
+              prev[prev.length - 1]?.hanzi === parsedItems[parsedItems.length - 1]?.hanzi &&
+              JSON.stringify(prev) === JSON.stringify(parsedItems)
+            ) {
+              return prev; // No real change, don't trigger re-renders
+            }
+            return parsedItems;
+          });
           setIsOfflineFallback(false);
           setLastSyncedAt(new Date());
           setIsLoading(false);
@@ -319,8 +329,32 @@ export function useGoogleSheet(initialUrl: string) {
   }, []);
 
   useEffect(() => {
+    // Initial fetch
     fetchData(url);
+
+    // Auto-sync when user returns to this tab (e.g. from Google Sheet tab)
+    const handleFocus = () => {
+      fetchData(url, true);
+    };
+
+    const handleVisibilityChange = () => {
+      if (typeof document !== 'undefined' && document.visibilityState === 'visible') {
+        fetchData(url, true);
+      }
+    };
+
+    window.addEventListener('focus', handleFocus);
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    // Periodic auto-sync every 3 minutes (silent background update)
+    const intervalTimer = setInterval(() => {
+      fetchData(url, true);
+    }, 3 * 60 * 1000);
+
     return () => {
+      window.removeEventListener('focus', handleFocus);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      clearInterval(intervalTimer);
       if (fetchAbortController.current) {
         fetchAbortController.current.abort();
       }
