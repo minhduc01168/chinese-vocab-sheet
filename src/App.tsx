@@ -68,6 +68,7 @@ export function App() {
 
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
   const [voiceWarningDismissed, setVoiceWarningDismissed] = useState<boolean>(false);
+  const [syncToast, setSyncToast] = useState<string | null>(null);
 
   // Custom Hooks
   const {
@@ -131,6 +132,12 @@ export function App() {
     });
   }, [changeSheetUrl, handleSaveSettings, settings]);
 
+  const handleSyncClick = useCallback(async () => {
+    await refetchSheet();
+    setSyncToast(`Đã kéo dữ liệu mới nhất từ Google Sheet! 🔄✨`);
+    setTimeout(() => setSyncToast(null), 3000);
+  }, [refetchSheet]);
+
   // Global Keyboard Shortcuts
   useEffect(() => {
     const handleGlobalKeyDown = (e: KeyboardEvent) => {
@@ -190,12 +197,19 @@ export function App() {
       )}
 
       {/* Main Header */}
+      {syncToast && (
+        <div className="fixed top-5 left-1/2 -translate-x-1/2 z-50 bg-slate-900/90 backdrop-blur-md text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-2xl shadow-xl flex items-center gap-2 animate-bounce border border-white/10">
+          <Sparkles size={16} className="text-amber-400" />
+          <span>{syncToast}</span>
+        </div>
+      )}
+
       <Header
         studyRange={studyRange}
         onRangeChange={setStudyRange}
         isShuffle={isShuffle}
         onToggleShuffle={() => setIsShuffle(prev => !prev)}
-        onSync={refetchSheet}
+        onSync={handleSyncClick}
         isSyncing={isLoading}
         onOpenSettings={() => setIsSettingsOpen(true)}
         correctCount={stats.correct}

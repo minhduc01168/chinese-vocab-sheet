@@ -93,8 +93,9 @@ export function parseSheetUrl(urlOrId: string): { sheetId: string; gid: string }
 }
 
 /**
- * Build export CSV endpoint for Google Visualization API
+ * Build export CSV endpoint for Google Visualization API with cache-busting
  */
-export function buildGVizCsvUrl(sheetId: string, gid: string = '0'): string {
-  return `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv&gid=${gid}`;
+export function buildGVizCsvUrl(sheetId: string, gid: string = '0', timestamp?: number): string {
+  const ts = timestamp ?? Date.now();
+  return `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv&gid=${gid}&_t=${ts}`;
 }

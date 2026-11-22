@@ -153,7 +153,7 @@ export function useGoogleSheet(initialUrl: string) {
     }
 
     const { sheetId, gid } = parsed;
-    const csvUrl = buildGVizCsvUrl(sheetId, gid);
+    const csvUrl = buildGVizCsvUrl(sheetId, gid, Date.now());
     const cacheKey = `vocab_cache_${sheetId}_${gid}`;
 
     if (!silent) {
@@ -170,8 +170,11 @@ export function useGoogleSheet(initialUrl: string) {
     try {
       const response = await fetch(csvUrl, {
         signal: fetchAbortController.current.signal,
+        cache: 'no-store',
         headers: {
-          'Accept': 'text/csv,text/plain,*/*'
+          'Accept': 'text/csv,text/plain,*/*',
+          'Cache-Control': 'no-cache',
+          'Pragma': 'no-cache'
         }
       });
 
