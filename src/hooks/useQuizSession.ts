@@ -24,6 +24,8 @@ export function useQuizSession(allItems: VocabItem[]) {
   const [studyRange, setStudyRange] = useState<StudyRange>('all');
   const [isShuffle, setIsShuffle] = useState<boolean>(false);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const [currentStreak, setCurrentStreak] = useState<number>(0);
+  const [maxStreak, setMaxStreak] = useState<number>(0);
   
   // Card states keyed by item.id
   const [cardsState, setCardsState] = useState<Record<string | number, CardState>>({});
@@ -162,8 +164,14 @@ export function useQuizSession(allItems: VocabItem[]) {
     });
 
     if (isCorrect) {
+      setCurrentStreak(prev => {
+        const next = prev + 1;
+        setMaxStreak(m => Math.max(m, next));
+        return next;
+      });
       recordCorrectHistory(currentItem.id);
     } else {
+      setCurrentStreak(0);
       recordWrongHistory(currentItem.id, 'wrong');
     }
 
@@ -201,6 +209,7 @@ export function useQuizSession(allItems: VocabItem[]) {
       ...prev,
       [currentItem.id]: updatedState,
     }));
+    setCurrentStreak(0);
     recordWrongHistory(currentItem.id, 'skipped');
   }, [currentItem, currentCardState, recordWrongHistory]);
 
@@ -254,6 +263,7 @@ export function useQuizSession(allItems: VocabItem[]) {
   const restartSession = useCallback(() => {
     setCurrentIndex(0);
     setCardsState({});
+    setCurrentStreak(0);
   }, []);
 
   const clearWrongHistory = useCallback(() => {
@@ -275,6 +285,8 @@ export function useQuizSession(allItems: VocabItem[]) {
     currentItem,
     currentCardState,
     cardsState,
+    currentStreak,
+    maxStreak,
     submitAnswer,
     requestHint,
     skipCard,

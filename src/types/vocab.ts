@@ -17,6 +17,7 @@ export type StudyRange = 'all' | 'latest20' | 'latest50' | 'incorrect';
 export interface AppSettings {
   sheetUrl: string;
   autoSpeak: boolean;
+  soundEffects: boolean;
   speechRate: number; // e.g. 1.0, 0.75
   autoNextOnCorrect: boolean;
   selectedVoiceName?: string;

@@ -60,6 +60,7 @@ export function App() {
     return {
       sheetUrl: initialSheetUrl,
       autoSpeak: true,
+      soundEffects: true,
       speechRate: 1.0,
       autoNextOnCorrect: false,
     };
@@ -99,6 +100,8 @@ export function App() {
     currentItem,
     currentCardState,
     cardsState,
+    currentStreak,
+    maxStreak,
     submitAnswer,
     requestHint,
     skipCard,
@@ -167,7 +170,7 @@ export function App() {
   }, [speak, settings.speechRate]);
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col justify-between font-sans selection:bg-blue-100 selection:text-blue-900">
+    <div className="min-h-screen bg-gradient-to-b from-indigo-50/70 via-slate-50 to-purple-50/40 flex flex-col justify-between font-sans selection:bg-indigo-100 selection:text-indigo-900">
       {/* Voice Warning Banner (if no Chinese voice detected) */}
       {!hasZhVoice && !voiceWarningDismissed && (
         <div className="bg-amber-500 text-white text-xs px-4 py-2 flex items-center justify-between text-center">
@@ -203,6 +206,7 @@ export function App() {
         isOffline={isOfflineFallback}
         lastSyncedAt={lastSyncedAt}
         wrongHistoryCount={wrongHistoryCount}
+        currentStreak={currentStreak}
       />
 
       {/* Main Content Area */}
@@ -267,7 +271,9 @@ export function App() {
             onSpeak={handleSpeakWord}
             onNext={goNext}
             autoSpeak={settings.autoSpeak}
+            soundEffects={settings.soundEffects}
             speechRate={settings.speechRate}
+            currentStreak={currentStreak}
           />
         )}
 
@@ -321,6 +327,8 @@ export function App() {
         isOpen={stats.isSessionFinished}
         activeItems={activeItems}
         cardsState={cardsState}
+        maxStreak={maxStreak}
+        soundEffects={settings.soundEffects}
         onRestart={restartSession}
         onRetryWrongOnly={() => {
           setStudyRange('incorrect');
