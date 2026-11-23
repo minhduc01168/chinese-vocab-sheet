@@ -18,11 +18,14 @@ export function getCustomExamplesStore(): Record<string, AiExampleItem[]> {
 
 export function saveCustomExampleForWord(hanzi: string, examples: AiExampleItem[]) {
   if (!hanzi || !examples || examples.length === 0) return;
-  const cleanKey = hanzi.trim();
+  const cleanKey = hanzi.split(/[/;；,，]/)[0].trim();
   try {
     const store = getCustomExamplesStore();
     store[cleanKey] = examples;
     localStorage.setItem(STORAGE_CUSTOM_EXAMPLES_KEY, JSON.stringify(store));
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('ai_examples_updated', { detail: { hanzi: cleanKey } }));
+    }
   } catch (e) {
     console.warn('Could not save custom AI examples to localStorage:', e);
   }
@@ -74,7 +77,7 @@ export function hasWordExamples(hanzi: string): boolean {
 }
 
 /**
- * Call Gemini 2.5 Flash API to generate 3 practical example sentences
+ * Call Gemini API (supports gemini-2.5-flash with automatic fallback to gemini-2.0-flash / gemini-1.5-flash)
  */
 export async function generateExamplesWithGemini(
   apiKey: string,
@@ -102,54 +105,80 @@ BẮT BUỘC trả về định dạng JSON thuần túy (không bọc trong mar
   }
 ]`;
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey.trim()}`;
+  // Candidate models: user preference first, with robust fallback
+  const candidateModels = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'];
+  let lastErrorMsg = '';
 
-  const response = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      contents: [{
-        parts: [{ text: prompt }]
-      }],
-      generationConfig: {
-        temperature: 0.3,
-        topP: 0.8,
-        maxOutputTokens: 800
+  for (const model of candidateModels) {
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey.trim()}`;
+
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{
+            parts: [{ text: prompt }]
+          }],
+          generationConfig: {
+            temperature: 0.3,
+            topP: 0.8,
+            maxOutputTokens: 800,
+            responseMimeType: 'application/json'
+          }
+        })
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        const status = response.status;
+        const msg = errorData.error?.message || `Lỗi HTTP ${status}`;
+
+        // If 404 (model not found), try the next candidate model
+        if (status === 404 || msg.includes('not found') || msg.includes('unsupported model')) {
+          lastErrorMsg = msg;
+          continue;
+        }
+
+        throw new Error(msg);
       }
-    })
-  });
 
-  if (!response.ok) {
-    const errorData = await response.json().catch(() => ({}));
-    const message = errorData.error?.message || `Lỗi HTTP ${response.status}`;
-    throw new Error(message);
-  }
+      const data = await response.json();
+      const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
 
-  const data = await response.json();
-  const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      // Extract JSON array slice safely even if model wraps in markdown or adds text
+      let jsonToParse = rawText.trim();
+      const firstBracket = jsonToParse.indexOf('[');
+      const lastBracket = jsonToParse.lastIndexOf(']');
+      if (firstBracket !== -1 && lastBracket !== -1 && lastBracket > firstBracket) {
+        jsonToParse = jsonToParse.substring(firstBracket, lastBracket + 1);
+      } else {
+        jsonToParse = jsonToParse
+          .replace(/```json/gi, '')
+          .replace(/```/g, '')
+          .trim();
+      }
 
-  // Clean JSON string if enclosed in markdown backticks
-  const cleanedJsonStr = rawText
-    .replace(/```json/gi, '')
-    .replace(/```/g, '')
-    .trim();
+      const parsed = JSON.parse(jsonToParse);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        const sanitized: AiExampleItem[] = parsed.map(p => ({
+          hanzi: (p.hanzi || '').trim(),
+          pinyin: (p.pinyin || pinyin(p.hanzi || '', { toneType: 'symbol' })).trim(),
+          meaning: (p.meaning || '').trim()
+        }));
 
-  try {
-    const parsed = JSON.parse(cleanedJsonStr);
-    if (Array.isArray(parsed) && parsed.length > 0) {
-      const sanitized: AiExampleItem[] = parsed.map(p => ({
-        hanzi: (p.hanzi || '').trim(),
-        pinyin: (p.pinyin || pinyin(p.hanzi || '', { toneType: 'symbol' })).trim(),
-        meaning: (p.meaning || '').trim()
-      }));
-
-      // Cache immediately
-      saveCustomExampleForWord(cleanHanzi, sanitized);
-      return sanitized;
+        // Cache immediately in localStorage
+        saveCustomExampleForWord(cleanHanzi, sanitized);
+        return sanitized;
+      }
+      throw new Error('Dữ liệu JSON không đúng cấu trúc mảng.');
+    } catch (err: any) {
+      if (model === candidateModels[candidateModels.length - 1] || !err.message?.includes('not found')) {
+        console.error(`Gemini generation error with model ${model}:`, err);
+        throw err;
+      }
     }
-    throw new Error('Dữ liệu JSON không đúng cấu trúc mảng.');
-  } catch (err: any) {
-    console.error('Failed to parse Gemini output:', rawText, err);
-    throw new Error('Không thể phân tích kết quả trả về từ Gemini: ' + err.message);
   }
+
+  throw new Error(`Không thể gọi API Gemini (${lastErrorMsg || 'Tất cả model đều phản hồi lỗi'})`);
 }

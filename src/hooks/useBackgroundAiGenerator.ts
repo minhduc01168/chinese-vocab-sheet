@@ -24,7 +24,10 @@ export function useBackgroundAiGenerator(allItems: VocabItem[], apiKey?: string)
     if (!allItems || allItems.length === 0) return;
 
     // Find words that don't have examples yet
-    const missingItems = allItems.filter(item => !hasWordExamples(item.hanzi));
+    const missingItems = allItems.filter(item => {
+      const primaryHanzi = (item.validAnswers && item.validAnswers[0]) || item.hanzi;
+      return !hasWordExamples(primaryHanzi) && !hasWordExamples(item.hanzi);
+    });
     if (missingItems.length === 0) return;
 
     isRunningRef.current = true;
@@ -44,9 +47,10 @@ export function useBackgroundAiGenerator(allItems: VocabItem[], apiKey?: string)
       }));
 
       try {
-        await generateExamplesWithGemini(apiKey, item.hanzi, item.meaning);
-        // Sleep 2 seconds between calls to respect rate limit
-        await new Promise(res => setTimeout(res, 2000));
+        const primaryHanzi = (item.validAnswers && item.validAnswers[0]) || item.hanzi;
+        await generateExamplesWithGemini(apiKey, primaryHanzi, item.meaning);
+        // Sleep 4 seconds between calls to respect Gemini Free Tier 15 RPM rate limit
+        await new Promise(res => setTimeout(res, 4000));
       } catch (err: any) {
         console.warn(`Could not generate examples for ${item.hanzi}:`, err);
         // If API key is invalid or rate limited, stop the queue

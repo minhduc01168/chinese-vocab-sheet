@@ -63,10 +63,18 @@ export const QuizCard: React.FC<QuizCardProps> = ({
   const [selectedExampleIndex, setSelectedExampleIndex] = useState<number>(0);
   const [isGeneratingAi, setIsGeneratingAi] = useState<boolean>(false);
   const [aiGenError, setAiGenError] = useState<string | null>(null);
+  const [exampleVersion, setExampleVersion] = useState<number>(0);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const isResolved = cardState.status === 'correct' || cardState.status === 'revealed';
   const isWrong = cardState.status === 'wrong';
+
+  // Listen to background AI generation events so UI updates reactively
+  useEffect(() => {
+    const handleAiUpdated = () => setExampleVersion(v => v + 1);
+    window.addEventListener('ai_examples_updated', handleAiUpdated);
+    return () => window.removeEventListener('ai_examples_updated', handleAiUpdated);
+  }, []);
 
   useEffect(() => {
     setLocalRate(speechRate);
@@ -115,7 +123,7 @@ export const QuizCard: React.FC<QuizCardProps> = ({
   // Retrieve 3-5 example sentences for this word
   const wordExamples = useMemo<AiExampleItem[]>(() => {
     return getWordExamples(item.validAnswers[0] || item.hanzi, item.example);
-  }, [item.id, item.validAnswers, item.hanzi, item.example, isGeneratingAi]);
+  }, [item.id, item.validAnswers, item.hanzi, item.example, isGeneratingAi, exampleVersion]);
 
   // IME Safe Keydown Handler
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
