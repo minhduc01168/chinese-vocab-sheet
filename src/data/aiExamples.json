@@ -343,7 +343,7 @@
     {
       "hanzi": "李老师在哪儿？",
       "pinyin": "Lǐ lǎo shī zài nǎ ér ？",
-      "meaning": "(Ví dụ thực tế): 李老师在哪儿？"
+      "meaning": "Thầy Lý ở đâu thế?"
     },
     {
       "hanzi": "他是我的老师，人很好。",
@@ -360,7 +360,7 @@
     {
       "hanzi": "你奴儿是学生吗？",
       "pinyin": "Nǐ nú ér shì xué shēng ma ？",
-      "meaning": "(Ví dụ thực tế): 你奴儿是学生吗？"
+      "meaning": "Con gái bạn là học sinh phải không?"
     },
     {
       "hanzi": "我想学生，你觉得怎么样？",
@@ -377,7 +377,7 @@
     {
       "hanzi": "好吃吗？",
       "pinyin": "Hǎo chī ma ？",
-      "meaning": "(Ví dụ thực tế): 好吃吗？"
+      "meaning": "Có ngon không?"
     },
     {
       "hanzi": "这个吗在生活中很常用。",
@@ -394,7 +394,7 @@
     {
       "hanzi": "我的同学是中国人",
       "pinyin": "Wǒ de tóng xué shì zhōng guó rén",
-      "meaning": "(Ví dụ thực tế): 我的同学是中国人"
+      "meaning": "Bạn học của tôi là người Trung Quốc."
     },
     {
       "hanzi": "这个中国在生活中很常用。",
@@ -411,7 +411,7 @@
     {
       "hanzi": "我想去美国",
       "pinyin": "Wǒ xiǎng qù měi guó",
-      "meaning": "(Ví dụ thực tế): 我想去美国"
+      "meaning": "Tôi muốn đi Mỹ."
     },
     {
       "hanzi": "这个美国在生活中很常用。",
@@ -428,7 +428,7 @@
     {
       "hanzi": "你去过英国吗/",
       "pinyin": "Nǐ qù guò yīng guó ma /",
-      "meaning": "(Ví dụ thực tế): 你去过英国吗/"
+      "meaning": "Bạn đã từng đi Anh chưa?"
     },
     {
       "hanzi": "这个英国在生活中很常用。",
@@ -445,7 +445,7 @@
     {
       "hanzi": "你是Lily 的同事吗？",
       "pinyin": "Nǐ shì L i l y   de tóng shì ma ？",
-      "meaning": "(Ví dụ thực tế): 你是Lily 的同事吗？"
+      "meaning": "Bạn là đồng nghiệp của Lily à?"
     },
     {
       "hanzi": "这个是在生活中很常用。",
@@ -496,7 +496,7 @@
     {
       "hanzi": "你后面那个人是谁？",
       "pinyin": "Nǐ hòu miàn nà ge rén shì shuí ？",
-      "meaning": "(Ví dụ thực tế): 你后面那个人是谁？"
+      "meaning": "Người đứng sau bạn là ai thế?"
     },
     {
       "hanzi": "这个谁在生活中很常用。",
@@ -513,7 +513,7 @@
     {
       "hanzi": "我的汉语老师是英国人",
       "pinyin": "Wǒ de hàn yǔ lǎo shī shì yīng guó rén",
-      "meaning": "(Ví dụ thực tế): 我的汉语老师是英国人"
+      "meaning": "Giáo viên tiếng Hán của tôi là người Anh."
     },
     {
       "hanzi": "这个的在生活中很常用。",
@@ -530,7 +530,7 @@
     {
       "hanzi": "星期日我和同事去公园， 你呢？",
       "pinyin": "Xīng qī rì wǒ hé tóng shì qù gōng yuán ，   nǐ ne ？",
-      "meaning": "(Ví dụ thực tế): 星期日我和同事去公园， 你呢？"
+      "meaning": "Chủ nhật tôi và đồng nghiệp đi công viên, còn bạn thì sao?"
     },
     {
       "hanzi": "这个A....B 呢？在生活中很常用。",
@@ -547,7 +547,7 @@
     {
       "hanzi": "我同学会说英语",
       "pinyin": "Wǒ tóng xué huì shuō yīng yǔ",
-      "meaning": "(Ví dụ thực tế): 我同学会说英语"
+      "meaning": "Bạn học của tôi biết nói tiếng Anh."
     },
     {
       "hanzi": "我想同学，你觉得怎么样？",
@@ -564,7 +564,7 @@
     {
       "hanzi": "你爸爸在医院工作， 你妈妈在哪儿工作？",
       "pinyin": "Nǐ bà ba zài yī yuàn gōng zuò ，   nǐ mā ma zài nǎ ér gōng zuò ？",
-      "meaning": "(Ví dụ thực tế): 你爸爸在医院工作， 你妈妈在哪儿工作？"
+      "meaning": "Bố bạn làm việc ở bệnh viện, còn mẹ bạn làm việc ở đâu?"
     },
     {
       "hanzi": "这个哪在生活中很常用。",
@@ -581,7 +581,7 @@
     {
       "hanzi": "你的朋友能做中国菜吗？",
       "pinyin": "Nǐ de péng yǒu néng zuò zhōng guó cài ma ？",
-      "meaning": "(Ví dụ thực tế): 你的朋友能做中国菜吗？"
+      "meaning": "Bạn của bạn có biết nấu món Trung Quốc không?"
     },
     {
       "hanzi": "这个朋友在生活中很常用。",
@@ -598,7 +598,7 @@
     {
       "hanzi": "您 女儿在哪儿工作？",
       "pinyin": "Nín   nǚ ér zài nǎ ér gōng zuò ？",
-      "meaning": "(Ví dụ thực tế): 您 女儿在哪儿工作？"
+      "meaning": "Con gái của ngài làm việc ở đâu ạ?"
     },
     {
       "hanzi": "这个女儿在生活中很常用。",
@@ -615,7 +615,7 @@
     {
       "hanzi": "我今年二十三岁了",
       "pinyin": "Wǒ jīn nián èr shí sān suì le",
-      "meaning": "(Ví dụ thực tế): 我今年二十三岁了"
+      "meaning": "Năm nay tôi 23 tuổi rồi."
     },
     {
       "hanzi": "我们今年一起去旅行吧。",
@@ -632,7 +632,7 @@
     {
       "hanzi": "昨年我还在上学",
       "pinyin": "Zuó nián wǒ hái zài shàng xué",
-      "meaning": "(Ví dụ thực tế): 昨年我还在上学"
+      "meaning": "Năm ngoái tôi vẫn còn đi học."
     },
     {
       "hanzi": "我们昨年一起去旅行吧。",
@@ -649,7 +649,7 @@
     {
       "hanzi": "明年我会去中国",
       "pinyin": "Míng nián wǒ huì qù zhōng guó",
-      "meaning": "(Ví dụ thực tế): 明年我会去中国"
+      "meaning": "Năm sau tôi sẽ đi Trung Quốc."
     },
     {
       "hanzi": "我们明年一起去旅行吧。",
@@ -666,7 +666,7 @@
     {
       "hanzi": "我妹妹十六岁了",
       "pinyin": "Wǒ mèi mei shí liù suì le",
-      "meaning": "(Ví dụ thực tế): 我妹妹十六岁了"
+      "meaning": "Em gái tôi 16 tuổi rồi."
     },
     {
       "hanzi": "这个岁在生活中很常用。",
@@ -683,7 +683,7 @@
     {
       "hanzi": "今天几号？",
       "pinyin": "Jīn tiān jǐ hào ？",
-      "meaning": "(Ví dụ thực tế): 今天几号？"
+      "meaning": "Hôm nay ngày mấy?"
     },
     {
       "hanzi": "我们几一起去旅行吧。",
@@ -700,7 +700,7 @@
     {
       "hanzi": "我 弟弟在家看电影",
       "pinyin": "Wǒ   dì di zài jiā kàn diàn yǐng",
-      "meaning": "(Ví dụ thực tế): 我 弟弟在家看电影"
+      "meaning": "Em trai tôi đang xem phim ở nhà."
     },
     {
       "hanzi": "这个家在生活中很常用。",
@@ -717,7 +717,7 @@
     {
       "hanzi": "你有钱吗？",
       "pinyin": "Nǐ yǒu qián ma ？",
-      "meaning": "(Ví dụ thực tế): 你有钱吗？"
+      "meaning": "Bạn có tiền không?"
     },
     {
       "hanzi": "这个有在生活中很常用。",
@@ -734,7 +734,7 @@
     {
       "hanzi": "这一杯咖啡 多少钱",
       "pinyin": "Zhè yì bēi kā fēi   duō shǎo qián",
-      "meaning": "(Ví dụ thực tế): 这一杯咖啡 多少钱"
+      "meaning": "Ly cà phê này bao nhiêu tiền?"
     },
     {
       "hanzi": "这个多在生活中很常用。",
@@ -751,7 +751,7 @@
     {
       "hanzi": "李老师家很大",
       "pinyin": "Lǐ lǎo shī jiā hěn dà",
-      "meaning": "(Ví dụ thực tế): 李老师家很大"
+      "meaning": "Nhà thầy Lý rất to."
     },
     {
       "hanzi": "这个大在生活中很常用。",
@@ -768,7 +768,7 @@
     {
       "hanzi": "我弟弟是大学生",
       "pinyin": "Wǒ dì di shì dà xué shēng",
-      "meaning": "(Ví dụ thực tế): 我弟弟是大学生"
+      "meaning": "Em trai tôi là sinh viên đại học."
     },
     {
       "hanzi": "他是我的弟弟，人很好。",
@@ -785,7 +785,7 @@
     {
       "hanzi": "你妹妹今年多大了",
       "pinyin": "Nǐ mèi mei jīn nián duō dà le",
-      "meaning": "(Ví dụ thực tế): 你妹妹今年多大了"
+      "meaning": "Em gái bạn năm nay bao nhiêu tuổi rồi?"
     },
     {
       "hanzi": "他是我的妹妹，人很好。",
@@ -802,7 +802,7 @@
     {
       "hanzi": "我爷爷 每天早上都喝茶",
       "pinyin": "Wǒ yé ye   měi tiān zǎo shàng dōu hē chá",
-      "meaning": "(Ví dụ thực tế): 我爷爷 每天早上都喝茶"
+      "meaning": "Ông nội tôi sáng nào cũng uống trà."
     },
     {
       "hanzi": "这个爷爷在生活中很常用。",
@@ -819,7 +819,7 @@
     {
       "hanzi": "我妈妈每天都喝咖啡",
       "pinyin": "Wǒ mā ma měi tiān dōu hē kā fēi",
-      "meaning": "(Ví dụ thực tế): 我妈妈每天都喝咖啡"
+      "meaning": "Mẹ tôi ngày nào cũng uống cà phê."
     },
     {
       "hanzi": "这个都在生活中很常用。",
@@ -836,7 +836,7 @@
     {
       "hanzi": "我每天晚上做饭",
       "pinyin": "Wǒ měi tiān wǎn shàng zuò fàn",
-      "meaning": "(Ví dụ thực tế): 我每天晚上做饭"
+      "meaning": "Tối nào tôi cũng nấu cơm."
     },
     {
       "hanzi": "我们每天一起去旅行吧。",
@@ -853,7 +853,7 @@
     {
       "hanzi": "现在是三点二十分",
       "pinyin": "Xiàn zài shì sān diǎn èr shí fēn",
-      "meaning": "(Ví dụ thực tế): 现在是三点二十分"
+      "meaning": "Bây giờ là 3 giờ 20 phút."
     },
     {
       "hanzi": "这个现在在生活中很常用。",
@@ -870,7 +870,7 @@
     {
       "hanzi": "你住哪里？/你住在哪儿？",
       "pinyin": "Nǐ zhù nǎ lǐ ？ / nǐ zhù zài nǎ ér ？",
-      "meaning": "(Ví dụ thực tế): 你住哪里？/你住在哪儿？"
+      "meaning": "Bạn sống ở đâu?"
     },
     {
       "hanzi": "这个住在生活中很常用。",
@@ -887,7 +887,7 @@
     {
       "hanzi": "早上好，今天我们会开始一个新的项目（xiàngmù）",
       "pinyin": "Zǎo shàng hǎo ， jīn tiān wǒ men huì kāi shǐ yí gè xīn de xiàng mù （ x i à n g m ù ）",
-      "meaning": "(Ví dụ thực tế): 早上好，今天我们会开始一个新的项目（xiàngmù）"
+      "meaning": "Chào buổi sáng, hôm nay chúng ta sẽ bắt đầu một dự án mới."
     },
     {
       "hanzi": "这个早上在生活中很常用。",
@@ -904,7 +904,7 @@
     {
       "hanzi": "我每天中午都去商店买一公斤（gōngjīn）橙子",
       "pinyin": "Wǒ měi tiān zhōng wǔ dōu qù shāng diàn mǎi yì gōng jīn （ g ō n g j ī n ） chéng zǐ",
-      "meaning": "(Ví dụ thực tế): 我每天中午都去商店买一公斤（gōngjīn）橙子"
+      "meaning": "Trưa nào tôi cũng đến cửa hàng mua 1 kg cam."
     },
     {
       "hanzi": "这个中午在生活中很常用。",
@@ -921,7 +921,7 @@
     {
       "hanzi": "我每天下午下班以后都买一公斤葡萄（pútao）",
       "pinyin": "Wǒ měi tiān xià wǔ xià bān yǐ hòu dōu mǎi yì gōng jīn pú táo （ p ú t a o ）",
-      "meaning": "(Ví dụ thực tế): 我每天下午下班以后都买一公斤葡萄（pútao）"
+      "meaning": "Mỗi chiều sau khi tan làm tôi đều mua 1 kg nho."
     },
     {
       "hanzi": "这个下午在生活中很常用。",
@@ -938,7 +938,7 @@
     {
       "hanzi": "我晚上经常（[jīngcháng）喝茶",
       "pinyin": "Wǒ wǎn shàng jīng cháng （ [ j ī n g c h á n g ） hē chá",
-      "meaning": "(Ví dụ thực tế): 我晚上经常（[jīngcháng）喝茶"
+      "meaning": "Buổi tối tôi thường hay uống trà."
     },
     {
       "hanzi": "这个晚上在生活中很常用。",
@@ -955,7 +955,7 @@
     {
       "hanzi": "我上午去上班",
       "pinyin": "Wǒ shàng wǔ qù shàng bān",
-      "meaning": "(Ví dụ thực tế): 我上午去上班"
+      "meaning": "Buổi sáng tôi đi làm."
     },
     {
       "hanzi": "这个上午在生活中很常用。",
@@ -972,7 +972,7 @@
     {
       "hanzi": "我每天傍晚打羽毛球 （dǎ yǔ máo qiú）",
       "pinyin": "Wǒ měi tiān bàng wǎn dǎ yǔ máo qiú   （ d ǎ   y ǔ   m á o   q i ú ）",
-      "meaning": "(Ví dụ thực tế): 我每天傍晚打羽毛球 （dǎ yǔ máo qiú）"
+      "meaning": "Chiều tối nào tôi cũng chơi cầu lông."
     },
     {
       "hanzi": "这个傍晚在生活中很常用。",
@@ -989,7 +989,7 @@
     {
       "hanzi": "我每天凌晨在公园锻炼",
       "pinyin": "Wǒ měi tiān líng chén zài gōng yuán duàn liàn",
-      "meaning": "(Ví dụ thực tế): 我每天凌晨在公园锻炼"
+      "meaning": "Mỗi sáng sớm tôi đều tập thể dục ở công viên."
     },
     {
       "hanzi": "这个凌晨在生活中很常用。",
@@ -1006,7 +1006,7 @@
     {
       "hanzi": "我白天去上班",
       "pinyin": "Wǒ bái tiān qù shàng bān",
-      "meaning": "(Ví dụ thực tế): 我白天去上班"
+      "meaning": "Ban ngày tôi đi làm."
     },
     {
       "hanzi": "我们白天一起去旅行吧。",
@@ -1023,7 +1023,7 @@
     {
       "hanzi": "夜里天气很凉快 （liángkuai）",
       "pinyin": "Yè lǐ tiān qì hěn liáng kuai   （ l i á n g k u a i ）",
-      "meaning": "(Ví dụ thực tế): 夜里天气很凉快 （liángkuai）"
+      "meaning": "Đêm về thời tiết rất mát mẻ."
     },
     {
       "hanzi": "这个夜里在生活中很常用。",
@@ -1040,7 +1040,7 @@
     {
       "hanzi": "我们约定在公园见面",
       "pinyin": "Wǒ men yuē dìng zài gōng yuán jiàn miàn",
-      "meaning": "(Ví dụ thực tế): 我们约定在公园见面"
+      "meaning": "Chúng tôi hẹn gặp nhau ở công viên."
     },
     {
       "hanzi": "这个见面在生活中很常用。",
@@ -1057,7 +1057,7 @@
     {
       "hanzi": "一小时等于六十分钟",
       "pinyin": "Yì xiǎo shí děng yú liù shí fēn zhōng",
-      "meaning": "(Ví dụ thực tế): 一小时等于六十分钟"
+      "meaning": "Một giờ bằng sáu mươi phút."
     },
     {
       "hanzi": "这个分在生活中很常用。",
@@ -1074,7 +1074,7 @@
     {
       "hanzi": "一刻等于十五分钟",
       "pinyin": "Yí kè děng yú shí wǔ fēn zhōng",
-      "meaning": "(Ví dụ thực tế): 一刻等于十五分钟"
+      "meaning": "Một khắc bằng mười lăm phút."
     },
     {
       "hanzi": "这个刻在生活中很常用。",
@@ -1091,7 +1091,7 @@
     {
       "hanzi": "我八点半去 上班",
       "pinyin": "Wǒ bā diǎn bàn qù   shàng bān",
-      "meaning": "(Ví dụ thực tế): 我八点半去 上班"
+      "meaning": "8 giờ rưỡi tôi đi làm."
     },
     {
       "hanzi": "这个半在生活中很常用。",
@@ -1108,7 +1108,7 @@
     {
       "hanzi": "我差十分十点在公园锻炼 （duànliàn）",
       "pinyin": "Wǒ chà shí fēn shí diǎn zài gōng yuán duàn liàn   （ d u à n l i à n ）",
-      "meaning": "(Ví dụ thực tế): 我差十分十点在公园锻炼 （duànliàn）"
+      "meaning": "10 giờ kém 10 tôi tập thể dục ở công viên."
     },
     {
       "hanzi": "这个差在生活中很常用。",
@@ -1125,7 +1125,7 @@
     {
       "hanzi": "你什么时候下班？",
       "pinyin": "Nǐ shén me shí hòu xià bān ？",
-      "meaning": "(Ví dụ thực tế): 你什么时候下班？"
+      "meaning": "Khi nào bạn tan làm?"
     },
     {
       "hanzi": "我想时候，你觉得怎么样？",
@@ -1142,7 +1142,7 @@
     {
       "hanzi": "我有时候喝咖啡",
       "pinyin": "Wǒ yǒu shí hòu hē kā fēi",
-      "meaning": "(Ví dụ thực tế): 我有时候喝咖啡"
+      "meaning": "Thỉnh thoảng tôi uống cà phê."
     },
     {
       "hanzi": "这个有时候在生活中很常用。",
@@ -1159,7 +1159,7 @@
     {
       "hanzi": "一天有二十四小时",
       "pinyin": "Yì tiān yǒu èr shí sì xiǎo shí",
-      "meaning": "(Ví dụ thực tế): 一天有二十四小时"
+      "meaning": "Một ngày có 24 giờ."
     },
     {
       "hanzi": "这个小时在生活中很常用。",
@@ -1176,7 +1176,7 @@
     {
       "hanzi": "你什么时候有时间？",
       "pinyin": "Nǐ shén me shí hòu yǒu shí jiān ？",
-      "meaning": "(Ví dụ thực tế): 你什么时候有时间？"
+      "meaning": "Khi nào bạn có thời gian rảnh?"
     },
     {
       "hanzi": "我们时间一起去旅行吧。",
@@ -1193,7 +1193,7 @@
     {
       "hanzi": "我昨天去商店买了一个钟",
       "pinyin": "Wǒ zuó tiān qù shāng diàn mǎi le yí gè zhōng",
-      "meaning": "(Ví dụ thực tế): 我昨天去商店买了一个钟"
+      "meaning": "Hôm qua tôi đến cửa hàng mua một chiếc đồng hồ."
     },
     {
       "hanzi": "这个钟在生活中很常用。",
@@ -1210,7 +1210,7 @@
     {
       "hanzi": "我星期日要回家乡",
       "pinyin": "Wǒ xīng qī rì yào huí jiā xiāng",
-      "meaning": "(Ví dụ thực tế): 我星期日要回家乡"
+      "meaning": "Chủ nhật tôi phải về quê."
     },
     {
       "hanzi": "这个回在生活中很常用。",
@@ -1227,7 +1227,7 @@
     {
       "hanzi": "我也觉得学汉语很难",
       "pinyin": "Wǒ yě jué de xué hàn yǔ hěn nán",
-      "meaning": "(Ví dụ thực tế): 我也觉得学汉语很难"
+      "meaning": "Tôi cũng thấy học tiếng Hán rất khó."
     },
     {
       "hanzi": "这个也在生活中很常用。",
@@ -1244,7 +1244,7 @@
     {
       "hanzi": "你晚上忙吗",
       "pinyin": "Nǐ wǎn shàng máng ma",
-      "meaning": "(Ví dụ thực tế): 你晚上忙吗"
+      "meaning": "Buổi tối bạn có bận không?"
     },
     {
       "hanzi": "这个忙在生活中很常用。",
@@ -1261,7 +1261,7 @@
     {
       "hanzi": "主人给我们准备了晚餐",
       "pinyin": "Zhǔ rén gěi wǒ men zhǔn bèi le wǎn cān",
-      "meaning": "(Ví dụ thực tế): 主人给我们准备了晚餐"
+      "meaning": "Chủ nhà đã chuẩn bị bữa tối cho chúng tôi."
     },
     {
       "hanzi": "他是我的主人，人很好。",
@@ -1278,7 +1278,7 @@
     {
       "hanzi": "我星期天经常（jīngcháng回老家",
       "pinyin": "Wǒ xīng qī tiān jīng cháng （ j ī n g c h á n g huí lǎo jiā",
-      "meaning": "(Ví dụ thực tế): 我星期天经常（jīngcháng回老家"
+      "meaning": "Chủ nhật tôi thường hay về quê."
     },
     {
       "hanzi": "这个家乡在生活中很常用。",
@@ -1295,7 +1295,7 @@
     {
       "hanzi": "我觉得我们应该早点出发",
       "pinyin": "Wǒ jué de wǒ men yīng gāi zǎo diǎn chū fā",
-      "meaning": "(Ví dụ thực tế): 我觉得我们应该早点出发"
+      "meaning": "Tôi nghĩ chúng ta nên xuất phát sớm một chút."
     },
     {
       "hanzi": "这个觉得在生活中很常用。",
@@ -1312,7 +1312,7 @@
     {
       "hanzi": "我站在他的左边/学校左边有一个医院",
       "pinyin": "Wǒ zhàn zài tā de zuǒ biān / xué xiào zuǒ biān yǒu yí gè yī yuàn",
-      "meaning": "(Ví dụ thực tế): 我站在他的左边/学校左边有一个医院"
+      "meaning": "Tôi đứng bên trái anh ấy / Bên trái trường có một bệnh viện."
     },
     {
       "hanzi": "这个左边在生活中很常用。",
@@ -1329,7 +1329,7 @@
     {
       "hanzi": "我家右边有一个面包店",
       "pinyin": "Wǒ jiā yòu biān yǒu yí gè miàn bāo diàn",
-      "meaning": "(Ví dụ thực tế): 我家右边有一个面包店"
+      "meaning": "Bên phải nhà tôi có một tiệm bánh mì."
     },
     {
       "hanzi": "这个右边在生活中很常用。",
@@ -1346,7 +1346,7 @@
     {
       "hanzi": "我跟你一起去",
       "pinyin": "Wǒ gēn nǐ yì qǐ qù",
-      "meaning": "(Ví dụ thực tế): 我跟你一起去"
+      "meaning": "Tôi đi cùng với bạn."
     },
     {
       "hanzi": "这个一起在生活中很常用。",
@@ -1380,7 +1380,7 @@
     {
       "hanzi": "我去年还上学，今年我已经上班了",
       "pinyin": "Wǒ qù nián hái shàng xué ， jīn nián wǒ yǐ jīng shàng bān le",
-      "meaning": "(Ví dụ thực tế): 我去年还上学，今年我已经上班了"
+      "meaning": "Năm ngoái tôi còn đi học, năm nay tôi đã đi làm rồi."
     },
     {
       "hanzi": "我想上学，你觉得怎么样？",
@@ -1397,7 +1397,7 @@
     {
       "hanzi": "我还在工作",
       "pinyin": "Wǒ hái zài gōng zuò",
-      "meaning": "(Ví dụ thực tế): 我还在工作"
+      "meaning": "Tôi vẫn đang làm việc."
     },
     {
       "hanzi": "这个还在生活中很常用。",
@@ -1414,7 +1414,7 @@
     {
       "hanzi": "我已经回家了",
       "pinyin": "Wǒ yǐ jīng huí jiā le",
-      "meaning": "(Ví dụ thực tế): 我已经回家了"
+      "meaning": "Tôi đã về nhà rồi."
     },
     {
       "hanzi": "这个已经在生活中很常用。",
@@ -1431,7 +1431,7 @@
     {
       "hanzi": "你可以帮我拿一杯冰水吗？",
       "pinyin": "Nǐ kě yǐ bāng wǒ ná yì bēi bīng shuǐ ma ？",
-      "meaning": "(Ví dụ thực tế): 你可以帮我拿一杯冰水吗？"
+      "meaning": "Bạn có thể lấy giúp tôi một ly nước đá được không?"
     },
     {
       "hanzi": "我想可以，你觉得怎么样？",
@@ -1448,7 +1448,7 @@
     {
       "hanzi": "你可以帮我一个忙吗",
       "pinyin": "Nǐ kě yǐ bāng wǒ yí gè máng ma",
-      "meaning": "(Ví dụ thực tế): 你可以帮我一个忙吗"
+      "meaning": "Bạn có thể giúp tôi một việc được không?"
     },
     {
       "hanzi": "这个帮在生活中很常用。",
@@ -1465,7 +1465,7 @@
     {
       "hanzi": "他拿着一个水果盒子",
       "pinyin": "Tā ná zhe yí gè shuǐ guǒ hé zi",
-      "meaning": "(Ví dụ thực tế): 他拿着一个水果盒子"
+      "meaning": "Anh ấy đang cầm một hộp trái cây."
     },
     {
       "hanzi": "这个拿在生活中很常用。",
@@ -1482,7 +1482,7 @@
     {
       "hanzi": "我要买一件毛衣",
       "pinyin": "Wǒ yào mǎi yí jiàn máo yī",
-      "meaning": "(Ví dụ thực tế): 我要买一件毛衣"
+      "meaning": "Tôi muốn mua một chiếc áo len."
     },
     {
       "hanzi": "这个要在生活中很常用。",
@@ -1499,7 +1499,7 @@
     {
       "hanzi": "当然可以",
       "pinyin": "Dāng rán kě yǐ",
-      "meaning": "(Ví dụ thực tế): 当然可以"
+      "meaning": "Đương nhiên là được rồi."
     },
     {
       "hanzi": "这个当然在生活中很常用。",
@@ -1516,7 +1516,7 @@
     {
       "hanzi": "明天天气怎么样",
       "pinyin": "Míng tiān tiān qì zěn me yàng",
-      "meaning": "(Ví dụ thực tế): 明天天气怎么样"
+      "meaning": "Ngày mai thời tiết thế nào?"
     },
     {
       "hanzi": "这个天气在生活中很常用。",
@@ -1550,7 +1550,7 @@
     {
       "hanzi": "今天天气特别冷",
       "pinyin": "Jīn tiān tiān qì tè bié lěng",
-      "meaning": "(Ví dụ thực tế): 今天天气特别冷"
+      "meaning": "Hôm nay trời đặc biệt lạnh."
     },
     {
       "hanzi": "这个冷在生活中很常用。",
@@ -1567,7 +1567,7 @@
     {
       "hanzi": "今天天气很热",
       "pinyin": "Jīn tiān tiān qì hěn rè",
-      "meaning": "(Ví dụ thực tế): 今天天气很热"
+      "meaning": "Hôm nay trời rất nóng."
     },
     {
       "hanzi": "这个热在生活中很常用。",
@@ -1584,7 +1584,7 @@
     {
       "hanzi": "她的身体很好",
       "pinyin": "Tā de shēn tǐ hěn hǎo",
-      "meaning": "(Ví dụ thực tế): 她的身体很好"
+      "meaning": "Sức khỏe của cô ấy rất tốt."
     },
     {
       "hanzi": "这个身体在生活中很常用。",
@@ -1601,7 +1601,7 @@
     {
       "hanzi": "我喜欢吃水果捞",
       "pinyin": "Wǒ xǐ huan chī shuǐ guǒ lāo",
-      "meaning": "(Ví dụ thực tế): 我喜欢吃水果捞"
+      "meaning": "Tôi thích ăn chè hoa quả dầm."
     },
     {
       "hanzi": "这个水果在生活中很常用。",
@@ -1618,7 +1618,7 @@
     {
       "hanzi": "他今天不太高兴",
       "pinyin": "Tā jīn tiān bú tài gāo xìng",
-      "meaning": "(Ví dụ thực tế): 他今天不太高兴"
+      "meaning": "Hôm nay anh ấy không vui lắm."
     },
     {
       "hanzi": "这个太在生活中很常用。",
@@ -1635,7 +1635,7 @@
     {
       "hanzi": "河内七月常常下雨",
       "pinyin": "Hé nèi qī yuè cháng cháng xià yǔ",
-      "meaning": "(Ví dụ thực tế): 河内七月常常下雨"
+      "meaning": "Hà Nội tháng bảy thường hay mưa."
     },
     {
       "hanzi": "这个下雨在生活中很常用。",
@@ -1652,7 +1652,7 @@
     {
       "hanzi": "姑娘给我买了衣服",
       "pinyin": "Gū niáng gěi wǒ mǎi le yī fu",
-      "meaning": "(Ví dụ thực tế): 姑娘给我买了衣服"
+      "meaning": "Cô gái đã mua quần áo cho tôi."
     },
     {
       "hanzi": "他是我的姑娘，人很好。",
@@ -1669,7 +1669,7 @@
     {
       "hanzi": "她的朋友都是美女",
       "pinyin": "Tā de péng yǒu dōu shì měi nǚ",
-      "meaning": "(Ví dụ thực tế): 她的朋友都是美女"
+      "meaning": "Bạn bè của cô ấy toàn là người đẹp."
     },
     {
       "hanzi": "他是我的美女，人很好。",
@@ -1686,7 +1686,7 @@
     {
       "hanzi": "我的小妹已经长大了",
       "pinyin": "Wǒ de xiǎo mèi yǐ jīng zhǎng dà le",
-      "meaning": "(Ví dụ thực tế): 我的小妹已经长大了"
+      "meaning": "Em gái nhỏ của tôi đã lớn rồi."
     },
     {
       "hanzi": "他是我的小妹，人很好。",
@@ -1703,7 +1703,7 @@
     {
       "hanzi": "我叫服务员点餐",
       "pinyin": "Wǒ jiào fú wù yuán diǎn cān",
-      "meaning": "(Ví dụ thực tế): 我叫服务员点餐"
+      "meaning": "Tôi gọi nhân viên phục vụ để gọi món."
     },
     {
       "hanzi": "他是我的服务员，人很好。",
@@ -1720,7 +1720,7 @@
     {
       "hanzi": "你有时间来我家玩儿吧",
       "pinyin": "Nǐ yǒu shí jiān lái wǒ jiā wán ér ba",
-      "meaning": "(Ví dụ thực tế): 你有时间来我家玩儿吧"
+      "meaning": "Khi nào có thời gian thì đến nhà tôi chơi nhé."
     },
     {
       "hanzi": "我想来，你觉得怎么样？",
@@ -1737,7 +1737,7 @@
     {
       "hanzi": "我买一些场子下班以后",
       "pinyin": "Wǒ mǎi yì xiē chǎng zi xià bān yǐ hòu",
-      "meaning": "(Ví dụ thực tế): 我买一些场子下班以后"
+      "meaning": "Sau khi tan làm tôi sẽ mua một số đồ."
     },
     {
       "hanzi": "这个些在生活中很常用。",
@@ -1754,7 +1754,7 @@
     {
       "hanzi": "这个花瓶的样子很特别",
       "pinyin": "Zhè ge huā píng de yàng zi hěn tè bié",
-      "meaning": "(Ví dụ thực tế): 这个花瓶的样子很特别"
+      "meaning": "Kiểu dáng của chiếc bình hoa này rất đặc biệt."
     },
     {
       "hanzi": "这个样子在生活中很常用。",
@@ -1771,7 +1771,7 @@
     {
       "hanzi": "今天的天气和昨天一样",
       "pinyin": "Jīn tiān de tiān qì hé zuó tiān yí yàng",
-      "meaning": "(Ví dụ thực tế): 今天的天气和昨天一样"
+      "meaning": "Thời tiết hôm nay giống hệt hôm qua."
     },
     {
       "hanzi": "这个一样在生活中很常用。",
@@ -1788,7 +1788,7 @@
     {
       "hanzi": "今天天气多云",
       "pinyin": "Jīn tiān tiān qì duō yún",
-      "meaning": "(Ví dụ thực tế): 今天天气多云"
+      "meaning": "Hôm nay trời nhiều mây."
     },
     {
       "hanzi": "我想多云，你觉得怎么样？",
@@ -1805,7 +1805,7 @@
     {
       "hanzi": "晴天的早晨特别宜人",
       "pinyin": "Qíng tiān de zǎo chén tè bié yí rén",
-      "meaning": "(Ví dụ thực tế): 晴天的早晨特别宜人"
+      "meaning": "Buổi sáng ngày nắng trời đặc biệt dễ chịu."
     },
     {
       "hanzi": "我们晴天一起去旅行吧。",
@@ -1822,7 +1822,7 @@
     {
       "hanzi": "谢谢你的热情帮助",
       "pinyin": "Xiè xiè nǐ de rè qíng bāng zhù",
-      "meaning": "(Ví dụ thực tế): 谢谢你的热情帮助"
+      "meaning": "Cảm ơn sự giúp đỡ nhiệt tình của bạn."
     },
     {
       "hanzi": "我想热情，你觉得怎么样？",
@@ -1839,7 +1839,7 @@
     {
       "hanzi": "我希望有一个幸福的爱情",
       "pinyin": "Wǒ xī wàng yǒu yí gè xìng fú de ài qíng",
-      "meaning": "(Ví dụ thực tế): 我希望有一个幸福的爱情"
+      "meaning": "Tôi hy vọng có một tình yêu hạnh phúc."
     },
     {
       "hanzi": "这个爱情在生活中很常用。",
@@ -1856,7 +1856,7 @@
     {
       "hanzi": "我很爱我的父母",
       "pinyin": "Wǒ hěn ài wǒ de fù mǔ",
-      "meaning": "(Ví dụ thực tế): 我很爱我的父母"
+      "meaning": "Tôi rất yêu bố mẹ tôi."
     },
     {
       "hanzi": "这个爱在生活中很常用。",
@@ -1873,7 +1873,7 @@
     {
       "hanzi": "这家中国商店 在这里",
       "pinyin": "Zhè jiā zhōng guó shāng diàn   zài zhè lǐ",
-      "meaning": "(Ví dụ thực tế): 这家中国商店 在这里"
+      "meaning": "Cửa hàng Trung Quốc này ở đây."
     },
     {
       "hanzi": "这个这里在生活中很常用。",
@@ -1890,7 +1890,7 @@
     {
       "hanzi": "桌子上有一个苹果",
       "pinyin": "Zhuō zi shàng yǒu yí gè píng guǒ",
-      "meaning": "(Ví dụ thực tế): 桌子上有一个苹果"
+      "meaning": "Trên bàn có một quả táo."
     },
     {
       "hanzi": "这个苹果在生活中很常用。",
@@ -1907,7 +1907,7 @@
     {
       "hanzi": "我去商店买一些香蕉",
       "pinyin": "Wǒ qù shāng diàn mǎi yì xiē xiāng jiāo",
-      "meaning": "(Ví dụ thực tế): 我去商店买一些香蕉"
+      "meaning": "Tôi đến cửa hàng mua vài quả chuối."
     },
     {
       "hanzi": "这个香蕉在生活中很常用。",
@@ -1924,7 +1924,7 @@
     {
       "hanzi": "草莓很甜，很好吃",
       "pinyin": "Cǎo méi hěn tián ， hěn hǎo chī",
-      "meaning": "(Ví dụ thực tế): 草莓很甜，很好吃"
+      "meaning": "Dâu tây rất ngọt, rất ngon."
     },
     {
       "hanzi": "这个草莓在生活中很常用。",
@@ -1941,7 +1941,7 @@
     {
       "hanzi": "橙子很甜，你想吃吗？",
       "pinyin": "Chéng zǐ hěn tián ， nǐ xiǎng chī ma ？",
-      "meaning": "(Ví dụ thực tế): 橙子很甜，你想吃吗？"
+      "meaning": "Cam rất ngọt, bạn muốn ăn không?"
     },
     {
       "hanzi": "这个橙子在生活中很常用。",
@@ -1958,7 +1958,7 @@
     {
       "hanzi": "你要橘子水吗？",
       "pinyin": "Nǐ yào jú zǐ shuǐ ma ？",
-      "meaning": "(Ví dụ thực tế): 你要橘子水吗？"
+      "meaning": "Bạn có muốn uống nước quýt không?"
     },
     {
       "hanzi": "这个橘子在生活中很常用。",
@@ -1975,7 +1975,7 @@
     {
       "hanzi": "这个柚子很甜",
       "pinyin": "Zhè ge yòu zǐ hěn tián",
-      "meaning": "(Ví dụ thực tế): 这个柚子很甜"
+      "meaning": "Quả bưởi này rất ngọt."
     },
     {
       "hanzi": "这个柚子在生活中很常用。",
@@ -1992,7 +1992,7 @@
     {
       "hanzi": "这个桃子很好吃",
       "pinyin": "Zhè ge táo zǐ hěn hǎo chī",
-      "meaning": "(Ví dụ thực tế): 这个桃子很好吃"
+      "meaning": "Quả đào này ăn rất ngon."
     },
     {
       "hanzi": "这个桃子在生活中很常用。",
@@ -2009,7 +2009,7 @@
     {
       "hanzi": "w哦喜欢吃李子",
       "pinyin": "W ò xǐ huan chī lǐ zǐ",
-      "meaning": "(Ví dụ thực tế): w哦喜欢吃李子"
+      "meaning": "Tôi thích ăn quả mận."
     },
     {
       "hanzi": "这个李子在生活中很常用。",
@@ -2026,7 +2026,7 @@
     {
       "hanzi": "我喜欢吃梨",
       "pinyin": "Wǒ xǐ huan chī lí",
-      "meaning": "(Ví dụ thực tế): 我喜欢吃梨"
+      "meaning": "Tôi thích ăn quả lê."
     },
     {
       "hanzi": "这个梨在生活中很常用。",
@@ -2043,7 +2043,7 @@
     {
       "hanzi": "我喜欢吃芒果因为芒果很甜",
       "pinyin": "Wǒ xǐ huan chī máng guǒ yīn wèi máng guǒ hěn tián",
-      "meaning": "(Ví dụ thực tế): 我喜欢吃芒果因为芒果很甜"
+      "meaning": "Tôi thích ăn xoài vì xoài rất ngọt."
     },
     {
       "hanzi": "这个芒果在生活中很常用。",
@@ -2060,7 +2060,7 @@
     {
       "hanzi": "我喜欢吃菠萝因为菠萝很甜",
       "pinyin": "Wǒ xǐ huan chī bō luó yīn wèi bō luó hěn tián",
-      "meaning": "(Ví dụ thực tế): 我喜欢吃菠萝因为菠萝很甜"
+      "meaning": "Tôi thích ăn dứa vì dứa rất ngọt."
     },
     {
       "hanzi": "这个菠萝在生活中很常用。",
@@ -2077,7 +2077,7 @@
     {
       "hanzi": "我妹妹很喜欢吃榴莲因为榴莲很好吃",
       "pinyin": "Wǒ mèi mei hěn xǐ huan chī liú lián yīn wèi liú lián hěn hǎo chī",
-      "meaning": "(Ví dụ thực tế): 我妹妹很喜欢吃榴莲因为榴莲很好吃"
+      "meaning": "Em gái tôi rất thích ăn sầu riêng vì sầu riêng rất ngon."
     },
     {
       "hanzi": "这个榴莲在生活中很常用。",
@@ -2094,7 +2094,7 @@
     {
       "hanzi": "我喜欢吃水果特别是葡萄",
       "pinyin": "Wǒ xǐ huan chī shuǐ guǒ tè bié shì pú táo",
-      "meaning": "(Ví dụ thực tế): 我喜欢吃水果特别是葡萄"
+      "meaning": "Tôi thích ăn hoa quả, đặc biệt là nho."
     },
     {
       "hanzi": "这个特别在生活中很常用。",
@@ -2111,7 +2111,7 @@
     {
       "hanzi": "我最喜欢吃橙子",
       "pinyin": "Wǒ zuì xǐ huan chī chéng zǐ",
-      "meaning": "(Ví dụ thực tế): 我最喜欢吃橙子"
+      "meaning": "Tôi thích ăn cam nhất."
     },
     {
       "hanzi": "这个最喜欢在生活中很常用。",
@@ -2128,7 +2128,7 @@
     {
       "hanzi": "今天我回国。我买了很多东西",
       "pinyin": "Jīn tiān wǒ huí guó 。 wǒ mǎi le hěn duō dōng xī",
-      "meaning": "(Ví dụ thực tế): 今天我回国。我买了很多东西"
+      "meaning": "Hôm nay tôi về nước. Tôi đã mua rất nhiều đồ."
     },
     {
       "hanzi": "这个东西在生活中很常用。",
@@ -2145,7 +2145,7 @@
     {
       "hanzi": "我给妈妈打电话",
       "pinyin": "Wǒ gěi mā ma dǎ diàn huà",
-      "meaning": "(Ví dụ thực tế): 我给妈妈打电话"
+      "meaning": "Tôi gọi điện thoại cho mẹ."
     },
     {
       "hanzi": "我想打电话，你觉得怎么样？",
@@ -2162,7 +2162,7 @@
     {
       "hanzi": "你可以给我一杯冰水吗",
       "pinyin": "Nǐ kě yǐ gěi wǒ yì bēi bīng shuǐ ma",
-      "meaning": "(Ví dụ thực tế): 你可以给我一杯冰水吗"
+      "meaning": "Bạn có thể cho tôi một ly nước đá được không?"
     },
     {
       "hanzi": "这个给在生活中很常用。",
@@ -2179,7 +2179,7 @@
     {
       "hanzi": "你电话号码是多少，你可以给我你的电话号码吗",
       "pinyin": "Nǐ diàn huà hào mǎ shì duō shǎo ， nǐ kě yǐ gěi wǒ nǐ de diàn huà hào mǎ ma",
-      "meaning": "(Ví dụ thực tế): 你电话号码是多少，你可以给我你的电话号码吗"
+      "meaning": "Số điện thoại của bạn là bao nhiêu, bạn cho tôi số được không?"
     },
     {
       "hanzi": "我想电话号码，你觉得怎么样？",
@@ -2213,7 +2213,7 @@
     {
       "hanzi": "我困了，我想去睡觉",
       "pinyin": "Wǒ kùn le ， wǒ xiǎng qù shuì jiào",
-      "meaning": "(Ví dụ thực tế): 我困了，我想去睡觉"
+      "meaning": "Tôi buồn ngủ rồi, tôi muốn đi ngủ."
     },
     {
       "hanzi": "我想睡觉，你觉得怎么样？",
@@ -2230,7 +2230,7 @@
     {
       "hanzi": "我平时很晚才回家",
       "pinyin": "Wǒ píng shí hěn wǎn cái huí jiā",
-      "meaning": "(Ví dụ thực tế): 我平时很晚才回家"
+      "meaning": "Bình thường tôi về nhà rất muộn."
     },
     {
       "hanzi": "我们平时一起去旅行吧。",
@@ -2247,7 +2247,7 @@
     {
       "hanzi": "我 下班以后去商店买一点儿橙子",
       "pinyin": "Wǒ   xià bān yǐ hòu qù shāng diàn mǎi yì diǎn ér chéng zǐ",
-      "meaning": "(Ví dụ thực tế): 我 下班以后去商店买一点儿橙子"
+      "meaning": "Sau khi tan làm tôi sẽ ghé cửa hàng mua một ít cam."
     },
     {
       "hanzi": "这个一点儿在生活中很常用。",
@@ -2264,7 +2264,7 @@
     {
       "hanzi": "你先说吧",
       "pinyin": "Nǐ xiān shuō ba",
-      "meaning": "(Ví dụ thực tế): 你先说吧"
+      "meaning": "Bạn nói trước đi."
     },
     {
       "hanzi": "这个先在生活中很常用。",
@@ -2281,7 +2281,7 @@
     {
       "hanzi": "新的一天开始了",
       "pinyin": "Xīn de yì tiān kāi shǐ le",
-      "meaning": "(Ví dụ thực tế): 新的一天开始了"
+      "meaning": "Một ngày mới đã bắt đầu."
     },
     {
       "hanzi": "这个开始在生活中很常用。",
@@ -2298,7 +2298,7 @@
     {
       "hanzi": "这位先生 请您稍等一下",
       "pinyin": "Zhè wèi xiān shēng   qǐng nín shāo děng yí xià",
-      "meaning": "(Ví dụ thực tế): 这位先生 请您稍等一下"
+      "meaning": "Vị tiên sinh này, xin ngài vui lòng đợi một lát."
     },
     {
       "hanzi": "他是我的先生，人很好。",
@@ -2315,7 +2315,7 @@
     {
       "hanzi": "你看见李老师了吗？",
       "pinyin": "Nǐ kàn jiàn lǐ lǎo shī le ma ？",
-      "meaning": "(Ví dụ thực tế): 你看见李老师了吗？"
+      "meaning": "Bạn có nhìn thấy thầy Lý không?"
     },
     {
       "hanzi": "这个看见在生活中很常用。",
@@ -2332,7 +2332,7 @@
     {
       "hanzi": "银行九点才开门",
       "pinyin": "Yín háng jiǔ diǎn cái kāi mén",
-      "meaning": "(Ví dụ thực tế): 银行九点才开门"
+      "meaning": "Ngân hàng 9 giờ mới mở cửa."
     },
     {
       "hanzi": "这个开门在生活中很常用。",
@@ -2349,7 +2349,7 @@
     {
       "hanzi": "商店晚上十一点才关门",
       "pinyin": "Shāng diàn wǎn shàng shí yī diǎn cái guān mén",
-      "meaning": "(Ví dụ thực tế): 商店晚上十一点才关门"
+      "meaning": "Cửa hàng 11 giờ đêm mới đóng cửa."
     },
     {
       "hanzi": "这个关门在生活中很常用。",
@@ -2366,7 +2366,7 @@
     {
       "hanzi": "打开开关吧/开灯吧",
       "pinyin": "Dǎ kāi kāi guān ba / kāi dēng ba",
-      "meaning": "(Ví dụ thực tế): 打开开关吧/开灯吧"
+      "meaning": "Bật công tắc lên đi / Bật đèn lên đi."
     },
     {
       "hanzi": "这个开关在生活中很常用。",
@@ -2383,7 +2383,7 @@
     {
       "hanzi": "你 会开车吗？",
       "pinyin": "Nǐ   huì kāi chē ma ？",
-      "meaning": "(Ví dụ thực tế): 你 会开车吗？"
+      "meaning": "Bạn biết lái xe ô tô không?"
     },
     {
       "hanzi": "我想开车，你觉得怎么样？",
@@ -2400,7 +2400,7 @@
     {
       "hanzi": "上车吧",
       "pinyin": "Shàng chē ba",
-      "meaning": "(Ví dụ thực tế): 上车吧"
+      "meaning": "Lên xe thôi nào."
     },
     {
       "hanzi": "我想上车，你觉得怎么样？",
@@ -2417,7 +2417,7 @@
     {
       "hanzi": "下车了/我们到了",
       "pinyin": "Xià chē le / wǒ men dào le",
-      "meaning": "(Ví dụ thực tế): 下车了/我们到了"
+      "meaning": "Xuống xe thôi / Chúng ta đến nơi rồi."
     },
     {
       "hanzi": "我想下车，你觉得怎么样？",
@@ -2434,7 +2434,7 @@
     {
       "hanzi": "你什么时候回来",
       "pinyin": "Nǐ shén me shí hòu huí lái",
-      "meaning": "(Ví dụ thực tế): 你什么时候回来"
+      "meaning": "Khi nào bạn quay trở về?"
     },
     {
       "hanzi": "这个回来在生活中很常用。",
@@ -2451,7 +2451,7 @@
     {
       "hanzi": "外边冷，多穿些衣服",
       "pinyin": "Wài biān lěng ， duō chuān xiē yī fu",
-      "meaning": "(Ví dụ thực tế): 外边冷，多穿些衣服"
+      "meaning": "Bên ngoài trời lạnh, mặc thêm nhiều áo vào nhé."
     },
     {
       "hanzi": "这个衣服在生活中很常用。",
@@ -2468,7 +2468,7 @@
     {
       "hanzi": "我们在里边车等你",
       "pinyin": "Wǒ men zài lǐ biān chē děng nǐ",
-      "meaning": "(Ví dụ thực tế): 我们在里边车等你"
+      "meaning": "Chúng tôi đang ở trong xe đợi bạn."
     },
     {
       "hanzi": "这个里边在生活中很常用。",
@@ -2485,7 +2485,7 @@
     {
       "hanzi": "外边很冷，多穿些衣服",
       "pinyin": "Wài biān hěn lěng ， duō chuān xiē yī fu",
-      "meaning": "(Ví dụ thực tế): 外边很冷，多穿些衣服"
+      "meaning": "Bên ngoài rất lạnh, mặc thêm nhiều áo vào nhé."
     },
     {
       "hanzi": "这个外边在生活中很常用。",
@@ -2502,7 +2502,7 @@
     {
       "hanzi": "我买一件衣服",
       "pinyin": "Wǒ mǎi yí jiàn yī fu",
-      "meaning": "(Ví dụ thực tế): 我买一件衣服"
+      "meaning": "Tôi mua một chiếc áo."
     },
     {
       "hanzi": "这个件在生活中很常用。",
@@ -2519,7 +2519,7 @@
     {
       "hanzi": "这张车票是去北京的",
       "pinyin": "Zhè zhāng chē piào shì qù běi jīng de",
-      "meaning": "(Ví dụ thực tế): 这张车票是去北京的"
+      "meaning": "Vé xe này là vé đi Bắc Kinh."
     },
     {
       "hanzi": "这个票在生活中很常用。",
@@ -2536,7 +2536,7 @@
     {
       "hanzi": "一张车票",
       "pinyin": "Yì zhāng chē piào",
-      "meaning": "(Ví dụ thực tế): 一张车票"
+      "meaning": "Một tờ vé xe."
     },
     {
       "hanzi": "这个张在生活中很常用。",
@@ -2553,7 +2553,7 @@
     {
       "hanzi": "你真是一位漂亮姑娘",
       "pinyin": "Nǐ zhēn shì yí wèi piào liang gū niáng",
-      "meaning": "(Ví dụ thực tế): 你真是一位漂亮姑娘"
+      "meaning": "Bạn thật sự là một cô gái xinh đẹp."
     },
     {
       "hanzi": "这个漂亮在生活中很常用。",
@@ -2570,7 +2570,7 @@
     {
       "hanzi": "他真是很帅",
       "pinyin": "Tā zhēn shì hěn shuài",
-      "meaning": "(Ví dụ thực tế): 他真是很帅"
+      "meaning": "Anh ấy quả thực rất đẹp trai."
     },
     {
       "hanzi": "他是我的帅，人很好。",
@@ -2587,7 +2587,7 @@
     {
       "hanzi": "他很丑",
       "pinyin": "Tā hěn chǒu",
-      "meaning": "(Ví dụ thực tế): 他很丑"
+      "meaning": "Anh ấy rất xấu trai."
     },
     {
       "hanzi": "这个丑在生活中很常用。",
@@ -2604,7 +2604,7 @@
     {
       "hanzi": "这作者很有名",
       "pinyin": "Zhè zuò zhě hěn yǒu míng",
-      "meaning": "(Ví dụ thực tế): 这作者很有名"
+      "meaning": "Tác giả này rất nổi tiếng."
     },
     {
       "hanzi": "他是我的有名，人很好。",
@@ -2621,7 +2621,7 @@
     {
       "hanzi": "今天我去商店买了不少衣服",
       "pinyin": "Jīn tiān wǒ qù shāng diàn mǎi le bù shǎo yī fu",
-      "meaning": "(Ví dụ thực tế): 今天我去商店买了不少衣服"
+      "meaning": "Hôm nay tôi đến cửa hàng mua không ít quần áo."
     },
     {
       "hanzi": "这个不少·在生活中很常用。",
@@ -2638,7 +2638,7 @@
     {
       "hanzi": "很高兴认识你",
       "pinyin": "Hěn gāo xìng rèn shi nǐ",
-      "meaning": "(Ví dụ thực tế): 很高兴认识你"
+      "meaning": "Rất vui được làm quen với bạn."
     },
     {
       "hanzi": "这个认识在生活中很常用。",
@@ -2655,7 +2655,7 @@
     {
       "hanzi": "他今天很高兴",
       "pinyin": "Tā jīn tiān hěn gāo xìng",
-      "meaning": "(Ví dụ thực tế): 他今天很高兴"
+      "meaning": "Hôm nay anh ấy rất vui vẻ."
     },
     {
       "hanzi": "这个高兴在生活中很常用。",
@@ -2672,7 +2672,7 @@
     {
       "hanzi": "孩子们都出去了",
       "pinyin": "Hái zi men dōu chū qù le",
-      "meaning": "(Ví dụ thực tế): 孩子们都出去了"
+      "meaning": "Lũ trẻ đều đã đi ra ngoài rồi."
     },
     {
       "hanzi": "这个出去在生活中很常用。",
@@ -2689,7 +2689,7 @@
     {
       "hanzi": "你出来，我跟你收据话",
       "pinyin": "Nǐ chū lái ， wǒ gēn nǐ shōu jù huà",
-      "meaning": "(Ví dụ thực tế): 你出来，我跟你收据话"
+      "meaning": "Bạn ra đây, tôi nói với bạn vài câu."
     },
     {
       "hanzi": "我想出来，你觉得怎么样？",
@@ -2706,7 +2706,7 @@
     {
       "hanzi": "我想叫辆出租车",
       "pinyin": "Wǒ xiǎng jiào liàng chū zū chē",
-      "meaning": "(Ví dụ thực tế): 我想叫辆出租车"
+      "meaning": "Tôi muốn gọi một chiếc taxi."
     },
     {
       "hanzi": "这个出租车在生活中很常用。",
@@ -2723,7 +2723,7 @@
     {
       "hanzi": "耳朵聋了听不见/你手大声一点儿， 我听不见",
       "pinyin": "Ěr duo lóng le tīng bú jiàn / nǐ shǒu dà shēng yì diǎn ér ，   wǒ tīng bú jiàn",
-      "meaning": "(Ví dụ thực tế): 耳朵聋了听不见/你手大声一点儿， 我听不见"
+      "meaning": "Bạn nói to lên một chút, tôi nghe không rõ."
     },
     {
       "hanzi": "这个听在生活中很常用。",
@@ -2740,7 +2740,7 @@
     {
       "hanzi": "我想叫辆汽车",
       "pinyin": "Wǒ xiǎng jiào liàng qì chē",
-      "meaning": "(Ví dụ thực tế): 我想叫辆汽车"
+      "meaning": "Tôi muốn gọi một chiếc ô tô."
     },
     {
       "hanzi": "这个汽车在生活中很常用。",
@@ -2757,7 +2757,7 @@
     {
       "hanzi": "飞机飞上天了",
       "pinyin": "Fēi jī fēi shàng tiān le",
-      "meaning": "(Ví dụ thực tế): 飞机飞上天了"
+      "meaning": "Máy bay đã cất cánh lên bầu trời rồi."
     },
     {
       "hanzi": "这个飞机在生活中很常用。",
@@ -2774,7 +2774,7 @@
     {
       "hanzi": "我喜欢坐火车去旅行",
       "pinyin": "Wǒ xǐ huan zuò huǒ chē qù lǚ xíng",
-      "meaning": "(Ví dụ thực tế): 我喜欢坐火车去旅行"
+      "meaning": "Tôi thích đi du lịch bằng tàu hỏa."
     },
     {
       "hanzi": "这个火车在生活中很常用。",
@@ -2791,7 +2791,7 @@
     {
       "hanzi": "我的手机在哪儿？",
       "pinyin": "Wǒ de shǒu jī zài nǎ ér ？",
-      "meaning": "(Ví dụ thực tế): 我的手机在哪儿？"
+      "meaning": "Điện thoại của tôi ở đâu thế?"
     },
     {
       "hanzi": "我想手机，你觉得怎么样？",
@@ -2808,7 +2808,7 @@
     {
       "hanzi": "明天还是下雨，记得带伞",
       "pinyin": "Míng tiān hái shì xià yǔ ， jì de dài sǎn",
-      "meaning": "(Ví dụ thực tế): 明天还是下雨，记得带伞"
+      "meaning": "Ngày mai trời vẫn mưa đấy, nhớ mang theo ô nhé."
     },
     {
       "hanzi": "这个还是在生活中很常用。",
@@ -2825,7 +2825,7 @@
     {
       "hanzi": "这辆大巴痕迹",
       "pinyin": "Zhè liàng dà bā hén jì",
-      "meaning": "(Ví dụ thực tế): 这辆大巴痕迹"
+      "meaning": "Chiếc xe buýt này rất đông khách."
     },
     {
       "hanzi": "这个大巴在生活中很常用。",
@@ -2842,7 +2842,7 @@
     {
       "hanzi": "去超市吧，我想买酸奶",
       "pinyin": "Qù chāo shì ba ， wǒ xiǎng mǎi suān nǎi",
-      "meaning": "(Ví dụ thực tế): 去超市吧，我想买酸奶"
+      "meaning": "Đi siêu thị đi, tôi muốn mua sữa chua."
     },
     {
       "hanzi": "这个超市在生活中很常用。",
@@ -2859,7 +2859,7 @@
     {
       "hanzi": "三加二等于五",
       "pinyin": "Sān jiā èr děng yú wǔ",
-      "meaning": "(Ví dụ thực tế): 三加二等于五"
+      "meaning": "Ba cộng hai bằng năm."
     },
     {
       "hanzi": "这个等于在生活中很常用。",
@@ -2876,7 +2876,7 @@
     {
       "hanzi": "今天，我和他们同时出发",
       "pinyin": "Jīn tiān ， wǒ hé tā men tóng shí chū fā",
-      "meaning": "(Ví dụ thực tế): 今天，我和他们同时出发"
+      "meaning": "Hôm nay tôi và họ xuất phát cùng lúc."
     },
     {
       "hanzi": "这个同时在生活中很常用。",
@@ -2893,7 +2893,7 @@
     {
       "hanzi": "最近，我早上很喜欢喝牛奶",
       "pinyin": "Zuì jìn ， wǒ zǎo shàng hěn xǐ huan hē niú nǎi",
-      "meaning": "(Ví dụ thực tế): 最近，我早上很喜欢喝牛奶"
+      "meaning": "Dạo gần đây, buổi sáng tôi rất thích uống sữa tươi."
     },
     {
       "hanzi": "这个最近在生活中很常用。",
@@ -2910,7 +2910,7 @@
     {
       "hanzi": "我想去图书馆看书",
       "pinyin": "Wǒ xiǎng qù tú shū guǎn kàn shū",
-      "meaning": "(Ví dụ thực tế): 我想去图书馆看书"
+      "meaning": "Tôi muốn đến thư viện đọc sách."
     },
     {
       "hanzi": "这个图书馆在生活中很常用。",
@@ -2927,7 +2927,7 @@
     {
       "hanzi": "这条牛仔裤是我在商场买的",
       "pinyin": "Zhè tiáo niú zǎi kù shì wǒ zài shāng chǎng mǎi de",
-      "meaning": "(Ví dụ thực tế): 这条牛仔裤是我在商场买的"
+      "meaning": "Chiếc quần bò này là tôi mua ở trung tâm thương mại."
     },
     {
       "hanzi": "这个牛仔裤在生活中很常用。",
@@ -2944,7 +2944,7 @@
     {
       "hanzi": "我星期天经常去博物馆",
       "pinyin": "Wǒ xīng qī tiān jīng cháng qù bó wù guǎn",
-      "meaning": "(Ví dụ thực tế): 我星期天经常去博物馆"
+      "meaning": "Chủ nhật tôi thường hay đến bảo tàng."
     },
     {
       "hanzi": "这个博物馆在生活中很常用。",
@@ -2961,7 +2961,7 @@
     {
       "hanzi": "我喜欢参观工厂",
       "pinyin": "Wǒ xǐ huan cān guān gōng chǎng",
-      "meaning": "(Ví dụ thực tế): 我喜欢参观工厂"
+      "meaning": "Tôi thích đi tham quan nhà máy."
     },
     {
       "hanzi": "我想参观，你觉得怎么样？",
@@ -3131,7 +3131,7 @@
     {
       "hanzi": "我昨天买了一个花瓶",
       "pinyin": "Wǒ zuó tiān mǎi le yí gè huā píng",
-      "meaning": "(Ví dụ thực tế): 我昨天买了一个花瓶"
+      "meaning": "Hôm qua tôi đã mua một chiếc bình hoa."
     },
     {
       "hanzi": "这个花瓶在生活中很常用。",
@@ -3471,7 +3471,7 @@
     {
       "hanzi": "我喜欢在夏天游泳",
       "pinyin": "Wǒ xǐ huan zài xià tiān yóu yǒng",
-      "meaning": "(Ví dụ thực tế): 我喜欢在夏天游泳"
+      "meaning": "Tôi thích đi bơi vào mùa hè."
     },
     {
       "hanzi": "这个游泳在生活中很常用。",
@@ -3573,7 +3573,7 @@
     {
       "hanzi": "我很喜欢唱歌，但是唱的不好",
       "pinyin": "Wǒ hěn xǐ huan chàng gē ， dàn shì chàng de bù hǎo",
-      "meaning": "(Ví dụ thực tế): 我很喜欢唱歌，但是唱的不好"
+      "meaning": "Tôi rất thích hát, nhưng hát không được hay."
     },
     {
       "hanzi": "这个但是在生活中很常用。",
@@ -3590,7 +3590,7 @@
     {
       "hanzi": "我们经常一起去跳舞",
       "pinyin": "Wǒ men jīng cháng yì qǐ qù tiào wǔ",
-      "meaning": "(Ví dụ thực tế): 我们经常一起去跳舞"
+      "meaning": "Chúng tôi thường cùng nhau đi khiêu vũ."
     },
     {
       "hanzi": "这个跳舞在生活中很常用。",
@@ -3607,7 +3607,7 @@
     {
       "hanzi": "我们听说你搬家了",
       "pinyin": "Wǒ men tīng shuō nǐ bān jiā le",
-      "meaning": "(Ví dụ thực tế): 我们听说你搬家了"
+      "meaning": "Chúng tôi nghe nói bạn vừa chuyển nhà."
     },
     {
       "hanzi": "我想听说，你觉得怎么样？",
@@ -3624,7 +3624,7 @@
     {
       "hanzi": "我们明天要走了",
       "pinyin": "Wǒ men míng tiān yào zǒu le",
-      "meaning": "(Ví dụ thực tế): 我们明天要走了"
+      "meaning": "Ngày mai chúng tôi phải đi rồi."
     },
     {
       "hanzi": "我想走，你觉得怎么样？",
@@ -3641,7 +3641,7 @@
     {
       "hanzi": "他到了",
       "pinyin": "Tā dào le",
-      "meaning": "(Ví dụ thực tế): 他到了"
+      "meaning": "Anh ấy đã đến nơi rồi."
     },
     {
       "hanzi": "我想到，你觉得怎么样？",
@@ -3658,7 +3658,7 @@
     {
       "hanzi": "我们每天一起玩羽毛球",
       "pinyin": "Wǒ men měi tiān yì qǐ wán yǔ máo qiú",
-      "meaning": "(Ví dụ thực tế): 我们每天一起玩羽毛球"
+      "meaning": "Ngày nào chúng tôi cũng cùng nhau chơi cầu lông."
     },
     {
       "hanzi": "这个玩在生活中很常用。",
@@ -3675,7 +3675,7 @@
     {
       "hanzi": "他的人生 经历很丰富",
       "pinyin": "Tā de rén shēng   jīng lì hěn fēng fù",
-      "meaning": "(Ví dụ thực tế): 他的人生 经历很丰富"
+      "meaning": "Trải nghiệm cuộc đời của anh ấy rất phong phú."
     },
     {
       "hanzi": "他是我的人生，人很好。",
@@ -3692,7 +3692,7 @@
     {
       "hanzi": "他的生活经历很丰富",
       "pinyin": "Tā de shēng huó jīng lì hěn fēng fù",
-      "meaning": "(Ví dụ thực tế): 他的生活经历很丰富"
+      "meaning": "Trải nghiệm cuộc sống của anh ấy rất phong phú."
     },
     {
       "hanzi": "这个生活在生活中很常用。",
@@ -3709,7 +3709,7 @@
     {
       "hanzi": "这个盘子很漂亮",
       "pinyin": "Zhè ge pán zi hěn piào liang",
-      "meaning": "(Ví dụ thực tế): 这个盘子很漂亮"
+      "meaning": "Chiếc đĩa này rất đẹp."
     },
     {
       "hanzi": "这个盘子在生活中很常用。",
@@ -3726,7 +3726,7 @@
     {
       "hanzi": "我去超市买了一个叉子",
       "pinyin": "Wǒ qù chāo shì mǎi le yí gè chā zi",
-      "meaning": "(Ví dụ thực tế): 我去超市买了一个叉子"
+      "meaning": "Tôi đến siêu thị mua một chiếc dĩa."
     },
     {
       "hanzi": "这个叉子在生活中很常用。",
@@ -3743,7 +3743,7 @@
     {
       "hanzi": "我的英国同事不会用筷子",
       "pinyin": "Wǒ de yīng guó tóng shì bú huì yòng kuài zi",
-      "meaning": "(Ví dụ thực tế): 我的英国同事不会用筷子"
+      "meaning": "Đồng nghiệp người Anh của tôi không biết dùng đũa."
     },
     {
       "hanzi": "这个筷子在生活中很常用。",
@@ -3879,7 +3879,7 @@
     {
       "hanzi": "医生说下个星期可以出院",
       "pinyin": "Yī shēng shuō xià gè xīng qī kě yǐ chū yuàn",
-      "meaning": "(Ví dụ thực tế): 医生说下个星期可以出院"
+      "meaning": "Bác sĩ nói tuần sau có thể xuất viện rồi."
     },
     {
       "hanzi": "这个出院在生活中很常用。",
@@ -3896,7 +3896,7 @@
     {
       "hanzi": "他多高？",
       "pinyin": "Tā duō gāo ？",
-      "meaning": "(Ví dụ thực tế): 他多高？"
+      "meaning": "Anh ấy cao bao nhiêu?"
     },
     {
       "hanzi": "这个高在生活中很常用。",
@@ -3913,7 +3913,7 @@
     {
       "hanzi": "我每天吃米饭",
       "pinyin": "Wǒ měi tiān chī mǐ fàn",
-      "meaning": "(Ví dụ thực tế): 我每天吃米饭"
+      "meaning": "Ngày nào tôi cũng ăn cơm."
     },
     {
       "hanzi": "这个米在生活中很常用。",
@@ -3930,7 +3930,7 @@
     {
       "hanzi": "你很多少生病",
       "pinyin": "Nǐ hěn duō shǎo shēng bìng",
-      "meaning": "(Ví dụ thực tế): 你很多少生病"
+      "meaning": "Bạn rất ít khi bị ốm đau."
     },
     {
       "hanzi": "这个生病在生活中很常用。",
@@ -3947,7 +3947,7 @@
     {
       "hanzi": "我累了",
       "pinyin": "Wǒ lèi le",
-      "meaning": "(Ví dụ thực tế): 我累了"
+      "meaning": "Tôi mệt rồi."
     },
     {
       "hanzi": "这个累在生活中很常用。",
@@ -3964,7 +3964,7 @@
     {
       "hanzi": "早上我经常去公园跑步",
       "pinyin": "Zǎo shàng wǒ jīng cháng qù gōng yuán pǎo bù",
-      "meaning": "(Ví dụ thực tế): 早上我经常去公园跑步"
+      "meaning": "Buổi sáng tôi thường chạy bộ ở công viên."
     },
     {
       "hanzi": "这个跑步在生活中很常用。",
@@ -3981,7 +3981,7 @@
     {
       "hanzi": "你吃药了吗",
       "pinyin": "Nǐ chī yào le ma",
-      "meaning": "(Ví dụ thực tế): 你吃药了吗"
+      "meaning": "Bạn đã uống thuốc chưa?"
     },
     {
       "hanzi": "这个药在生活中很常用。",
@@ -3998,7 +3998,7 @@
     {
       "hanzi": "休息吧",
       "pinyin": "Xiū xi ba",
-      "meaning": "(Ví dụ thực tế): 休息吧"
+      "meaning": "Nghỉ ngơi chút đi."
     },
     {
       "hanzi": "这个休息在生活中很常用。",
@@ -4015,7 +4015,7 @@
     {
       "hanzi": "这块手表很贵",
       "pinyin": "Zhè kuài shǒu biǎo hěn guì",
-      "meaning": "(Ví dụ thực tế): 这块手表很贵"
+      "meaning": "Chiếc đồng hồ đeo tay này rất đắt tiền."
     },
     {
       "hanzi": "这个手表在生活中很常用。",
@@ -4032,7 +4032,7 @@
     {
       "hanzi": "我喜欢红色",
       "pinyin": "Wǒ xǐ huan hóng sè",
-      "meaning": "(Ví dụ thực tế): 我喜欢红色"
+      "meaning": "Tôi thích màu đỏ."
     },
     {
       "hanzi": "这个红色在生活中很常用。",
@@ -4049,7 +4049,7 @@
     {
       "hanzi": "我的号同事最喜欢蓝色",
       "pinyin": "Wǒ de hào tóng shì zuì xǐ huan lán sè",
-      "meaning": "(Ví dụ thực tế): 我的号同事最喜欢蓝色"
+      "meaning": "Đồng nghiệp thân thiết của tôi thích màu xanh dương nhất."
     },
     {
       "hanzi": "他是我的蓝色，人很好。",
@@ -4066,7 +4066,7 @@
     {
       "hanzi": "早上你看见谁送报纸吗",
       "pinyin": "Zǎo shàng nǐ kàn jiàn shuí sòng bào zhǐ ma",
-      "meaning": "(Ví dụ thực tế): 早上你看见谁送报纸吗"
+      "meaning": "Buổi sáng bạn có nhìn thấy ai đi giao báo không?"
     },
     {
       "hanzi": "这个报纸在生活中很常用。",
@@ -4083,7 +4083,7 @@
     {
       "hanzi": "我喜欢喝牛奶",
       "pinyin": "Wǒ xǐ huan hē niú nǎi",
-      "meaning": "(Ví dụ thực tế): 我喜欢喝牛奶"
+      "meaning": "Tôi thích uống sữa bò."
     },
     {
       "hanzi": "这个牛奶在生活中很常用。",
@@ -4100,7 +4100,7 @@
     {
       "hanzi": "我的房间是粉色",
       "pinyin": "Wǒ de fáng jiān shì fěn sè",
-      "meaning": "(Ví dụ thực tế): 我的房间是粉色"
+      "meaning": "Căn phòng của tôi có màu hồng."
     },
     {
       "hanzi": "我想房间，你觉得怎么样？",
@@ -4117,7 +4117,7 @@
     {
       "hanzi": "我的丈夫是AI工程师",
       "pinyin": "Wǒ de zhàng fu shì A I gōng chéng shī",
-      "meaning": "(Ví dụ thực tế): 我的丈夫是AI工程师"
+      "meaning": "Chồng tôi là kỹ sư AI."
     },
     {
       "hanzi": "这个丈夫在生活中很常用。",
@@ -4134,7 +4134,7 @@
     {
       "hanzi": "我送礼物给邻居",
       "pinyin": "Wǒ sòng lǐ wù gěi lín jū",
-      "meaning": "(Ví dụ thực tế): 我送礼物给邻居"
+      "meaning": "Tôi tặng quà cho hàng xóm."
     },
     {
       "hanzi": "他是我的送，人很好。",
@@ -4151,7 +4151,7 @@
     {
       "hanzi": "我坐 在他旁边",
       "pinyin": "Wǒ zuò   zài tā páng biān",
-      "meaning": "(Ví dụ thực tế): 我坐 在他旁边"
+      "meaning": "Tôi ngồi ở bên cạnh anh ấy."
     },
     {
       "hanzi": "这个旁边在生活中很常用。",
@@ -4168,7 +4168,7 @@
     {
       "hanzi": "我最喜欢粉色",
       "pinyin": "Wǒ zuì xǐ huan fěn sè",
-      "meaning": "(Ví dụ thực tế): 我最喜欢粉色"
+      "meaning": "Tôi thích màu hồng nhất."
     },
     {
       "hanzi": "这个粉色在生活中很常用。",
@@ -4185,7 +4185,7 @@
     {
       "hanzi": "我想介绍一下。我是小玉",
       "pinyin": "Wǒ xiǎng jiè shào yí xià 。 wǒ shì xiǎo yù",
-      "meaning": "(Ví dụ thực tế): 我想介绍一下。我是小玉"
+      "meaning": "Tôi xin phép tự giới thiệu, tôi là Tiểu Ngọc."
     },
     {
       "hanzi": "这个介绍在生活中很常用。",
@@ -4202,7 +4202,7 @@
     {
       "hanzi": "我们今天好快乐",
       "pinyin": "Wǒ men jīn tiān hǎo kuài lè",
-      "meaning": "(Ví dụ thực tế): 我们今天好快乐"
+      "meaning": "Hôm nay chúng tôi thật là vui sướng."
     },
     {
       "hanzi": "这个快乐在生活中很常用。",
@@ -4219,7 +4219,7 @@
     {
       "hanzi": "我送礼物给邻居",
       "pinyin": "Wǒ sòng lǐ wù gěi lín jū",
-      "meaning": "(Ví dụ thực tế): 我送礼物给邻居"
+      "meaning": "Tôi tặng quà cho người hàng xóm."
     },
     {
       "hanzi": "这个礼物在生活中很常用。",
@@ -4236,7 +4236,7 @@
     {
       "hanzi": "我家里没有常务",
       "pinyin": "Wǒ jiā lǐ méi yǒu cháng wù",
-      "meaning": "(Ví dụ thực tế): 我家里没有常务"
+      "meaning": "Nhà tôi không có thú cưng nuôi lâu dài."
     },
     {
       "hanzi": "这个长在生活中很常用。",
@@ -4253,7 +4253,7 @@
     {
       "hanzi": "他是我的邻居",
       "pinyin": "Tā shì wǒ de lín jū",
-      "meaning": "(Ví dụ thực tế): 他是我的邻居"
+      "meaning": "Anh ấy là hàng xóm của tôi."
     },
     {
       "hanzi": "这个邻居在生活中很常用。",
@@ -4270,7 +4270,7 @@
     {
       "hanzi": "有时候我们骑自行车去公园运动",
       "pinyin": "Yǒu shí hòu wǒ men qí zì xíng chē qù gōng yuán yùn dòng",
-      "meaning": "(Ví dụ thực tế): 有时候我们骑自行车去公园运动"
+      "meaning": "Thỉnh thoảng chúng tôi đạp xe đạp đến công viên tập thể dục."
     },
     {
       "hanzi": "这个自行车在生活中很常用。",
@@ -4287,7 +4287,7 @@
     {
       "hanzi": "我在运动场打羽毛球",
       "pinyin": "Wǒ zài yùn dòng chǎng dǎ yǔ máo qiú",
-      "meaning": "(Ví dụ thực tế): 我在运动场打羽毛球"
+      "meaning": "Tôi chơi cầu lông ở sân vận động."
     },
     {
       "hanzi": "这个场在生活中很常用。",
@@ -4304,7 +4304,7 @@
     {
       "hanzi": "湖里有两只鸳鸯",
       "pinyin": "Hú lǐ yǒu liǎng zhī yuān yāng",
-      "meaning": "(Ví dụ thực tế): 湖里有两只鸳鸯"
+      "meaning": "Trong hồ có hai con uyên ương."
     },
     {
       "hanzi": "这个鸳鸯在生活中很常用。",
@@ -4321,7 +4321,7 @@
     {
       "hanzi": "只有死亡才能把我们分开",
       "pinyin": "Zhǐ yǒu sǐ wáng cái néng bǎ wǒ men fēn kāi",
-      "meaning": "(Ví dụ thực tế): 只有死亡才能把我们分开"
+      "meaning": "Chỉ có cái chết mới có thể chia lìa chúng ta."
     },
     {
       "hanzi": "这个只有在生活中很常用。",
@@ -4338,7 +4338,7 @@
     {
       "hanzi": "我们在会客室等他",
       "pinyin": "Wǒ men zài huì kè shì děng tā",
-      "meaning": "(Ví dụ thực tế): 我们在会客室等他"
+      "meaning": "Chúng tôi đợi anh ấy ở phòng tiếp khách."
     },
     {
       "hanzi": "这个会客室在生活中很常用。",
@@ -4355,7 +4355,7 @@
     {
       "hanzi": "他马上进去回家了",
       "pinyin": "Tā mǎ shàng jìn qù huí jiā le",
-      "meaning": "(Ví dụ thực tế): 他马上进去回家了"
+      "meaning": "Anh ấy lập tức đi vào để về nhà rồi."
     },
     {
       "hanzi": "我想进去，你觉得怎么样？",
@@ -4372,7 +4372,7 @@
     {
       "hanzi": "这件衣服还不错，你喜欢就买吧",
       "pinyin": "Zhè jiàn yī fu hái bú cuò ， nǐ xǐ huan jiù mǎi ba",
-      "meaning": "(Ví dụ thực tế): 这件衣服还不错，你喜欢就买吧"
+      "meaning": "Bộ quần áo này cũng khá ổn, bạn thích thì mua đi nhé."
     },
     {
       "hanzi": "这个错在生活中很常用。",
@@ -4389,7 +4389,7 @@
     {
       "hanzi": "考试的时候不能说话",
       "pinyin": "Kǎo shì de shí hòu bù néng shuō huà",
-      "meaning": "(Ví dụ thực tế): 考试的时候不能说话"
+      "meaning": "Trong lúc thi không được nói chuyện."
     },
     {
       "hanzi": "这个考试在生活中很常用。",
@@ -4406,7 +4406,7 @@
     {
       "hanzi": "大家的意思是一起去",
       "pinyin": "Dà jiā de yì sī shì yì qǐ qù",
-      "meaning": "(Ví dụ thực tế): 大家的意思是一起去"
+      "meaning": "Ý của mọi người là cùng nhau đi."
     },
     {
       "hanzi": "这个意思在生活中很常用。",
@@ -4423,7 +4423,7 @@
     {
       "hanzi": "医生说和茶对身体好",
       "pinyin": "Yī shēng shuō hé chá duì shēn tǐ hǎo",
-      "meaning": "(Ví dụ thực tế): 医生说和茶对身体好"
+      "meaning": "Bác sĩ nói uống trà rất tốt cho sức khỏe."
     },
     {
       "hanzi": "这个对在生活中很常用。",
@@ -4440,7 +4440,7 @@
     {
       "hanzi": "这个工程是地方管理",
       "pinyin": "Zhè ge gōng chéng shì dì fāng guǎn lǐ",
-      "meaning": "(Ví dụ thực tế): 这个工程是地方管理"
+      "meaning": "Công trình này do địa phương quản lý."
     },
     {
       "hanzi": "这个地方在生活中很常用。",
@@ -4457,7 +4457,7 @@
     {
       "hanzi": "你哭哭什么？",
       "pinyin": "Nǐ kū kū shén me ？",
-      "meaning": "(Ví dụ thực tế): 你哭哭什么？"
+      "meaning": "Bạn khóc lóc cái gì thế?"
     },
     {
       "hanzi": "这个哭在生活中很常用。",
@@ -4474,7 +4474,7 @@
     {
       "hanzi": "你瞧他太苦了",
       "pinyin": "Nǐ qiáo tā tài kǔ le",
-      "meaning": "(Ví dụ thực tế): 你瞧他太苦了"
+      "meaning": "Bạn nhìn anh ấy kìa, khổ sở quá đi."
     },
     {
       "hanzi": "这个苦在生活中很常用。",
@@ -4491,7 +4491,7 @@
     {
       "hanzi": "他经常骑自行车",
       "pinyin": "Tā jīng cháng qí zì xíng chē",
-      "meaning": "(Ví dụ thực tế): 他经常骑自行车"
+      "meaning": "Anh ấy thường hay đạp xe đạp."
     },
     {
       "hanzi": "我想骑，你觉得怎么样？",
@@ -4508,7 +4508,7 @@
     {
       "hanzi": "这个星期天天吃羊肉，我想吃烤鸭",
       "pinyin": "Zhè ge xīng qī tiān tiān chī yáng ròu ， wǒ xiǎng chī kǎo yā",
-      "meaning": "(Ví dụ thực tế): 这个星期天天吃羊肉，我想吃烤鸭"
+      "meaning": "Tuần này ngày nào cũng ăn thịt cừu, tôi muốn ăn vịt quay."
     },
     {
       "hanzi": "这个羊肉在生活中很常用。",
@@ -4525,7 +4525,7 @@
     {
       "hanzi": "这个星期你天天做猪肉，我不想吃",
       "pinyin": "Zhè ge xīng qī nǐ tiān tiān zuò zhū ròu ， wǒ bù xiǎng chī",
-      "meaning": "(Ví dụ thực tế): 这个星期你天天做猪肉，我不想吃"
+      "meaning": "Tuần này ngày nào bạn cũng nấu thịt lợn, tôi không muốn ăn đâu."
     },
     {
       "hanzi": "这个猪肉在生活中很常用。",
@@ -4542,7 +4542,7 @@
     {
       "hanzi": "这家饭馆的猪肉菜太难吃",
       "pinyin": "Zhè jiā fàn guǎn de zhū ròu cài tài nán chī",
-      "meaning": "(Ví dụ thực tế): 这家饭馆的猪肉菜太难吃"
+      "meaning": "Món thịt lợn ở quán ăn này dở tệ."
     },
     {
       "hanzi": "我想难吃，你觉得怎么样？",
@@ -4559,7 +4559,7 @@
     {
       "hanzi": "早上我经常吃面条",
       "pinyin": "Zǎo shàng wǒ jīng cháng chī miàn tiáo",
-      "meaning": "(Ví dụ thực tế): 早上我经常吃面条"
+      "meaning": "Buổi sáng tôi thường ăn mì sợi."
     },
     {
       "hanzi": "这个面条在生活中很常用。",
@@ -4576,7 +4576,7 @@
     {
       "hanzi": "我跟你一起去看望爷爷和奶奶",
       "pinyin": "Wǒ gēn nǐ yì qǐ qù kàn wàng yé ye hé nǎi nai",
-      "meaning": "(Ví dụ thực tế): 我跟你一起去看望爷爷和奶奶"
+      "meaning": "Tôi cùng bạn đi thăm ông nội và bà nội nhé."
     },
     {
       "hanzi": "这个跟在生活中很常用。",
@@ -4593,7 +4593,7 @@
     {
       "hanzi": "这件事真讨厌啊，办不完",
       "pinyin": "Zhè jiàn shì zhēn tǎo yàn a ， bàn bù wán",
-      "meaning": "(Ví dụ thực tế): 这件事真讨厌啊，办不完"
+      "meaning": "Chuyện này thật phiền phức đáng ghét, làm mãi không xong."
     },
     {
       "hanzi": "这个讨厌在生活中很常用。",
@@ -4610,7 +4610,7 @@
     {
       "hanzi": "他的性格非常开朗",
       "pinyin": "Tā de xìng gé fēi cháng kāi lǎng",
-      "meaning": "(Ví dụ thực tế): 他的性格非常开朗"
+      "meaning": "Tính cách của anh ấy rất cởi mở."
     },
     {
       "hanzi": "这个性格在生活中很常用。",
@@ -4627,7 +4627,7 @@
     {
       "hanzi": "他在教室学习",
       "pinyin": "Tā zài jiào shì xué xí",
-      "meaning": "(Ví dụ thực tế): 他在教室学习"
+      "meaning": "Anh ấy đang học bài trong lớp học."
     },
     {
       "hanzi": "我想教室，你觉得怎么样？",
@@ -4644,7 +4644,7 @@
     {
       "hanzi": "机场有一个舒适的休息室",
       "pinyin": "Jī chǎng yǒu yí gè shū shì de xiū xi shì",
-      "meaning": "(Ví dụ thực tế): 机场有一个舒适的休息室"
+      "meaning": "Sân bay có một phòng chờ nghỉ ngơi rất tiện nghi thoải mái."
     },
     {
       "hanzi": "这个休息室在生活中很常用。",
@@ -4661,7 +4661,7 @@
     {
       "hanzi": "病人需要安静",
       "pinyin": "Bìng rén xū yào ān jìng",
-      "meaning": "(Ví dụ thực tế): 病人需要安静"
+      "meaning": "Người bệnh cần sự yên tĩnh."
     },
     {
       "hanzi": "这个安静在生活中很常用。",
@@ -4678,7 +4678,7 @@
     {
       "hanzi": "抓住时机才能成功",
       "pinyin": "Zhuā zhù shí jī cái néng chéng gōng",
-      "meaning": "(Ví dụ thực tế): 抓住时机才能成功"
+      "meaning": "Nắm bắt thời cơ mới có thể thành công."
     },
     {
       "hanzi": "我想时机，你觉得怎么样？",
@@ -4695,7 +4695,7 @@
     {
       "hanzi": "她给了我一个机会",
       "pinyin": "Tā gěi le wǒ yí gè jī huì",
-      "meaning": "(Ví dụ thực tế): 她给了我一个机会"
+      "meaning": "Cô ấy đã cho tôi một cơ hội."
     },
     {
       "hanzi": "这个机会在生活中很常用。",
@@ -4712,7 +4712,7 @@
     {
       "hanzi": "我们在广场散步",
       "pinyin": "Wǒ men zài guǎng chǎng sàn bù",
-      "meaning": "(Ví dụ thực tế): 我们在广场散步"
+      "meaning": "Chúng tôi đi dạo ở quảng trường."
     },
     {
       "hanzi": "这个广场在生活中很常用。",
@@ -4746,7 +4746,7 @@
     {
       "hanzi": "这是我应该做的",
       "pinyin": "Zhè shì wǒ yīng gāi zuò de",
-      "meaning": "(Ví dụ thực tế): 这是我应该做的"
+      "meaning": "Đây là việc tôi nên làm mà."
     },
     {
       "hanzi": "这个应该在生活中很常用。",
@@ -4763,7 +4763,7 @@
     {
       "hanzi": "她的愿望是成为医生",
       "pinyin": "Tā de yuàn wàng shì chéng wéi yī shēng",
-      "meaning": "(Ví dụ thực tế): 她的愿望是成为医生"
+      "meaning": "Nguyện vọng của cô ấy là trở thành bác sĩ."
     },
     {
       "hanzi": "这个愿望在生活中很常用。",
@@ -4780,7 +4780,7 @@
     {
       "hanzi": "我希望能满足你的愿望",
       "pinyin": "Wǒ xī wàng néng mǎn zú nǐ de yuàn wàng",
-      "meaning": "(Ví dụ thực tế): 我希望能满足你的愿望"
+      "meaning": "Tôi hy vọng có thể làm thỏa mãn nguyện vọng của bạn."
     },
     {
       "hanzi": "这个满足在生活中很常用。",
@@ -4797,7 +4797,7 @@
     {
       "hanzi": "她很讲义气，愿意为朋友两肋插刀",
       "pinyin": "Tā hěn jiǎng yì qì ， yuàn yì wèi péng yǒu liǎng lèi chā dāo",
-      "meaning": "(Ví dụ thực tế): 她很讲义气，愿意为朋友两肋插刀"
+      "meaning": "Cô ấy rất trượng nghĩa, sẵn sàng vì bạn bè xả thân giúp đỡ."
     },
     {
       "hanzi": "这个两肋插刀在生活中很常用。",
@@ -4814,7 +4814,7 @@
     {
       "hanzi": "战士们，赴汤蹈火，保卫家园",
       "pinyin": "Zhàn shì men ， fù tāng dǎo huǒ ， bǎo wèi jiā yuán",
-      "meaning": "(Ví dụ thực tế): 战士们，赴汤蹈火，保卫家园"
+      "meaning": "Các chiến sĩ không ngại gian khổ hiểm nguy để bảo vệ quê hương."
     },
     {
       "hanzi": "我想赴汤蹈火，你觉得怎么样？",
@@ -4831,7 +4831,7 @@
     {
       "hanzi": "你干什么不早说呀",
       "pinyin": "Nǐ gàn shén me bù zǎo shuō ya",
-      "meaning": "(Ví dụ thực tế): 你干什么不早说呀"
+      "meaning": "Sao bạn không nói sớm đi chứ?"
     },
     {
       "hanzi": "这个干什么在生活中很常用。",
@@ -4865,7 +4865,7 @@
     {
       "hanzi": "我们有缘结为夫妻",
       "pinyin": "Wǒ men yǒu yuán jié wèi fū qī",
-      "meaning": "(Ví dụ thực tế): 我们有缘结为夫妻"
+      "meaning": "Chúng ta có duyên nên mới kết làm vợ chồng."
     },
     {
       "hanzi": "这个有缘在生活中很常用。",
@@ -4882,7 +4882,7 @@
     {
       "hanzi": "他讲话很直接",
       "pinyin": "Tā jiǎng huà hěn zhí jiē",
-      "meaning": "(Ví dụ thực tế): 他讲话很直接"
+      "meaning": "Anh ấy ăn nói rất thẳng thắn."
     },
     {
       "hanzi": "这个直接在生活中很常用。",
@@ -4899,7 +4899,7 @@
     {
       "hanzi": "我们同生共死和同甘共苦",
       "pinyin": "Wǒ men tóng shēng gòng sǐ hé tóng gān gòng kǔ",
-      "meaning": "(Ví dụ thực tế): 我们同生共死和同甘共苦"
+      "meaning": "Chúng tôi cùng sinh cùng tử và đồng cam cộng khổ."
     },
     {
       "hanzi": "这个同生共死 ~同甘共苦在生活中很常用。",
@@ -4933,7 +4933,7 @@
     {
       "hanzi": "他是胆小的人",
       "pinyin": "Tā shì dǎn xiǎo de rén",
-      "meaning": "(Ví dụ thực tế): 他是胆小的人"
+      "meaning": "Anh ấy là người nhát gan."
     },
     {
       "hanzi": "这个胆小在生活中很常用。",
@@ -4950,7 +4950,7 @@
     {
       "hanzi": "从今往后我会爱护你",
       "pinyin": "Cóng jīn wǎng hòu wǒ huì ài hù nǐ",
-      "meaning": "(Ví dụ thực tế): 从今往后我会爱护你"
+      "meaning": "Từ nay về sau anh sẽ luôn yêu thương chăm sóc em."
     },
     {
       "hanzi": "我想从今往后，你觉得怎么样？",
@@ -4967,7 +4967,7 @@
     {
       "hanzi": "他感激朋友的支持",
       "pinyin": "Tā gǎn jī péng yǒu de zhī chí",
-      "meaning": "(Ví dụ thực tế): 他感激朋友的支持"
+      "meaning": "Anh ấy rất biết ơn sự ủng hộ của bạn bè."
     },
     {
       "hanzi": "这个感激在生活中很常用。",
@@ -4984,7 +4984,7 @@
     {
       "hanzi": "这件宾馆不错",
       "pinyin": "Zhè jiàn bīn guǎn bú cuò",
-      "meaning": "(Ví dụ thực tế): 这件宾馆不错"
+      "meaning": "Khách sạn này khá tốt."
     },
     {
       "hanzi": "这个宾馆在生活中很常用。",
@@ -5001,7 +5001,7 @@
     {
       "hanzi": "前台小姐很热情接待我",
       "pinyin": "Qián tái xiǎo jiě hěn rè qíng jiē dài wǒ",
-      "meaning": "(Ví dụ thực tế): 前台小姐很热情接待我"
+      "meaning": "Cô nhân viên lễ tân tiếp đón tôi rất nhiệt tình."
     },
     {
       "hanzi": "这个前台在生活中很常用。",
@@ -5018,7 +5018,7 @@
     {
       "hanzi": "我家前面有一个商场",
       "pinyin": "Wǒ jiā qián miàn yǒu yí gè shāng chǎng",
-      "meaning": "(Ví dụ thực tế): 我家前面有一个商场"
+      "meaning": "Phía trước nhà tôi có một trung tâm thương mại."
     },
     {
       "hanzi": "我想商场，你觉得怎么样？",
@@ -5035,7 +5035,7 @@
     {
       "hanzi": "停车场里有很多车",
       "pinyin": "Tíng chē chǎng lǐ yǒu hěn duō chē",
-      "meaning": "(Ví dụ thực tế): 停车场里有很多车"
+      "meaning": "Trong bãi đỗ xe có rất nhiều ô tô."
     },
     {
       "hanzi": "这个停车场在生活中很常用。",
@@ -5052,7 +5052,7 @@
     {
       "hanzi": "我们学校的运动场很大",
       "pinyin": "Wǒ men xué xiào de yùn dòng chǎng hěn dà",
-      "meaning": "(Ví dụ thực tế): 我们学校的运动场很大"
+      "meaning": "Sân vận động trường chúng tôi rất rộng."
     },
     {
       "hanzi": "这个运动场在生活中很常用。",
@@ -5069,7 +5069,7 @@
     {
       "hanzi": "奋斗点亮青春韶华",
       "pinyin": "Fèn dòu diǎn liàng qīng chūn sháo huá",
-      "meaning": "(Ví dụ thực tế): 奋斗点亮青春韶华"
+      "meaning": "Phấn đấu thắp sáng tuổi thanh xuân rực rỡ."
     },
     {
       "hanzi": "他是我的韶华，人很好。",
@@ -5086,7 +5086,7 @@
     {
       "hanzi": "他的想法简直太疯狂了",
       "pinyin": "Tā de xiǎng fǎ jiǎn zhí tài fēng kuáng le",
-      "meaning": "(Ví dụ thực tế): 他的想法简直太疯狂了"
+      "meaning": "Ý nghĩ của anh ấy quả thực quá điên rồ."
     },
     {
       "hanzi": "我想疯狂，你觉得怎么样？",
@@ -5137,7 +5137,7 @@
     {
       "hanzi": "我很喜欢唱歌但是长的不好",
       "pinyin": "Wǒ hěn xǐ huan chàng gē dàn shì cháng de bù hǎo",
-      "meaning": "(Ví dụ thực tế): 我很喜欢唱歌但是长的不好"
+      "meaning": "Tôi rất thích hát nhưng hát không được hay."
     },
     {
       "hanzi": "这个唱歌在生活中很常用。",
@@ -5154,7 +5154,7 @@
     {
       "hanzi": "关于这个段爱情永远是他们的秘密",
       "pinyin": "Guān yú zhè ge duàn ài qíng yǒng yuǎn shì tā men de mì mì",
-      "meaning": "(Ví dụ thực tế): 关于这个段爱情永远是他们的秘密"
+      "meaning": "Đoạn tình cảm này mãi mãi là bí mật của họ."
     },
     {
       "hanzi": "这个永远在生活中很常用。",
@@ -5171,7 +5171,7 @@
     {
       "hanzi": "关于这个段爱情永远是我们的秘密",
       "pinyin": "Guān yú zhè ge duàn ài qíng yǒng yuǎn shì wǒ men de mì mì",
-      "meaning": "(Ví dụ thực tế): 关于这个段爱情永远是我们的秘密"
+      "meaning": "Đoạn tình cảm này mãi mãi là bí mật của chúng tôi."
     },
     {
       "hanzi": "这个段在生活中很常用。",
@@ -5188,7 +5188,7 @@
     {
       "hanzi": "这个秘密对我很重要",
       "pinyin": "Zhè ge mì mì duì wǒ hěn zhòng yào",
-      "meaning": "(Ví dụ thực tế): 这个秘密对我很重要"
+      "meaning": "Bí mật này rất quan trọng đối với tôi."
     },
     {
       "hanzi": "这个秘密在生活中很常用。",
@@ -5222,7 +5222,7 @@
     {
       "hanzi": "今生我们注定无缘",
       "pinyin": "Jīn shēng wǒ men zhù dìng wú yuán",
-      "meaning": "(Ví dụ thực tế): 今生我们注定无缘"
+      "meaning": "Kiếp này chúng ta đã định sẵn là không có duyên."
     },
     {
       "hanzi": "这个今生在生活中很常用。",
@@ -5273,7 +5273,7 @@
     {
       "hanzi": "我们都不应该依赖别人",
       "pinyin": "Wǒ men dōu bú yīng gāi yī lài bié rén",
-      "meaning": "(Ví dụ thực tế): 我们都不应该依赖别人"
+      "meaning": "Chúng ta đều không nên dựa dẫm vào người khác."
     },
     {
       "hanzi": "这个依赖在生活中很常用。",
@@ -5375,7 +5375,7 @@
     {
       "hanzi": "他的计划非常混乱",
       "pinyin": "Tā de jì huà fēi cháng hùn luàn",
-      "meaning": "(Ví dụ thực tế): 他的计划非常混乱"
+      "meaning": "Kế hoạch của anh ấy vô cùng hỗn loạn."
     },
     {
       "hanzi": "他是我的混乱，人很好。",

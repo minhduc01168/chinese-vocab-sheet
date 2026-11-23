@@ -54,7 +54,7 @@ export function getWordExamples(hanzi: string, sheetExample?: string): AiExample
     return [{
       hanzi: exText,
       pinyin: formattedPy,
-      meaning: `(Ví dụ trong Sheet): ${exText}`
+      meaning: 'Ví dụ từ bảng tính (bấm nút AI bên dưới để tạo 3 ví dụ kèm bản dịch)'
     }];
   }
 
