@@ -47,8 +47,9 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   const [selectedVoiceName, setSelectedVoiceName] = useState<string>(settings.selectedVoiceName || '');
   
   // Gemini AI Key & Admin Passcode States
+  const defaultEnvPasscode = import.meta.env.VITE_ADMIN_PASSCODE || '161203';
   const [geminiApiKey, setGeminiApiKey] = useState<string>(settings.geminiApiKey || '');
-  const [adminPasscode, setAdminPasscode] = useState<string>(settings.adminPasscode || '1688');
+  const [adminPasscode, setAdminPasscode] = useState<string>(settings.adminPasscode || defaultEnvPasscode);
   const [passcodeAttempt, setPasscodeAttempt] = useState<string>('');
   const [isAdminUnlocked, setIsAdminUnlocked] = useState<boolean>(false);
   const [passcodeError, setPasscodeError] = useState<boolean>(false);
@@ -109,7 +110,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   };
 
   const handleUnlockAdmin = () => {
-    const targetPasscode = adminPasscode || '1688';
+    const targetPasscode = adminPasscode || defaultEnvPasscode;
     if (passcodeAttempt.trim() === targetPasscode.trim()) {
       setIsAdminUnlocked(true);
       setPasscodeError(false);
@@ -270,7 +271,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                       setPasscodeError(false);
                     }}
                     onKeyDown={(e) => e.key === 'Enter' && handleUnlockAdmin()}
-                    placeholder="Mật khẩu quản trị (Mặc định: 1688)"
+                    placeholder="Nhập mật khẩu quản trị..."
                     className="flex-1 px-3 py-2 bg-white border border-slate-300 rounded-xl text-xs text-slate-800 outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20"
                   />
                   <button
@@ -344,7 +345,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                       onClick={() => setShowPasscodeChange(true)}
                       className="text-xs text-indigo-700 hover:text-indigo-900 font-semibold cursor-pointer underline"
                     >
-                      Đổi mật khẩu quản trị (Hiện tại: {adminPasscode})
+                      Đổi mật khẩu quản trị
                     </button>
                   ) : (
                     <div className="space-y-2">

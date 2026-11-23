@@ -37,7 +37,7 @@ export interface AppSettings {
   autoNextOnCorrect: boolean;
   selectedVoiceName?: string;
   geminiApiKey?: string;
-  adminPasscode?: string; // Default admin PIN for configuring API Key
+  adminPasscode?: string;
 }
 
 export interface CardHistory {
