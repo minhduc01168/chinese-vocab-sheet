@@ -21,7 +21,7 @@ interface QuizCardProps {
   cardState: CardState;
   onSubmit: (input: string) => boolean;
   onRequestHint: () => void;
-  onSpeak: (text: string, rate?: number) => void;
+  onSpeak: (text: string, rate?: number, isFullSentence?: boolean) => void;
   onNext: () => void;
   autoSpeak: boolean;
   soundEffects: boolean;
@@ -403,7 +403,7 @@ export const QuizCard: React.FC<QuizCardProps> = ({
                       </p>
                       <button
                         type="button"
-                        onClick={() => onSpeak(currentExample.hanzi, localRate)}
+                        onClick={() => onSpeak(currentExample.hanzi, localRate, true)}
                         title="Nghe câu này"
                         className="p-1.5 text-indigo-600 hover:text-indigo-800 bg-white hover:bg-indigo-50 rounded-xl border border-indigo-100 shrink-0 cursor-pointer transition-colors shadow-xs"
                       >

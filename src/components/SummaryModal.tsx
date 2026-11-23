@@ -21,7 +21,7 @@ interface SummaryModalProps {
   cardsState: Record<string | number, CardState>;
   onRestart: () => void;
   onRetryWrongOnly: () => void;
-  onSpeak: (text: string) => void;
+  onSpeak: (text: string, rate?: number, isFullSentence?: boolean) => void;
   maxStreak?: number;
   soundEffects?: boolean;
 }

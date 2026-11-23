@@ -192,8 +192,8 @@ export function App() {
     return () => window.removeEventListener('keydown', handleGlobalKeyDown);
   }, [isSettingsOpen, currentItem, speak, settings.speechRate, skipCard, goBack]);
 
-  const handleSpeakWord = useCallback((text: string, rate?: number) => {
-    speak(text, rate ?? settings.speechRate);
+  const handleSpeakWord = useCallback((text: string, rate?: number, isFullSentence?: boolean) => {
+    speak(text, rate ?? settings.speechRate, isFullSentence);
   }, [speak, settings.speechRate]);
 
   return (

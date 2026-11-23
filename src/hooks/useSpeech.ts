@@ -59,7 +59,7 @@ export function useSpeech(defaultRate: number = 1.0) {
     }
   }, [updateVoices]);
 
-  const speak = useCallback((text: string, customRate?: number) => {
+  const speak = useCallback((text: string, customRate?: number, isFullSentence: boolean = false) => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
       console.warn('Speech synthesis not supported in this browser.');
       return;
@@ -70,8 +70,14 @@ export function useSpeech(defaultRate: number = 1.0) {
     // Always cancel active speech before speaking a new phrase to prevent audio queuing
     window.speechSynthesis.cancel();
 
-    // Clean text for speech: if multiple answers separated by slash, speak the first one
-    const cleanText = text.split(/[/;；,，\n]/)[0].trim();
+    // Clean text for speech:
+    // If it's a full sentence or example, read the ENTIRE sentence including all clauses (commas, periods, etc.)
+    // If it's a raw vocab cell containing multiple synonym choices like "谢谢 / 多谢", only speak the first alternative.
+    // NEVER split on commas (',' or '，') or semicolons in sentences!
+    let cleanText = text.trim();
+    if (!isFullSentence) {
+      cleanText = cleanText.split(/[/|\n]/)[0].trim();
+    }
     if (!cleanText) return;
 
     const utterance = new SpeechSynthesisUtterance(cleanText);
