@@ -13,6 +13,7 @@ import { AppSettings, StudyRange } from './types/vocab';
 import { useGoogleSheet } from './hooks/useGoogleSheet';
 import { useSpeech } from './hooks/useSpeech';
 import { useQuizSession } from './hooks/useQuizSession';
+import { useBackgroundAiGenerator } from './hooks/useBackgroundAiGenerator';
 import { Header } from './components/Header';
 import { QuizCard } from './components/QuizCard';
 import { ActionBar } from './components/ActionBar';
@@ -111,8 +112,17 @@ export function App() {
     stats,
     restartSession,
     clearWrongHistory,
+    clearFlaggedWords,
     wrongHistoryCount,
+    flaggedCount,
+    reviewAllCount,
+    toggleFlag,
+    isFlagged,
   } = useQuizSession(allItems);
+
+  // Background AI examples generator for newly added words
+  const { isGenerating: isAiGenerating, pendingCount: aiPendingCount, currentWord: aiCurrentWord } = 
+    useBackgroundAiGenerator(allItems, settings.geminiApiKey);
 
   // Sync settings back to localStorage
   const handleSaveSettings = useCallback((newSettings: AppSettings) => {
@@ -166,6 +176,16 @@ export function App() {
         goBack();
         return;
       }
+
+      // F: Toggle flag (when not typing inside an input)
+      if ((e.key === 'f' || e.key === 'F') && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        const target = e.target as HTMLElement;
+        if (target.tagName !== 'INPUT' && target.tagName !== 'TEXTAREA') {
+          e.preventDefault();
+          if (currentItem) toggleFlag(currentItem.id);
+          return;
+        }
+      }
     };
 
     window.addEventListener('keydown', handleGlobalKeyDown);
@@ -204,6 +224,14 @@ export function App() {
         </div>
       )}
 
+      {/* Background AI Generating Toast */}
+      {isAiGenerating && (
+        <div className="fixed top-16 left-1/2 -translate-x-1/2 z-40 bg-indigo-900/90 backdrop-blur-md text-white text-xs font-semibold px-4 py-2 rounded-2xl shadow-lg flex items-center gap-2 border border-indigo-400/30 animate-pulse">
+          <Sparkles size={14} className="text-amber-300 animate-spin" />
+          <span>AI đang sinh ví dụ ngầm cho "{aiCurrentWord}" (còn {aiPendingCount} từ)...</span>
+        </div>
+      )}
+
       <Header
         studyRange={studyRange}
         onRangeChange={setStudyRange}
@@ -217,9 +245,12 @@ export function App() {
         skippedCount={stats.skipped}
         currentIndex={currentIndex}
         totalCards={activeItems.length}
+        allTotalCount={allItems.length}
         isOffline={isOfflineFallback}
         lastSyncedAt={lastSyncedAt}
         wrongHistoryCount={wrongHistoryCount}
+        flaggedCount={flaggedCount}
+        reviewAllCount={reviewAllCount}
         currentStreak={currentStreak}
       />
 
@@ -288,6 +319,9 @@ export function App() {
             soundEffects={settings.soundEffects}
             speechRate={settings.speechRate}
             currentStreak={currentStreak}
+            isFlagged={isFlagged(currentItem.id)}
+            onToggleFlag={() => toggleFlag(currentItem.id)}
+            geminiApiKey={settings.geminiApiKey}
           />
         )}
 

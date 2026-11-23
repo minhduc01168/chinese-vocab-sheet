@@ -1,0 +1,5476 @@
+{
+  "我": [
+    {
+      "hanzi": "我是越南人，我正在学中文。",
+      "pinyin": "Wǒ shì yuè nán rén ， wǒ zhèng zài xué zhōng wén 。",
+      "meaning": "Tôi là người Việt Nam, tôi đang học tiếng Trung."
+    },
+    {
+      "hanzi": "我很喜欢喝中国茶。",
+      "pinyin": "Wǒ hěn xǐ huan hē zhōng guó chá 。",
+      "meaning": "Tôi rất thích uống trà Trung Quốc."
+    },
+    {
+      "hanzi": "明天我和朋友去图书馆学习。",
+      "pinyin": "Míng tiān wǒ hé péng yǒu qù tú shū guǎn xué xí 。",
+      "meaning": "Ngày mai tôi và bạn đi thư viện học tập."
+    }
+  ],
+  "你": [
+    {
+      "hanzi": "你好，很高兴认识你！",
+      "pinyin": "Nǐ hǎo ， hěn gāo xìng rèn shi nǐ ！",
+      "meaning": "Xin chào, rất vui được làm quen với bạn!"
+    },
+    {
+      "hanzi": "你想喝咖啡还是茶？",
+      "pinyin": "Nǐ xiǎng hē kā fēi hái shì chá ？",
+      "meaning": "Bạn muốn uống cà phê hay trà?"
+    },
+    {
+      "hanzi": "你今天有时间跟我去超市吗？",
+      "pinyin": "Nǐ jīn tiān yǒu shí jiān gēn wǒ qù chāo shì ma ？",
+      "meaning": "Hôm nay bạn có thời gian cùng tôi đi siêu thị không?"
+    }
+  ],
+  "我们": [
+    {
+      "hanzi": "我们能讲一点儿中文。",
+      "pinyin": "Wǒ men néng jiǎng yì diǎn ér zhōng wén 。",
+      "meaning": "Chúng tôi có thể nói một chút tiếng Trung."
+    },
+    {
+      "hanzi": "今天晚上我们一起去吃火锅吧。",
+      "pinyin": "Jīn tiān wǎn shàng wǒ men yì qǐ qù chī huǒ guō ba 。",
+      "meaning": "Tối nay chúng ta cùng đi ăn lẩu nhé."
+    },
+    {
+      "hanzi": "我们班有二十个学生。",
+      "pinyin": "Wǒ men bān yǒu èr shí gè xué shēng 。",
+      "meaning": "Lớp chúng tôi có 20 học sinh."
+    }
+  ],
+  "你们": [
+    {
+      "hanzi": "你们是哪国人？",
+      "pinyin": "Nǐ men shì nǎ guó rén ？",
+      "meaning": "Các bạn là người nước nào?"
+    },
+    {
+      "hanzi": "祝你们周末愉快！",
+      "pinyin": "Zhù nǐ men zhōu mò yú kuài ！",
+      "meaning": "Chúc các bạn cuối tuần vui vẻ!"
+    },
+    {
+      "hanzi": "你们明天几点开始上课？",
+      "pinyin": "Nǐ men míng tiān jǐ diǎn kāi shǐ shàng kè ？",
+      "meaning": "Ngày mai mấy giờ các bạn bắt đầu vào học?"
+    }
+  ],
+  "好": [
+    {
+      "hanzi": "今天天气很好，很舒服。",
+      "pinyin": "Jīn tiān tiān qì hěn hǎo ， hěn shū fú 。",
+      "meaning": "Thời tiết hôm nay rất tốt, rất dễ chịu."
+    },
+    {
+      "hanzi": "这家餐厅的菜非常好吃。",
+      "pinyin": "Zhè jiā cān tīng de cài fēi cháng hǎo chī 。",
+      "meaning": "Món ăn ở nhà hàng này rất ngon."
+    },
+    {
+      "hanzi": "好，我们明天早上八点见！",
+      "pinyin": "Hǎo ， wǒ men míng tiān zǎo shàng bā diǎn jiàn ！",
+      "meaning": "Được, sáng mai 8 giờ chúng ta gặp nhau nhé!"
+    }
+  ],
+  "您": [
+    {
+      "hanzi": "您好，请问您贵姓？",
+      "pinyin": "Nín hǎo ， qǐng wèn nín guì xìng ？",
+      "meaning": "Chào ngài, xin hỏi ngài họ gì ạ?"
+    },
+    {
+      "hanzi": "老师，您辛苦了！",
+      "pinyin": "Lǎo shī ， nín xīn kǔ le ！",
+      "meaning": "Thưa thầy cô, thầy cô vất vả rồi ạ!"
+    },
+    {
+      "hanzi": "请您在这儿坐一下。",
+      "pinyin": "Qǐng nín zài zhè ér zuò yí xià 。",
+      "meaning": "Mời ngài ngồi ở đây một lát."
+    }
+  ],
+  "对不起": [
+    {
+      "hanzi": "对不起，我今天来晚了。",
+      "pinyin": "Duì bù qǐ ， wǒ jīn tiān lái wǎn le 。",
+      "meaning": "Xin lỗi, hôm nay tôi đến muộn."
+    },
+    {
+      "hanzi": "对不起，我不是故意的。",
+      "pinyin": "Duì bù qǐ ， wǒ bú shì gù yì de 。",
+      "meaning": "Xin lỗi, tôi không cố ý đâu."
+    },
+    {
+      "hanzi": "真对不起，打扰您休息了。",
+      "pinyin": "Zhēn duì bù qǐ ， dǎ rǎo nín xiū xi le 。",
+      "meaning": "Thật xin lỗi, đã làm phiền ngài nghỉ ngơi."
+    }
+  ],
+  "没关系": [
+    {
+      "hanzi": "没关系，下次注意就好了。",
+      "pinyin": "Méi guān xì ， xià cì zhù yì jiù hǎo le 。",
+      "meaning": "Không sao đâu, lần sau chú ý là được rồi."
+    },
+    {
+      "hanzi": "没关系，我们还有很多时间。",
+      "pinyin": "Méi guān xì ， wǒ men hái yǒu hěn duō shí jiān 。",
+      "meaning": "Không sao, chúng ta vẫn còn nhiều thời gian."
+    },
+    {
+      "hanzi": "不用道歉，真的没关系。",
+      "pinyin": "Bú yòng dào qiàn ， zhēn de méi guān xì 。",
+      "meaning": "Không cần xin lỗi đâu, thực sự không sao mà."
+    }
+  ],
+  "猫": [
+    {
+      "hanzi": "我家有一只白色的小猫。",
+      "pinyin": "Wǒ jiā yǒu yì zhī bái sè de xiǎo māo 。",
+      "meaning": "Nhà tôi có một chú mèo con màu trắng."
+    },
+    {
+      "hanzi": "小猫正在沙发上睡觉呢。",
+      "pinyin": "Xiǎo māo zhèng zài shā fā shàng shuì jiào ne 。",
+      "meaning": "Chú mèo con đang ngủ trên ghế sofa kìa."
+    },
+    {
+      "hanzi": "我妹妹特别喜欢小猫和小狗。",
+      "pinyin": "Wǒ mèi mei tè bié xǐ huan xiǎo māo hé xiǎo gǒu 。",
+      "meaning": "Em gái tôi đặc biệt thích mèo con và cún con."
+    }
+  ],
+  "鱼": [
+    {
+      "hanzi": "猫非常喜欢吃新鲜的鱼。",
+      "pinyin": "Māo fēi cháng xǐ huan chī xīn xiān de yú 。",
+      "meaning": "Mèo rất thích ăn cá tươi."
+    },
+    {
+      "hanzi": "今天晚饭妈妈做了红烧鱼。",
+      "pinyin": "Jīn tiān wǎn fàn mā ma zuò le hóng shāo yú 。",
+      "meaning": "Bữa tối nay mẹ đã làm món cá kho tàu."
+    },
+    {
+      "hanzi": "多吃鱼对身体健康很有好处。",
+      "pinyin": "Duō chī yú duì shēn tǐ jiàn kāng hěn yǒu hǎo chù 。",
+      "meaning": "Ăn nhiều cá rất có lợi cho sức khỏe."
+    }
+  ],
+  "咖啡": [
+    {
+      "hanzi": "你想喝冰咖啡还是热咖啡？",
+      "pinyin": "Nǐ xiǎng hē bīng kā fēi hái shì rè kā fēi ？",
+      "meaning": "Bạn muốn uống cà phê đá hay cà phê nóng?"
+    },
+    {
+      "hanzi": "我每天早上都要喝一杯黑咖啡。",
+      "pinyin": "Wǒ měi tiān zǎo shàng dōu yào hē yì bēi hēi kā fēi 。",
+      "meaning": "Mỗi buổi sáng tôi đều phải uống một ly cà phê đen."
+    },
+    {
+      "hanzi": "这家咖啡馆的环境非常安静。",
+      "pinyin": "Zhè jiā kā fēi guǎn de huán jìng fēi cháng ān jìng 。",
+      "meaning": "Không gian của quán cà phê này rất yên tĩnh."
+    }
+  ],
+  "可乐": [
+    {
+      "hanzi": "喝太多可乐对牙齿不好。",
+      "pinyin": "Hē tài duō kě lè duì yá chǐ bù hǎo 。",
+      "meaning": "Uống quá nhiều nước ngọt coke không tốt cho răng."
+    },
+    {
+      "hanzi": "服务员，请给我一罐冰可乐。",
+      "pinyin": "Fú wù yuán ， qǐng gěi wǒ yí guàn bīng kě lè 。",
+      "meaning": "Phục vụ ơi, cho tôi một lon coca đá nhé."
+    },
+    {
+      "hanzi": "吃汉堡包的时候我喜欢配可乐。",
+      "pinyin": "Chī hàn bǎo bāo de shí hòu wǒ xǐ huan pèi kě lè 。",
+      "meaning": "Khi ăn burger tôi thích uống kèm coca."
+    }
+  ],
+  "烤鸭": [
+    {
+      "hanzi": "北京烤鸭是世界闻名的中国菜。",
+      "pinyin": "Běi jīng kǎo yā shì shì jiè wén míng de zhōng guó cài 。",
+      "meaning": "Vịt quay Bắc Kinh là món ăn Trung Hoa nổi tiếng thế giới."
+    },
+    {
+      "hanzi": "今天我带外国朋友去尝尝烤鸭。",
+      "pinyin": "Jīn tiān wǒ dài wài guó péng yǒu qù cháng cháng kǎo yā 。",
+      "meaning": "Hôm nay tôi dẫn bạn người nước ngoài đi nếm thử vịt quay."
+    },
+    {
+      "hanzi": "这里的烤鸭外皮香脆，肉质鲜嫩。",
+      "pinyin": "Zhè lǐ de kǎo yā wài pí xiāng cuì ， ròu zhì xiān nèn 。",
+      "meaning": "Vịt quay ở đây da ngoài giòn rụm, thịt thơm mềm."
+    }
+  ],
+  "火锅": [
+    {
+      "hanzi": "冬天最适合和朋友一起吃火锅了。",
+      "pinyin": "Dōng tiān zuì shì hé hé péng yǒu yì qǐ chī huǒ guō le 。",
+      "meaning": "Mùa đông thích hợp nhất là cùng bạn bè đi ăn lẩu."
+    },
+    {
+      "hanzi": "这家四川火锅味道很正宗，但是有点儿辣。",
+      "pinyin": "Zhè jiā sì chuān huǒ guō wèi dào hěn zhèng zōng ， dàn shì yǒu diǎn er là 。",
+      "meaning": "Quán lẩu Tứ Xuyên này vị rất chuẩn, nhưng hơi cay."
+    },
+    {
+      "hanzi": "你想吃海鲜火锅还是牛肉火锅？",
+      "pinyin": "Nǐ xiǎng chī hǎi xiān huǒ guō hái shì niú ròu huǒ guō ？",
+      "meaning": "Bạn muốn ăn lẩu hải sản hay lẩu thịt bò?"
+    }
+  ],
+  "谢谢": [
+    {
+      "hanzi": "非常感谢你的热情帮助！",
+      "pinyin": "Fēi cháng gǎn xiè nǐ de rè qíng bāng zhù ！",
+      "meaning": "Vô cùng cảm ơn sự giúp đỡ nhiệt tình của bạn!"
+    },
+    {
+      "hanzi": "谢谢大家今天的参与和支持。",
+      "pinyin": "Xiè xiè dà jiā jīn tiān de cān yù hé zhī chí 。",
+      "meaning": "Cảm ơn mọi người vì sự tham gia và ủng hộ hôm nay."
+    },
+    {
+      "hanzi": "太谢谢你了，帮了我这么大的忙。",
+      "pinyin": "Tài xiè xiè nǐ le ， bāng le wǒ zhè me dà de máng 。",
+      "meaning": "Quá cảm ơn bạn, đã giúp tôi một việc lớn như vậy."
+    }
+  ],
+  "不客气": [
+    {
+      "hanzi": "不用谢，这是我应该做的，不客气！",
+      "pinyin": "Bú yòng xiè ， zhè shì wǒ yīng gāi zuò de ， bú kè qì ！",
+      "meaning": "Không cần cảm ơn đâu, đây là việc tôi nên làm mà, đừng khách sáo!"
+    },
+    {
+      "hanzi": "举手之劳，大家都是朋友，别客气。",
+      "pinyin": "Jǔ shǒu zhī láo ， dà jiā dōu shì péng yǒu ， bié kè qì 。",
+      "meaning": "Tiện tay giúp thôi, đều là bạn bè cả, đừng khách sáo."
+    },
+    {
+      "hanzi": "以后有什么困难随时找我，不客气。",
+      "pinyin": "Yǐ hòu yǒu shén me kùn nán suí shí zhǎo wǒ ， bú kè qì 。",
+      "meaning": "Sau này có khó khăn gì cứ tìm tôi nhé, đừng khách khí."
+    }
+  ],
+  "再见": [
+    {
+      "hanzi": "时间不早了，我们明天学校见，再见！",
+      "pinyin": "Shí jiān bù zǎo le ， wǒ men míng tiān xué xiào jiàn ， zài jiàn ！",
+      "meaning": "Thời gian không còn sớm nữa, mai gặp ở trường nhé, tạm biệt!"
+    },
+    {
+      "hanzi": "再见，祝你一路平安！",
+      "pinyin": "Zài jiàn ， zhù nǐ yí lù píng ān ！",
+      "meaning": "Tạm biệt, chúc bạn lên đường bình an!"
+    },
+    {
+      "hanzi": "老师再见，明天见！",
+      "pinyin": "Lǎo shī zài jiàn ， míng tiān jiàn ！",
+      "meaning": "Em chào thầy cô ạ, hẹn gặp thầy cô ngày mai!"
+    }
+  ],
+  "叫": [
+    {
+      "hanzi": "请问你叫什么名字？",
+      "pinyin": "Qǐng wèn nǐ jiào shén me míng zì ？",
+      "meaning": "Xin hỏi bạn tên là gì?"
+    },
+    {
+      "hanzi": "我叫明德，来自越南河内。",
+      "pinyin": "Wǒ jiào míng dé ， lái zì yuè nán hé nèi 。",
+      "meaning": "Tôi tên là Minh Đức, đến từ Hà Nội, Việt Nam."
+    },
+    {
+      "hanzi": "大家平时都叫我的小名。",
+      "pinyin": "Dà jiā píng shí dōu jiào wǒ de xiǎo míng 。",
+      "meaning": "Mọi người ngày thường đều gọi tên thân mật của tôi."
+    }
+  ],
+  "什么": [
+    {
+      "hanzi": "你在找什么东西呢？",
+      "pinyin": "Nǐ zài zhǎo shén me dōng xī ne ？",
+      "meaning": "Bạn đang tìm cái gì thế?"
+    },
+    {
+      "hanzi": "今天晚饭你想吃什么？",
+      "pinyin": "Jīn tiān wǎn fàn nǐ xiǎng chī shén me ？",
+      "meaning": "Bữa tối nay bạn muốn ăn gì?"
+    },
+    {
+      "hanzi": "这句话在中文里是什么意思？",
+      "pinyin": "Zhè jù huà zài zhōng wén lǐ shì shén me yì sī ？",
+      "meaning": "Câu này trong tiếng Trung có nghĩa là gì?"
+    }
+  ],
+  "名字": [
+    {
+      "hanzi": "你的中文名字很有诗意。",
+      "pinyin": "Nǐ de zhōng wén míng zì hěn yǒu shī yì 。",
+      "meaning": "Tên tiếng Trung của bạn rất giàu chất thơ."
+    },
+    {
+      "hanzi": "请在表格的右上角签上你的名字。",
+      "pinyin": "Qǐng zài biǎo gé de yòu shàng jiǎo qiān shàng nǐ de míng zì 。",
+      "meaning": "Vui lòng ký tên của bạn vào góc trên bên phải của biểu mẫu."
+    },
+    {
+      "hanzi": "我一时想不起来这部电影的名字了。",
+      "pinyin": "Wǒ yì shí xiǎng bù qǐ lái zhè bù diàn yǐng de míng zì le 。",
+      "meaning": "Tôi nhất thời không nhớ ra tên của bộ phim này rồi."
+    }
+  ],
+  "老师": [
+    {
+      "hanzi": "李老师在哪儿？",
+      "pinyin": "Lǐ lǎo shī zài nǎ ér ？",
+      "meaning": "(Ví dụ thực tế): 李老师在哪儿？"
+    },
+    {
+      "hanzi": "他是我的老师，人很好。",
+      "pinyin": "Tā shì wǒ de lǎo shī ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là thầy giáo, cô giáo của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的老师非常喜欢学中文。",
+      "pinyin": "Wǒ de lǎo shī fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "thầy giáo, cô giáo của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "学生": [
+    {
+      "hanzi": "你奴儿是学生吗？",
+      "pinyin": "Nǐ nú ér shì xué shēng ma ？",
+      "meaning": "(Ví dụ thực tế): 你奴儿是学生吗？"
+    },
+    {
+      "hanzi": "我想学生，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng xué shēng ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn học sinh, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都学生，非常认真。",
+      "pinyin": "Tā měi tiān dōu xué shēng ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều học sinh, rất chăm chỉ."
+    }
+  ],
+  "吗": [
+    {
+      "hanzi": "好吃吗？",
+      "pinyin": "Hǎo chī ma ？",
+      "meaning": "(Ví dụ thực tế): 好吃吗？"
+    },
+    {
+      "hanzi": "这个吗在生活中很常用。",
+      "pinyin": "Zhè ge ma zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "吗 (không?) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“吗”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ ma ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"吗\" để viết một câu đơn giản."
+    }
+  ],
+  "中国": [
+    {
+      "hanzi": "我的同学是中国人",
+      "pinyin": "Wǒ de tóng xué shì zhōng guó rén",
+      "meaning": "(Ví dụ thực tế): 我的同学是中国人"
+    },
+    {
+      "hanzi": "这个中国在生活中很常用。",
+      "pinyin": "Zhè ge zhōng guó zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "中国 (TQ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“中国”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhōng guó ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"中国\" để viết một câu đơn giản."
+    }
+  ],
+  "美国": [
+    {
+      "hanzi": "我想去美国",
+      "pinyin": "Wǒ xiǎng qù měi guó",
+      "meaning": "(Ví dụ thực tế): 我想去美国"
+    },
+    {
+      "hanzi": "这个美国在生活中很常用。",
+      "pinyin": "Zhè ge měi guó zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "美国 (nước Mỹ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“美国”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ měi guó ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"美国\" để viết một câu đơn giản."
+    }
+  ],
+  "英国": [
+    {
+      "hanzi": "你去过英国吗/",
+      "pinyin": "Nǐ qù guò yīng guó ma /",
+      "meaning": "(Ví dụ thực tế): 你去过英国吗/"
+    },
+    {
+      "hanzi": "这个英国在生活中很常用。",
+      "pinyin": "Zhè ge yīng guó zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "英国 (nước Anh) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“英国”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yīng guó ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"英国\" để viết một câu đơn giản."
+    }
+  ],
+  "是": [
+    {
+      "hanzi": "你是Lily 的同事吗？",
+      "pinyin": "Nǐ shì L i l y   de tóng shì ma ？",
+      "meaning": "(Ví dụ thực tế): 你是Lily 的同事吗？"
+    },
+    {
+      "hanzi": "这个是在生活中很常用。",
+      "pinyin": "Zhè ge shì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "是 (là) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“是”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ shì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"是\" để viết một câu đơn giản."
+    }
+  ],
+  "他": [
+    {
+      "hanzi": "他是我的他，人很好。",
+      "pinyin": "Tā shì wǒ de tā ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là anh ấy của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的他非常喜欢学中文。",
+      "pinyin": "Wǒ de tā fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "anh ấy của tôi rất thích học tiếng Trung."
+    },
+    {
+      "hanzi": "大家都很喜欢他。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan tā 。",
+      "meaning": "Mọi người đều rất thích anh ấy."
+    }
+  ],
+  "她": [
+    {
+      "hanzi": "这个她在生活中很常用。",
+      "pinyin": "Zhè ge tā zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "她 (cô ấy) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“她”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tā ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"她\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢她。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan tā 。",
+      "meaning": "Mọi người đều rất thích cô ấy."
+    }
+  ],
+  "谁": [
+    {
+      "hanzi": "你后面那个人是谁？",
+      "pinyin": "Nǐ hòu miàn nà ge rén shì shuí ？",
+      "meaning": "(Ví dụ thực tế): 你后面那个人是谁？"
+    },
+    {
+      "hanzi": "这个谁在生活中很常用。",
+      "pinyin": "Zhè ge shuí zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "谁 (ai?) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“谁”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ shuí ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"谁\" để viết một câu đơn giản."
+    }
+  ],
+  "的": [
+    {
+      "hanzi": "我的汉语老师是英国人",
+      "pinyin": "Wǒ de hàn yǔ lǎo shī shì yīng guó rén",
+      "meaning": "(Ví dụ thực tế): 我的汉语老师是英国人"
+    },
+    {
+      "hanzi": "这个的在生活中很常用。",
+      "pinyin": "Zhè ge de zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "的 (của) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“的”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ de ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"的\" để viết một câu đơn giản."
+    }
+  ],
+  "A....B 呢？": [
+    {
+      "hanzi": "星期日我和同事去公园， 你呢？",
+      "pinyin": "Xīng qī rì wǒ hé tóng shì qù gōng yuán ，   nǐ ne ？",
+      "meaning": "(Ví dụ thực tế): 星期日我和同事去公园， 你呢？"
+    },
+    {
+      "hanzi": "这个A....B 呢？在生活中很常用。",
+      "pinyin": "Zhè ge A . . . . B   ne ？ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "A....B 呢？ (a,,,b thì sao) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“A....B 呢？”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ A . . . . B   ne ？ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"A....B 呢？\" để viết một câu đơn giản."
+    }
+  ],
+  "同学": [
+    {
+      "hanzi": "我同学会说英语",
+      "pinyin": "Wǒ tóng xué huì shuō yīng yǔ",
+      "meaning": "(Ví dụ thực tế): 我同学会说英语"
+    },
+    {
+      "hanzi": "我想同学，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng tóng xué ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn bạn học, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都同学，非常认真。",
+      "pinyin": "Tā měi tiān dōu tóng xué ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều bạn học, rất chăm chỉ."
+    }
+  ],
+  "哪": [
+    {
+      "hanzi": "你爸爸在医院工作， 你妈妈在哪儿工作？",
+      "pinyin": "Nǐ bà ba zài yī yuàn gōng zuò ，   nǐ mā ma zài nǎ ér gōng zuò ？",
+      "meaning": "(Ví dụ thực tế): 你爸爸在医院工作， 你妈妈在哪儿工作？"
+    },
+    {
+      "hanzi": "这个哪在生活中很常用。",
+      "pinyin": "Zhè ge nǎ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "哪 (nào, đâu?) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“哪”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ nǎ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"哪\" để viết một câu đơn giản."
+    }
+  ],
+  "朋友": [
+    {
+      "hanzi": "你的朋友能做中国菜吗？",
+      "pinyin": "Nǐ de péng yǒu néng zuò zhōng guó cài ma ？",
+      "meaning": "(Ví dụ thực tế): 你的朋友能做中国菜吗？"
+    },
+    {
+      "hanzi": "这个朋友在生活中很常用。",
+      "pinyin": "Zhè ge péng yǒu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "朋友 (bằng hữu) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“朋友”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ péng yǒu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"朋友\" để viết một câu đơn giản."
+    }
+  ],
+  "女儿": [
+    {
+      "hanzi": "您 女儿在哪儿工作？",
+      "pinyin": "Nín   nǚ ér zài nǎ ér gōng zuò ？",
+      "meaning": "(Ví dụ thực tế): 您 女儿在哪儿工作？"
+    },
+    {
+      "hanzi": "这个女儿在生活中很常用。",
+      "pinyin": "Zhè ge nǚ ér zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "女儿 (con gái) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“女儿”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ nǚ ér ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"女儿\" để viết một câu đơn giản."
+    }
+  ],
+  "今年": [
+    {
+      "hanzi": "我今年二十三岁了",
+      "pinyin": "Wǒ jīn nián èr shí sān suì le",
+      "meaning": "(Ví dụ thực tế): 我今年二十三岁了"
+    },
+    {
+      "hanzi": "我们今年一起去旅行吧。",
+      "pinyin": "Wǒ men jīn nián yì qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào năm nay nhé."
+    },
+    {
+      "hanzi": "今年的工作非常顺利。",
+      "pinyin": "Jīn nián de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của năm nay rất suôn sẻ."
+    }
+  ],
+  "昨年": [
+    {
+      "hanzi": "昨年我还在上学",
+      "pinyin": "Zuó nián wǒ hái zài shàng xué",
+      "meaning": "(Ví dụ thực tế): 昨年我还在上学"
+    },
+    {
+      "hanzi": "我们昨年一起去旅行吧。",
+      "pinyin": "Wǒ men zuó nián yì qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào năm ngoái nhé."
+    },
+    {
+      "hanzi": "昨年的工作非常顺利。",
+      "pinyin": "Zuó nián de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của năm ngoái rất suôn sẻ."
+    }
+  ],
+  "明年": [
+    {
+      "hanzi": "明年我会去中国",
+      "pinyin": "Míng nián wǒ huì qù zhōng guó",
+      "meaning": "(Ví dụ thực tế): 明年我会去中国"
+    },
+    {
+      "hanzi": "我们明年一起去旅行吧。",
+      "pinyin": "Wǒ men míng nián yì qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào năm sau nhé."
+    },
+    {
+      "hanzi": "明年的工作非常顺利。",
+      "pinyin": "Míng nián de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của năm sau rất suôn sẻ."
+    }
+  ],
+  "岁": [
+    {
+      "hanzi": "我妹妹十六岁了",
+      "pinyin": "Wǒ mèi mei shí liù suì le",
+      "meaning": "(Ví dụ thực tế): 我妹妹十六岁了"
+    },
+    {
+      "hanzi": "这个岁在生活中很常用。",
+      "pinyin": "Zhè ge suì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "岁 (tuế) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“岁”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ suì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"岁\" để viết một câu đơn giản."
+    }
+  ],
+  "几": [
+    {
+      "hanzi": "今天几号？",
+      "pinyin": "Jīn tiān jǐ hào ？",
+      "meaning": "(Ví dụ thực tế): 今天几号？"
+    },
+    {
+      "hanzi": "我们几一起去旅行吧。",
+      "pinyin": "Wǒ men jǐ yì qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào mấy, vài dùng hỏi ngày mấy nhé."
+    },
+    {
+      "hanzi": "几的工作非常顺利。",
+      "pinyin": "Jǐ de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của mấy, vài dùng hỏi ngày mấy rất suôn sẻ."
+    }
+  ],
+  "家": [
+    {
+      "hanzi": "我 弟弟在家看电影",
+      "pinyin": "Wǒ   dì di zài jiā kàn diàn yǐng",
+      "meaning": "(Ví dụ thực tế): 我 弟弟在家看电影"
+    },
+    {
+      "hanzi": "这个家在生活中很常用。",
+      "pinyin": "Zhè ge jiā zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "家 (nhà) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“家”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jiā ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"家\" để viết một câu đơn giản."
+    }
+  ],
+  "有": [
+    {
+      "hanzi": "你有钱吗？",
+      "pinyin": "Nǐ yǒu qián ma ？",
+      "meaning": "(Ví dụ thực tế): 你有钱吗？"
+    },
+    {
+      "hanzi": "这个有在生活中很常用。",
+      "pinyin": "Zhè ge yǒu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "有 (có) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“有”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yǒu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"有\" để viết một câu đơn giản."
+    }
+  ],
+  "多": [
+    {
+      "hanzi": "这一杯咖啡 多少钱",
+      "pinyin": "Zhè yì bēi kā fēi   duō shǎo qián",
+      "meaning": "(Ví dụ thực tế): 这一杯咖啡 多少钱"
+    },
+    {
+      "hanzi": "这个多在生活中很常用。",
+      "pinyin": "Zhè ge duō zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "多 (nhiều, lắm) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“多”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ duō ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"多\" để viết một câu đơn giản."
+    }
+  ],
+  "大": [
+    {
+      "hanzi": "李老师家很大",
+      "pinyin": "Lǐ lǎo shī jiā hěn dà",
+      "meaning": "(Ví dụ thực tế): 李老师家很大"
+    },
+    {
+      "hanzi": "这个大在生活中很常用。",
+      "pinyin": "Zhè ge dà zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "大 (to, lớn, rộng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“大”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ dà ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"大\" để viết một câu đơn giản."
+    }
+  ],
+  "弟弟": [
+    {
+      "hanzi": "我弟弟是大学生",
+      "pinyin": "Wǒ dì di shì dà xué shēng",
+      "meaning": "(Ví dụ thực tế): 我弟弟是大学生"
+    },
+    {
+      "hanzi": "他是我的弟弟，人很好。",
+      "pinyin": "Tā shì wǒ de dì di ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là em trai của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的弟弟非常喜欢学中文。",
+      "pinyin": "Wǒ de dì di fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "em trai của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "妹妹": [
+    {
+      "hanzi": "你妹妹今年多大了",
+      "pinyin": "Nǐ mèi mei jīn nián duō dà le",
+      "meaning": "(Ví dụ thực tế): 你妹妹今年多大了"
+    },
+    {
+      "hanzi": "他是我的妹妹，人很好。",
+      "pinyin": "Tā shì wǒ de mèi mei ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là em gái của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的妹妹非常喜欢学中文。",
+      "pinyin": "Wǒ de mèi mei fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "em gái của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "爷爷": [
+    {
+      "hanzi": "我爷爷 每天早上都喝茶",
+      "pinyin": "Wǒ yé ye   měi tiān zǎo shàng dōu hē chá",
+      "meaning": "(Ví dụ thực tế): 我爷爷 每天早上都喝茶"
+    },
+    {
+      "hanzi": "这个爷爷在生活中很常用。",
+      "pinyin": "Zhè ge yé ye zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "爷爷 (ông nội) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“爷爷”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yé ye ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"爷爷\" để viết một câu đơn giản."
+    }
+  ],
+  "都": [
+    {
+      "hanzi": "我妈妈每天都喝咖啡",
+      "pinyin": "Wǒ mā ma měi tiān dōu hē kā fēi",
+      "meaning": "(Ví dụ thực tế): 我妈妈每天都喝咖啡"
+    },
+    {
+      "hanzi": "这个都在生活中很常用。",
+      "pinyin": "Zhè ge dōu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "都 (đều) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“都”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ dōu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"都\" để viết một câu đơn giản."
+    }
+  ],
+  "每天": [
+    {
+      "hanzi": "我每天晚上做饭",
+      "pinyin": "Wǒ měi tiān wǎn shàng zuò fàn",
+      "meaning": "(Ví dụ thực tế): 我每天晚上做饭"
+    },
+    {
+      "hanzi": "我们每天一起去旅行吧。",
+      "pinyin": "Wǒ men měi tiān yì qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào mỗi ngày nhé."
+    },
+    {
+      "hanzi": "每天的工作非常顺利。",
+      "pinyin": "Měi tiān de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của mỗi ngày rất suôn sẻ."
+    }
+  ],
+  "现在": [
+    {
+      "hanzi": "现在是三点二十分",
+      "pinyin": "Xiàn zài shì sān diǎn èr shí fēn",
+      "meaning": "(Ví dụ thực tế): 现在是三点二十分"
+    },
+    {
+      "hanzi": "这个现在在生活中很常用。",
+      "pinyin": "Zhè ge xiàn zài zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "现在 (hiện tại, bây giờ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“现在”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xiàn zài ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"现在\" để viết một câu đơn giản."
+    }
+  ],
+  "住": [
+    {
+      "hanzi": "你住哪里？/你住在哪儿？",
+      "pinyin": "Nǐ zhù nǎ lǐ ？ / nǐ zhù zài nǎ ér ？",
+      "meaning": "(Ví dụ thực tế): 你住哪里？/你住在哪儿？"
+    },
+    {
+      "hanzi": "这个住在生活中很常用。",
+      "pinyin": "Zhè ge zhù zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "住 (ở, sống) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“住”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhù ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"住\" để viết một câu đơn giản."
+    }
+  ],
+  "早上": [
+    {
+      "hanzi": "早上好，今天我们会开始一个新的项目（xiàngmù）",
+      "pinyin": "Zǎo shàng hǎo ， jīn tiān wǒ men huì kāi shǐ yí gè xīn de xiàng mù （ x i à n g m ù ）",
+      "meaning": "(Ví dụ thực tế): 早上好，今天我们会开始一个新的项目（xiàngmù）"
+    },
+    {
+      "hanzi": "这个早上在生活中很常用。",
+      "pinyin": "Zhè ge zǎo shàng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "早上 (buổi sáng (5-8h)) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“早上”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zǎo shàng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"早上\" để viết một câu đơn giản."
+    }
+  ],
+  "中午": [
+    {
+      "hanzi": "我每天中午都去商店买一公斤（gōngjīn）橙子",
+      "pinyin": "Wǒ měi tiān zhōng wǔ dōu qù shāng diàn mǎi yì gōng jīn （ g ō n g j ī n ） chéng zǐ",
+      "meaning": "(Ví dụ thực tế): 我每天中午都去商店买一公斤（gōngjīn）橙子"
+    },
+    {
+      "hanzi": "这个中午在生活中很常用。",
+      "pinyin": "Zhè ge zhōng wǔ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "中午 (buổi trưa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“中午”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhōng wǔ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"中午\" để viết một câu đơn giản."
+    }
+  ],
+  "下午": [
+    {
+      "hanzi": "我每天下午下班以后都买一公斤葡萄（pútao）",
+      "pinyin": "Wǒ měi tiān xià wǔ xià bān yǐ hòu dōu mǎi yì gōng jīn pú táo （ p ú t a o ）",
+      "meaning": "(Ví dụ thực tế): 我每天下午下班以后都买一公斤葡萄（pútao）"
+    },
+    {
+      "hanzi": "这个下午在生活中很常用。",
+      "pinyin": "Zhè ge xià wǔ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "下午 (buổi chiều) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“下午”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xià wǔ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"下午\" để viết một câu đơn giản."
+    }
+  ],
+  "晚上": [
+    {
+      "hanzi": "我晚上经常（[jīngcháng）喝茶",
+      "pinyin": "Wǒ wǎn shàng jīng cháng （ [ j ī n g c h á n g ） hē chá",
+      "meaning": "(Ví dụ thực tế): 我晚上经常（[jīngcháng）喝茶"
+    },
+    {
+      "hanzi": "这个晚上在生活中很常用。",
+      "pinyin": "Zhè ge wǎn shàng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "晚上 (buổi tối) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“晚上”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ wǎn shàng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"晚上\" để viết một câu đơn giản."
+    }
+  ],
+  "上午": [
+    {
+      "hanzi": "我上午去上班",
+      "pinyin": "Wǒ shàng wǔ qù shàng bān",
+      "meaning": "(Ví dụ thực tế): 我上午去上班"
+    },
+    {
+      "hanzi": "这个上午在生活中很常用。",
+      "pinyin": "Zhè ge shàng wǔ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "上午 (buổi sáng 5-12h) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“上午”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ shàng wǔ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"上午\" để viết một câu đơn giản."
+    }
+  ],
+  "傍晚": [
+    {
+      "hanzi": "我每天傍晚打羽毛球 （dǎ yǔ máo qiú）",
+      "pinyin": "Wǒ měi tiān bàng wǎn dǎ yǔ máo qiú   （ d ǎ   y ǔ   m á o   q i ú ）",
+      "meaning": "(Ví dụ thực tế): 我每天傍晚打羽毛球 （dǎ yǔ máo qiú）"
+    },
+    {
+      "hanzi": "这个傍晚在生活中很常用。",
+      "pinyin": "Zhè ge bàng wǎn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "傍晚 (chập tối, chiều tối) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“傍晚”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ bàng wǎn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"傍晚\" để viết một câu đơn giản."
+    }
+  ],
+  "凌晨": [
+    {
+      "hanzi": "我每天凌晨在公园锻炼",
+      "pinyin": "Wǒ měi tiān líng chén zài gōng yuán duàn liàn",
+      "meaning": "(Ví dụ thực tế): 我每天凌晨在公园锻炼"
+    },
+    {
+      "hanzi": "这个凌晨在生活中很常用。",
+      "pinyin": "Zhè ge líng chén zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "凌晨 (tờ mờ sáng, rạng sáng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“凌晨”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ líng chén ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"凌晨\" để viết một câu đơn giản."
+    }
+  ],
+  "白天": [
+    {
+      "hanzi": "我白天去上班",
+      "pinyin": "Wǒ bái tiān qù shàng bān",
+      "meaning": "(Ví dụ thực tế): 我白天去上班"
+    },
+    {
+      "hanzi": "我们白天一起去旅行吧。",
+      "pinyin": "Wǒ men bái tiān yì qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào ban ngày nhé."
+    },
+    {
+      "hanzi": "白天的工作非常顺利。",
+      "pinyin": "Bái tiān de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của ban ngày rất suôn sẻ."
+    }
+  ],
+  "夜里": [
+    {
+      "hanzi": "夜里天气很凉快 （liángkuai）",
+      "pinyin": "Yè lǐ tiān qì hěn liáng kuai   （ l i á n g k u a i ）",
+      "meaning": "(Ví dụ thực tế): 夜里天气很凉快 （liángkuai）"
+    },
+    {
+      "hanzi": "这个夜里在生活中很常用。",
+      "pinyin": "Zhè ge yè lǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "夜里 (ban đêm) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“夜里”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yè lǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"夜里\" để viết một câu đơn giản."
+    }
+  ],
+  "见面": [
+    {
+      "hanzi": "我们约定在公园见面",
+      "pinyin": "Wǒ men yuē dìng zài gōng yuán jiàn miàn",
+      "meaning": "(Ví dụ thực tế): 我们约定在公园见面"
+    },
+    {
+      "hanzi": "这个见面在生活中很常用。",
+      "pinyin": "Zhè ge jiàn miàn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "见面 (gặp nhau) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“见面”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jiàn miàn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"见面\" để viết một câu đơn giản."
+    }
+  ],
+  "分": [
+    {
+      "hanzi": "一小时等于六十分钟",
+      "pinyin": "Yì xiǎo shí děng yú liù shí fēn zhōng",
+      "meaning": "(Ví dụ thực tế): 一小时等于六十分钟"
+    },
+    {
+      "hanzi": "这个分在生活中很常用。",
+      "pinyin": "Zhè ge fēn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "分 (phút) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“分”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ fēn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"分\" để viết một câu đơn giản."
+    }
+  ],
+  "刻": [
+    {
+      "hanzi": "一刻等于十五分钟",
+      "pinyin": "Yí kè děng yú shí wǔ fēn zhōng",
+      "meaning": "(Ví dụ thực tế): 一刻等于十五分钟"
+    },
+    {
+      "hanzi": "这个刻在生活中很常用。",
+      "pinyin": "Zhè ge kè zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "刻 (15 phút = 1 khắc) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“刻”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kè ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"刻\" để viết một câu đơn giản."
+    }
+  ],
+  "半": [
+    {
+      "hanzi": "我八点半去 上班",
+      "pinyin": "Wǒ bā diǎn bàn qù   shàng bān",
+      "meaning": "(Ví dụ thực tế): 我八点半去 上班"
+    },
+    {
+      "hanzi": "这个半在生活中很常用。",
+      "pinyin": "Zhè ge bàn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "半 (1 nửa， rưỡi) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“半”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ bàn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"半\" để viết một câu đơn giản."
+    }
+  ],
+  "差": [
+    {
+      "hanzi": "我差十分十点在公园锻炼 （duànliàn）",
+      "pinyin": "Wǒ chà shí fēn shí diǎn zài gōng yuán duàn liàn   （ d u à n l i à n ）",
+      "meaning": "(Ví dụ thực tế): 我差十分十点在公园锻炼 （duànliàn）"
+    },
+    {
+      "hanzi": "这个差在生活中很常用。",
+      "pinyin": "Zhè ge chà zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "差 (kém， dở) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“差”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ chà ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"差\" để viết một câu đơn giản."
+    }
+  ],
+  "时候": [
+    {
+      "hanzi": "你什么时候下班？",
+      "pinyin": "Nǐ shén me shí hòu xià bān ？",
+      "meaning": "(Ví dụ thực tế): 你什么时候下班？"
+    },
+    {
+      "hanzi": "我想时候，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng shí hòu ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn lúc, khi, thời điểm, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都时候，非常认真。",
+      "pinyin": "Tā měi tiān dōu shí hòu ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều lúc, khi, thời điểm, rất chăm chỉ."
+    }
+  ],
+  "有时候": [
+    {
+      "hanzi": "我有时候喝咖啡",
+      "pinyin": "Wǒ yǒu shí hòu hē kā fēi",
+      "meaning": "(Ví dụ thực tế): 我有时候喝咖啡"
+    },
+    {
+      "hanzi": "这个有时候在生活中很常用。",
+      "pinyin": "Zhè ge yǒu shí hòu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "有时候 (có khi, có lúc) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“有时候”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yǒu shí hòu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"有时候\" để viết một câu đơn giản."
+    }
+  ],
+  "小时": [
+    {
+      "hanzi": "一天有二十四小时",
+      "pinyin": "Yì tiān yǒu èr shí sì xiǎo shí",
+      "meaning": "(Ví dụ thực tế): 一天有二十四小时"
+    },
+    {
+      "hanzi": "这个小时在生活中很常用。",
+      "pinyin": "Zhè ge xiǎo shí zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "小时 (giờ, tiếng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“小时”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xiǎo shí ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"小时\" để viết một câu đơn giản."
+    }
+  ],
+  "时间": [
+    {
+      "hanzi": "你什么时候有时间？",
+      "pinyin": "Nǐ shén me shí hòu yǒu shí jiān ？",
+      "meaning": "(Ví dụ thực tế): 你什么时候有时间？"
+    },
+    {
+      "hanzi": "我们时间一起去旅行吧。",
+      "pinyin": "Wǒ men shí jiān yì qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào thời gian nhé."
+    },
+    {
+      "hanzi": "时间的工作非常顺利。",
+      "pinyin": "Shí jiān de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của thời gian rất suôn sẻ."
+    }
+  ],
+  "钟": [
+    {
+      "hanzi": "我昨天去商店买了一个钟",
+      "pinyin": "Wǒ zuó tiān qù shāng diàn mǎi le yí gè zhōng",
+      "meaning": "(Ví dụ thực tế): 我昨天去商店买了一个钟"
+    },
+    {
+      "hanzi": "这个钟在生活中很常用。",
+      "pinyin": "Zhè ge zhōng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "钟 (chuông) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“钟”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhōng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"钟\" để viết một câu đơn giản."
+    }
+  ],
+  "回": [
+    {
+      "hanzi": "我星期日要回家乡",
+      "pinyin": "Wǒ xīng qī rì yào huí jiā xiāng",
+      "meaning": "(Ví dụ thực tế): 我星期日要回家乡"
+    },
+    {
+      "hanzi": "这个回在生活中很常用。",
+      "pinyin": "Zhè ge huí zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "回 (về, quay lại) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“回”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ huí ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"回\" để viết một câu đơn giản."
+    }
+  ],
+  "也": [
+    {
+      "hanzi": "我也觉得学汉语很难",
+      "pinyin": "Wǒ yě jué de xué hàn yǔ hěn nán",
+      "meaning": "(Ví dụ thực tế): 我也觉得学汉语很难"
+    },
+    {
+      "hanzi": "这个也在生活中很常用。",
+      "pinyin": "Zhè ge yě zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "也 (cũng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“也”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yě ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"也\" để viết một câu đơn giản."
+    }
+  ],
+  "忙": [
+    {
+      "hanzi": "你晚上忙吗",
+      "pinyin": "Nǐ wǎn shàng máng ma",
+      "meaning": "(Ví dụ thực tế): 你晚上忙吗"
+    },
+    {
+      "hanzi": "这个忙在生活中很常用。",
+      "pinyin": "Zhè ge máng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "忙 (bận) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“忙”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ máng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"忙\" để viết một câu đơn giản."
+    }
+  ],
+  "主人": [
+    {
+      "hanzi": "主人给我们准备了晚餐",
+      "pinyin": "Zhǔ rén gěi wǒ men zhǔn bèi le wǎn cān",
+      "meaning": "(Ví dụ thực tế): 主人给我们准备了晚餐"
+    },
+    {
+      "hanzi": "他是我的主人，人很好。",
+      "pinyin": "Tā shì wǒ de zhǔ rén ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là chủ của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的主人非常喜欢学中文。",
+      "pinyin": "Wǒ de zhǔ rén fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "chủ của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "家乡": [
+    {
+      "hanzi": "我星期天经常（jīngcháng回老家",
+      "pinyin": "Wǒ xīng qī tiān jīng cháng （ j ī n g c h á n g huí lǎo jiā",
+      "meaning": "(Ví dụ thực tế): 我星期天经常（jīngcháng回老家"
+    },
+    {
+      "hanzi": "这个家乡在生活中很常用。",
+      "pinyin": "Zhè ge jiā xiāng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "家乡 (quê nhà, quê hương) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“家乡”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jiā xiāng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"家乡\" để viết một câu đơn giản."
+    }
+  ],
+  "觉得": [
+    {
+      "hanzi": "我觉得我们应该早点出发",
+      "pinyin": "Wǒ jué de wǒ men yīng gāi zǎo diǎn chū fā",
+      "meaning": "(Ví dụ thực tế): 我觉得我们应该早点出发"
+    },
+    {
+      "hanzi": "这个觉得在生活中很常用。",
+      "pinyin": "Zhè ge jué de zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "觉得 (thấy) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“觉得”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jué de ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"觉得\" để viết một câu đơn giản."
+    }
+  ],
+  "左边": [
+    {
+      "hanzi": "我站在他的左边/学校左边有一个医院",
+      "pinyin": "Wǒ zhàn zài tā de zuǒ biān / xué xiào zuǒ biān yǒu yí gè yī yuàn",
+      "meaning": "(Ví dụ thực tế): 我站在他的左边/学校左边有一个医院"
+    },
+    {
+      "hanzi": "这个左边在生活中很常用。",
+      "pinyin": "Zhè ge zuǒ biān zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "左边 (bên trái) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“左边”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zuǒ biān ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"左边\" để viết một câu đơn giản."
+    }
+  ],
+  "右边": [
+    {
+      "hanzi": "我家右边有一个面包店",
+      "pinyin": "Wǒ jiā yòu biān yǒu yí gè miàn bāo diàn",
+      "meaning": "(Ví dụ thực tế): 我家右边有一个面包店"
+    },
+    {
+      "hanzi": "这个右边在生活中很常用。",
+      "pinyin": "Zhè ge yòu biān zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "右边 (bên phải) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“右边”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yòu biān ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"右边\" để viết một câu đơn giản."
+    }
+  ],
+  "一起": [
+    {
+      "hanzi": "我跟你一起去",
+      "pinyin": "Wǒ gēn nǐ yì qǐ qù",
+      "meaning": "(Ví dụ thực tế): 我跟你一起去"
+    },
+    {
+      "hanzi": "这个一起在生活中很常用。",
+      "pinyin": "Zhè ge yì qǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "一起 (cùng nhau làm gì, tổng cộng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“一起”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yì qǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"一起\" để viết một câu đơn giản."
+    }
+  ],
+  "知道": [
+    {
+      "hanzi": "这个知道在生活中很常用。",
+      "pinyin": "Zhè ge zhī dào zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "知道 (biết) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“知道”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhī dào ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"知道\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢知道。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan zhī dào 。",
+      "meaning": "Mọi người đều rất thích biết."
+    }
+  ],
+  "上学": [
+    {
+      "hanzi": "我去年还上学，今年我已经上班了",
+      "pinyin": "Wǒ qù nián hái shàng xué ， jīn nián wǒ yǐ jīng shàng bān le",
+      "meaning": "(Ví dụ thực tế): 我去年还上学，今年我已经上班了"
+    },
+    {
+      "hanzi": "我想上学，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng shàng xué ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn đến trường\n đi học, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都上学，非常认真。",
+      "pinyin": "Tā měi tiān dōu shàng xué ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều đến trường\n đi học, rất chăm chỉ."
+    }
+  ],
+  "还": [
+    {
+      "hanzi": "我还在工作",
+      "pinyin": "Wǒ hái zài gōng zuò",
+      "meaning": "(Ví dụ thực tế): 我还在工作"
+    },
+    {
+      "hanzi": "这个还在生活中很常用。",
+      "pinyin": "Zhè ge hái zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "还 (1. còn) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“还”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ hái ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"还\" để viết một câu đơn giản."
+    }
+  ],
+  "已经": [
+    {
+      "hanzi": "我已经回家了",
+      "pinyin": "Wǒ yǐ jīng huí jiā le",
+      "meaning": "(Ví dụ thực tế): 我已经回家了"
+    },
+    {
+      "hanzi": "这个已经在生活中很常用。",
+      "pinyin": "Zhè ge yǐ jīng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "已经 (đã) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“已经”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yǐ jīng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"已经\" để viết một câu đơn giản."
+    }
+  ],
+  "可以": [
+    {
+      "hanzi": "你可以帮我拿一杯冰水吗？",
+      "pinyin": "Nǐ kě yǐ bāng wǒ ná yì bēi bīng shuǐ ma ？",
+      "meaning": "(Ví dụ thực tế): 你可以帮我拿一杯冰水吗？"
+    },
+    {
+      "hanzi": "我想可以，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng kě yǐ ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn có thể, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都可以，非常认真。",
+      "pinyin": "Tā měi tiān dōu kě yǐ ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều có thể, rất chăm chỉ."
+    }
+  ],
+  "帮": [
+    {
+      "hanzi": "你可以帮我一个忙吗",
+      "pinyin": "Nǐ kě yǐ bāng wǒ yí gè máng ma",
+      "meaning": "(Ví dụ thực tế): 你可以帮我一个忙吗"
+    },
+    {
+      "hanzi": "这个帮在生活中很常用。",
+      "pinyin": "Zhè ge bāng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "帮 (giúp) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“帮”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ bāng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"帮\" để viết một câu đơn giản."
+    }
+  ],
+  "拿": [
+    {
+      "hanzi": "他拿着一个水果盒子",
+      "pinyin": "Tā ná zhe yí gè shuǐ guǒ hé zi",
+      "meaning": "(Ví dụ thực tế): 他拿着一个水果盒子"
+    },
+    {
+      "hanzi": "这个拿在生活中很常用。",
+      "pinyin": "Zhè ge ná zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "拿 (cầm) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“拿”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ ná ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"拿\" để viết một câu đơn giản."
+    }
+  ],
+  "要": [
+    {
+      "hanzi": "我要买一件毛衣",
+      "pinyin": "Wǒ yào mǎi yí jiàn máo yī",
+      "meaning": "(Ví dụ thực tế): 我要买一件毛衣"
+    },
+    {
+      "hanzi": "这个要在生活中很常用。",
+      "pinyin": "Zhè ge yào zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "要 (1. muốn) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“要”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yào ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"要\" để viết một câu đơn giản."
+    }
+  ],
+  "当然": [
+    {
+      "hanzi": "当然可以",
+      "pinyin": "Dāng rán kě yǐ",
+      "meaning": "(Ví dụ thực tế): 当然可以"
+    },
+    {
+      "hanzi": "这个当然在生活中很常用。",
+      "pinyin": "Zhè ge dāng rán zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "当然 (đương nhiên) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“当然”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ dāng rán ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"当然\" để viết một câu đơn giản."
+    }
+  ],
+  "天气": [
+    {
+      "hanzi": "明天天气怎么样",
+      "pinyin": "Míng tiān tiān qì zěn me yàng",
+      "meaning": "(Ví dụ thực tế): 明天天气怎么样"
+    },
+    {
+      "hanzi": "这个天气在生活中很常用。",
+      "pinyin": "Zhè ge tiān qì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "天气 (thời tiết) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“天气”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tiān qì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"天气\" để viết một câu đơn giản."
+    }
+  ],
+  "怎么样": [
+    {
+      "hanzi": "这个怎么样在生活中很常用。",
+      "pinyin": "Zhè ge zěn me yàng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "怎么样 (thế nào) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“怎么样”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zěn me yàng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"怎么样\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢怎么样。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan zěn me yàng 。",
+      "meaning": "Mọi người đều rất thích thế nào."
+    }
+  ],
+  "冷": [
+    {
+      "hanzi": "今天天气特别冷",
+      "pinyin": "Jīn tiān tiān qì tè bié lěng",
+      "meaning": "(Ví dụ thực tế): 今天天气特别冷"
+    },
+    {
+      "hanzi": "这个冷在生活中很常用。",
+      "pinyin": "Zhè ge lěng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "冷 (1. lạnh) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“冷”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ lěng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"冷\" để viết một câu đơn giản."
+    }
+  ],
+  "热": [
+    {
+      "hanzi": "今天天气很热",
+      "pinyin": "Jīn tiān tiān qì hěn rè",
+      "meaning": "(Ví dụ thực tế): 今天天气很热"
+    },
+    {
+      "hanzi": "这个热在生活中很常用。",
+      "pinyin": "Zhè ge rè zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "热 (1. nóng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“热”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ rè ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"热\" để viết một câu đơn giản."
+    }
+  ],
+  "身体": [
+    {
+      "hanzi": "她的身体很好",
+      "pinyin": "Tā de shēn tǐ hěn hǎo",
+      "meaning": "(Ví dụ thực tế): 她的身体很好"
+    },
+    {
+      "hanzi": "这个身体在生活中很常用。",
+      "pinyin": "Zhè ge shēn tǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "身体 (sức khỏe) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“身体”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ shēn tǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"身体\" để viết một câu đơn giản."
+    }
+  ],
+  "水果": [
+    {
+      "hanzi": "我喜欢吃水果捞",
+      "pinyin": "Wǒ xǐ huan chī shuǐ guǒ lāo",
+      "meaning": "(Ví dụ thực tế): 我喜欢吃水果捞"
+    },
+    {
+      "hanzi": "这个水果在生活中很常用。",
+      "pinyin": "Zhè ge shuǐ guǒ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "水果 (thủy quả) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“水果”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ shuǐ guǒ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"水果\" để viết một câu đơn giản."
+    }
+  ],
+  "太": [
+    {
+      "hanzi": "他今天不太高兴",
+      "pinyin": "Tā jīn tiān bú tài gāo xìng",
+      "meaning": "(Ví dụ thực tế): 他今天不太高兴"
+    },
+    {
+      "hanzi": "这个太在生活中很常用。",
+      "pinyin": "Zhè ge tài zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "太 (rất) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“太”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tài ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"太\" để viết một câu đơn giản."
+    }
+  ],
+  "下雨": [
+    {
+      "hanzi": "河内七月常常下雨",
+      "pinyin": "Hé nèi qī yuè cháng cháng xià yǔ",
+      "meaning": "(Ví dụ thực tế): 河内七月常常下雨"
+    },
+    {
+      "hanzi": "这个下雨在生活中很常用。",
+      "pinyin": "Zhè ge xià yǔ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "下雨 (mưa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“下雨”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xià yǔ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"下雨\" để viết một câu đơn giản."
+    }
+  ],
+  "姑娘": [
+    {
+      "hanzi": "姑娘给我买了衣服",
+      "pinyin": "Gū niáng gěi wǒ mǎi le yī fu",
+      "meaning": "(Ví dụ thực tế): 姑娘给我买了衣服"
+    },
+    {
+      "hanzi": "他是我的姑娘，人很好。",
+      "pinyin": "Tā shì wǒ de gū niáng ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là em chồng của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的姑娘非常喜欢学中文。",
+      "pinyin": "Wǒ de gū niáng fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "em chồng của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "美女": [
+    {
+      "hanzi": "她的朋友都是美女",
+      "pinyin": "Tā de péng yǒu dōu shì měi nǚ",
+      "meaning": "(Ví dụ thực tế): 她的朋友都是美女"
+    },
+    {
+      "hanzi": "他是我的美女，人很好。",
+      "pinyin": "Tā shì wǒ de měi nǚ ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là mĩ nữ， gái đẹp của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的美女非常喜欢学中文。",
+      "pinyin": "Wǒ de měi nǚ fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "mĩ nữ， gái đẹp của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "小妹": [
+    {
+      "hanzi": "我的小妹已经长大了",
+      "pinyin": "Wǒ de xiǎo mèi yǐ jīng zhǎng dà le",
+      "meaning": "(Ví dụ thực tế): 我的小妹已经长大了"
+    },
+    {
+      "hanzi": "他是我的小妹，人很好。",
+      "pinyin": "Tā shì wǒ de xiǎo mèi ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là em gái của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的小妹非常喜欢学中文。",
+      "pinyin": "Wǒ de xiǎo mèi fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "em gái của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "服务员": [
+    {
+      "hanzi": "我叫服务员点餐",
+      "pinyin": "Wǒ jiào fú wù yuán diǎn cān",
+      "meaning": "(Ví dụ thực tế): 我叫服务员点餐"
+    },
+    {
+      "hanzi": "他是我的服务员，人很好。",
+      "pinyin": "Tā shì wǒ de fú wù yuán ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là người phục vụ của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的服务员非常喜欢学中文。",
+      "pinyin": "Wǒ de fú wù yuán fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "người phục vụ của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "来": [
+    {
+      "hanzi": "你有时间来我家玩儿吧",
+      "pinyin": "Nǐ yǒu shí jiān lái wǒ jiā wán ér ba",
+      "meaning": "(Ví dụ thực tế): 你有时间来我家玩儿吧"
+    },
+    {
+      "hanzi": "我想来，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng lái ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn đến, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都来，非常认真。",
+      "pinyin": "Tā měi tiān dōu lái ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều đến, rất chăm chỉ."
+    }
+  ],
+  "些": [
+    {
+      "hanzi": "我买一些场子下班以后",
+      "pinyin": "Wǒ mǎi yì xiē chǎng zi xià bān yǐ hòu",
+      "meaning": "(Ví dụ thực tế): 我买一些场子下班以后"
+    },
+    {
+      "hanzi": "这个些在生活中很常用。",
+      "pinyin": "Zhè ge xiē zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "些 (những) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“些”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xiē ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"些\" để viết một câu đơn giản."
+    }
+  ],
+  "样子": [
+    {
+      "hanzi": "这个花瓶的样子很特别",
+      "pinyin": "Zhè ge huā píng de yàng zi hěn tè bié",
+      "meaning": "(Ví dụ thực tế): 这个花瓶的样子很特别"
+    },
+    {
+      "hanzi": "这个样子在生活中很常用。",
+      "pinyin": "Zhè ge yàng zi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "样子 (hình dạng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“样子”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yàng zi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"样子\" để viết một câu đơn giản."
+    }
+  ],
+  "一样": [
+    {
+      "hanzi": "今天的天气和昨天一样",
+      "pinyin": "Jīn tiān de tiān qì hé zuó tiān yí yàng",
+      "meaning": "(Ví dụ thực tế): 今天的天气和昨天一样"
+    },
+    {
+      "hanzi": "这个一样在生活中很常用。",
+      "pinyin": "Zhè ge yí yàng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "一样 (như nhau) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“一样”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yí yàng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"一样\" để viết một câu đơn giản."
+    }
+  ],
+  "多云": [
+    {
+      "hanzi": "今天天气多云",
+      "pinyin": "Jīn tiān tiān qì duō yún",
+      "meaning": "(Ví dụ thực tế): 今天天气多云"
+    },
+    {
+      "hanzi": "我想多云，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng duō yún ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn nhiều mây, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都多云，非常认真。",
+      "pinyin": "Tā měi tiān dōu duō yún ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều nhiều mây, rất chăm chỉ."
+    }
+  ],
+  "晴天": [
+    {
+      "hanzi": "晴天的早晨特别宜人",
+      "pinyin": "Qíng tiān de zǎo chén tè bié yí rén",
+      "meaning": "(Ví dụ thực tế): 晴天的早晨特别宜人"
+    },
+    {
+      "hanzi": "我们晴天一起去旅行吧。",
+      "pinyin": "Wǒ men qíng tiān yì qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào trời nắng nhé."
+    },
+    {
+      "hanzi": "晴天的工作非常顺利。",
+      "pinyin": "Qíng tiān de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của trời nắng rất suôn sẻ."
+    }
+  ],
+  "热情": [
+    {
+      "hanzi": "谢谢你的热情帮助",
+      "pinyin": "Xiè xiè nǐ de rè qíng bāng zhù",
+      "meaning": "(Ví dụ thực tế): 谢谢你的热情帮助"
+    },
+    {
+      "hanzi": "我想热情，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng rè qíng ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn sự hăng hái, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都热情，非常认真。",
+      "pinyin": "Tā měi tiān dōu rè qíng ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều sự hăng hái, rất chăm chỉ."
+    }
+  ],
+  "爱情": [
+    {
+      "hanzi": "我希望有一个幸福的爱情",
+      "pinyin": "Wǒ xī wàng yǒu yí gè xìng fú de ài qíng",
+      "meaning": "(Ví dụ thực tế): 我希望有一个幸福的爱情"
+    },
+    {
+      "hanzi": "这个爱情在生活中很常用。",
+      "pinyin": "Zhè ge ài qíng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "爱情 (ái tình) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“爱情”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ ài qíng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"爱情\" để viết một câu đơn giản."
+    }
+  ],
+  "爱": [
+    {
+      "hanzi": "我很爱我的父母",
+      "pinyin": "Wǒ hěn ài wǒ de fù mǔ",
+      "meaning": "(Ví dụ thực tế): 我很爱我的父母"
+    },
+    {
+      "hanzi": "这个爱在生活中很常用。",
+      "pinyin": "Zhè ge ài zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "爱 (quý) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“爱”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ ài ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"爱\" để viết một câu đơn giản."
+    }
+  ],
+  "这里": [
+    {
+      "hanzi": "这家中国商店 在这里",
+      "pinyin": "Zhè jiā zhōng guó shāng diàn   zài zhè lǐ",
+      "meaning": "(Ví dụ thực tế): 这家中国商店 在这里"
+    },
+    {
+      "hanzi": "这个这里在生活中很常用。",
+      "pinyin": "Zhè ge zhè lǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "这里 (ở đây) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“这里”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhè lǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"这里\" để viết một câu đơn giản."
+    }
+  ],
+  "苹果": [
+    {
+      "hanzi": "桌子上有一个苹果",
+      "pinyin": "Zhuō zi shàng yǒu yí gè píng guǒ",
+      "meaning": "(Ví dụ thực tế): 桌子上有一个苹果"
+    },
+    {
+      "hanzi": "这个苹果在生活中很常用。",
+      "pinyin": "Zhè ge píng guǒ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "苹果 (cây táo) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“苹果”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ píng guǒ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"苹果\" để viết một câu đơn giản."
+    }
+  ],
+  "香蕉": [
+    {
+      "hanzi": "我去商店买一些香蕉",
+      "pinyin": "Wǒ qù shāng diàn mǎi yì xiē xiāng jiāo",
+      "meaning": "(Ví dụ thực tế): 我去商店买一些香蕉"
+    },
+    {
+      "hanzi": "这个香蕉在生活中很常用。",
+      "pinyin": "Zhè ge xiāng jiāo zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "香蕉 (quả chuối) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“香蕉”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xiāng jiāo ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"香蕉\" để viết một câu đơn giản."
+    }
+  ],
+  "草莓": [
+    {
+      "hanzi": "草莓很甜，很好吃",
+      "pinyin": "Cǎo méi hěn tián ， hěn hǎo chī",
+      "meaning": "(Ví dụ thực tế): 草莓很甜，很好吃"
+    },
+    {
+      "hanzi": "这个草莓在生活中很常用。",
+      "pinyin": "Zhè ge cǎo méi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "草莓 (dâu tây) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“草莓”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ cǎo méi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"草莓\" để viết một câu đơn giản."
+    }
+  ],
+  "橙子": [
+    {
+      "hanzi": "橙子很甜，你想吃吗？",
+      "pinyin": "Chéng zǐ hěn tián ， nǐ xiǎng chī ma ？",
+      "meaning": "(Ví dụ thực tế): 橙子很甜，你想吃吗？"
+    },
+    {
+      "hanzi": "这个橙子在生活中很常用。",
+      "pinyin": "Zhè ge chéng zǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "橙子 (cam) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“橙子”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ chéng zǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"橙子\" để viết một câu đơn giản."
+    }
+  ],
+  "橘子": [
+    {
+      "hanzi": "你要橘子水吗？",
+      "pinyin": "Nǐ yào jú zǐ shuǐ ma ？",
+      "meaning": "(Ví dụ thực tế): 你要橘子水吗？"
+    },
+    {
+      "hanzi": "这个橘子在生活中很常用。",
+      "pinyin": "Zhè ge jú zǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "橘子 (quả quýt) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“橘子”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jú zǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"橘子\" để viết một câu đơn giản."
+    }
+  ],
+  "柚子": [
+    {
+      "hanzi": "这个柚子很甜",
+      "pinyin": "Zhè ge yòu zǐ hěn tián",
+      "meaning": "(Ví dụ thực tế): 这个柚子很甜"
+    },
+    {
+      "hanzi": "这个柚子在生活中很常用。",
+      "pinyin": "Zhè ge yòu zǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "柚子 (quả bưởi) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“柚子”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yòu zǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"柚子\" để viết một câu đơn giản."
+    }
+  ],
+  "桃子": [
+    {
+      "hanzi": "这个桃子很好吃",
+      "pinyin": "Zhè ge táo zǐ hěn hǎo chī",
+      "meaning": "(Ví dụ thực tế): 这个桃子很好吃"
+    },
+    {
+      "hanzi": "这个桃子在生活中很常用。",
+      "pinyin": "Zhè ge táo zǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "桃子 (đào) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“桃子”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ táo zǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"桃子\" để viết một câu đơn giản."
+    }
+  ],
+  "李子": [
+    {
+      "hanzi": "w哦喜欢吃李子",
+      "pinyin": "W ò xǐ huan chī lǐ zǐ",
+      "meaning": "(Ví dụ thực tế): w哦喜欢吃李子"
+    },
+    {
+      "hanzi": "这个李子在生活中很常用。",
+      "pinyin": "Zhè ge lǐ zǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "李子 (cây mận) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“李子”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ lǐ zǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"李子\" để viết một câu đơn giản."
+    }
+  ],
+  "梨": [
+    {
+      "hanzi": "我喜欢吃梨",
+      "pinyin": "Wǒ xǐ huan chī lí",
+      "meaning": "(Ví dụ thực tế): 我喜欢吃梨"
+    },
+    {
+      "hanzi": "这个梨在生活中很常用。",
+      "pinyin": "Zhè ge lí zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "梨 (cây lê\nhọ Lê) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“梨”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ lí ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"梨\" để viết một câu đơn giản."
+    }
+  ],
+  "芒果": [
+    {
+      "hanzi": "我喜欢吃芒果因为芒果很甜",
+      "pinyin": "Wǒ xǐ huan chī máng guǒ yīn wèi máng guǒ hěn tián",
+      "meaning": "(Ví dụ thực tế): 我喜欢吃芒果因为芒果很甜"
+    },
+    {
+      "hanzi": "这个芒果在生活中很常用。",
+      "pinyin": "Zhè ge máng guǒ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "芒果 (xoài) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“芒果”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ máng guǒ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"芒果\" để viết một câu đơn giản."
+    }
+  ],
+  "菠萝": [
+    {
+      "hanzi": "我喜欢吃菠萝因为菠萝很甜",
+      "pinyin": "Wǒ xǐ huan chī bō luó yīn wèi bō luó hěn tián",
+      "meaning": "(Ví dụ thực tế): 我喜欢吃菠萝因为菠萝很甜"
+    },
+    {
+      "hanzi": "这个菠萝在生活中很常用。",
+      "pinyin": "Zhè ge bō luó zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "菠萝 (dứa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“菠萝”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ bō luó ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"菠萝\" để viết một câu đơn giản."
+    }
+  ],
+  "榴莲": [
+    {
+      "hanzi": "我妹妹很喜欢吃榴莲因为榴莲很好吃",
+      "pinyin": "Wǒ mèi mei hěn xǐ huan chī liú lián yīn wèi liú lián hěn hǎo chī",
+      "meaning": "(Ví dụ thực tế): 我妹妹很喜欢吃榴莲因为榴莲很好吃"
+    },
+    {
+      "hanzi": "这个榴莲在生活中很常用。",
+      "pinyin": "Zhè ge liú lián zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "榴莲 (sầu riêng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“榴莲”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ liú lián ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"榴莲\" để viết một câu đơn giản."
+    }
+  ],
+  "特别": [
+    {
+      "hanzi": "我喜欢吃水果特别是葡萄",
+      "pinyin": "Wǒ xǐ huan chī shuǐ guǒ tè bié shì pú táo",
+      "meaning": "(Ví dụ thực tế): 我喜欢吃水果特别是葡萄"
+    },
+    {
+      "hanzi": "这个特别在生活中很常用。",
+      "pinyin": "Zhè ge tè bié zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "特别 (rất) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“特别”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tè bié ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"特别\" để viết một câu đơn giản."
+    }
+  ],
+  "最喜欢": [
+    {
+      "hanzi": "我最喜欢吃橙子",
+      "pinyin": "Wǒ zuì xǐ huan chī chéng zǐ",
+      "meaning": "(Ví dụ thực tế): 我最喜欢吃橙子"
+    },
+    {
+      "hanzi": "这个最喜欢在生活中很常用。",
+      "pinyin": "Zhè ge zuì xǐ huan zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "最喜欢 (thích nhất) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“最喜欢”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zuì xǐ huan ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"最喜欢\" để viết một câu đơn giản."
+    }
+  ],
+  "东西": [
+    {
+      "hanzi": "今天我回国。我买了很多东西",
+      "pinyin": "Jīn tiān wǒ huí guó 。 wǒ mǎi le hěn duō dōng xī",
+      "meaning": "(Ví dụ thực tế): 今天我回国。我买了很多东西"
+    },
+    {
+      "hanzi": "这个东西在生活中很常用。",
+      "pinyin": "Zhè ge dōng xī zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "东西 (đồ vật) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“东西”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ dōng xī ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"东西\" để viết một câu đơn giản."
+    }
+  ],
+  "打电话": [
+    {
+      "hanzi": "我给妈妈打电话",
+      "pinyin": "Wǒ gěi mā ma dǎ diàn huà",
+      "meaning": "(Ví dụ thực tế): 我给妈妈打电话"
+    },
+    {
+      "hanzi": "我想打电话，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng dǎ diàn huà ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn gọi điện thoại, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都打电话，非常认真。",
+      "pinyin": "Tā měi tiān dōu dǎ diàn huà ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều gọi điện thoại, rất chăm chỉ."
+    }
+  ],
+  "给": [
+    {
+      "hanzi": "你可以给我一杯冰水吗",
+      "pinyin": "Nǐ kě yǐ gěi wǒ yì bēi bīng shuǐ ma",
+      "meaning": "(Ví dụ thực tế): 你可以给我一杯冰水吗"
+    },
+    {
+      "hanzi": "这个给在生活中很常用。",
+      "pinyin": "Zhè ge gěi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "给 (đưa, cho) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“给”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ gěi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"给\" để viết một câu đơn giản."
+    }
+  ],
+  "电话号码": [
+    {
+      "hanzi": "你电话号码是多少，你可以给我你的电话号码吗",
+      "pinyin": "Nǐ diàn huà hào mǎ shì duō shǎo ， nǐ kě yǐ gěi wǒ nǐ de diàn huà hào mǎ ma",
+      "meaning": "(Ví dụ thực tế): 你电话号码是多少，你可以给我你的电话号码吗"
+    },
+    {
+      "hanzi": "我想电话号码，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng diàn huà hào mǎ ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn số điện thoại, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都电话号码，非常认真。",
+      "pinyin": "Tā měi tiān dōu diàn huà hào mǎ ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều số điện thoại, rất chăm chỉ."
+    }
+  ],
+  "小心": [
+    {
+      "hanzi": "这个小心在生活中很常用。",
+      "pinyin": "Zhè ge xiǎo xīn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "小心 (cẩn thận) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“小心”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xiǎo xīn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"小心\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢小心。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan xiǎo xīn 。",
+      "meaning": "Mọi người đều rất thích cẩn thận."
+    }
+  ],
+  "睡觉": [
+    {
+      "hanzi": "我困了，我想去睡觉",
+      "pinyin": "Wǒ kùn le ， wǒ xiǎng qù shuì jiào",
+      "meaning": "(Ví dụ thực tế): 我困了，我想去睡觉"
+    },
+    {
+      "hanzi": "我想睡觉，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng shuì jiào ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn đi ngủ, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都睡觉，非常认真。",
+      "pinyin": "Tā měi tiān dōu shuì jiào ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều đi ngủ, rất chăm chỉ."
+    }
+  ],
+  "平时": [
+    {
+      "hanzi": "我平时很晚才回家",
+      "pinyin": "Wǒ píng shí hěn wǎn cái huí jiā",
+      "meaning": "(Ví dụ thực tế): 我平时很晚才回家"
+    },
+    {
+      "hanzi": "我们平时一起去旅行吧。",
+      "pinyin": "Wǒ men píng shí yì qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào bình thường nhé."
+    },
+    {
+      "hanzi": "平时的工作非常顺利。",
+      "pinyin": "Píng shí de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của bình thường rất suôn sẻ."
+    }
+  ],
+  "一点儿": [
+    {
+      "hanzi": "我 下班以后去商店买一点儿橙子",
+      "pinyin": "Wǒ   xià bān yǐ hòu qù shāng diàn mǎi yì diǎn ér chéng zǐ",
+      "meaning": "(Ví dụ thực tế): 我 下班以后去商店买一点儿橙子"
+    },
+    {
+      "hanzi": "这个一点儿在生活中很常用。",
+      "pinyin": "Zhè ge yì diǎn ér zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "一点儿 (chút xíu) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“一点儿”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yì diǎn ér ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"一点儿\" để viết một câu đơn giản."
+    }
+  ],
+  "先": [
+    {
+      "hanzi": "你先说吧",
+      "pinyin": "Nǐ xiān shuō ba",
+      "meaning": "(Ví dụ thực tế): 你先说吧"
+    },
+    {
+      "hanzi": "这个先在生活中很常用。",
+      "pinyin": "Zhè ge xiān zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "先 (trước (hành động xảy ra trước) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“先”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xiān ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"先\" để viết một câu đơn giản."
+    }
+  ],
+  "开始": [
+    {
+      "hanzi": "新的一天开始了",
+      "pinyin": "Xīn de yì tiān kāi shǐ le",
+      "meaning": "(Ví dụ thực tế): 新的一天开始了"
+    },
+    {
+      "hanzi": "这个开始在生活中很常用。",
+      "pinyin": "Zhè ge kāi shǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "开始 (bắt đầu) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“开始”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kāi shǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"开始\" để viết một câu đơn giản."
+    }
+  ],
+  "先生": [
+    {
+      "hanzi": "这位先生 请您稍等一下",
+      "pinyin": "Zhè wèi xiān shēng   qǐng nín shāo děng yí xià",
+      "meaning": "(Ví dụ thực tế): 这位先生 请您稍等一下"
+    },
+    {
+      "hanzi": "他是我的先生，人很好。",
+      "pinyin": "Tā shì wǒ de xiān shēng ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là ông của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的先生非常喜欢学中文。",
+      "pinyin": "Wǒ de xiān shēng fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "ông của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "看见": [
+    {
+      "hanzi": "你看见李老师了吗？",
+      "pinyin": "Nǐ kàn jiàn lǐ lǎo shī le ma ？",
+      "meaning": "(Ví dụ thực tế): 你看见李老师了吗？"
+    },
+    {
+      "hanzi": "这个看见在生活中很常用。",
+      "pinyin": "Zhè ge kàn jiàn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "看见 (thấy) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“看见”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kàn jiàn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"看见\" để viết một câu đơn giản."
+    }
+  ],
+  "开门": [
+    {
+      "hanzi": "银行九点才开门",
+      "pinyin": "Yín háng jiǔ diǎn cái kāi mén",
+      "meaning": "(Ví dụ thực tế): 银行九点才开门"
+    },
+    {
+      "hanzi": "这个开门在生活中很常用。",
+      "pinyin": "Zhè ge kāi mén zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "开门 (mở rộng cửa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“开门”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kāi mén ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"开门\" để viết một câu đơn giản."
+    }
+  ],
+  "关门": [
+    {
+      "hanzi": "商店晚上十一点才关门",
+      "pinyin": "Shāng diàn wǎn shàng shí yī diǎn cái guān mén",
+      "meaning": "(Ví dụ thực tế): 商店晚上十一点才关门"
+    },
+    {
+      "hanzi": "这个关门在生活中很常用。",
+      "pinyin": "Zhè ge guān mén zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "关门 (đóng cửa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“关门”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ guān mén ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"关门\" để viết một câu đơn giản."
+    }
+  ],
+  "开关": [
+    {
+      "hanzi": "打开开关吧/开灯吧",
+      "pinyin": "Dǎ kāi kāi guān ba / kāi dēng ba",
+      "meaning": "(Ví dụ thực tế): 打开开关吧/开灯吧"
+    },
+    {
+      "hanzi": "这个开关在生活中很常用。",
+      "pinyin": "Zhè ge kāi guān zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "开关 (công tắc) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“开关”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kāi guān ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"开关\" để viết một câu đơn giản."
+    }
+  ],
+  "开车": [
+    {
+      "hanzi": "你 会开车吗？",
+      "pinyin": "Nǐ   huì kāi chē ma ？",
+      "meaning": "(Ví dụ thực tế): 你 会开车吗？"
+    },
+    {
+      "hanzi": "我想开车，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng kāi chē ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn lái, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都开车，非常认真。",
+      "pinyin": "Tā měi tiān dōu kāi chē ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều lái, rất chăm chỉ."
+    }
+  ],
+  "上车": [
+    {
+      "hanzi": "上车吧",
+      "pinyin": "Shàng chē ba",
+      "meaning": "(Ví dụ thực tế): 上车吧"
+    },
+    {
+      "hanzi": "我想上车，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng shàng chē ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn lên xe, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都上车，非常认真。",
+      "pinyin": "Tā měi tiān dōu shàng chē ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều lên xe, rất chăm chỉ."
+    }
+  ],
+  "下车": [
+    {
+      "hanzi": "下车了/我们到了",
+      "pinyin": "Xià chē le / wǒ men dào le",
+      "meaning": "(Ví dụ thực tế): 下车了/我们到了"
+    },
+    {
+      "hanzi": "我想下车，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng xià chē ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn xuống xe, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都下车，非常认真。",
+      "pinyin": "Tā měi tiān dōu xià chē ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều xuống xe, rất chăm chỉ."
+    }
+  ],
+  "回来": [
+    {
+      "hanzi": "你什么时候回来",
+      "pinyin": "Nǐ shén me shí hòu huí lái",
+      "meaning": "(Ví dụ thực tế): 你什么时候回来"
+    },
+    {
+      "hanzi": "这个回来在生活中很常用。",
+      "pinyin": "Zhè ge huí lái zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "回来 (về) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“回来”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ huí lái ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"回来\" để viết một câu đơn giản."
+    }
+  ],
+  "衣服": [
+    {
+      "hanzi": "外边冷，多穿些衣服",
+      "pinyin": "Wài biān lěng ， duō chuān xiē yī fu",
+      "meaning": "(Ví dụ thực tế): 外边冷，多穿些衣服"
+    },
+    {
+      "hanzi": "这个衣服在生活中很常用。",
+      "pinyin": "Zhè ge yī fu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "衣服 (đồ mặc) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“衣服”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yī fu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"衣服\" để viết một câu đơn giản."
+    }
+  ],
+  "里边": [
+    {
+      "hanzi": "我们在里边车等你",
+      "pinyin": "Wǒ men zài lǐ biān chē děng nǐ",
+      "meaning": "(Ví dụ thực tế): 我们在里边车等你"
+    },
+    {
+      "hanzi": "这个里边在生活中很常用。",
+      "pinyin": "Zhè ge lǐ biān zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "里边 (trong) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“里边”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ lǐ biān ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"里边\" để viết một câu đơn giản."
+    }
+  ],
+  "外边": [
+    {
+      "hanzi": "外边很冷，多穿些衣服",
+      "pinyin": "Wài biān hěn lěng ， duō chuān xiē yī fu",
+      "meaning": "(Ví dụ thực tế): 外边很冷，多穿些衣服"
+    },
+    {
+      "hanzi": "这个外边在生活中很常用。",
+      "pinyin": "Zhè ge wài biān zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "外边 (ngoài) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“外边”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ wài biān ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"外边\" để viết một câu đơn giản."
+    }
+  ],
+  "件": [
+    {
+      "hanzi": "我买一件衣服",
+      "pinyin": "Wǒ mǎi yí jiàn yī fu",
+      "meaning": "(Ví dụ thực tế): 我买一件衣服"
+    },
+    {
+      "hanzi": "这个件在生活中很常用。",
+      "pinyin": "Zhè ge jiàn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "件 (chiếc) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“件”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jiàn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"件\" để viết một câu đơn giản."
+    }
+  ],
+  "票": [
+    {
+      "hanzi": "这张车票是去北京的",
+      "pinyin": "Zhè zhāng chē piào shì qù běi jīng de",
+      "meaning": "(Ví dụ thực tế): 这张车票是去北京的"
+    },
+    {
+      "hanzi": "这个票在生活中很常用。",
+      "pinyin": "Zhè ge piào zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "票 (vé) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“票”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ piào ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"票\" để viết một câu đơn giản."
+    }
+  ],
+  "张": [
+    {
+      "hanzi": "一张车票",
+      "pinyin": "Yì zhāng chē piào",
+      "meaning": "(Ví dụ thực tế): 一张车票"
+    },
+    {
+      "hanzi": "这个张在生活中很常用。",
+      "pinyin": "Zhè ge zhāng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "张 (tờ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“张”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhāng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"张\" để viết một câu đơn giản."
+    }
+  ],
+  "漂亮": [
+    {
+      "hanzi": "你真是一位漂亮姑娘",
+      "pinyin": "Nǐ zhēn shì yí wèi piào liang gū niáng",
+      "meaning": "(Ví dụ thực tế): 你真是一位漂亮姑娘"
+    },
+    {
+      "hanzi": "这个漂亮在生活中很常用。",
+      "pinyin": "Zhè ge piào liang zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "漂亮 (đẹp) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“漂亮”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ piào liang ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"漂亮\" để viết một câu đơn giản."
+    }
+  ],
+  "帅": [
+    {
+      "hanzi": "他真是很帅",
+      "pinyin": "Tā zhēn shì hěn shuài",
+      "meaning": "(Ví dụ thực tế): 他真是很帅"
+    },
+    {
+      "hanzi": "他是我的帅，人很好。",
+      "pinyin": "Tā shì wǒ de shuài ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là đẹp của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的帅非常喜欢学中文。",
+      "pinyin": "Wǒ de shuài fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "đẹp của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "丑": [
+    {
+      "hanzi": "他很丑",
+      "pinyin": "Tā hěn chǒu",
+      "meaning": "(Ví dụ thực tế): 他很丑"
+    },
+    {
+      "hanzi": "这个丑在生活中很常用。",
+      "pinyin": "Zhè ge chǒu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "丑 (xấu, xấu xí) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“丑”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ chǒu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"丑\" để viết một câu đơn giản."
+    }
+  ],
+  "有名": [
+    {
+      "hanzi": "这作者很有名",
+      "pinyin": "Zhè zuò zhě hěn yǒu míng",
+      "meaning": "(Ví dụ thực tế): 这作者很有名"
+    },
+    {
+      "hanzi": "他是我的有名，人很好。",
+      "pinyin": "Tā shì wǒ de yǒu míng ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là có tiếng của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的有名非常喜欢学中文。",
+      "pinyin": "Wǒ de yǒu míng fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "có tiếng của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "不少·": [
+    {
+      "hanzi": "今天我去商店买了不少衣服",
+      "pinyin": "Jīn tiān wǒ qù shāng diàn mǎi le bù shǎo yī fu",
+      "meaning": "(Ví dụ thực tế): 今天我去商店买了不少衣服"
+    },
+    {
+      "hanzi": "这个不少·在生活中很常用。",
+      "pinyin": "Zhè ge bù shǎo · zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "不少· (nhiều) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“不少·”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ bù shǎo · ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"不少·\" để viết một câu đơn giản."
+    }
+  ],
+  "认识": [
+    {
+      "hanzi": "很高兴认识你",
+      "pinyin": "Hěn gāo xìng rèn shi nǐ",
+      "meaning": "(Ví dụ thực tế): 很高兴认识你"
+    },
+    {
+      "hanzi": "这个认识在生活中很常用。",
+      "pinyin": "Zhè ge rèn shi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "认识 (biết) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“认识”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ rèn shi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"认识\" để viết một câu đơn giản."
+    }
+  ],
+  "高兴": [
+    {
+      "hanzi": "他今天很高兴",
+      "pinyin": "Tā jīn tiān hěn gāo xìng",
+      "meaning": "(Ví dụ thực tế): 他今天很高兴"
+    },
+    {
+      "hanzi": "这个高兴在生活中很常用。",
+      "pinyin": "Zhè ge gāo xìng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "高兴 (vui) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“高兴”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ gāo xìng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"高兴\" để viết một câu đơn giản."
+    }
+  ],
+  "出去": [
+    {
+      "hanzi": "孩子们都出去了",
+      "pinyin": "Hái zi men dōu chū qù le",
+      "meaning": "(Ví dụ thực tế): 孩子们都出去了"
+    },
+    {
+      "hanzi": "这个出去在生活中很常用。",
+      "pinyin": "Zhè ge chū qù zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "出去 (ra) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“出去”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ chū qù ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"出去\" để viết một câu đơn giản."
+    }
+  ],
+  "出来": [
+    {
+      "hanzi": "你出来，我跟你收据话",
+      "pinyin": "Nǐ chū lái ， wǒ gēn nǐ shōu jù huà",
+      "meaning": "(Ví dụ thực tế): 你出来，我跟你收据话"
+    },
+    {
+      "hanzi": "我想出来，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng chū lái ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn ra, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都出来，非常认真。",
+      "pinyin": "Tā měi tiān dōu chū lái ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều ra, rất chăm chỉ."
+    }
+  ],
+  "出租车": [
+    {
+      "hanzi": "我想叫辆出租车",
+      "pinyin": "Wǒ xiǎng jiào liàng chū zū chē",
+      "meaning": "(Ví dụ thực tế): 我想叫辆出租车"
+    },
+    {
+      "hanzi": "这个出租车在生活中很常用。",
+      "pinyin": "Zhè ge chū zū chē zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "出租车 (xe taxi) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“出租车”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ chū zū chē ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"出租车\" để viết một câu đơn giản."
+    }
+  ],
+  "听": [
+    {
+      "hanzi": "耳朵聋了听不见/你手大声一点儿， 我听不见",
+      "pinyin": "Ěr duo lóng le tīng bú jiàn / nǐ shǒu dà shēng yì diǎn ér ，   wǒ tīng bú jiàn",
+      "meaning": "(Ví dụ thực tế): 耳朵聋了听不见/你手大声一点儿， 我听不见"
+    },
+    {
+      "hanzi": "这个听在生活中很常用。",
+      "pinyin": "Zhè ge tīng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "听 (nghe) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“听”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tīng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"听\" để viết một câu đơn giản."
+    }
+  ],
+  "汽车": [
+    {
+      "hanzi": "我想叫辆汽车",
+      "pinyin": "Wǒ xiǎng jiào liàng qì chē",
+      "meaning": "(Ví dụ thực tế): 我想叫辆汽车"
+    },
+    {
+      "hanzi": "这个汽车在生活中很常用。",
+      "pinyin": "Zhè ge qì chē zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "汽车 (ô-tô) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“汽车”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ qì chē ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"汽车\" để viết một câu đơn giản."
+    }
+  ],
+  "飞机": [
+    {
+      "hanzi": "飞机飞上天了",
+      "pinyin": "Fēi jī fēi shàng tiān le",
+      "meaning": "(Ví dụ thực tế): 飞机飞上天了"
+    },
+    {
+      "hanzi": "这个飞机在生活中很常用。",
+      "pinyin": "Zhè ge fēi jī zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "飞机 (máy bay) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“飞机”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ fēi jī ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"飞机\" để viết một câu đơn giản."
+    }
+  ],
+  "火车": [
+    {
+      "hanzi": "我喜欢坐火车去旅行",
+      "pinyin": "Wǒ xǐ huan zuò huǒ chē qù lǚ xíng",
+      "meaning": "(Ví dụ thực tế): 我喜欢坐火车去旅行"
+    },
+    {
+      "hanzi": "这个火车在生活中很常用。",
+      "pinyin": "Zhè ge huǒ chē zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "火车 (xe lửa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“火车”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ huǒ chē ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"火车\" để viết một câu đơn giản."
+    }
+  ],
+  "手机": [
+    {
+      "hanzi": "我的手机在哪儿？",
+      "pinyin": "Wǒ de shǒu jī zài nǎ ér ？",
+      "meaning": "(Ví dụ thực tế): 我的手机在哪儿？"
+    },
+    {
+      "hanzi": "我想手机，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng shǒu jī ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn điện thoại di động, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都手机，非常认真。",
+      "pinyin": "Tā měi tiān dōu shǒu jī ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều điện thoại di động, rất chăm chỉ."
+    }
+  ],
+  "还是": [
+    {
+      "hanzi": "明天还是下雨，记得带伞",
+      "pinyin": "Míng tiān hái shì xià yǔ ， jì de dài sǎn",
+      "meaning": "(Ví dụ thực tế): 明天还是下雨，记得带伞"
+    },
+    {
+      "hanzi": "这个还是在生活中很常用。",
+      "pinyin": "Zhè ge hái shì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "还是 (vẫn) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“还是”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ hái shì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"还是\" để viết một câu đơn giản."
+    }
+  ],
+  "大巴": [
+    {
+      "hanzi": "这辆大巴痕迹",
+      "pinyin": "Zhè liàng dà bā hén jì",
+      "meaning": "(Ví dụ thực tế): 这辆大巴痕迹"
+    },
+    {
+      "hanzi": "这个大巴在生活中很常用。",
+      "pinyin": "Zhè ge dà bā zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "大巴 (xe buýt) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“大巴”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ dà bā ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"大巴\" để viết một câu đơn giản."
+    }
+  ],
+  "超市": [
+    {
+      "hanzi": "去超市吧，我想买酸奶",
+      "pinyin": "Qù chāo shì ba ， wǒ xiǎng mǎi suān nǎi",
+      "meaning": "(Ví dụ thực tế): 去超市吧，我想买酸奶"
+    },
+    {
+      "hanzi": "这个超市在生活中很常用。",
+      "pinyin": "Zhè ge chāo shì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "超市 (siêu thị) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“超市”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ chāo shì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"超市\" để viết một câu đơn giản."
+    }
+  ],
+  "等于": [
+    {
+      "hanzi": "三加二等于五",
+      "pinyin": "Sān jiā èr děng yú wǔ",
+      "meaning": "(Ví dụ thực tế): 三加二等于五"
+    },
+    {
+      "hanzi": "这个等于在生活中很常用。",
+      "pinyin": "Zhè ge děng yú zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "等于 (1. bằng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“等于”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ děng yú ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"等于\" để viết một câu đơn giản."
+    }
+  ],
+  "同时": [
+    {
+      "hanzi": "今天，我和他们同时出发",
+      "pinyin": "Jīn tiān ， wǒ hé tā men tóng shí chū fā",
+      "meaning": "(Ví dụ thực tế): 今天，我和他们同时出发"
+    },
+    {
+      "hanzi": "这个同时在生活中很常用。",
+      "pinyin": "Zhè ge tóng shí zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "同时 (cùng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“同时”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tóng shí ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"同时\" để viết một câu đơn giản."
+    }
+  ],
+  "最近": [
+    {
+      "hanzi": "最近，我早上很喜欢喝牛奶",
+      "pinyin": "Zuì jìn ， wǒ zǎo shàng hěn xǐ huan hē niú nǎi",
+      "meaning": "(Ví dụ thực tế): 最近，我早上很喜欢喝牛奶"
+    },
+    {
+      "hanzi": "这个最近在生活中很常用。",
+      "pinyin": "Zhè ge zuì jìn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "最近 (gần đây) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“最近”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zuì jìn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"最近\" để viết một câu đơn giản."
+    }
+  ],
+  "图书馆": [
+    {
+      "hanzi": "我想去图书馆看书",
+      "pinyin": "Wǒ xiǎng qù tú shū guǎn kàn shū",
+      "meaning": "(Ví dụ thực tế): 我想去图书馆看书"
+    },
+    {
+      "hanzi": "这个图书馆在生活中很常用。",
+      "pinyin": "Zhè ge tú shū guǎn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "图书馆 (thư viện) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“图书馆”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tú shū guǎn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"图书馆\" để viết một câu đơn giản."
+    }
+  ],
+  "牛仔裤": [
+    {
+      "hanzi": "这条牛仔裤是我在商场买的",
+      "pinyin": "Zhè tiáo niú zǎi kù shì wǒ zài shāng chǎng mǎi de",
+      "meaning": "(Ví dụ thực tế): 这条牛仔裤是我在商场买的"
+    },
+    {
+      "hanzi": "这个牛仔裤在生活中很常用。",
+      "pinyin": "Zhè ge niú zǎi kù zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "牛仔裤 (quần bò) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“牛仔裤”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ niú zǎi kù ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"牛仔裤\" để viết một câu đơn giản."
+    }
+  ],
+  "博物馆": [
+    {
+      "hanzi": "我星期天经常去博物馆",
+      "pinyin": "Wǒ xīng qī tiān jīng cháng qù bó wù guǎn",
+      "meaning": "(Ví dụ thực tế): 我星期天经常去博物馆"
+    },
+    {
+      "hanzi": "这个博物馆在生活中很常用。",
+      "pinyin": "Zhè ge bó wù guǎn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "博物馆 (bảo tàng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“博物馆”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ bó wù guǎn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"博物馆\" để viết một câu đơn giản."
+    }
+  ],
+  "参观": [
+    {
+      "hanzi": "我喜欢参观工厂",
+      "pinyin": "Wǒ xǐ huan cān guān gōng chǎng",
+      "meaning": "(Ví dụ thực tế): 我喜欢参观工厂"
+    },
+    {
+      "hanzi": "我想参观，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng cān guān ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn tham quan, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都参观，非常认真。",
+      "pinyin": "Tā měi tiān dōu cān guān ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều tham quan, rất chăm chỉ."
+    }
+  ],
+  "原来": [
+    {
+      "hanzi": "这个原来在生活中很常用。",
+      "pinyin": "Zhè ge yuán lái zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "原来 (cũ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“原来”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yuán lái ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"原来\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢原来。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan yuán lái 。",
+      "meaning": "Mọi người đều rất thích cũ."
+    }
+  ],
+  "相信": [
+    {
+      "hanzi": "这个相信在生活中很常用。",
+      "pinyin": "Zhè ge xiāng xìn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "相信 (tin) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“相信”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xiāng xìn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"相信\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢相信。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan xiāng xìn 。",
+      "meaning": "Mọi người đều rất thích tin."
+    }
+  ],
+  "感谢": [
+    {
+      "hanzi": "这个感谢在生活中很常用。",
+      "pinyin": "Zhè ge gǎn xiè zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "感谢 (cảm tạ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“感谢”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ gǎn xiè ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"感谢\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢感谢。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan gǎn xiè 。",
+      "meaning": "Mọi người đều rất thích cảm tạ."
+    }
+  ],
+  "邀请": [
+    {
+      "hanzi": "这个邀请在生活中很常用。",
+      "pinyin": "Zhè ge yāo qǐng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "邀请 (mời) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“邀请”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yāo qǐng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"邀请\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢邀请。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan yāo qǐng 。",
+      "meaning": "Mọi người đều rất thích mời."
+    }
+  ],
+  "眼眸": [
+    {
+      "hanzi": "这个眼眸在生活中很常用。",
+      "pinyin": "Zhè ge yǎn móu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "眼眸 (mắt) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“眼眸”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yǎn móu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"眼眸\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢眼眸。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan yǎn móu 。",
+      "meaning": "Mọi người đều rất thích mắt."
+    }
+  ],
+  "慌张": [
+    {
+      "hanzi": "我想慌张，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng huāng zhāng ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn bối rối, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都慌张，非常认真。",
+      "pinyin": "Tā měi tiān dōu huāng zhāng ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều bối rối, rất chăm chỉ."
+    },
+    {
+      "hanzi": "大家都很喜欢慌张。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan huāng zhāng 。",
+      "meaning": "Mọi người đều rất thích bối rối."
+    }
+  ],
+  "内心": [
+    {
+      "hanzi": "这个内心在生活中很常用。",
+      "pinyin": "Zhè ge nèi xīn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "内心 (trong lòng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“内心”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ nèi xīn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"内心\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢内心。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan nèi xīn 。",
+      "meaning": "Mọi người đều rất thích trong lòng."
+    }
+  ],
+  "希望": [
+    {
+      "hanzi": "这个希望在生活中很常用。",
+      "pinyin": "Zhè ge xī wàng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "希望 (mong) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“希望”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xī wàng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"希望\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢希望。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan xī wàng 。",
+      "meaning": "Mọi người đều rất thích mong."
+    }
+  ],
+  "好像": [
+    {
+      "hanzi": "这个好像在生活中很常用。",
+      "pinyin": "Zhè ge hǎo xiàng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "好像 (như) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“好像”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ hǎo xiàng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"好像\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢好像。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan hǎo xiàng 。",
+      "meaning": "Mọi người đều rất thích như."
+    }
+  ],
+  "花瓶": [
+    {
+      "hanzi": "我昨天买了一个花瓶",
+      "pinyin": "Wǒ zuó tiān mǎi le yí gè huā píng",
+      "meaning": "(Ví dụ thực tế): 我昨天买了一个花瓶"
+    },
+    {
+      "hanzi": "这个花瓶在生活中很常用。",
+      "pinyin": "Zhè ge huā píng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "花瓶 (bình hoa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“花瓶”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ huā píng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"花瓶\" để viết một câu đơn giản."
+    }
+  ],
+  "工厂": [
+    {
+      "hanzi": "这个工厂在生活中很常用。",
+      "pinyin": "Zhè ge gōng chǎng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "工厂 (công xưởng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“工厂”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ gōng chǎng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"工厂\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢工厂。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan gōng chǎng 。",
+      "meaning": "Mọi người đều rất thích công xưởng."
+    }
+  ],
+  "旅游": [
+    {
+      "hanzi": "这个旅游在生活中很常用。",
+      "pinyin": "Zhè ge lǚ yóu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "旅游 (du lịch) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“旅游”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ lǚ yóu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"旅游\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢旅游。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan lǚ yóu 。",
+      "meaning": "Mọi người đều rất thích du lịch."
+    }
+  ],
+  "踢足球": [
+    {
+      "hanzi": "这个踢足球在生活中很常用。",
+      "pinyin": "Zhè ge tī zú qiú zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "踢足球 (đá bóng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“踢足球”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tī zú qiú ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"踢足球\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢踢足球。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan tī zú qiú 。",
+      "meaning": "Mọi người đều rất thích đá bóng."
+    }
+  ],
+  "精神": [
+    {
+      "hanzi": "这个精神在生活中很常用。",
+      "pinyin": "Zhè ge jīng shén zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "精神 (tinh thần) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“精神”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jīng shén ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"精神\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢精神。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan jīng shén 。",
+      "meaning": "Mọi người đều rất thích tinh thần."
+    }
+  ],
+  "让": [
+    {
+      "hanzi": "这个让在生活中很常用。",
+      "pinyin": "Zhè ge ràng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "让 (khiến cho) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“让”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ ràng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"让\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢让。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan ràng 。",
+      "meaning": "Mọi người đều rất thích khiến cho."
+    }
+  ],
+  "因为": [
+    {
+      "hanzi": "这个因为在生活中很常用。",
+      "pinyin": "Zhè ge yīn wèi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "因为 (bởi vì) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“因为”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yīn wèi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"因为\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢因为。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan yīn wèi 。",
+      "meaning": "Mọi người đều rất thích bởi vì."
+    }
+  ],
+  "所以": [
+    {
+      "hanzi": "这个所以在生活中很常用。",
+      "pinyin": "Zhè ge suǒ yǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "所以 (nên) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“所以”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ suǒ yǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"所以\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢所以。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan suǒ yǐ 。",
+      "meaning": "Mọi người đều rất thích nên."
+    }
+  ],
+  "运动": [
+    {
+      "hanzi": "这个运动在生活中很常用。",
+      "pinyin": "Zhè ge yùn dòng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "运动 (thể thao) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“运动”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yùn dòng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"运动\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢运动。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan yùn dòng 。",
+      "meaning": "Mọi người đều rất thích thể thao."
+    }
+  ],
+  "旅行": [
+    {
+      "hanzi": "我想旅行，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng lǚ xíng ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn du lịch, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都旅行，非常认真。",
+      "pinyin": "Tā měi tiān dōu lǚ xíng ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều du lịch, rất chăm chỉ."
+    },
+    {
+      "hanzi": "大家都很喜欢旅行。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan lǚ xíng 。",
+      "meaning": "Mọi người đều rất thích du lịch."
+    }
+  ],
+  "旅游者": [
+    {
+      "hanzi": "这个旅游者在生活中很常用。",
+      "pinyin": "Zhè ge lǚ yóu zhě zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "旅游者 (du khách) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“旅游者”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ lǚ yóu zhě ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"旅游者\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢旅游者。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan lǚ yóu zhě 。",
+      "meaning": "Mọi người đều rất thích du khách."
+    }
+  ],
+  "为什么": [
+    {
+      "hanzi": "这个为什么在生活中很常用。",
+      "pinyin": "Zhè ge wèi shén me zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "为什么 (vì sao) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“为什么”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ wèi shén me ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"为什么\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢为什么。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan wèi shén me 。",
+      "meaning": "Mọi người đều rất thích vì sao."
+    }
+  ],
+  "新": [
+    {
+      "hanzi": "这个新在生活中很常用。",
+      "pinyin": "Zhè ge xīn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "新 (mới) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“新”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xīn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"新\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢新。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan xīn 。",
+      "meaning": "Mọi người đều rất thích mới."
+    }
+  ],
+  "它": [
+    {
+      "hanzi": "我想它，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng tā ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn nó, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都它，非常认真。",
+      "pinyin": "Tā měi tiān dōu tā ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều nó, rất chăm chỉ."
+    },
+    {
+      "hanzi": "大家都很喜欢它。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan tā 。",
+      "meaning": "Mọi người đều rất thích nó."
+    }
+  ],
+  "眼睛": [
+    {
+      "hanzi": "这个眼睛在生活中很常用。",
+      "pinyin": "Zhè ge yǎn jīng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "眼睛 (mắt) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“眼睛”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yǎn jīng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"眼睛\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢眼睛。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan yǎn jīng 。",
+      "meaning": "Mọi người đều rất thích mắt."
+    }
+  ],
+  "准备": [
+    {
+      "hanzi": "这个准备在生活中很常用。",
+      "pinyin": "Zhè ge zhǔn bèi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "准备 (. chuẩn bị) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“准备”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhǔn bèi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"准备\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢准备。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan zhǔn bèi 。",
+      "meaning": "Mọi người đều rất thích . chuẩn bị."
+    }
+  ],
+  "外国": [
+    {
+      "hanzi": "这个外国在生活中很常用。",
+      "pinyin": "Zhè ge wài guó zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "外国 (nước ngoài) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“外国”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ wài guó ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"外国\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢外国。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan wài guó 。",
+      "meaning": "Mọi người đều rất thích nước ngoài."
+    }
+  ],
+  "非常": [
+    {
+      "hanzi": "这个非常在生活中很常用。",
+      "pinyin": "Zhè ge fēi cháng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "非常 (đặc biệt) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“非常”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ fēi cháng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"非常\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢非常。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan fēi cháng 。",
+      "meaning": "Mọi người đều rất thích đặc biệt."
+    }
+  ],
+  "困": [
+    {
+      "hanzi": "这个困在生活中很常用。",
+      "pinyin": "Zhè ge kùn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "困 (mệt) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“困”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kùn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"困\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢困。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan kùn 。",
+      "meaning": "Mọi người đều rất thích mệt."
+    }
+  ],
+  "出名": [
+    {
+      "hanzi": "这个出名在生活中很常用。",
+      "pinyin": "Zhè ge chū míng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "出名 (ra mặt) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“出名”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ chū míng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"出名\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢出名。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan chū míng 。",
+      "meaning": "Mọi người đều rất thích ra mặt."
+    }
+  ],
+  "游泳": [
+    {
+      "hanzi": "我喜欢在夏天游泳",
+      "pinyin": "Wǒ xǐ huan zài xià tiān yóu yǒng",
+      "meaning": "(Ví dụ thực tế): 我喜欢在夏天游泳"
+    },
+    {
+      "hanzi": "这个游泳在生活中很常用。",
+      "pinyin": "Zhè ge yóu yǒng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "游泳 (bơi) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“游泳”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yóu yǒng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"游泳\" để viết một câu đơn giản."
+    }
+  ],
+  "两难": [
+    {
+      "hanzi": "这个两难在生活中很常用。",
+      "pinyin": "Zhè ge liǎng nán zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "两难 (lưỡng nan) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“两难”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ liǎng nán ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"两难\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢两难。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan liǎng nán 。",
+      "meaning": "Mọi người đều rất thích lưỡng nan."
+    }
+  ],
+  "真是": [
+    {
+      "hanzi": "这个真是在生活中很常用。",
+      "pinyin": "Zhè ge zhēn shì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "真是 (chân thị]) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“真是”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhēn shì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"真是\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢真是。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan zhēn shì 。",
+      "meaning": "Mọi người đều rất thích chân thị]."
+    }
+  ],
+  "健康": [
+    {
+      "hanzi": "这个健康在生活中很常用。",
+      "pinyin": "Zhè ge jiàn kāng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "健康 (khoẻ mạnh) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“健康”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jiàn kāng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"健康\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢健康。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan jiàn kāng 。",
+      "meaning": "Mọi người đều rất thích khoẻ mạnh."
+    }
+  ],
+  "麻烦": [
+    {
+      "hanzi": "这个麻烦在生活中很常用。",
+      "pinyin": "Zhè ge má fán zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "麻烦 (rắc rối) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“麻烦”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ má fán ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"麻烦\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢麻烦。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan má fán 。",
+      "meaning": "Mọi người đều rất thích rắc rối."
+    }
+  ],
+  "贵": [
+    {
+      "hanzi": "这个贵在生活中很常用。",
+      "pinyin": "Zhè ge guì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "贵 (đắt đỏ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“贵”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ guì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"贵\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢贵。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan guì 。",
+      "meaning": "Mọi người đều rất thích đắt đỏ."
+    }
+  ],
+  "但是": [
+    {
+      "hanzi": "我很喜欢唱歌，但是唱的不好",
+      "pinyin": "Wǒ hěn xǐ huan chàng gē ， dàn shì chàng de bù hǎo",
+      "meaning": "(Ví dụ thực tế): 我很喜欢唱歌，但是唱的不好"
+    },
+    {
+      "hanzi": "这个但是在生活中很常用。",
+      "pinyin": "Zhè ge dàn shì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "但是 (nhưng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“但是”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ dàn shì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"但是\" để viết một câu đơn giản."
+    }
+  ],
+  "跳舞": [
+    {
+      "hanzi": "我们经常一起去跳舞",
+      "pinyin": "Wǒ men jīng cháng yì qǐ qù tiào wǔ",
+      "meaning": "(Ví dụ thực tế): 我们经常一起去跳舞"
+    },
+    {
+      "hanzi": "这个跳舞在生活中很常用。",
+      "pinyin": "Zhè ge tiào wǔ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "跳舞 (múa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“跳舞”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tiào wǔ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"跳舞\" để viết một câu đơn giản."
+    }
+  ],
+  "听说": [
+    {
+      "hanzi": "我们听说你搬家了",
+      "pinyin": "Wǒ men tīng shuō nǐ bān jiā le",
+      "meaning": "(Ví dụ thực tế): 我们听说你搬家了"
+    },
+    {
+      "hanzi": "我想听说，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng tīng shuō ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn nghe nói, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都听说，非常认真。",
+      "pinyin": "Tā měi tiān dōu tīng shuō ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều nghe nói, rất chăm chỉ."
+    }
+  ],
+  "走": [
+    {
+      "hanzi": "我们明天要走了",
+      "pinyin": "Wǒ men míng tiān yào zǒu le",
+      "meaning": "(Ví dụ thực tế): 我们明天要走了"
+    },
+    {
+      "hanzi": "我想走，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng zǒu ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn đi, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都走，非常认真。",
+      "pinyin": "Tā měi tiān dōu zǒu ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều đi, rất chăm chỉ."
+    }
+  ],
+  "到": [
+    {
+      "hanzi": "他到了",
+      "pinyin": "Tā dào le",
+      "meaning": "(Ví dụ thực tế): 他到了"
+    },
+    {
+      "hanzi": "我想到，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng dào ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn đi, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都到，非常认真。",
+      "pinyin": "Tā měi tiān dōu dào ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều đi, rất chăm chỉ."
+    }
+  ],
+  "玩": [
+    {
+      "hanzi": "我们每天一起玩羽毛球",
+      "pinyin": "Wǒ men měi tiān yì qǐ wán yǔ máo qiú",
+      "meaning": "(Ví dụ thực tế): 我们每天一起玩羽毛球"
+    },
+    {
+      "hanzi": "这个玩在生活中很常用。",
+      "pinyin": "Zhè ge wán zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "玩 (đùa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“玩”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ wán ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"玩\" để viết một câu đơn giản."
+    }
+  ],
+  "人生": [
+    {
+      "hanzi": "他的人生 经历很丰富",
+      "pinyin": "Tā de rén shēng   jīng lì hěn fēng fù",
+      "meaning": "(Ví dụ thực tế): 他的人生 经历很丰富"
+    },
+    {
+      "hanzi": "他是我的人生，人很好。",
+      "pinyin": "Tā shì wǒ de rén shēng ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là nhân sinh của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的人生非常喜欢学中文。",
+      "pinyin": "Wǒ de rén shēng fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "nhân sinh của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "生活": [
+    {
+      "hanzi": "他的生活经历很丰富",
+      "pinyin": "Tā de shēng huó jīng lì hěn fēng fù",
+      "meaning": "(Ví dụ thực tế): 他的生活经历很丰富"
+    },
+    {
+      "hanzi": "这个生活在生活中很常用。",
+      "pinyin": "Zhè ge shēng huó zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "生活 (đời sống) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“生活”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ shēng huó ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"生活\" để viết một câu đơn giản."
+    }
+  ],
+  "盘子": [
+    {
+      "hanzi": "这个盘子很漂亮",
+      "pinyin": "Zhè ge pán zi hěn piào liang",
+      "meaning": "(Ví dụ thực tế): 这个盘子很漂亮"
+    },
+    {
+      "hanzi": "这个盘子在生活中很常用。",
+      "pinyin": "Zhè ge pán zi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "盘子 (khay) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“盘子”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ pán zi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"盘子\" để viết một câu đơn giản."
+    }
+  ],
+  "叉子": [
+    {
+      "hanzi": "我去超市买了一个叉子",
+      "pinyin": "Wǒ qù chāo shì mǎi le yí gè chā zi",
+      "meaning": "(Ví dụ thực tế): 我去超市买了一个叉子"
+    },
+    {
+      "hanzi": "这个叉子在生活中很常用。",
+      "pinyin": "Zhè ge chā zi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "叉子 (cái dĩa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“叉子”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ chā zi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"叉子\" để viết một câu đơn giản."
+    }
+  ],
+  "筷子": [
+    {
+      "hanzi": "我的英国同事不会用筷子",
+      "pinyin": "Wǒ de yīng guó tóng shì bú huì yòng kuài zi",
+      "meaning": "(Ví dụ thực tế): 我的英国同事不会用筷子"
+    },
+    {
+      "hanzi": "这个筷子在生活中很常用。",
+      "pinyin": "Zhè ge kuài zi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "筷子 (đũa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“筷子”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kuài zi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"筷子\" để viết một câu đơn giản."
+    }
+  ],
+  "勺子": [
+    {
+      "hanzi": "这个勺子在生活中很常用。",
+      "pinyin": "Zhè ge sháo zǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "勺子 (cái muôi) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“勺子”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ sháo zǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"勺子\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢勺子。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan sháo zǐ 。",
+      "meaning": "Mọi người đều rất thích cái muôi."
+    }
+  ],
+  "刀子": [
+    {
+      "hanzi": "这个刀子在生活中很常用。",
+      "pinyin": "Zhè ge dāo zǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "刀子 (dao nhỏ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“刀子”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ dāo zǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"刀子\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢刀子。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan dāo zǐ 。",
+      "meaning": "Mọi người đều rất thích dao nhỏ."
+    }
+  ],
+  "有用": [
+    {
+      "hanzi": "这个有用在生活中很常用。",
+      "pinyin": "Zhè ge yǒu yòng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "有用 (có lợi) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“有用”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yǒu yòng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"有用\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢有用。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan yǒu yòng 。",
+      "meaning": "Mọi người đều rất thích có lợi."
+    }
+  ],
+  "教师": [
+    {
+      "hanzi": "这个教师在生活中很常用。",
+      "pinyin": "Zhè ge jiào shī zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "教师 (giáo viên) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“教师”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jiào shī ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"教师\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢教师。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan jiào shī 。",
+      "meaning": "Mọi người đều rất thích giáo viên."
+    }
+  ],
+  "打篮球": [
+    {
+      "hanzi": "这个打篮球在生活中很常用。",
+      "pinyin": "Zhè ge dǎ lán qiú zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "打篮球 (đánh bóng rổ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“打篮球”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ dǎ lán qiú ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"打篮球\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢打篮球。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan dǎ lán qiú 。",
+      "meaning": "Mọi người đều rất thích đánh bóng rổ."
+    }
+  ],
+  "起床": [
+    {
+      "hanzi": "这个起床在生活中很常用。",
+      "pinyin": "Zhè ge qǐ chuáng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "起床 (thức dậy) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“起床”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ qǐ chuáng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"起床\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢起床。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan qǐ chuáng 。",
+      "meaning": "Mọi người đều rất thích thức dậy."
+    }
+  ],
+  "公共汽车": [
+    {
+      "hanzi": "这个公共汽车在生活中很常用。",
+      "pinyin": "Zhè ge gōng gòng qì chē zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "公共汽车 (xe buýt) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“公共汽车”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ gōng gòng qì chē ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"公共汽车\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢公共汽车。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan gōng gòng qì chē 。",
+      "meaning": "Mọi người đều rất thích xe buýt."
+    }
+  ],
+  "出院": [
+    {
+      "hanzi": "医生说下个星期可以出院",
+      "pinyin": "Yī shēng shuō xià gè xīng qī kě yǐ chū yuàn",
+      "meaning": "(Ví dụ thực tế): 医生说下个星期可以出院"
+    },
+    {
+      "hanzi": "这个出院在生活中很常用。",
+      "pinyin": "Zhè ge chū yuàn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "出院 (ra viện) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“出院”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ chū yuàn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"出院\" để viết một câu đơn giản."
+    }
+  ],
+  "高": [
+    {
+      "hanzi": "他多高？",
+      "pinyin": "Tā duō gāo ？",
+      "meaning": "(Ví dụ thực tế): 他多高？"
+    },
+    {
+      "hanzi": "这个高在生活中很常用。",
+      "pinyin": "Zhè ge gāo zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "高 (cao) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“高”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ gāo ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"高\" để viết một câu đơn giản."
+    }
+  ],
+  "米": [
+    {
+      "hanzi": "我每天吃米饭",
+      "pinyin": "Wǒ měi tiān chī mǐ fàn",
+      "meaning": "(Ví dụ thực tế): 我每天吃米饭"
+    },
+    {
+      "hanzi": "这个米在生活中很常用。",
+      "pinyin": "Zhè ge mǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "米 (cơm) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“米”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ mǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"米\" để viết một câu đơn giản."
+    }
+  ],
+  "生病": [
+    {
+      "hanzi": "你很多少生病",
+      "pinyin": "Nǐ hěn duō shǎo shēng bìng",
+      "meaning": "(Ví dụ thực tế): 你很多少生病"
+    },
+    {
+      "hanzi": "这个生病在生活中很常用。",
+      "pinyin": "Zhè ge shēng bìng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "生病 (bị ốm) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“生病”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ shēng bìng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"生病\" để viết một câu đơn giản."
+    }
+  ],
+  "累": [
+    {
+      "hanzi": "我累了",
+      "pinyin": "Wǒ lèi le",
+      "meaning": "(Ví dụ thực tế): 我累了"
+    },
+    {
+      "hanzi": "这个累在生活中很常用。",
+      "pinyin": "Zhè ge lèi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "累 (mệt mỏi) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“累”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ lèi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"累\" để viết một câu đơn giản."
+    }
+  ],
+  "跑步": [
+    {
+      "hanzi": "早上我经常去公园跑步",
+      "pinyin": "Zǎo shàng wǒ jīng cháng qù gōng yuán pǎo bù",
+      "meaning": "(Ví dụ thực tế): 早上我经常去公园跑步"
+    },
+    {
+      "hanzi": "这个跑步在生活中很常用。",
+      "pinyin": "Zhè ge pǎo bù zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "跑步 (chạy bộ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“跑步”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ pǎo bù ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"跑步\" để viết một câu đơn giản."
+    }
+  ],
+  "药": [
+    {
+      "hanzi": "你吃药了吗",
+      "pinyin": "Nǐ chī yào le ma",
+      "meaning": "(Ví dụ thực tế): 你吃药了吗"
+    },
+    {
+      "hanzi": "这个药在生活中很常用。",
+      "pinyin": "Zhè ge yào zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "药 (thuốc) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“药”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yào ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"药\" để viết một câu đơn giản."
+    }
+  ],
+  "休息": [
+    {
+      "hanzi": "休息吧",
+      "pinyin": "Xiū xi ba",
+      "meaning": "(Ví dụ thực tế): 休息吧"
+    },
+    {
+      "hanzi": "这个休息在生活中很常用。",
+      "pinyin": "Zhè ge xiū xi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "休息 (nghỉ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“休息”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xiū xi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"休息\" để viết một câu đơn giản."
+    }
+  ],
+  "手表": [
+    {
+      "hanzi": "这块手表很贵",
+      "pinyin": "Zhè kuài shǒu biǎo hěn guì",
+      "meaning": "(Ví dụ thực tế): 这块手表很贵"
+    },
+    {
+      "hanzi": "这个手表在生活中很常用。",
+      "pinyin": "Zhè ge shǒu biǎo zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "手表 (đồng hồ (đeo tay)) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“手表”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ shǒu biǎo ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"手表\" để viết một câu đơn giản."
+    }
+  ],
+  "红色": [
+    {
+      "hanzi": "我喜欢红色",
+      "pinyin": "Wǒ xǐ huan hóng sè",
+      "meaning": "(Ví dụ thực tế): 我喜欢红色"
+    },
+    {
+      "hanzi": "这个红色在生活中很常用。",
+      "pinyin": "Zhè ge hóng sè zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "红色 (đỏ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“红色”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ hóng sè ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"红色\" để viết một câu đơn giản."
+    }
+  ],
+  "蓝色": [
+    {
+      "hanzi": "我的号同事最喜欢蓝色",
+      "pinyin": "Wǒ de hào tóng shì zuì xǐ huan lán sè",
+      "meaning": "(Ví dụ thực tế): 我的号同事最喜欢蓝色"
+    },
+    {
+      "hanzi": "他是我的蓝色，人很好。",
+      "pinyin": "Tā shì wǒ de lán sè ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là xanh của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的蓝色非常喜欢学中文。",
+      "pinyin": "Wǒ de lán sè fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "xanh của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "报纸": [
+    {
+      "hanzi": "早上你看见谁送报纸吗",
+      "pinyin": "Zǎo shàng nǐ kàn jiàn shuí sòng bào zhǐ ma",
+      "meaning": "(Ví dụ thực tế): 早上你看见谁送报纸吗"
+    },
+    {
+      "hanzi": "这个报纸在生活中很常用。",
+      "pinyin": "Zhè ge bào zhǐ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "报纸 (báo) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“报纸”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ bào zhǐ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"报纸\" để viết một câu đơn giản."
+    }
+  ],
+  "牛奶": [
+    {
+      "hanzi": "我喜欢喝牛奶",
+      "pinyin": "Wǒ xǐ huan hē niú nǎi",
+      "meaning": "(Ví dụ thực tế): 我喜欢喝牛奶"
+    },
+    {
+      "hanzi": "这个牛奶在生活中很常用。",
+      "pinyin": "Zhè ge niú nǎi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "牛奶 (sữa bò) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“牛奶”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ niú nǎi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"牛奶\" để viết một câu đơn giản."
+    }
+  ],
+  "房间": [
+    {
+      "hanzi": "我的房间是粉色",
+      "pinyin": "Wǒ de fáng jiān shì fěn sè",
+      "meaning": "(Ví dụ thực tế): 我的房间是粉色"
+    },
+    {
+      "hanzi": "我想房间，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng fáng jiān ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn gian phòng, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都房间，非常认真。",
+      "pinyin": "Tā měi tiān dōu fáng jiān ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều gian phòng, rất chăm chỉ."
+    }
+  ],
+  "丈夫": [
+    {
+      "hanzi": "我的丈夫是AI工程师",
+      "pinyin": "Wǒ de zhàng fu shì A I gōng chéng shī",
+      "meaning": "(Ví dụ thực tế): 我的丈夫是AI工程师"
+    },
+    {
+      "hanzi": "这个丈夫在生活中很常用。",
+      "pinyin": "Zhè ge zhàng fu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "丈夫 (chồng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“丈夫”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhàng fu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"丈夫\" để viết một câu đơn giản."
+    }
+  ],
+  "送": [
+    {
+      "hanzi": "我送礼物给邻居",
+      "pinyin": "Wǒ sòng lǐ wù gěi lín jū",
+      "meaning": "(Ví dụ thực tế): 我送礼物给邻居"
+    },
+    {
+      "hanzi": "他是我的送，人很好。",
+      "pinyin": "Tā shì wǒ de sòng ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là đem của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的送非常喜欢学中文。",
+      "pinyin": "Wǒ de sòng fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "đem của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "旁边": [
+    {
+      "hanzi": "我坐 在他旁边",
+      "pinyin": "Wǒ zuò   zài tā páng biān",
+      "meaning": "(Ví dụ thực tế): 我坐 在他旁边"
+    },
+    {
+      "hanzi": "这个旁边在生活中很常用。",
+      "pinyin": "Zhè ge páng biān zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "旁边 (cạnh) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“旁边”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ páng biān ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"旁边\" để viết một câu đơn giản."
+    }
+  ],
+  "粉色": [
+    {
+      "hanzi": "我最喜欢粉色",
+      "pinyin": "Wǒ zuì xǐ huan fěn sè",
+      "meaning": "(Ví dụ thực tế): 我最喜欢粉色"
+    },
+    {
+      "hanzi": "这个粉色在生活中很常用。",
+      "pinyin": "Zhè ge fěn sè zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "粉色 (màu hồng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“粉色”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ fěn sè ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"粉色\" để viết một câu đơn giản."
+    }
+  ],
+  "介绍": [
+    {
+      "hanzi": "我想介绍一下。我是小玉",
+      "pinyin": "Wǒ xiǎng jiè shào yí xià 。 wǒ shì xiǎo yù",
+      "meaning": "(Ví dụ thực tế): 我想介绍一下。我是小玉"
+    },
+    {
+      "hanzi": "这个介绍在生活中很常用。",
+      "pinyin": "Zhè ge jiè shào zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "介绍 (mở đầu) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“介绍”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jiè shào ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"介绍\" để viết một câu đơn giản."
+    }
+  ],
+  "快乐": [
+    {
+      "hanzi": "我们今天好快乐",
+      "pinyin": "Wǒ men jīn tiān hǎo kuài lè",
+      "meaning": "(Ví dụ thực tế): 我们今天好快乐"
+    },
+    {
+      "hanzi": "这个快乐在生活中很常用。",
+      "pinyin": "Zhè ge kuài lè zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "快乐 (vui vẻ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“快乐”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kuài lè ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"快乐\" để viết một câu đơn giản."
+    }
+  ],
+  "礼物": [
+    {
+      "hanzi": "我送礼物给邻居",
+      "pinyin": "Wǒ sòng lǐ wù gěi lín jū",
+      "meaning": "(Ví dụ thực tế): 我送礼物给邻居"
+    },
+    {
+      "hanzi": "这个礼物在生活中很常用。",
+      "pinyin": "Zhè ge lǐ wù zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "礼物 (quà) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“礼物”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ lǐ wù ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"礼物\" để viết một câu đơn giản."
+    }
+  ],
+  "长": [
+    {
+      "hanzi": "我家里没有常务",
+      "pinyin": "Wǒ jiā lǐ méi yǒu cháng wù",
+      "meaning": "(Ví dụ thực tế): 我家里没有常务"
+    },
+    {
+      "hanzi": "这个长在生活中很常用。",
+      "pinyin": "Zhè ge cháng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "长 (dài) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“长”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ cháng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"长\" để viết một câu đơn giản."
+    }
+  ],
+  "邻居": [
+    {
+      "hanzi": "他是我的邻居",
+      "pinyin": "Tā shì wǒ de lín jū",
+      "meaning": "(Ví dụ thực tế): 他是我的邻居"
+    },
+    {
+      "hanzi": "这个邻居在生活中很常用。",
+      "pinyin": "Zhè ge lín jū zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "邻居 (hàng xóm) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“邻居”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ lín jū ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"邻居\" để viết một câu đơn giản."
+    }
+  ],
+  "自行车": [
+    {
+      "hanzi": "有时候我们骑自行车去公园运动",
+      "pinyin": "Yǒu shí hòu wǒ men qí zì xíng chē qù gōng yuán yùn dòng",
+      "meaning": "(Ví dụ thực tế): 有时候我们骑自行车去公园运动"
+    },
+    {
+      "hanzi": "这个自行车在生活中很常用。",
+      "pinyin": "Zhè ge zì xíng chē zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "自行车 (xe đạp) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“自行车”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zì xíng chē ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"自行车\" để viết một câu đơn giản."
+    }
+  ],
+  "场": [
+    {
+      "hanzi": "我在运动场打羽毛球",
+      "pinyin": "Wǒ zài yùn dòng chǎng dǎ yǔ máo qiú",
+      "meaning": "(Ví dụ thực tế): 我在运动场打羽毛球"
+    },
+    {
+      "hanzi": "这个场在生活中很常用。",
+      "pinyin": "Zhè ge chǎng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "场 (sân) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“场”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ chǎng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"场\" để viết một câu đơn giản."
+    }
+  ],
+  "鸳鸯": [
+    {
+      "hanzi": "湖里有两只鸳鸯",
+      "pinyin": "Hú lǐ yǒu liǎng zhī yuān yāng",
+      "meaning": "(Ví dụ thực tế): 湖里有两只鸳鸯"
+    },
+    {
+      "hanzi": "这个鸳鸯在生活中很常用。",
+      "pinyin": "Zhè ge yuān yāng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "鸳鸯 (chim uyên ương) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“鸳鸯”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yuān yāng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"鸳鸯\" để viết một câu đơn giản."
+    }
+  ],
+  "只有": [
+    {
+      "hanzi": "只有死亡才能把我们分开",
+      "pinyin": "Zhǐ yǒu sǐ wáng cái néng bǎ wǒ men fēn kāi",
+      "meaning": "(Ví dụ thực tế): 只有死亡才能把我们分开"
+    },
+    {
+      "hanzi": "这个只有在生活中很常用。",
+      "pinyin": "Zhè ge zhǐ yǒu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "只有 (chỉ có) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“只有”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhǐ yǒu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"只有\" để viết một câu đơn giản."
+    }
+  ],
+  "会客室": [
+    {
+      "hanzi": "我们在会客室等他",
+      "pinyin": "Wǒ men zài huì kè shì děng tā",
+      "meaning": "(Ví dụ thực tế): 我们在会客室等他"
+    },
+    {
+      "hanzi": "这个会客室在生活中很常用。",
+      "pinyin": "Zhè ge huì kè shì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "会客室 (phòng khách) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“会客室”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ huì kè shì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"会客室\" để viết một câu đơn giản."
+    }
+  ],
+  "进去": [
+    {
+      "hanzi": "他马上进去回家了",
+      "pinyin": "Tā mǎ shàng jìn qù huí jiā le",
+      "meaning": "(Ví dụ thực tế): 他马上进去回家了"
+    },
+    {
+      "hanzi": "我想进去，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng jìn qù ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn vào trong, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都进去，非常认真。",
+      "pinyin": "Tā měi tiān dōu jìn qù ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều vào trong, rất chăm chỉ."
+    }
+  ],
+  "错": [
+    {
+      "hanzi": "这件衣服还不错，你喜欢就买吧",
+      "pinyin": "Zhè jiàn yī fu hái bú cuò ， nǐ xǐ huan jiù mǎi ba",
+      "meaning": "(Ví dụ thực tế): 这件衣服还不错，你喜欢就买吧"
+    },
+    {
+      "hanzi": "这个错在生活中很常用。",
+      "pinyin": "Zhè ge cuò zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "错 (sai lầm) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“错”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ cuò ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"错\" để viết một câu đơn giản."
+    }
+  ],
+  "考试": [
+    {
+      "hanzi": "考试的时候不能说话",
+      "pinyin": "Kǎo shì de shí hòu bù néng shuō huà",
+      "meaning": "(Ví dụ thực tế): 考试的时候不能说话"
+    },
+    {
+      "hanzi": "这个考试在生活中很常用。",
+      "pinyin": "Zhè ge kǎo shì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "考试 (thi) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“考试”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kǎo shì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"考试\" để viết một câu đơn giản."
+    }
+  ],
+  "意思": [
+    {
+      "hanzi": "大家的意思是一起去",
+      "pinyin": "Dà jiā de yì sī shì yì qǐ qù",
+      "meaning": "(Ví dụ thực tế): 大家的意思是一起去"
+    },
+    {
+      "hanzi": "这个意思在生活中很常用。",
+      "pinyin": "Zhè ge yì sī zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "意思 (nghĩa) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“意思”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yì sī ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"意思\" để viết một câu đơn giản."
+    }
+  ],
+  "对": [
+    {
+      "hanzi": "医生说和茶对身体好",
+      "pinyin": "Yī shēng shuō hé chá duì shēn tǐ hǎo",
+      "meaning": "(Ví dụ thực tế): 医生说和茶对身体好"
+    },
+    {
+      "hanzi": "这个对在生活中很常用。",
+      "pinyin": "Zhè ge duì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "对 (về) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“对”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ duì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"对\" để viết một câu đơn giản."
+    }
+  ],
+  "地方": [
+    {
+      "hanzi": "这个工程是地方管理",
+      "pinyin": "Zhè ge gōng chéng shì dì fāng guǎn lǐ",
+      "meaning": "(Ví dụ thực tế): 这个工程是地方管理"
+    },
+    {
+      "hanzi": "这个地方在生活中很常用。",
+      "pinyin": "Zhè ge dì fāng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "地方 (bản xứ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“地方”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ dì fāng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"地方\" để viết một câu đơn giản."
+    }
+  ],
+  "哭": [
+    {
+      "hanzi": "你哭哭什么？",
+      "pinyin": "Nǐ kū kū shén me ？",
+      "meaning": "(Ví dụ thực tế): 你哭哭什么？"
+    },
+    {
+      "hanzi": "这个哭在生活中很常用。",
+      "pinyin": "Zhè ge kū zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "哭 (khóc) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“哭”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kū ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"哭\" để viết một câu đơn giản."
+    }
+  ],
+  "苦": [
+    {
+      "hanzi": "你瞧他太苦了",
+      "pinyin": "Nǐ qiáo tā tài kǔ le",
+      "meaning": "(Ví dụ thực tế): 你瞧他太苦了"
+    },
+    {
+      "hanzi": "这个苦在生活中很常用。",
+      "pinyin": "Zhè ge kǔ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "苦 (đắng\n đau khổ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“苦”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kǔ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"苦\" để viết một câu đơn giản."
+    }
+  ],
+  "骑": [
+    {
+      "hanzi": "他经常骑自行车",
+      "pinyin": "Tā jīng cháng qí zì xíng chē",
+      "meaning": "(Ví dụ thực tế): 他经常骑自行车"
+    },
+    {
+      "hanzi": "我想骑，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng qí ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn cưỡi, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都骑，非常认真。",
+      "pinyin": "Tā měi tiān dōu qí ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều cưỡi, rất chăm chỉ."
+    }
+  ],
+  "羊肉": [
+    {
+      "hanzi": "这个星期天天吃羊肉，我想吃烤鸭",
+      "pinyin": "Zhè ge xīng qī tiān tiān chī yáng ròu ， wǒ xiǎng chī kǎo yā",
+      "meaning": "(Ví dụ thực tế): 这个星期天天吃羊肉，我想吃烤鸭"
+    },
+    {
+      "hanzi": "这个羊肉在生活中很常用。",
+      "pinyin": "Zhè ge yáng ròu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "羊肉 (thịt dê, thịt cừu) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“羊肉”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yáng ròu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"羊肉\" để viết một câu đơn giản."
+    }
+  ],
+  "猪肉": [
+    {
+      "hanzi": "这个星期你天天做猪肉，我不想吃",
+      "pinyin": "Zhè ge xīng qī nǐ tiān tiān zuò zhū ròu ， wǒ bù xiǎng chī",
+      "meaning": "(Ví dụ thực tế): 这个星期你天天做猪肉，我不想吃"
+    },
+    {
+      "hanzi": "这个猪肉在生活中很常用。",
+      "pinyin": "Zhè ge zhū ròu zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "猪肉 (thịt lợn) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“猪肉”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhū ròu ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"猪肉\" để viết một câu đơn giản."
+    }
+  ],
+  "难吃": [
+    {
+      "hanzi": "这家饭馆的猪肉菜太难吃",
+      "pinyin": "Zhè jiā fàn guǎn de zhū ròu cài tài nán chī",
+      "meaning": "(Ví dụ thực tế): 这家饭馆的猪肉菜太难吃"
+    },
+    {
+      "hanzi": "我想难吃，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng nán chī ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn dở, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都难吃，非常认真。",
+      "pinyin": "Tā měi tiān dōu nán chī ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều dở, rất chăm chỉ."
+    }
+  ],
+  "面条": [
+    {
+      "hanzi": "早上我经常吃面条",
+      "pinyin": "Zǎo shàng wǒ jīng cháng chī miàn tiáo",
+      "meaning": "(Ví dụ thực tế): 早上我经常吃面条"
+    },
+    {
+      "hanzi": "这个面条在生活中很常用。",
+      "pinyin": "Zhè ge miàn tiáo zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "面条 (mì sợi) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“面条”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ miàn tiáo ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"面条\" để viết một câu đơn giản."
+    }
+  ],
+  "跟": [
+    {
+      "hanzi": "我跟你一起去看望爷爷和奶奶",
+      "pinyin": "Wǒ gēn nǐ yì qǐ qù kàn wàng yé ye hé nǎi nai",
+      "meaning": "(Ví dụ thực tế): 我跟你一起去看望爷爷和奶奶"
+    },
+    {
+      "hanzi": "这个跟在生活中很常用。",
+      "pinyin": "Zhè ge gēn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "跟 (cùng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“跟”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ gēn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"跟\" để viết một câu đơn giản."
+    }
+  ],
+  "讨厌": [
+    {
+      "hanzi": "这件事真讨厌啊，办不完",
+      "pinyin": "Zhè jiàn shì zhēn tǎo yàn a ， bàn bù wán",
+      "meaning": "(Ví dụ thực tế): 这件事真讨厌啊，办不完"
+    },
+    {
+      "hanzi": "这个讨厌在生活中很常用。",
+      "pinyin": "Zhè ge tǎo yàn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "讨厌 (đáng ghét\nphiền phức) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“讨厌”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tǎo yàn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"讨厌\" để viết một câu đơn giản."
+    }
+  ],
+  "性格": [
+    {
+      "hanzi": "他的性格非常开朗",
+      "pinyin": "Tā de xìng gé fēi cháng kāi lǎng",
+      "meaning": "(Ví dụ thực tế): 他的性格非常开朗"
+    },
+    {
+      "hanzi": "这个性格在生活中很常用。",
+      "pinyin": "Zhè ge xìng gé zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "性格 (tính tình) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“性格”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xìng gé ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"性格\" để viết một câu đơn giản."
+    }
+  ],
+  "教室": [
+    {
+      "hanzi": "他在教室学习",
+      "pinyin": "Tā zài jiào shì xué xí",
+      "meaning": "(Ví dụ thực tế): 他在教室学习"
+    },
+    {
+      "hanzi": "我想教室，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng jiào shì ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn phòng học, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都教室，非常认真。",
+      "pinyin": "Tā měi tiān dōu jiào shì ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều phòng học, rất chăm chỉ."
+    }
+  ],
+  "休息室": [
+    {
+      "hanzi": "机场有一个舒适的休息室",
+      "pinyin": "Jī chǎng yǒu yí gè shū shì de xiū xi shì",
+      "meaning": "(Ví dụ thực tế): 机场有一个舒适的休息室"
+    },
+    {
+      "hanzi": "这个休息室在生活中很常用。",
+      "pinyin": "Zhè ge xiū xi shì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "休息室 (phòng nghỉ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“休息室”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xiū xi shì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"休息室\" để viết một câu đơn giản."
+    }
+  ],
+  "安静": [
+    {
+      "hanzi": "病人需要安静",
+      "pinyin": "Bìng rén xū yào ān jìng",
+      "meaning": "(Ví dụ thực tế): 病人需要安静"
+    },
+    {
+      "hanzi": "这个安静在生活中很常用。",
+      "pinyin": "Zhè ge ān jìng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "安静 (yên lặng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“安静”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ ān jìng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"安静\" để viết một câu đơn giản."
+    }
+  ],
+  "时机": [
+    {
+      "hanzi": "抓住时机才能成功",
+      "pinyin": "Zhuā zhù shí jī cái néng chéng gōng",
+      "meaning": "(Ví dụ thực tế): 抓住时机才能成功"
+    },
+    {
+      "hanzi": "我想时机，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng shí jī ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn dịp, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都时机，非常认真。",
+      "pinyin": "Tā měi tiān dōu shí jī ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều dịp, rất chăm chỉ."
+    }
+  ],
+  "机会": [
+    {
+      "hanzi": "她给了我一个机会",
+      "pinyin": "Tā gěi le wǒ yí gè jī huì",
+      "meaning": "(Ví dụ thực tế): 她给了我一个机会"
+    },
+    {
+      "hanzi": "这个机会在生活中很常用。",
+      "pinyin": "Zhè ge jī huì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "机会 (dịp) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“机会”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jī huì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"机会\" để viết một câu đơn giản."
+    }
+  ],
+  "广场": [
+    {
+      "hanzi": "我们在广场散步",
+      "pinyin": "Wǒ men zài guǎng chǎng sàn bù",
+      "meaning": "(Ví dụ thực tế): 我们在广场散步"
+    },
+    {
+      "hanzi": "这个广场在生活中很常用。",
+      "pinyin": "Zhè ge guǎng chǎng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "广场 (quảng trường) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“广场”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ guǎng chǎng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"广场\" để viết một câu đơn giản."
+    }
+  ],
+  "机场": [
+    {
+      "hanzi": "这个机场在生活中很常用。",
+      "pinyin": "Zhè ge jī chǎng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "机场 (sân bay) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“机场”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jī chǎng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"机场\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢机场。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan jī chǎng 。",
+      "meaning": "Mọi người đều rất thích sân bay."
+    }
+  ],
+  "应该": [
+    {
+      "hanzi": "这是我应该做的",
+      "pinyin": "Zhè shì wǒ yīng gāi zuò de",
+      "meaning": "(Ví dụ thực tế): 这是我应该做的"
+    },
+    {
+      "hanzi": "这个应该在生活中很常用。",
+      "pinyin": "Zhè ge yīng gāi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "应该 (cần) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“应该”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yīng gāi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"应该\" để viết một câu đơn giản."
+    }
+  ],
+  "愿望": [
+    {
+      "hanzi": "她的愿望是成为医生",
+      "pinyin": "Tā de yuàn wàng shì chéng wéi yī shēng",
+      "meaning": "(Ví dụ thực tế): 她的愿望是成为医生"
+    },
+    {
+      "hanzi": "这个愿望在生活中很常用。",
+      "pinyin": "Zhè ge yuàn wàng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "愿望 (ước vọng) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“愿望”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yuàn wàng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"愿望\" để viết một câu đơn giản."
+    }
+  ],
+  "满足": [
+    {
+      "hanzi": "我希望能满足你的愿望",
+      "pinyin": "Wǒ xī wàng néng mǎn zú nǐ de yuàn wàng",
+      "meaning": "(Ví dụ thực tế): 我希望能满足你的愿望"
+    },
+    {
+      "hanzi": "这个满足在生活中很常用。",
+      "pinyin": "Zhè ge mǎn zú zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "满足 (thỏa mãn) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“满足”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ mǎn zú ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"满足\" để viết một câu đơn giản."
+    }
+  ],
+  "两肋插刀": [
+    {
+      "hanzi": "她很讲义气，愿意为朋友两肋插刀",
+      "pinyin": "Tā hěn jiǎng yì qì ， yuàn yì wèi péng yǒu liǎng lèi chā dāo",
+      "meaning": "(Ví dụ thực tế): 她很讲义气，愿意为朋友两肋插刀"
+    },
+    {
+      "hanzi": "这个两肋插刀在生活中很常用。",
+      "pinyin": "Zhè ge liǎng lèi chā dāo zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "两肋插刀 (liều mạng đến quên mình) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“两肋插刀”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ liǎng lèi chā dāo ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"两肋插刀\" để viết một câu đơn giản."
+    }
+  ],
+  "赴汤蹈火": [
+    {
+      "hanzi": "战士们，赴汤蹈火，保卫家园",
+      "pinyin": "Zhàn shì men ， fù tāng dǎo huǒ ， bǎo wèi jiā yuán",
+      "meaning": "(Ví dụ thực tế): 战士们，赴汤蹈火，保卫家园"
+    },
+    {
+      "hanzi": "我想赴汤蹈火，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng fù tāng dǎo huǒ ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn xả thân vì nghĩa, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都赴汤蹈火，非常认真。",
+      "pinyin": "Tā měi tiān dōu fù tāng dǎo huǒ ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều xả thân vì nghĩa, rất chăm chỉ."
+    }
+  ],
+  "干什么": [
+    {
+      "hanzi": "你干什么不早说呀",
+      "pinyin": "Nǐ gàn shén me bù zǎo shuō ya",
+      "meaning": "(Ví dụ thực tế): 你干什么不早说呀"
+    },
+    {
+      "hanzi": "这个干什么在生活中很常用。",
+      "pinyin": "Zhè ge gàn shén me zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "干什么 (làm gì) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“干什么”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ gàn shén me ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"干什么\" để viết một câu đơn giản."
+    }
+  ],
+  "挂了": [
+    {
+      "hanzi": "这个挂了在生活中很常用。",
+      "pinyin": "Zhè ge guà le zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "挂了 (thôi xong rồi, chết rồi) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“挂了”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ guà le ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"挂了\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢挂了。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan guà le 。",
+      "meaning": "Mọi người đều rất thích thôi xong rồi, chết rồi."
+    }
+  ],
+  "有缘": [
+    {
+      "hanzi": "我们有缘结为夫妻",
+      "pinyin": "Wǒ men yǒu yuán jié wèi fū qī",
+      "meaning": "(Ví dụ thực tế): 我们有缘结为夫妻"
+    },
+    {
+      "hanzi": "这个有缘在生活中很常用。",
+      "pinyin": "Zhè ge yǒu yuán zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "有缘 (hữu duyên) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“有缘”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yǒu yuán ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"有缘\" để viết một câu đơn giản."
+    }
+  ],
+  "直接": [
+    {
+      "hanzi": "他讲话很直接",
+      "pinyin": "Tā jiǎng huà hěn zhí jiē",
+      "meaning": "(Ví dụ thực tế): 他讲话很直接"
+    },
+    {
+      "hanzi": "这个直接在生活中很常用。",
+      "pinyin": "Zhè ge zhí jiē zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "直接 (trực tiếp) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“直接”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zhí jiē ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"直接\" để viết một câu đơn giản."
+    }
+  ],
+  "同生共死 ~同甘共苦": [
+    {
+      "hanzi": "我们同生共死和同甘共苦",
+      "pinyin": "Wǒ men tóng shēng gòng sǐ hé tóng gān gòng kǔ",
+      "meaning": "(Ví dụ thực tế): 我们同生共死和同甘共苦"
+    },
+    {
+      "hanzi": "这个同生共死 ~同甘共苦在生活中很常用。",
+      "pinyin": "Zhè ge tóng shēng gòng sǐ   ~ tóng gān gòng kǔ zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "同生共死 ~同甘共苦 (sống chết có nhau\nđồng cam cộng khổ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“同生共死 ~同甘共苦”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tóng shēng gòng sǐ   ~ tóng gān gòng kǔ ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"同生共死 ~同甘共苦\" để viết một câu đơn giản."
+    }
+  ],
+  "条件反射": [
+    {
+      "hanzi": "我想条件反射，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng tiáo jiàn fǎn shè ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn phản xạ có điều kiện, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都条件反射，非常认真。",
+      "pinyin": "Tā měi tiān dōu tiáo jiàn fǎn shè ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều phản xạ có điều kiện, rất chăm chỉ."
+    },
+    {
+      "hanzi": "大家都很喜欢条件反射。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan tiáo jiàn fǎn shè 。",
+      "meaning": "Mọi người đều rất thích phản xạ có điều kiện."
+    }
+  ],
+  "胆小": [
+    {
+      "hanzi": "他是胆小的人",
+      "pinyin": "Tā shì dǎn xiǎo de rén",
+      "meaning": "(Ví dụ thực tế): 他是胆小的人"
+    },
+    {
+      "hanzi": "这个胆小在生活中很常用。",
+      "pinyin": "Zhè ge dǎn xiǎo zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "胆小 (nhát) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“胆小”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ dǎn xiǎo ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"胆小\" để viết một câu đơn giản."
+    }
+  ],
+  "从今往后": [
+    {
+      "hanzi": "从今往后我会爱护你",
+      "pinyin": "Cóng jīn wǎng hòu wǒ huì ài hù nǐ",
+      "meaning": "(Ví dụ thực tế): 从今往后我会爱护你"
+    },
+    {
+      "hanzi": "我想从今往后，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng cóng jīn wǎng hòu ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn Từ bây giờ trở đi, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都从今往后，非常认真。",
+      "pinyin": "Tā měi tiān dōu cóng jīn wǎng hòu ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều Từ bây giờ trở đi, rất chăm chỉ."
+    }
+  ],
+  "感激": [
+    {
+      "hanzi": "他感激朋友的支持",
+      "pinyin": "Tā gǎn jī péng yǒu de zhī chí",
+      "meaning": "(Ví dụ thực tế): 他感激朋友的支持"
+    },
+    {
+      "hanzi": "这个感激在生活中很常用。",
+      "pinyin": "Zhè ge gǎn jī zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "感激 (cảm kích) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“感激”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ gǎn jī ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"感激\" để viết một câu đơn giản."
+    }
+  ],
+  "宾馆": [
+    {
+      "hanzi": "这件宾馆不错",
+      "pinyin": "Zhè jiàn bīn guǎn bú cuò",
+      "meaning": "(Ví dụ thực tế): 这件宾馆不错"
+    },
+    {
+      "hanzi": "这个宾馆在生活中很常用。",
+      "pinyin": "Zhè ge bīn guǎn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "宾馆 (nhà khách) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“宾馆”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ bīn guǎn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"宾馆\" để viết một câu đơn giản."
+    }
+  ],
+  "前台": [
+    {
+      "hanzi": "前台小姐很热情接待我",
+      "pinyin": "Qián tái xiǎo jiě hěn rè qíng jiē dài wǒ",
+      "meaning": "(Ví dụ thực tế): 前台小姐很热情接待我"
+    },
+    {
+      "hanzi": "这个前台在生活中很常用。",
+      "pinyin": "Zhè ge qián tái zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "前台 (quầy lễ tân) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“前台”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ qián tái ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"前台\" để viết một câu đơn giản."
+    }
+  ],
+  "商场": [
+    {
+      "hanzi": "我家前面有一个商场",
+      "pinyin": "Wǒ jiā qián miàn yǒu yí gè shāng chǎng",
+      "meaning": "(Ví dụ thực tế): 我家前面有一个商场"
+    },
+    {
+      "hanzi": "我想商场，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng shāng chǎng ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn cửa hàng, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都商场，非常认真。",
+      "pinyin": "Tā měi tiān dōu shāng chǎng ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều cửa hàng, rất chăm chỉ."
+    }
+  ],
+  "停车场": [
+    {
+      "hanzi": "停车场里有很多车",
+      "pinyin": "Tíng chē chǎng lǐ yǒu hěn duō chē",
+      "meaning": "(Ví dụ thực tế): 停车场里有很多车"
+    },
+    {
+      "hanzi": "这个停车场在生活中很常用。",
+      "pinyin": "Zhè ge tíng chē chǎng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "停车场 (bãi đỗ xe) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“停车场”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ tíng chē chǎng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"停车场\" để viết một câu đơn giản."
+    }
+  ],
+  "运动场": [
+    {
+      "hanzi": "我们学校的运动场很大",
+      "pinyin": "Wǒ men xué xiào de yùn dòng chǎng hěn dà",
+      "meaning": "(Ví dụ thực tế): 我们学校的运动场很大"
+    },
+    {
+      "hanzi": "这个运动场在生活中很常用。",
+      "pinyin": "Zhè ge yùn dòng chǎng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "运动场 (sân vận động) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“运动场”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yùn dòng chǎng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"运动场\" để viết một câu đơn giản."
+    }
+  ],
+  "韶华": [
+    {
+      "hanzi": "奋斗点亮青春韶华",
+      "pinyin": "Fèn dòu diǎn liàng qīng chūn sháo huá",
+      "meaning": "(Ví dụ thực tế): 奋斗点亮青春韶华"
+    },
+    {
+      "hanzi": "他是我的韶华，人很好。",
+      "pinyin": "Tā shì wǒ de sháo huá ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là thanh xuân của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的韶华非常喜欢学中文。",
+      "pinyin": "Wǒ de sháo huá fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "thanh xuân của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "疯狂": [
+    {
+      "hanzi": "他的想法简直太疯狂了",
+      "pinyin": "Tā de xiǎng fǎ jiǎn zhí tài fēng kuáng le",
+      "meaning": "(Ví dụ thực tế): 他的想法简直太疯狂了"
+    },
+    {
+      "hanzi": "我想疯狂，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng fēng kuáng ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn điên cuồng, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都疯狂，非常认真。",
+      "pinyin": "Tā měi tiān dōu fēng kuáng ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều điên cuồng, rất chăm chỉ."
+    }
+  ],
+  "文雅": [
+    {
+      "hanzi": "我想文雅，你觉得怎么样？",
+      "pinyin": "Wǒ xiǎng wén yǎ ， nǐ jué de zěn me yàng ？",
+      "meaning": "Tôi muốn văn nhã, bạn thấy thế nào?"
+    },
+    {
+      "hanzi": "他每天都文雅，非常认真。",
+      "pinyin": "Tā měi tiān dōu wén yǎ ， fēi cháng rèn zhēn 。",
+      "meaning": "Anh ấy mỗi ngày đều văn nhã, rất chăm chỉ."
+    },
+    {
+      "hanzi": "大家都很喜欢文雅。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan wén yǎ 。",
+      "meaning": "Mọi người đều rất thích văn nhã."
+    }
+  ],
+  "男性": [
+    {
+      "hanzi": "这个男性在生活中很常用。",
+      "pinyin": "Zhè ge nán xìng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "男性 (nam giới) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“男性”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ nán xìng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"男性\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢男性。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan nán xìng 。",
+      "meaning": "Mọi người đều rất thích nam giới."
+    }
+  ],
+  "唱歌": [
+    {
+      "hanzi": "我很喜欢唱歌但是长的不好",
+      "pinyin": "Wǒ hěn xǐ huan chàng gē dàn shì cháng de bù hǎo",
+      "meaning": "(Ví dụ thực tế): 我很喜欢唱歌但是长的不好"
+    },
+    {
+      "hanzi": "这个唱歌在生活中很常用。",
+      "pinyin": "Zhè ge chàng gē zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "唱歌 (hát) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“唱歌”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ chàng gē ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"唱歌\" để viết một câu đơn giản."
+    }
+  ],
+  "永远": [
+    {
+      "hanzi": "关于这个段爱情永远是他们的秘密",
+      "pinyin": "Guān yú zhè ge duàn ài qíng yǒng yuǎn shì tā men de mì mì",
+      "meaning": "(Ví dụ thực tế): 关于这个段爱情永远是他们的秘密"
+    },
+    {
+      "hanzi": "这个永远在生活中很常用。",
+      "pinyin": "Zhè ge yǒng yuǎn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "永远 (vĩnh viễn) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“永远”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yǒng yuǎn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"永远\" để viết một câu đơn giản."
+    }
+  ],
+  "段": [
+    {
+      "hanzi": "关于这个段爱情永远是我们的秘密",
+      "pinyin": "Guān yú zhè ge duàn ài qíng yǒng yuǎn shì wǒ men de mì mì",
+      "meaning": "(Ví dụ thực tế): 关于这个段爱情永远是我们的秘密"
+    },
+    {
+      "hanzi": "这个段在生活中很常用。",
+      "pinyin": "Zhè ge duàn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "段 (đoạn) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“段”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ duàn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"段\" để viết một câu đơn giản."
+    }
+  ],
+  "秘密": [
+    {
+      "hanzi": "这个秘密对我很重要",
+      "pinyin": "Zhè ge mì mì duì wǒ hěn zhòng yào",
+      "meaning": "(Ví dụ thực tế): 这个秘密对我很重要"
+    },
+    {
+      "hanzi": "这个秘密在生活中很常用。",
+      "pinyin": "Zhè ge mì mì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "秘密 (bí mật) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“秘密”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ mì mì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"秘密\" để viết một câu đơn giản."
+    }
+  ],
+  "总是": [
+    {
+      "hanzi": "这个总是在生活中很常用。",
+      "pinyin": "Zhè ge zǒng shì zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "总是 (luôn luôn) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“总是”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ zǒng shì ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"总是\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢总是。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan zǒng shì 。",
+      "meaning": "Mọi người đều rất thích luôn luôn."
+    }
+  ],
+  "今生": [
+    {
+      "hanzi": "今生我们注定无缘",
+      "pinyin": "Jīn shēng wǒ men zhù dìng wú yuán",
+      "meaning": "(Ví dụ thực tế): 今生我们注定无缘"
+    },
+    {
+      "hanzi": "这个今生在生活中很常用。",
+      "pinyin": "Zhè ge jīn shēng zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "今生 (kiếp này) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“今生”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ jīn shēng ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"今生\" để viết một câu đơn giản."
+    }
+  ],
+  "亏钱": [
+    {
+      "hanzi": "这个亏钱在生活中很常用。",
+      "pinyin": "Zhè ge kuī qián zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "亏钱 (thiếu hụt) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“亏钱”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ kuī qián ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"亏钱\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢亏钱。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan kuī qián 。",
+      "meaning": "Mọi người đều rất thích thiếu hụt."
+    }
+  ],
+  "相见": [
+    {
+      "hanzi": "这个相见在生活中很常用。",
+      "pinyin": "Zhè ge xiāng jiàn zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "相见 (gặp) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“相见”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ xiāng jiàn ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"相见\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢相见。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan xiāng jiàn 。",
+      "meaning": "Mọi người đều rất thích gặp."
+    }
+  ],
+  "依赖": [
+    {
+      "hanzi": "我们都不应该依赖别人",
+      "pinyin": "Wǒ men dōu bú yīng gāi yī lài bié rén",
+      "meaning": "(Ví dụ thực tế): 我们都不应该依赖别人"
+    },
+    {
+      "hanzi": "这个依赖在生活中很常用。",
+      "pinyin": "Zhè ge yī lài zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "依赖 (ỷ lại) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“依赖”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ yī lài ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"依赖\" để viết một câu đơn giản."
+    }
+  ],
+  "去年": [
+    {
+      "hanzi": "我们去年一起去旅行吧。",
+      "pinyin": "Wǒ men qù nián yì qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào năm ngoái nhé."
+    },
+    {
+      "hanzi": "去年的工作非常顺利。",
+      "pinyin": "Qù nián de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của năm ngoái rất suôn sẻ."
+    },
+    {
+      "hanzi": "大家都很喜欢去年。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan qù nián 。",
+      "meaning": "Mọi người đều rất thích năm ngoái."
+    }
+  ],
+  "上个星期": [
+    {
+      "hanzi": "我们上个星期一起去旅行吧。",
+      "pinyin": "Wǒ men shàng gè xīng qī yī qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào tuần trước nhé."
+    },
+    {
+      "hanzi": "上个星期的工作非常顺利。",
+      "pinyin": "Shàng gè xīng qī de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của tuần trước rất suôn sẻ."
+    },
+    {
+      "hanzi": "大家都很喜欢上个星期。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan shàng gè xīng qī 。",
+      "meaning": "Mọi người đều rất thích tuần trước."
+    }
+  ],
+  "上个月": [
+    {
+      "hanzi": "我们上个月一起去旅行吧。",
+      "pinyin": "Wǒ men shàng gè yuè yī qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào tháng trước nhé."
+    },
+    {
+      "hanzi": "上个月的工作非常顺利。",
+      "pinyin": "Shàng gè yuè de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của tháng trước rất suôn sẻ."
+    },
+    {
+      "hanzi": "大家都很喜欢上个月。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan shàng gè yuè 。",
+      "meaning": "Mọi người đều rất thích tháng trước."
+    }
+  ],
+  "前天": [
+    {
+      "hanzi": "我们前天一起去旅行吧。",
+      "pinyin": "Wǒ men qián tiān yì qǐ qù lǚ xíng ba 。",
+      "meaning": "Chúng ta hãy cùng nhau đi du lịch vào hôm kia nhé."
+    },
+    {
+      "hanzi": "前天的工作非常顺利。",
+      "pinyin": "Qián tiān de gōng zuò fēi cháng shùn lì 。",
+      "meaning": "Công việc của hôm kia rất suôn sẻ."
+    },
+    {
+      "hanzi": "大家都很喜欢前天。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan qián tiān 。",
+      "meaning": "Mọi người đều rất thích hôm kia."
+    }
+  ],
+  "便宜": [
+    {
+      "hanzi": "这个便宜在生活中很常用。",
+      "pinyin": "Zhè ge pián yi zài shēng huó zhōng hěn cháng yòng 。",
+      "meaning": "便宜 (rẻ) rất thông dụng trong đời sống."
+    },
+    {
+      "hanzi": "请用“便宜”写一个简单的句子。",
+      "pinyin": "Qǐng yòng “ pián yi ” xiě yí gè jiǎn dān de jù zi 。",
+      "meaning": "Xin hãy dùng từ \"便宜\" để viết một câu đơn giản."
+    },
+    {
+      "hanzi": "大家都很喜欢便宜。",
+      "pinyin": "Dà jiā dōu hěn xǐ huan pián yi 。",
+      "meaning": "Mọi người đều rất thích rẻ."
+    }
+  ],
+  "混乱": [
+    {
+      "hanzi": "他的计划非常混乱",
+      "pinyin": "Tā de jì huà fēi cháng hùn luàn",
+      "meaning": "(Ví dụ thực tế): 他的计划非常混乱"
+    },
+    {
+      "hanzi": "他是我的混乱，人很好。",
+      "pinyin": "Tā shì wǒ de hùn luàn ， rén hěn hǎo 。",
+      "meaning": "Anh ấy là hỗn loạn của tôi, tính tình rất tốt."
+    },
+    {
+      "hanzi": "我的混乱非常喜欢学中文。",
+      "pinyin": "Wǒ de hùn luàn fēi cháng xǐ huan xué zhōng wén 。",
+      "meaning": "hỗn loạn của tôi rất thích học tiếng Trung."
+    }
+  ],
+  "会议": [
+    {
+      "hanzi": "我们今天下午两点有一个重要的项目会议。",
+      "pinyin": "Wǒ men jīn tiān xià wǔ liǎng diǎn yǒu yí gè zhòng yào de xiàng mù huì yì 。",
+      "meaning": "Chiều nay lúc 2 giờ chúng tôi có một cuộc họp dự án quan trọng."
+    },
+    {
+      "hanzi": "经理正在会议室里开会呢。",
+      "pinyin": "Jīng lǐ zhèng zài huì yì shì lǐ kāi huì ne 。",
+      "meaning": "Giám đốc đang họp trong phòng họp kìa."
+    },
+    {
+      "hanzi": "这次会议主要讨论下个季度的计划。",
+      "pinyin": "Zhè cì huì yì zhǔ yào tǎo lùn xià gè jì dù de jì huà 。",
+      "meaning": "Cuộc họp lần này chủ yếu thảo luận kế hoạch quý tới."
+    }
+  ],
+  "确认": [
+    {
+      "hanzi": "请尽快确认一下订单的信息。",
+      "pinyin": "Qǐng jǐn kuài què rèn yí xià dìng dān de xìn xī 。",
+      "meaning": "Vui lòng nhanh chóng xác nhận lại thông tin đơn hàng."
+    },
+    {
+      "hanzi": "我已经向客户确认了交货时间。",
+      "pinyin": "Wǒ yǐ jīng xiàng kè hù què rèn le jiāo huò shí jiān 。",
+      "meaning": "Tôi đã xác nhận thời gian giao hàng với khách hàng rồi."
+    },
+    {
+      "hanzi": "在发邮件之前，请再次确认收件人地址。",
+      "pinyin": "Zài fā yóu jiàn zhī qián ， qǐng zài cì què rèn shōu jiàn rén dì zhǐ 。",
+      "meaning": "Trước khi gửi email, vui lòng xác nhận lại địa chỉ người nhận."
+    }
+  ],
+  "尽快": [
+    {
+      "hanzi": "请尽快给我答复，我很着急。",
+      "pinyin": "Qǐng jǐn kuài gěi wǒ dá fù ， wǒ hěn zháo jí 。",
+      "meaning": "Vui lòng trả lời cho tôi sớm nhất có thể, tôi đang rất gấp."
+    },
+    {
+      "hanzi": "我们会尽快处理您的申请。",
+      "pinyin": "Wǒ men huì jǐn kuài chǔ lǐ nín de shēn qǐng 。",
+      "meaning": "Chúng tôi sẽ xử lý yêu cầu của quý khách nhanh nhất có thể."
+    },
+    {
+      "hanzi": "如果有新消息，请尽快通知大家。",
+      "pinyin": "Rú guǒ yǒu xīn xiāo xī ， qǐng jǐn kuài tōng zhī dà jiā 。",
+      "meaning": "Nếu có tin tức mới, vui lòng thông báo cho mọi người càng sớm càng tốt."
+    }
+  ],
+  "学会": [
+    {
+      "hanzi": "经过一个月的努力，我终于学会了游泳。",
+      "pinyin": "Jīng guò yí gè yuè de nǔ lì ， wǒ zhōng yú xué huì le yóu yǒng 。",
+      "meaning": "Sau một tháng nỗ lực, tôi cuối cùng đã học được bơi rồi."
+    },
+    {
+      "hanzi": "在大学里，我们要学会独立思考。",
+      "pinyin": "Zài dà xué lǐ ， wǒ men yào xué huì dú lì sī kǎo 。",
+      "meaning": "Ở trường đại học, chúng ta phải học cách tư duy độc lập."
+    },
+    {
+      "hanzi": "他很快就学会了如何使用这个新软件。",
+      "pinyin": "Tā hěn kuài jiù xué huì le rú hé shǐ yòng zhè ge xīn ruǎn jiàn 。",
+      "meaning": "Anh ấy rất nhanh đã học được cách sử dụng phần mềm mới này."
+    }
+  ],
+  "会计": [
+    {
+      "hanzi": "我姐姐在一家外企当财务会计。",
+      "pinyin": "Wǒ jiě jie zài yì jiā wài qǐ dāng cái wù kuài jì 。",
+      "meaning": "Chị gái tôi làm kế toán tài chính ở một công ty nước ngoài."
+    },
+    {
+      "hanzi": "会计工作需要非常细心和认真。",
+      "pinyin": "Kuài jì gōng zuò xū yào fēi cháng xì xīn hé rèn zhēn 。",
+      "meaning": "Công việc kế toán đòi hỏi phải vô cùng tỉ mỉ và cẩn thận."
+    },
+    {
+      "hanzi": "大学毕业后，他打算考注册会计师。",
+      "pinyin": "Dà xué bì yè hòu ， tā dǎ suàn kǎo zhù cè kuài jì shī 。",
+      "meaning": "Sau khi tốt nghiệp đại học, anh ấy dự định thi chứng chỉ kiểm toán viên."
+    }
+  ]
+}

@@ -3750,5 +3750,64 @@
     "pinyin": "hùnluàn]",
     "sinoVietnamese": "hỗn loạn",
     "example": "他的计划非常混乱"
+  },
+  {
+    "id": 321,
+    "originalIndex": 321,
+    "hanzi": "会议",
+    "validAnswers": [
+      "会议"
+    ],
+    "meaning": "cuộc họp，hội nghị",
+    "pinyin": "huìyì",
+    "sinoVietnamese": "hội nghị",
+    "example": "我们今天有一个会议"
+  },
+  {
+    "id": 322,
+    "originalIndex": 322,
+    "hanzi": "确认",
+    "validAnswers": [
+      "确认"
+    ],
+    "meaning": "xác nhận; ghi nhận; thừa nhận",
+    "pinyin": "quèrèn",
+    "sinoVietnamese": "xác nhận",
+    "example": "她确认了付款方式"
+  },
+  {
+    "id": 323,
+    "originalIndex": 323,
+    "hanzi": "尽快",
+    "validAnswers": [
+      "尽快"
+    ],
+    "meaning": "nhanh chóng; sớm nhất có thể; mau chóng",
+    "pinyin": "jǐnkuài",
+    "sinoVietnamese": "tẫn khoái",
+    "example": "请尽快给我答复"
+  },
+  {
+    "id": 324,
+    "originalIndex": 324,
+    "hanzi": "学会",
+    "validAnswers": [
+      "学会"
+    ],
+    "meaning": "hội học thuật; học hội\nhọc hỏi; học cách",
+    "pinyin": "xuéhuì",
+    "sinoVietnamese": "học hội"
+  },
+  {
+    "id": 325,
+    "originalIndex": 325,
+    "hanzi": "会计",
+    "validAnswers": [
+      "会计"
+    ],
+    "meaning": "kế toán",
+    "pinyin": "kuàijì",
+    "sinoVietnamese": "cối kế",
+    "example": "会计工作很重要"
   }
 ]

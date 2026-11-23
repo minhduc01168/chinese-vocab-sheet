@@ -3,6 +3,7 @@ import { VocabItem, QuizStatus, StudyRange, CardHistory } from '../types/vocab';
 import { isAnswerCorrect } from '../utils/textNormalizer';
 
 const STORAGE_WRONG_KEY = 'vocab_wrong_history_v1';
+const STORAGE_FLAGGED_KEY = 'vocab_flagged_history_v1';
 
 export interface CardState {
   status: QuizStatus;
@@ -40,7 +41,17 @@ export function useQuizSession(allItems: VocabItem[]) {
     }
   });
 
-  // Save wrongHistory to localStorage whenever it changes
+  // Flagged words (gắn cờ 🚩) stored across sessions
+  const [flaggedIds, setFlaggedIds] = useState<Record<string | number, boolean>>(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_FLAGGED_KEY);
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  // Save wrongHistory to localStorage
   useEffect(() => {
     try {
       localStorage.setItem(STORAGE_WRONG_KEY, JSON.stringify(wrongHistory));
@@ -49,44 +60,83 @@ export function useQuizSession(allItems: VocabItem[]) {
     }
   }, [wrongHistory]);
 
-  // Filter items according to range
+  // Save flaggedIds to localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_FLAGGED_KEY, JSON.stringify(flaggedIds));
+    } catch (e) {
+      console.warn('Could not save flagged items to localStorage:', e);
+    }
+  }, [flaggedIds]);
+
+  // Toggle flag on/off
+  const toggleFlag = useCallback((itemId: string | number) => {
+    setFlaggedIds(prev => {
+      const next = { ...prev };
+      if (next[itemId]) {
+        delete next[itemId];
+      } else {
+        next[itemId] = true;
+      }
+      return next;
+    });
+  }, []);
+
+  const isFlagged = useCallback((itemId: string | number) => {
+    return Boolean(flaggedIds[itemId]);
+  }, [flaggedIds]);
+
+  // Filter items according to range (Supports STT blocks, random 100, flagged, review_all)
   const filteredItems = useMemo(() => {
     if (!allItems || allItems.length === 0) return [];
 
     let result: VocabItem[] = [];
 
-    switch (studyRange) {
-      case 'latest20':
-        result = allItems.slice(-20);
-        break;
-      case 'latest50':
-        result = allItems.slice(-50);
-        break;
-      case 'incorrect':
-        result = allItems.filter(item => {
-          const rec = wrongHistory[item.id];
-          return rec && (rec.wrongCount > 0 || rec.lastStatus === 'wrong' || rec.lastStatus === 'skipped');
-        });
-        if (result.length === 0) {
-          result = allItems.slice(0, 20);
-        }
-        break;
-      case 'all':
-      default:
-        result = [...allItems];
-        break;
+    if (studyRange.startsWith('block_')) {
+      // Dynamic STT blocks e.g. block_1_100, block_101_200
+      const parts = studyRange.split('_');
+      const start = Math.max(0, parseInt(parts[1], 10) - 1);
+      const end = parseInt(parts[2], 10);
+      result = allItems.slice(start, end);
+    } else if (studyRange === 'random100') {
+      // Pick random 100 items from all items
+      const sampleSize = Math.min(100, allItems.length);
+      result = shuffleArray(allItems).slice(0, sampleSize);
+    } else if (studyRange === 'flagged') {
+      // Only flagged words
+      result = allItems.filter(item => Boolean(flaggedIds[item.id]));
+    } else if (studyRange === 'review_all') {
+      // Combined: words marked wrong OR flagged
+      result = allItems.filter(item => {
+        const isW = wrongHistory[item.id] && (wrongHistory[item.id].wrongCount > 0 || wrongHistory[item.id].lastStatus === 'wrong' || wrongHistory[item.id].lastStatus === 'skipped');
+        const isF = Boolean(flaggedIds[item.id]);
+        return isW || isF;
+      });
+    } else if (studyRange === 'incorrect') {
+      // Only words marked wrong or skipped
+      result = allItems.filter(item => {
+        const rec = wrongHistory[item.id];
+        return rec && (rec.wrongCount > 0 || rec.lastStatus === 'wrong' || rec.lastStatus === 'skipped');
+      });
+    } else if (studyRange === 'latest20') {
+      result = allItems.slice(-20);
+    } else if (studyRange === 'latest50') {
+      result = allItems.slice(-50);
+    } else {
+      // 'all'
+      result = [...allItems];
     }
 
     return result;
-  }, [allItems, studyRange, wrongHistory]);
+  }, [allItems, studyRange, wrongHistory, flaggedIds]);
 
   // Order items based on shuffle setting
   const activeItems = useMemo(() => {
-    if (isShuffle) {
+    if (isShuffle && studyRange !== 'random100') {
       return shuffleArray(filteredItems);
     }
     return filteredItems;
-  }, [filteredItems, isShuffle]);
+  }, [filteredItems, isShuffle, studyRange]);
 
   // Reset session when user deliberately switches filter or shuffle mode
   useEffect(() => {
@@ -286,6 +336,33 @@ export function useQuizSession(allItems: VocabItem[]) {
     }
   }, []);
 
+  const clearFlaggedWords = useCallback(() => {
+    setFlaggedIds({});
+    try {
+      localStorage.removeItem(STORAGE_FLAGGED_KEY);
+    } catch (e) {
+      console.warn('Failed to clear flagged words:', e);
+    }
+  }, []);
+
+  const wrongHistoryCount = useMemo(() => {
+    return Object.values(wrongHistory).filter(v => v.wrongCount > 0 || v.lastStatus === 'wrong').length;
+  }, [wrongHistory]);
+
+  const flaggedCount = useMemo(() => {
+    return Object.keys(flaggedIds).length;
+  }, [flaggedIds]);
+
+  const reviewAllCount = useMemo(() => {
+    const wrongKeys = new Set(
+      Object.entries(wrongHistory)
+        .filter(([_, v]) => v.wrongCount > 0 || v.lastStatus === 'wrong' || v.lastStatus === 'skipped')
+        .map(([k]) => k)
+    );
+    Object.keys(flaggedIds).forEach(k => wrongKeys.add(k));
+    return wrongKeys.size;
+  }, [wrongHistory, flaggedIds]);
+
   return {
     studyRange,
     setStudyRange,
@@ -307,6 +384,11 @@ export function useQuizSession(allItems: VocabItem[]) {
     stats,
     restartSession,
     clearWrongHistory,
-    wrongHistoryCount: Object.values(wrongHistory).filter(v => v.wrongCount > 0 || v.lastStatus === 'wrong').length,
+    clearFlaggedWords,
+    wrongHistoryCount,
+    flaggedCount,
+    reviewAllCount,
+    toggleFlag,
+    isFlagged,
   };
 }

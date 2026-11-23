@@ -84,9 +84,10 @@ export const ActionBar: React.FC<ActionBarProps> = ({
       </div>
 
       {/* Keyboard Shortcuts Hint (Desktop only) */}
-      <div className="hidden md:flex items-center justify-center gap-4 mt-3 text-[11px] text-slate-500 select-none font-medium">
+      <div className="hidden md:flex flex-wrap items-center justify-center gap-3.5 mt-3 text-[11px] text-slate-500 select-none font-medium">
         <span><kbd className="px-1.5 py-0.5 bg-slate-200/80 rounded-md text-slate-700 font-mono shadow-xs">Enter</kbd> {isResolved ? 'Tiếp tục' : 'Kiểm tra'}</span>
         <span><kbd className="px-1.5 py-0.5 bg-slate-200/80 rounded-md text-slate-700 font-mono shadow-xs">Ctrl + Space</kbd> Nghe lại</span>
+        <span><kbd className="px-1.5 py-0.5 bg-slate-200/80 rounded-md text-slate-700 font-mono shadow-xs">F</kbd> Gắn cờ 🚩</span>
         <span><kbd className="px-1.5 py-0.5 bg-slate-200/80 rounded-md text-slate-700 font-mono shadow-xs">Alt + →</kbd> Bỏ qua</span>
         <span><kbd className="px-1.5 py-0.5 bg-slate-200/80 rounded-md text-slate-700 font-mono shadow-xs">Alt + ←</kbd> Quay lại</span>
       </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { 
   Sparkles, 
   RotateCcw, 
@@ -9,7 +9,8 @@ import {
   WifiOff, 
   Flame,
   HelpCircle,
-  BookOpen
+  Bookmark,
+  Flag
 } from 'lucide-react';
 import { StudyRange } from '../types/vocab';
 
@@ -26,9 +27,12 @@ interface HeaderProps {
   skippedCount: number;
   currentIndex: number;
   totalCards: number;
+  allTotalCount: number;
   isOffline: boolean;
   lastSyncedAt: Date | null;
   wrongHistoryCount: number;
+  flaggedCount: number;
+  reviewAllCount: number;
   currentStreak: number;
 }
 
@@ -45,13 +49,33 @@ export const Header: React.FC<HeaderProps> = ({
   skippedCount,
   currentIndex,
   totalCards,
+  allTotalCount,
   isOffline,
   lastSyncedAt,
   wrongHistoryCount,
+  flaggedCount,
+  reviewAllCount,
   currentStreak,
 }) => {
   const currentCardNumber = Math.min(currentIndex + 1, totalCards);
   const progressPercent = totalCards > 0 ? Math.round((currentCardNumber / totalCards) * 100) : 0;
+
+  // Generate dynamic 100-word blocks based on total words in sheet
+  const blocks = useMemo(() => {
+    const list: { id: string; label: string }[] = [];
+    if (allTotalCount <= 0) return list;
+    const blockSize = 100;
+    const totalBlocks = Math.ceil(allTotalCount / blockSize);
+    for (let i = 0; i < totalBlocks; i++) {
+      const start = i * blockSize + 1;
+      const end = Math.min((i + 1) * blockSize, allTotalCount);
+      list.push({
+        id: `block_${start}_${end}`,
+        label: `🎯 STT ${start} – ${end}`
+      });
+    }
+    return list;
+  }, [allTotalCount]);
 
   return (
     <header className="w-full max-w-4xl mx-auto px-4 pt-3 sm:pt-5 pb-2">
@@ -99,14 +123,31 @@ export const Header: React.FC<HeaderProps> = ({
               value={studyRange}
               onChange={(e) => onRangeChange(e.target.value as StudyRange)}
               aria-label="Chọn phạm vi từ vựng ôn tập"
-              className="text-xs sm:text-sm font-semibold bg-indigo-50/70 hover:bg-indigo-100/70 text-indigo-900 py-1.5 px-3 rounded-2xl border border-indigo-100 outline-none focus:ring-2 focus:ring-indigo-400 transition-all cursor-pointer"
+              className="text-xs sm:text-sm font-semibold bg-indigo-50/80 hover:bg-indigo-100/80 text-indigo-900 py-1.5 px-3 rounded-2xl border border-indigo-200/60 outline-none focus:ring-2 focus:ring-indigo-400 transition-all cursor-pointer shadow-xs max-w-[175px] sm:max-w-[210px] truncate"
             >
-              <option value="all">📚 Tất cả ({totalCards})</option>
-              <option value="latest20">⚡ 20 từ mới nhất</option>
-              <option value="latest50">🔥 50 từ mới nhất</option>
-              <option value="incorrect">
-                ⚠️ Cần ôn lại {wrongHistoryCount > 0 ? `(${wrongHistoryCount})` : ''}
-              </option>
+              <optgroup label="📚 Kho từ vựng">
+                <option value="all">Tất cả ({allTotalCount})</option>
+                <option value="random100">🎲 Ngẫu nhiên 100 từ</option>
+              </optgroup>
+
+              {blocks.length > 1 && (
+                <optgroup label="🎯 Theo chặng STT">
+                  {blocks.map(b => (
+                    <option key={b.id} value={b.id}>{b.label}</option>
+                  ))}
+                </optgroup>
+              )}
+
+              <optgroup label="⚡ Từ mới thêm">
+                <option value="latest20">20 từ mới nhất</option>
+                <option value="latest50">50 từ mới nhất</option>
+              </optgroup>
+
+              <optgroup label="🔁 Ôn tập nhắc lại">
+                <option value="flagged">🚩 Đã gắn cờ ({flaggedCount})</option>
+                <option value="review_all">⚠️ Cần ôn tập ({reviewAllCount})</option>
+                <option value="incorrect">❌ Chỉ từ làm sai ({wrongHistoryCount})</option>
+              </optgroup>
             </select>
           </div>
 
@@ -172,6 +213,12 @@ export const Header: React.FC<HeaderProps> = ({
               <span className="inline-flex items-center gap-1 text-amber-500 font-semibold">
                 <HelpCircle size={13} />
                 <span>{skippedCount} qua</span>
+              </span>
+            )}
+            {flaggedCount > 0 && (
+              <span className="inline-flex items-center gap-1 text-rose-600 font-semibold hidden sm:inline-flex">
+                <Flag size={12} className="fill-rose-500 text-rose-500" />
+                <span>{flaggedCount} cờ</span>
               </span>
             )}
           </div>

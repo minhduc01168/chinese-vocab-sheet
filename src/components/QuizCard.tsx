@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { 
   Volume2, 
   CheckCircle2, 
@@ -6,13 +6,15 @@ import {
   Lightbulb, 
   Sparkles,
   PartyPopper,
-  Flame,
+  Flag,
   MessageSquareQuote,
-  PenTool
+  ChevronRight,
+  ChevronLeft
 } from 'lucide-react';
-import { VocabItem } from '../types/vocab';
+import { VocabItem, AiExampleItem } from '../types/vocab';
 import { CardState } from '../hooks/useQuizSession';
 import { playSound } from '../utils/soundEffects';
+import { getWordExamples, generateExamplesWithGemini } from '../utils/aiExampleService';
 
 interface QuizCardProps {
   item: VocabItem;
@@ -25,6 +27,9 @@ interface QuizCardProps {
   soundEffects: boolean;
   speechRate: number;
   currentStreak: number;
+  isFlagged: boolean;
+  onToggleFlag: () => void;
+  geminiApiKey?: string;
 }
 
 const ENCOURAGEMENTS = [
@@ -47,11 +52,17 @@ export const QuizCard: React.FC<QuizCardProps> = ({
   soundEffects,
   speechRate,
   currentStreak,
+  isFlagged,
+  onToggleFlag,
+  geminiApiKey,
 }) => {
   const [inputValue, setInputValue] = useState<string>('');
   const [localRate, setLocalRate] = useState<number>(speechRate);
   const [shake, setShake] = useState<boolean>(false);
   const [cheerMessage, setCheerMessage] = useState<string>('Xuất sắc! 🎉');
+  const [selectedExampleIndex, setSelectedExampleIndex] = useState<number>(0);
+  const [isGeneratingAi, setIsGeneratingAi] = useState<boolean>(false);
+  const [aiGenError, setAiGenError] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const isResolved = cardState.status === 'correct' || cardState.status === 'revealed';
@@ -65,8 +76,9 @@ export const QuizCard: React.FC<QuizCardProps> = ({
   useEffect(() => {
     setInputValue(cardState.userTyped || '');
     setShake(false);
+    setSelectedExampleIndex(0);
+    setAiGenError(null);
 
-    // Pick random cheer phrase for when user gets it right
     const randomCheer = ENCOURAGEMENTS[Math.floor(Math.random() * ENCOURAGEMENTS.length)];
     setCheerMessage(randomCheer);
 
@@ -100,10 +112,22 @@ export const QuizCard: React.FC<QuizCardProps> = ({
     }
   }, [isWrong, cardState.attempts, soundEffects]);
 
+  // Retrieve 3-5 example sentences for this word
+  const wordExamples = useMemo<AiExampleItem[]>(() => {
+    return getWordExamples(item.validAnswers[0] || item.hanzi, item.example);
+  }, [item.id, item.validAnswers, item.hanzi, item.example, isGeneratingAi]);
+
   // IME Safe Keydown Handler
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     // CRITICAL: Do not submit when composing pinyin with IME
     if (e.nativeEvent.isComposing || e.keyCode === 229) {
+      return;
+    }
+
+    // Alt + F to toggle flag
+    if (e.altKey && (e.key === 'f' || e.key === 'F')) {
+      e.preventDefault();
+      onToggleFlag();
       return;
     }
 
@@ -149,6 +173,27 @@ export const QuizCard: React.FC<QuizCardProps> = ({
     onSpeak(item.validAnswers[0] || item.hanzi, nextRate);
   };
 
+  const handleGenerateAiExamples = async () => {
+    if (!geminiApiKey) {
+      setAiGenError('Vui lòng vào Cài đặt (⚙) để cấu hình Google Gemini API Key trước.');
+      return;
+    }
+    setIsGeneratingAi(true);
+    setAiGenError(null);
+    try {
+      await generateExamplesWithGemini(
+        geminiApiKey,
+        item.validAnswers[0] || item.hanzi,
+        item.meaning
+      );
+      if (soundEffects) playSound.pop();
+    } catch (err: any) {
+      setAiGenError(err.message || 'Lỗi gọi Gemini API.');
+    } finally {
+      setIsGeneratingAi(false);
+    }
+  };
+
   const getCharBlanksHint = () => {
     const sample = item.validAnswers[0] || item.hanzi;
     return sample
@@ -156,6 +201,8 @@ export const QuizCard: React.FC<QuizCardProps> = ({
       .map(char => (/[\u4e00-\u9fa5]/.test(char) ? '—' : char))
       .join(' ');
   };
+
+  const currentExample = wordExamples[selectedExampleIndex] || wordExamples[0];
 
   return (
     <div className="w-full max-w-2xl mx-auto px-4 py-2 sm:py-4 flex-1 flex flex-col justify-center">
@@ -172,6 +219,26 @@ export const QuizCard: React.FC<QuizCardProps> = ({
       >
         {/* Playful Top Rainbow Bar */}
         <div className="absolute top-0 inset-x-0 h-2 bg-gradient-to-r from-violet-500 via-indigo-500 via-sky-400 to-emerald-400" />
+
+        {/* Top Action Row: Flag Bookmark Button */}
+        <div className="absolute top-4 right-4 z-10">
+          <button
+            type="button"
+            onClick={onToggleFlag}
+            title={isFlagged ? 'Bỏ gắn cờ (phím F)' : 'Gắn cờ từ khó để ôn lại (phím F)'}
+            className={`p-2.5 rounded-2xl transition-all cursor-pointer flex items-center gap-1.5 active:scale-95 ${
+              isFlagged
+                ? 'bg-rose-50 text-rose-600 border border-rose-200 shadow-sm shadow-rose-500/15'
+                : 'bg-slate-100/80 text-slate-400 hover:text-slate-600 hover:bg-slate-200/80'
+            }`}
+          >
+            <Flag 
+              size={16} 
+              className={isFlagged ? 'fill-rose-500 text-rose-500' : ''} 
+            />
+            {isFlagged && <span className="text-[11px] font-bold text-rose-600">Đã cắm cờ</span>}
+          </button>
+        </div>
 
         {/* Question Header: Vietnamese Meaning */}
         <div className="w-full mb-6">
@@ -297,26 +364,78 @@ export const QuizCard: React.FC<QuizCardProps> = ({
               </div>
             )}
 
-            {/* Example sentence if provided */}
-            {item.example && (
-              <div className="w-full max-w-lg mt-2 bg-gradient-to-br from-indigo-50/50 to-purple-50/40 rounded-2xl p-3.5 border border-indigo-100 text-left">
-                <div className="flex items-center justify-between mb-1.5">
-                  <div className="flex items-center gap-1 text-[11px] font-bold text-indigo-600 uppercase tracking-wide">
-                    <MessageSquareQuote size={13} />
-                    <span>Ví dụ thực tế:</span>
+            {/* 3-5 Example Sentences Carousel / Tabs */}
+            {wordExamples.length > 0 ? (
+              <div className="w-full max-w-lg mt-3 bg-gradient-to-br from-indigo-50/60 via-purple-50/30 to-slate-50 rounded-2xl p-4 border border-indigo-100 text-left shadow-xs">
+                <div className="flex items-center justify-between mb-2 pb-2 border-b border-indigo-100/60">
+                  <div className="flex items-center gap-1.5 text-xs font-bold text-indigo-700">
+                    <MessageSquareQuote size={15} className="text-indigo-600" />
+                    <span>Mẫu câu thực tế ({selectedExampleIndex + 1}/{wordExamples.length})</span>
                   </div>
-                  <button
-                    onClick={() => onSpeak(item.example || '', localRate)}
-                    title="Nghe câu ví dụ"
-                    className="text-xs text-indigo-700 hover:text-indigo-900 bg-white/80 hover:bg-white px-2 py-0.5 rounded-lg border border-indigo-100 flex items-center gap-1 cursor-pointer font-medium transition-colors"
-                  >
-                    <Volume2 size={13} />
-                    <span>Nghe ví dụ</span>
-                  </button>
+
+                  {/* Tabs Switcher for multiple examples */}
+                  {wordExamples.length > 1 && (
+                    <div className="flex items-center gap-1 bg-white/80 p-0.5 rounded-xl border border-indigo-100">
+                      {wordExamples.map((_, idx) => (
+                        <button
+                          key={idx}
+                          type="button"
+                          onClick={() => setSelectedExampleIndex(idx)}
+                          className={`w-6 h-6 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                            selectedExampleIndex === idx
+                              ? 'bg-indigo-600 text-white shadow-xs'
+                              : 'text-slate-500 hover:text-slate-900'
+                          }`}
+                        >
+                          {idx + 1}
+                        </button>
+                      ))}
+                    </div>
+                  )}
                 </div>
-                <p className="text-sm sm:text-base font-chinese text-slate-800 leading-relaxed">
-                  {item.example}
-                </p>
+
+                {/* Selected Example Content */}
+                {currentExample && (
+                  <div className="space-y-1.5 animate-fade-in">
+                    <div className="flex items-start justify-between gap-2">
+                      <p className="text-base sm:text-lg font-chinese font-bold text-slate-900 leading-snug">
+                        {currentExample.hanzi}
+                      </p>
+                      <button
+                        type="button"
+                        onClick={() => onSpeak(currentExample.hanzi, localRate)}
+                        title="Nghe câu này"
+                        className="p-1.5 text-indigo-600 hover:text-indigo-800 bg-white hover:bg-indigo-50 rounded-xl border border-indigo-100 shrink-0 cursor-pointer transition-colors shadow-xs"
+                      >
+                        <Volume2 size={15} />
+                      </button>
+                    </div>
+
+                    <p className="text-xs font-mono font-medium text-indigo-600">
+                      {currentExample.pinyin}
+                    </p>
+
+                    <p className="text-xs text-slate-600 leading-relaxed font-medium">
+                      {currentExample.meaning}
+                    </p>
+                  </div>
+                )}
+              </div>
+            ) : (
+              /* Fallback: button to generate examples with Gemini if not yet in store */
+              <div className="w-full max-w-lg mt-3 p-3 bg-slate-50 rounded-2xl border border-slate-200 text-center">
+                <button
+                  type="button"
+                  onClick={handleGenerateAiExamples}
+                  disabled={isGeneratingAi}
+                  className="px-4 py-2 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white rounded-xl text-xs font-bold inline-flex items-center gap-2 shadow-xs transition-all cursor-pointer active:scale-95"
+                >
+                  <Sparkles size={14} className={isGeneratingAi ? 'animate-spin' : ''} />
+                  <span>{isGeneratingAi ? 'AI đang sinh 3 câu ví dụ...' : '✨ Tạo 3 câu ví dụ bằng AI (Gemini 2.5 Flash)'}</span>
+                </button>
+                {aiGenError && (
+                  <p className="text-xs text-rose-600 mt-2 font-medium">{aiGenError}</p>
+                )}
               </div>
             )}
 
@@ -327,7 +446,7 @@ export const QuizCard: React.FC<QuizCardProps> = ({
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs sm:text-sm shadow-md shadow-indigo-500/20 transition-all cursor-pointer active:scale-95"
               >
                 <Volume2 size={16} />
-                <span>Nghe lại</span>
+                <span>Nghe từ này</span>
               </button>
 
               <button

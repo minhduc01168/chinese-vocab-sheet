@@ -3,11 +3,16 @@ import {
   X, 
   Share2, 
   Check, 
-  Volume2, 
   Trash2, 
-  Info,
+  Info, 
   RefreshCw,
-  BellRing
+  Lock,
+  Unlock,
+  Key,
+  Eye,
+  EyeOff,
+  Sparkles,
+  ExternalLink
 } from 'lucide-react';
 import { AppSettings } from '../types/vocab';
 import { parseSheetUrl } from '../utils/textNormalizer';
@@ -40,6 +45,17 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   const [soundEffects, setSoundEffects] = useState<boolean>(settings.soundEffects ?? true);
   const [speechRate, setSpeechRate] = useState<number>(settings.speechRate);
   const [selectedVoiceName, setSelectedVoiceName] = useState<string>(settings.selectedVoiceName || '');
+  
+  // Gemini AI Key & Admin Passcode States
+  const [geminiApiKey, setGeminiApiKey] = useState<string>(settings.geminiApiKey || '');
+  const [adminPasscode, setAdminPasscode] = useState<string>(settings.adminPasscode || '1688');
+  const [passcodeAttempt, setPasscodeAttempt] = useState<string>('');
+  const [isAdminUnlocked, setIsAdminUnlocked] = useState<boolean>(false);
+  const [passcodeError, setPasscodeError] = useState<boolean>(false);
+  const [showApiKey, setShowApiKey] = useState<boolean>(false);
+  const [newPasscode, setNewPasscode] = useState<string>('');
+  const [showPasscodeChange, setShowPasscodeChange] = useState<boolean>(false);
+
   const [copiedShareLink, setCopiedShareLink] = useState<boolean>(false);
   const [clearedHistoryNotice, setClearedHistoryNotice] = useState<boolean>(false);
 
@@ -60,6 +76,8 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
       soundEffects,
       speechRate,
       selectedVoiceName,
+      geminiApiKey: geminiApiKey.trim(),
+      adminPasscode,
     });
   };
 
@@ -73,6 +91,8 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
       soundEffects,
       speechRate,
       selectedVoiceName,
+      geminiApiKey: geminiApiKey.trim(),
+      adminPasscode,
     });
   };
 
@@ -88,6 +108,28 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
     });
   };
 
+  const handleUnlockAdmin = () => {
+    const targetPasscode = adminPasscode || '1688';
+    if (passcodeAttempt.trim() === targetPasscode.trim()) {
+      setIsAdminUnlocked(true);
+      setPasscodeError(false);
+      setPasscodeAttempt('');
+    } else {
+      setPasscodeError(true);
+    }
+  };
+
+  const handleChangePasscode = () => {
+    if (newPasscode.trim().length >= 4) {
+      setAdminPasscode(newPasscode.trim());
+      setShowPasscodeChange(false);
+      setNewPasscode('');
+      alert('Đã cập nhật mật khẩu quản trị mới thành công!');
+    } else {
+      alert('Mật khẩu quản trị cần tối thiểu 4 ký tự.');
+    }
+  };
+
   const handleSaveAndClose = () => {
     onSaveSettings({
       sheetUrl: sheetInput.trim(),
@@ -95,6 +137,8 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
       soundEffects,
       speechRate,
       selectedVoiceName,
+      geminiApiKey: geminiApiKey.trim(),
+      adminPasscode,
       autoNextOnCorrect: settings.autoNextOnCorrect,
     });
     onClose();
@@ -178,20 +222,164 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                 Gửi link này cho bạn bè, họ mở ra là học được ngay bộ từ của bạn trên điện thoại/máy tính mà không cần setup.
               </p>
             </div>
-
-            {/* Sharing Tip */}
-            <div className="bg-indigo-50/70 border border-indigo-100 rounded-2xl p-3 text-xs text-indigo-900 flex items-start gap-2.5 mt-2">
-              <Info size={16} className="text-indigo-600 shrink-0 mt-0.5" />
-              <div>
-                <p className="font-bold mb-0.5">Lưu ý quyền xem Google Sheet:</p>
-                <p className="text-indigo-800 leading-relaxed">
-                  Sheet cần được bật ở chế độ <b>"Bất kỳ ai có đường liên kết đều có thể xem"</b> (Chia sẻ &rarr; Chung &rarr; Người xem).
-                </p>
-              </div>
-            </div>
           </div>
 
-          {/* Section 2: Audio & Sound */}
+          {/* Section 2: AI Gemini 2.5 Flash Configuration (Password Protected) */}
+          <div className="space-y-3 pt-3 border-t border-slate-100">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-1.5">
+                <Sparkles size={16} className="text-indigo-600" />
+                <label className="text-xs font-bold uppercase tracking-wider text-indigo-700">
+                  Cấu hình AI Gemini 2.5 Flash
+                </label>
+              </div>
+
+              {isAdminUnlocked ? (
+                <button
+                  type="button"
+                  onClick={() => setIsAdminUnlocked(false)}
+                  className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-500 hover:text-slate-800 bg-slate-100 px-2.5 py-1 rounded-lg transition-colors cursor-pointer"
+                >
+                  <Lock size={12} />
+                  <span>Khóa lại</span>
+                </button>
+              ) : (
+                <span className="text-[11px] text-slate-400 font-medium flex items-center gap-1">
+                  <Lock size={12} />
+                  <span>Bảo vệ bằng mật khẩu</span>
+                </span>
+              )}
+            </div>
+
+            {!isAdminUnlocked ? (
+              /* Locked State: Ask for admin passcode */
+              <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 flex flex-col gap-2.5">
+                <div className="flex items-start gap-2 text-xs text-slate-600">
+                  <Key size={16} className="text-indigo-600 shrink-0 mt-0.5" />
+                  <p>
+                    Khu vực quản trị cấu hình AI (sinh ví dụ tự động ngầm khi thêm từ mới). Nhập mật khẩu quản trị để mở khóa:
+                  </p>
+                </div>
+
+                <div className="flex gap-2">
+                  <input
+                    type="password"
+                    value={passcodeAttempt}
+                    onChange={(e) => {
+                      setPasscodeAttempt(e.target.value);
+                      setPasscodeError(false);
+                    }}
+                    onKeyDown={(e) => e.key === 'Enter' && handleUnlockAdmin()}
+                    placeholder="Mật khẩu quản trị (Mặc định: 1688)"
+                    className="flex-1 px-3 py-2 bg-white border border-slate-300 rounded-xl text-xs text-slate-800 outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20"
+                  />
+                  <button
+                    type="button"
+                    onClick={handleUnlockAdmin}
+                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold transition-colors cursor-pointer shadow-xs flex items-center gap-1"
+                  >
+                    <Unlock size={13} />
+                    <span>Mở khóa</span>
+                  </button>
+                </div>
+
+                {passcodeError && (
+                  <p className="text-xs text-rose-600 font-semibold">
+                    Mật khẩu quản trị không chính xác, vui lòng thử lại!
+                  </p>
+                )}
+
+                {geminiApiKey && (
+                  <div className="text-[11px] text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200 inline-flex items-center gap-1 self-start font-medium">
+                    <Check size={12} />
+                    <span>Hệ thống đã có API Key (Đang ẩn)</span>
+                  </div>
+                )}
+              </div>
+            ) : (
+              /* Unlocked State: Configure API Key & Passcode */
+              <div className="bg-indigo-50/50 border border-indigo-200/80 rounded-2xl p-4 space-y-3 animate-fade-in">
+                <div>
+                  <div className="flex items-center justify-between mb-1">
+                    <label className="text-xs font-bold text-slate-800">
+                      Google Gemini API Key
+                    </label>
+                    <a
+                      href="https://aistudio.google.com/app/apikey"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[11px] text-indigo-600 hover:text-indigo-800 flex items-center gap-1 font-semibold"
+                    >
+                      <span>Lấy key miễn phí</span>
+                      <ExternalLink size={11} />
+                    </a>
+                  </div>
+
+                  <div className="relative flex items-center">
+                    <input
+                      type={showApiKey ? 'text' : 'password'}
+                      value={geminiApiKey}
+                      onChange={(e) => setGeminiApiKey(e.target.value)}
+                      placeholder="Dán API Key (AIzaSy...)"
+                      className="w-full pr-10 px-3.5 py-2.5 bg-white border border-indigo-200 rounded-xl text-xs text-slate-800 outline-none focus:border-indigo-600 focus:ring-2 focus:ring-indigo-500/20 font-mono"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => setShowApiKey(!showApiKey)}
+                      className="absolute right-2.5 text-slate-400 hover:text-slate-700 p-1 cursor-pointer"
+                    >
+                      {showApiKey ? <EyeOff size={15} /> : <Eye size={15} />}
+                    </button>
+                  </div>
+                  <p className="text-[11px] text-slate-500 mt-1">
+                    Mô hình: <b>gemini-2.5-flash</b>. Khi bạn thêm từ mới vào Google Sheet, AI sẽ tự động sinh 3 câu ví dụ ngầm và lưu đệm vĩnh viễn.
+                  </p>
+                </div>
+
+                {/* Change admin passcode option */}
+                <div className="pt-2 border-t border-indigo-100">
+                  {!showPasscodeChange ? (
+                    <button
+                      type="button"
+                      onClick={() => setShowPasscodeChange(true)}
+                      className="text-xs text-indigo-700 hover:text-indigo-900 font-semibold cursor-pointer underline"
+                    >
+                      Đổi mật khẩu quản trị (Hiện tại: {adminPasscode})
+                    </button>
+                  ) : (
+                    <div className="space-y-2">
+                      <label className="text-xs font-semibold text-slate-700">Mật khẩu quản trị mới</label>
+                      <div className="flex gap-2">
+                        <input
+                          type="text"
+                          value={newPasscode}
+                          onChange={(e) => setNewPasscode(e.target.value)}
+                          placeholder="Nhập tối thiểu 4 ký tự..."
+                          className="flex-1 px-3 py-1.5 bg-white border border-slate-300 rounded-xl text-xs text-slate-800 outline-none"
+                        />
+                        <button
+                          type="button"
+                          onClick={handleChangePasscode}
+                          className="px-3 py-1.5 bg-slate-800 hover:bg-slate-900 text-white rounded-xl text-xs font-bold cursor-pointer"
+                        >
+                          Lưu PIN
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setShowPasscodeChange(false)}
+                          className="px-2 py-1.5 text-slate-500 hover:text-slate-700 text-xs cursor-pointer"
+                        >
+                          Hủy
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Section 3: Audio & Sound */}
           <div className="space-y-3 pt-2 border-t border-slate-100">
             <label className="block text-xs font-bold uppercase tracking-wider text-indigo-700">
               Âm Thanh & Hiệu Ứng
@@ -275,7 +463,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
             )}
           </div>
 
-          {/* Section 3: History */}
+          {/* Section 4: History */}
           <div className="space-y-2.5 pt-2 border-t border-slate-100">
             <label className="block text-xs font-bold uppercase tracking-wider text-indigo-700">
               Lịch sử từ vựng
