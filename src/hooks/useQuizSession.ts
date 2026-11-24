@@ -51,6 +51,10 @@ export function useQuizSession(allItems: VocabItem[]) {
     }
   });
 
+  // Session seed: increments when starting/restarting a session or changing range/shuffle,
+  // ensuring the current session card list is stable while answering cards!
+  const [sessionSeed, setSessionSeed] = useState<number>(0);
+
   // Save wrongHistory to localStorage
   useEffect(() => {
     try {
@@ -86,8 +90,8 @@ export function useQuizSession(allItems: VocabItem[]) {
     return Boolean(flaggedIds[itemId]);
   }, [flaggedIds]);
 
-  // Filter items according to range (Supports STT blocks, random 100, flagged, review_all)
-  const filteredItems = useMemo(() => {
+  // Order items based on range and shuffle setting, anchored to sessionSeed
+  const activeItems = useMemo(() => {
     if (!allItems || allItems.length === 0) return [];
 
     let result: VocabItem[] = [];
@@ -127,21 +131,17 @@ export function useQuizSession(allItems: VocabItem[]) {
       result = [...allItems];
     }
 
-    return result;
-  }, [allItems, studyRange, wrongHistory, flaggedIds]);
-
-  // Order items based on shuffle setting
-  const activeItems = useMemo(() => {
     if (isShuffle && studyRange !== 'random100') {
-      return shuffleArray(filteredItems);
+      return shuffleArray(result);
     }
-    return filteredItems;
-  }, [filteredItems, isShuffle, studyRange]);
+    return result;
+  }, [allItems, studyRange, isShuffle, sessionSeed]);
 
   // Reset session when user deliberately switches filter or shuffle mode
   useEffect(() => {
     setCurrentIndex(0);
     setCardsState({});
+    setSessionSeed(s => s + 1);
   }, [studyRange, isShuffle]);
 
   // When items list updates from background sync, keep current card index in bounds
@@ -187,21 +187,26 @@ export function useQuizSession(allItems: VocabItem[]) {
     });
   }, []);
 
-  // Record a correct attempt
+  // Record a correct attempt: remove from wrongHistory and, if in review mode, unflag from flaggedIds
   const recordCorrectHistory = useCallback((itemId: string | number) => {
+    // 1. Remove from wrongHistory so it is no longer marked wrong
     setWrongHistory(prev => {
       if (!prev[itemId]) return prev;
-      const updated: CardHistory = {
-        ...prev[itemId],
-        lastReviewedAt: Date.now(),
-        lastStatus: 'correct',
-      };
-      return {
-        ...prev,
-        [itemId]: updated,
-      };
+      const next = { ...prev };
+      delete next[itemId];
+      return next;
     });
-  }, []);
+
+    // 2. If in review mode ('review_all', 'flagged', or 'incorrect'), unflag so the review list shrinks toward 0
+    if (studyRange === 'review_all' || studyRange === 'flagged' || studyRange === 'incorrect') {
+      setFlaggedIds(prev => {
+        if (!prev[itemId]) return prev;
+        const next = { ...prev };
+        delete next[itemId];
+        return next;
+      });
+    }
+  }, [studyRange]);
 
   // Submit answer
   const submitAnswer = useCallback((input: string): boolean => {
@@ -325,6 +330,7 @@ export function useQuizSession(allItems: VocabItem[]) {
     setCurrentIndex(0);
     setCardsState({});
     setCurrentStreak(0);
+    setSessionSeed(s => s + 1);
   }, []);
 
   const clearWrongHistory = useCallback(() => {

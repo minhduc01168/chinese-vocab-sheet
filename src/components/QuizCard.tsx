@@ -323,18 +323,34 @@ export const QuizCard: React.FC<QuizCardProps> = ({
               </div>
             )}
 
-            <button
-              onClick={handleHintClick}
-              type="button"
-              className="inline-flex items-center gap-1.5 text-xs text-slate-500 hover:text-amber-700 hover:bg-amber-50/90 px-3.5 py-1.5 rounded-xl transition-all font-semibold cursor-pointer border border-transparent hover:border-amber-200 active:scale-95"
-            >
-              <Lightbulb size={15} className="text-amber-500" />
-              <span>
-                {cardState.hintLevel === 0 && 'Gợi ý (Bấm 1: Pinyin)'}
-                {cardState.hintLevel === 1 && 'Gợi ý thêm (Bấm 2: Số chữ Hán)'}
-                {cardState.hintLevel === 2 && 'Xem đáp án đầy đủ'}
-              </span>
-            </button>
+            <div className="flex flex-wrap items-center justify-center gap-2">
+              <button
+                onClick={handleHintClick}
+                type="button"
+                className="inline-flex items-center gap-1.5 text-xs text-slate-600 hover:text-amber-800 hover:bg-amber-50 px-3.5 py-1.5 rounded-xl transition-all font-semibold cursor-pointer border border-slate-200 hover:border-amber-300 active:scale-95 shadow-2xs"
+              >
+                <Lightbulb size={15} className="text-amber-500" />
+                <span>
+                  {cardState.hintLevel === 0 && 'Gợi ý (Bấm 1: Pinyin)'}
+                  {cardState.hintLevel === 1 && 'Gợi ý thêm (Bấm 2: Số chữ Hán)'}
+                  {cardState.hintLevel === 2 && 'Xem đáp án đầy đủ'}
+                </span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  if (soundEffects) playSound.pop();
+                  onSpeak(item.validAnswers[0] || item.hanzi, localRate);
+                  if (inputRef.current) inputRef.current.focus();
+                }}
+                title="Nghe phát âm từ này để nhớ cách gõ (phím tắt: Ctrl + Space)"
+                className="inline-flex items-center gap-1.5 text-xs text-indigo-700 bg-indigo-50/90 hover:bg-indigo-100 hover:text-indigo-900 border border-indigo-200/90 px-3.5 py-1.5 rounded-xl transition-all font-bold cursor-pointer shadow-xs active:scale-95"
+              >
+                <Volume2 size={15} className="text-indigo-600" />
+                <span>Gợi ý âm thanh 🔊</span>
+              </button>
+            </div>
           </div>
         )}
 

@@ -327,21 +327,25 @@ export function App() {
 
         {/* Empty list for selected filter */}
         {!isLoading && allItems.length > 0 && activeItems.length === 0 && (
-          <div className="w-full max-w-md mx-auto p-8 text-center bg-white rounded-3xl border border-slate-200 shadow-sm">
-            <div className="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center mx-auto mb-3">
-              <BookOpen size={24} />
+          <div className="w-full max-w-md mx-auto p-8 text-center bg-white rounded-3xl border border-slate-200 shadow-sm animate-fade-in">
+            <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mx-auto mb-3">
+              <Sparkles size={24} />
             </div>
-            <h3 className="text-base font-semibold text-slate-800">Không có từ vựng nào</h3>
+            <h3 className="text-base font-bold text-slate-800">
+              {studyRange === 'review_all' || studyRange === 'flagged' || studyRange === 'incorrect'
+                ? 'Không còn từ nào cần ôn tập! 🎉'
+                : 'Không có từ vựng nào'}
+            </h3>
             <p className="text-xs text-slate-500 mt-1 mb-4">
-              {studyRange === 'incorrect' 
-                ? 'Tuyệt vời! Bạn không có từ nào bị sai cần ôn lại.'
+              {studyRange === 'review_all' || studyRange === 'flagged' || studyRange === 'incorrect'
+                ? 'Tuyệt vời! Bạn đã vượt qua và làm đúng toàn bộ các từ, danh sách cần ôn tập hiện đã về 0.'
                 : 'Chưa có từ vựng phù hợp với bộ lọc hiện tại.'}
             </p>
             <button
               onClick={() => setStudyRange('all')}
-              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium text-xs rounded-xl transition-colors cursor-pointer"
+              className="px-5 py-2.5 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white font-bold text-xs rounded-xl transition-all cursor-pointer shadow-md shadow-indigo-500/20 active:scale-95"
             >
-              Học tất cả từ vựng
+              Học toàn bộ từ vựng
             </button>
           </div>
         )}
