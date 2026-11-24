@@ -146,8 +146,30 @@ export function hasWordExamples(hanzi: string): boolean {
   return false;
 }
 
+export interface FallbackModelConfig {
+  id: string;
+  name: string;
+}
+
 /**
- * Call Gemini API (gemini-2.0-flash with fallback to gemini-1.5-flash)
+ * Chuỗi Fallback Model theo yêu cầu người dùng:
+ * 1. gemini-2.5-flash (Model chính ưu tiên)
+ * 2. Gemma 4 31B (Fallback 1)
+ * 3. Gemma 4 31B (Fallback 2 / Biến thể lệnh)
+ * 4. Gemini 3.8 Flash (Fallback 3)
+ * Dự phòng an toàn: gemini-2.0-flash, gemini-1.5-flash
+ */
+export const FALLBACK_MODEL_CHAIN: FallbackModelConfig[] = [
+  { id: 'gemini-2.5-flash', name: 'Gemini 2.5 Flash' },
+  { id: 'gemma-4-31b-it', name: 'Gemma 4 31B (it)' },
+  { id: 'gemma-4-31b', name: 'Gemma 4 31B' },
+  { id: 'gemini-3.8-flash', name: 'Gemini 3.8 Flash' },
+  { id: 'gemini-2.0-flash', name: 'Gemini 2.0 Flash' },
+  { id: 'gemini-1.5-flash', name: 'Gemini 1.5 Flash' },
+];
+
+/**
+ * Call Gemini API (gemini-2.5-flash với chuỗi fallback khi gặp 429 hoặc lỗi: Gemma 4 31B -> Gemma 4 31B -> Gemini 3.8 Flash)
  */
 export async function generateExamplesWithGemini(
   apiKey: string,
@@ -180,12 +202,12 @@ BẮT BUỘC trả về định dạng JSON thuần túy (không bọc trong mar
   }
 ]`;
 
-  // Candidate models: official stable Gemini 2.0 & 1.5 flash models
-  const candidateModels = ['gemini-2.0-flash', 'gemini-1.5-flash'];
   let lastErrorMsg = '';
 
-  for (const model of candidateModels) {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey.trim()}`;
+  for (let i = 0; i < FALLBACK_MODEL_CHAIN.length; i++) {
+    const modelConfig = FALLBACK_MODEL_CHAIN[i];
+    const isLastModel = i === FALLBACK_MODEL_CHAIN.length - 1;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelConfig.id}:generateContent?key=${apiKey.trim()}`;
 
     try {
       const response = await fetch(url, {
@@ -209,10 +231,25 @@ BẮT BUỘC trả về định dạng JSON thuần túy (không bọc trong mar
         const status = response.status;
         const msg = errorData.error?.message || `Lỗi HTTP ${status}`;
 
-        // If 404 (model not found), try the next candidate model
-        if (status === 404 || msg.includes('not found') || msg.includes('unsupported model')) {
-          lastErrorMsg = msg;
-          continue;
+        // Kiểm tra điều kiện Fallback: Lỗi 429 (Rate Limit / Quota), 404 (Chưa hỗ trợ), 503/500 (Quá tải)
+        const isRateLimited = status === 429 || 
+          msg.includes('429') || 
+          msg.toLowerCase().includes('quota') || 
+          msg.toLowerCase().includes('resource has been exhausted') || 
+          msg.toLowerCase().includes('rate limit');
+
+        const isModelNotFound = status === 404 || 
+          msg.toLowerCase().includes('not found') || 
+          msg.toLowerCase().includes('unsupported model');
+
+        const isOverloaded = status === 503 || 
+          status === 500 || 
+          msg.toLowerCase().includes('overloaded');
+
+        if (isRateLimited || isModelNotFound || isOverloaded) {
+          console.warn(`[AI Service] Model ${modelConfig.name} (${modelConfig.id}) gặp lỗi ${status}: "${msg}". Tự động fallback sang model tiếp theo...`);
+          lastErrorMsg = `${modelConfig.name} (${status}): ${msg}`;
+          continue; // Chuyển sang model tiếp theo trong chuỗi fallback
         }
 
         throw new Error(msg);
@@ -248,12 +285,27 @@ BẮT BUỘC trả về định dạng JSON thuần túy (không bọc trong mar
       }
       throw new Error('Dữ liệu JSON không đúng cấu trúc mảng.');
     } catch (err: any) {
-      if (model === candidateModels[candidateModels.length - 1] || !err.message?.includes('not found')) {
-        console.error(`Gemini generation error with model ${model}:`, err);
+      const isRetryableError = err.message && (
+        err.message.includes('429') ||
+        err.message.toLowerCase().includes('quota') ||
+        err.message.toLowerCase().includes('resource has been exhausted') ||
+        err.message.toLowerCase().includes('not found') ||
+        err.message.toLowerCase().includes('overloaded') ||
+        err.message.includes('JSON')
+      );
+
+      if (!isLastModel && isRetryableError) {
+        console.warn(`[AI Service] Model ${modelConfig.name} (${modelConfig.id}) gặp sự cố: ${err.message}. Tiếp tục fallback...`);
+        lastErrorMsg = `${modelConfig.name}: ${err.message}`;
+        continue;
+      }
+
+      if (isLastModel) {
+        console.error(`[AI Service] Tất cả model trong chuỗi fallback đều không thành công. Model cuối cùng ${modelConfig.name} báo lỗi:`, err);
         throw err;
       }
     }
   }
 
-  throw new Error(`Không thể gọi API Gemini (${lastErrorMsg || 'Tất cả model đều phản hồi lỗi'})`);
+  throw new Error(`Không thể gọi API Gemini (${lastErrorMsg || 'Tất cả model trong chuỗi fallback đều phản hồi lỗi'})`);
 }

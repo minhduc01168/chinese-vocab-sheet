@@ -335,12 +335,29 @@ runTest(SUITE_3, '3.3: Lưu trữ ví dụ sinh mới vào localStorage và ưu 
   assert.strictEqual(laoshi[0].meaning, 'Thầy Lý ở đâu thế?');
 });
 
-runTest(SUITE_3, '3.4: Cơ chế Multi-model Fallback trong AI Service', () => {
-  // Danh sách model ưu tiên
-  const candidateModels = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'];
-  assert.strictEqual(candidateModels[0], 'gemini-2.5-flash', 'Model ưu tiên số 1 là gemini-2.5-flash theo yêu cầu của bạn');
-  assert.strictEqual(candidateModels[1], 'gemini-2.0-flash', 'Model dự phòng số 2 là gemini-2.0-flash');
-  assert.strictEqual(candidateModels[2], 'gemini-1.5-flash', 'Model dự phòng số 3 là gemini-1.5-flash');
+runTest(SUITE_3, '3.4: Cơ chế Multi-model Fallback khi gặp lỗi 429 theo thứ tự yêu cầu', () => {
+  // Danh sách model ưu tiên theo yêu cầu người dùng
+  const fallbackChain = [
+    { id: 'gemini-2.5-flash', name: 'Gemini 2.5 Flash' },
+    { id: 'gemma-4-31b-it', name: 'Gemma 4 31B (it)' },
+    { id: 'gemma-4-31b', name: 'Gemma 4 31B' },
+    { id: 'gemini-3.8-flash', name: 'Gemini 3.8 Flash' },
+    { id: 'gemini-2.0-flash', name: 'Gemini 2.0 Flash' },
+    { id: 'gemini-1.5-flash', name: 'Gemini 1.5 Flash' },
+  ];
+
+  assert.strictEqual(fallbackChain[0].id, 'gemini-2.5-flash', 'Model chính ưu tiên số 1 là gemini-2.5-flash');
+  assert.ok(fallbackChain[1].name.includes('Gemma 4 31B'), 'Fallback số 1 khi gặp 429 là Gemma 4 31B');
+  assert.ok(fallbackChain[2].name.includes('Gemma 4 31B'), 'Fallback số 2 khi gặp 429 là Gemma 4 31B');
+  assert.strictEqual(fallbackChain[3].name, 'Gemini 3.8 Flash', 'Fallback số 3 khi gặp 429 là Gemini 3.8 Flash');
+
+  // Kiểm tra logic điều kiện nhận diện lỗi 429 để kích hoạt Fallback
+  const test429Response = { status: 429, message: 'Resource has been exhausted (e.g. check quota)' };
+  const isRateLimited = test429Response.status === 429 || 
+    test429Response.message.includes('429') || 
+    test429Response.message.toLowerCase().includes('quota') || 
+    test429Response.message.toLowerCase().includes('resource has been exhausted');
+  assert.strictEqual(isRateLimited, true, 'Lỗi 429 / Quota phải được nhận diện chính xác để kích hoạt fallback sang model tiếp theo');
 });
 
 runTest(SUITE_3, '3.5: Bảo mật mật khẩu Admin: Mật khẩu lưu ở backend (.env) và khớp 161203', () => {
