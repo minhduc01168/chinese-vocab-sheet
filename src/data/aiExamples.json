@@ -5931,5 +5931,141 @@
       "pinyin": "Shānlù xiázhǎi dǒuqiào, xiàngdǎo tíxǐng dàjiā jǐnliàng zǒu biān xiǎoxīn jiǎoxià.",
       "meaning": "Đường núi hẹp và dốc, hướng dẫn viên nhắc nhở mọi người cố gắng đi sát mép và cẩn thận dưới chân."
     }
+  ],
+  "放松": [
+    {
+      "hanzi": "周末到了，我们可以去公园散步放松一下。",
+      "pinyin": "Zhōumò dào le, wǒmen kěyǐ qù gōngyuán sànbù fàngsōng yíxià.",
+      "meaning": "Cuối tuần đến rồi, chúng ta có thể đi công viên dạo bộ để thư giãn một chút."
+    },
+    {
+      "hanzi": "听轻音乐有助于缓解工作压力，让心情放松下来。",
+      "pinyin": "Tīng qīng yīnyuè yǒuzhùyú huǎnjiě gōngzuò yālì, ràng xīnqíng fàngsōng xiàlai.",
+      "meaning": "Nghe nhạc nhẹ giúp giải tỏa áp lực công việc, làm cho tâm trạng được thư giãn."
+    },
+    {
+      "hanzi": "考试的时候别太紧张，深呼吸让自己放松。",
+      "pinyin": "Kǎoshì de shíhou bié tài jǐnzhāng, shēn hūxī ràng zìjǐ fàngsōng.",
+      "meaning": "Khi đi thi đừng quá căng thẳng, hãy hít thở sâu để bản thân được thả lỏng."
+    }
+  ],
+  "天时地利人和": [
+    {
+      "hanzi": "这次创业能够成功，靠的是天时地利人和。",
+      "pinyin": "Zhè cì chuàngyè nénggòu chénggōng, kào de shì tiānshí dìlì rén hé.",
+      "meaning": "Lần khởi nghiệp này có thể thành công là nhờ vào thiên thời địa lợi nhân hòa."
+    },
+    {
+      "hanzi": "我们占尽了天时地利人和，一定能把这项比赛拿下。",
+      "pinyin": "Wǒmen zhàn jìn le tiānshí dìlì rén hé, yídìng néng bǎ zhè xiàng bǐsài ná xià.",
+      "meaning": "Chúng ta có được thiên thời địa lợi nhân hòa, nhất định có thể giành chiến thắng cuộc thi này."
+    },
+    {
+      "hanzi": "做事情如果具备了天时地利人和，往往能事半功倍。",
+      "pinyin": "Zuò shìqing rúguǒ jùbèi le tiānshí dìlì rén hé, wǎngwǎng néng shì bàn gōng bèi.",
+      "meaning": "Làm việc gì nếu hội tụ đủ thiên thời địa lợi nhân hòa thì thường sẽ làm ít công to."
+    }
+  ],
+  "完全正确": [
+    {
+      "hanzi": "你的回答完全正确，值得大家学习。",
+      "pinyin": "Nǐ de huídá wánquán zhèngquè, zhíde dàjiā xuéxí.",
+      "meaning": "Câu trả lời của bạn hoàn toàn chính xác, rất đáng để mọi người học tập."
+    },
+    {
+      "hanzi": "经过仔细核对，这份财务报表的数据完全正确。",
+      "pinyin": "Jīngguò zǐxì héduì, zhè fèn cáiwù bàobiǎo de shùjù wánquán zhèngquè.",
+      "meaning": "Sau khi đối chiếu cẩn thận, số liệu trong báo cáo tài chính này hoàn toàn chính xác."
+    },
+    {
+      "hanzi": "事实证明，领导当初做出的判断是完全正确的。",
+      "pinyin": "Shìshí zhèngmíng, lǐngdǎo dāngchū zuò chū de pànduàn shì wánquán zhèngquè de.",
+      "meaning": "Thực tế chứng minh rằng phán đoán ban đầu của lãnh đạo là hoàn toàn chính xác."
+    }
+  ],
+  "顺利": [
+    {
+      "hanzi": "祝你这次考试一切顺利！",
+      "pinyin": "Zhù nǐ zhè cì kǎoshì yíqiè shùnlì!",
+      "meaning": "Chúc bạn kỳ thi này mọi sự thuận lợi!"
+    },
+    {
+      "hanzi": "经过大家的共同努力，新项目进行得非常顺利。",
+      "pinyin": "Jīngguò dàjiā de gòngtóng nǔlì, xīn xiàngmù jìnxíng de fēicháng shùnlì.",
+      "meaning": "Nhờ sự nỗ lực chung của mọi người, dự án mới đang tiến triển rất thuận lợi."
+    },
+    {
+      "hanzi": "飞机准时起飞并且顺利降落在了北京机场。",
+      "pinyin": "Fēijī zhǔnshí qǐfēi bìngqiě shùnlì jiàngluò zài le Běijīng jīchǎng.",
+      "meaning": "Máy bay cất cánh đúng giờ và đã hạ cánh thuận lợi xuống sân bay Bắc Kinh."
+    }
+  ],
+  "比赛": [
+    {
+      "hanzi": "明天下午学校有一场精彩的足球比赛。",
+      "pinyin": "Míngtiān xiàwǔ xuéxiào yǒu yì chǎng jīngcǎi de zúqiú bǐsài.",
+      "meaning": "Chiều mai ở trường có một trận thi đấu bóng đá đặc sắc."
+    },
+    {
+      "hanzi": "他在这次汉语演讲比赛中获得了一等奖。",
+      "pinyin": "Tā zài zhè cì hànyǔ yǎnjiǎng bǐsài zhōng huòdé le yī děng jiǎng.",
+      "meaning": "Anh ấy đã đạt giải nhất trong cuộc thi hùng biện tiếng Trung lần này."
+    },
+    {
+      "hanzi": "参加比赛不仅是为了拿奖，更重要的是锻炼自己。",
+      "pinyin": "Cānjiā bǐsài bùjǐn shì wèile ná jiǎng, gèng zhòngyào de shì duànliàn zìjǐ.",
+      "meaning": "Tham gia thi đấu không chỉ để lấy giải, mà quan trọng hơn là rèn luyện bản thân."
+    }
+  ],
+  "练习": [
+    {
+      "hanzi": "每天坚持练习口语，你的汉语会进步得很快。",
+      "pinyin": "Měitiān jiānchí liànxí kǒuyǔ, nǐ de hànyǔ huì jìnbù de hěn kuài.",
+      "meaning": "Mỗi ngày kiên trì luyện tập khẩu ngữ, tiếng Trung của bạn sẽ tiến bộ rất nhanh."
+    },
+    {
+      "hanzi": "请大家打开书本，认真做完课后的练习题。",
+      "pinyin": "Qǐng dàjiā dǎkāi shūběn, rènzhēn zuò wán kè hòu de liànxí tí.",
+      "meaning": "Xin mời mọi người mở sách ra, chăm chỉ làm xong bài tập sau bài học."
+    },
+    {
+      "hanzi": "熟能生巧，很多技能都需要通过反复练习才能掌握。",
+      "pinyin": "Shú néng shēng qiǎo, hěn duō jìnéng dōu xūyào tōngguò fǎnfù liànxí cái néng zhǎngwò.",
+      "meaning": "Trăm hay không bằng tay quen, rất nhiều kỹ năng đều cần phải qua luyện tập nhiều lần mới thành thục."
+    }
+  ],
+  "久": [
+    {
+      "hanzi": "好久不见，最近工作生活都挺好的吧？",
+      "pinyin": "Hǎojiǔ bú jiàn, zuìjìn gōngzuò shēnghuó dōu tǐng hǎo de ba?",
+      "meaning": "Lâu ngày không gặp, dạo này công việc và cuộc sống đều tốt cả chứ?"
+    },
+    {
+      "hanzi": "我在这个城市已经生活了很久，非常适应这里的气候。",
+      "pinyin": "Wǒ zài zhè gè chéngshì yǐjīng shēnghuó le hěn jiǔ, fēicháng shìyìng zhèlǐ de qìhòu.",
+      "meaning": "Tôi đã sống ở thành phố này rất lâu rồi, rất thích nghi với khí hậu ở đây."
+    },
+    {
+      "hanzi": "他在电脑前坐得太久了，应该站起来活动一下。",
+      "pinyin": "Tā zài diànnǎo qián zuò de tài jiǔ le, yīnggāi zhàn qǐlai huódòng yíxià.",
+      "meaning": "Anh ấy ngồi trước máy tính quá lâu rồi, nên đứng dậy vận động một chút."
+    }
+  ],
+  "感冒": [
+    {
+      "hanzi": "最近天气忽冷忽热，很容易感冒，要多喝温水。",
+      "pinyin": "Zuìjìn tiānqì hū lěng hū rè, hěn róngyì gǎnmào, yào duō hē wēnshuǐ.",
+      "meaning": "Dạo này thời tiết lúc nóng lúc lạnh, rất dễ bị cảm cúm, cần uống nhiều nước ấm."
+    },
+    {
+      "hanzi": "他今天感冒发烧了，不得不向公司请假一天。",
+      "pinyin": "Tā jīntiān gǎnmào fāshāo le, bùdébù xiàng gōngsī qǐngjià yì tiān.",
+      "meaning": "Hôm nay anh ấy bị cảm sốt, đành phải xin công ty nghỉ phép một ngày."
+    },
+    {
+      "hanzi": "吃了医生开的感冒药后，他的精神感觉好多了。",
+      "pinyin": "Chī le yīshēng kāi de gǎnmàoyào hòu, tā de jīngshén gǎnjué hǎo duō le.",
+      "meaning": "Sau khi uống thuốc cảm do bác sĩ kê đơn, tinh thần anh ấy đã cảm thấy đỡ hơn nhiều."
+    }
   ]
 }

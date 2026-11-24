@@ -121,8 +121,12 @@ export function App() {
   } = useQuizSession(allItems);
 
   // Background AI examples generator for newly added words
-  const { isGenerating: isAiGenerating, pendingCount: aiPendingCount, currentWord: aiCurrentWord } = 
-    useBackgroundAiGenerator(allItems, settings.geminiApiKey);
+  const {
+    isGenerating: isAiGenerating,
+    pendingCount: aiPendingCount,
+    currentWord: aiCurrentWord,
+    cancelQueue: cancelAiQueue,
+  } = useBackgroundAiGenerator(allItems, settings.geminiApiKey);
 
   // Sync settings back to localStorage
   const handleSaveSettings = useCallback((newSettings: AppSettings) => {
@@ -226,9 +230,17 @@ export function App() {
 
       {/* Background AI Generating Toast */}
       {isAiGenerating && (
-        <div className="fixed top-16 left-1/2 -translate-x-1/2 z-40 bg-indigo-900/90 backdrop-blur-md text-white text-xs font-semibold px-4 py-2 rounded-2xl shadow-lg flex items-center gap-2 border border-indigo-400/30 animate-pulse">
-          <Sparkles size={14} className="text-amber-300 animate-spin" />
+        <div className="fixed top-16 left-1/2 -translate-x-1/2 z-40 bg-indigo-900/95 backdrop-blur-md text-white text-xs font-semibold px-4 py-2 rounded-2xl shadow-xl flex items-center gap-3 border border-indigo-400/40 animate-fade-in">
+          <Sparkles size={14} className="text-amber-300 animate-spin flex-shrink-0" />
           <span>AI đang sinh ví dụ ngầm cho "{aiCurrentWord}" (còn {aiPendingCount} từ)...</span>
+          <button
+            type="button"
+            onClick={cancelAiQueue}
+            title="Dừng sinh ngầm để tiết kiệm hạn ngạch API"
+            className="ml-1 px-2.5 py-1 bg-white/20 hover:bg-white/30 text-white rounded-lg text-[11px] font-bold cursor-pointer transition-colors active:scale-95 flex-shrink-0"
+          >
+            Dừng lại
+          </button>
         </div>
       )}
 

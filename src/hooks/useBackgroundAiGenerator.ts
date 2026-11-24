@@ -6,6 +6,7 @@ import {
   normalizeHanziKey,
   isWordInCooldown,
   markWordFailedCooldown,
+  dismissWordsFromAiQueue,
 } from '../utils/aiExampleService';
 
 interface BackgroundGeneratorState {
@@ -24,10 +25,31 @@ export function useBackgroundAiGenerator(allItems: VocabItem[], apiKey?: string)
   });
 
   const isRunningRef = useRef<boolean>(false);
+  const cancelRequestedRef = useRef<boolean>(false);
+
+  const cancelQueue = useCallback(() => {
+    cancelRequestedRef.current = true;
+    isRunningRef.current = false;
+    setState(prev => ({
+      ...prev,
+      isGenerating: false,
+      pendingCount: 0,
+      currentWord: undefined,
+    }));
+  }, []);
+
+  const dismissCurrentQueue = useCallback(() => {
+    cancelQueue();
+    // Dismiss all currently missing words in localStorage so they won't re-queue
+    const missingKeys = allItems.map(item => (item.validAnswers && item.validAnswers[0]) || item.hanzi);
+    dismissWordsFromAiQueue(missingKeys);
+  }, [allItems, cancelQueue]);
 
   const processQueue = useCallback(async () => {
     if (!apiKey || !apiKey.trim() || isRunningRef.current) return;
     if (!allItems || allItems.length === 0) return;
+
+    cancelRequestedRef.current = false;
 
     // Find unique words that don't have examples yet and are not in cooldown
     const seenKeys = new Set<string>();
@@ -45,7 +67,7 @@ export function useBackgroundAiGenerator(allItems: VocabItem[], apiKey?: string)
         continue;
       }
 
-      // Check if this word failed recently in this session (cooldown to prevent infinite F5 loop)
+      // Check if this word failed recently in this session (cooldown to prevent infinite F5 / tab switch loop)
       if (isWordInCooldown(cleanKey) || isWordInCooldown(item.hanzi) || isWordInCooldown(primary)) {
         continue;
       }
@@ -64,7 +86,13 @@ export function useBackgroundAiGenerator(allItems: VocabItem[], apiKey?: string)
       error: null,
     });
 
+    let consecutiveErrors = 0;
+
     for (let i = 0; i < missingItems.length; i++) {
+      if (cancelRequestedRef.current) {
+        break;
+      }
+
       const { item, primaryHanzi } = missingItems[i];
       setState(prev => ({
         ...prev,
@@ -74,22 +102,25 @@ export function useBackgroundAiGenerator(allItems: VocabItem[], apiKey?: string)
 
       try {
         await generateExamplesWithGemini(apiKey, primaryHanzi, item.meaning);
+        consecutiveErrors = 0; // Reset consecutive errors on success
         // Sleep 4 seconds between calls to respect Gemini Free Tier 15 RPM rate limit
         await new Promise(res => setTimeout(res, 4000));
       } catch (err: any) {
+        consecutiveErrors++;
         console.warn(`Could not generate examples for ${primaryHanzi}:`, err);
-        // Mark this word as failed with cooldown so refreshing won't re-trigger immediately
+        // Mark this word as failed with 24h cooldown so refreshing/tab switching won't re-trigger
         markWordFailedCooldown(primaryHanzi);
         markWordFailedCooldown(item.hanzi);
 
-        // If API key is invalid or rate limited, mark all remaining words in cooldown and stop
+        // If API key is invalid or rate limited, or 2 consecutive errors occur (e.g. invalid models)
         const isExhausted = err.message && (
           err.message.includes('API_KEY_INVALID') ||
           err.message.includes('Resource has been exhausted') ||
           err.message.includes('429')
         );
 
-        if (isExhausted) {
+        if (isExhausted || consecutiveErrors >= 2) {
+          console.warn('[Background AI] Tự động dừng hàng đợi ngầm để tiết kiệm API (gặp lỗi lặp lại hoặc chạm hạn ngạch).');
           for (let j = i; j < missingItems.length; j++) {
             markWordFailedCooldown(missingItems[j].primaryHanzi);
             markWordFailedCooldown(missingItems[j].item.hanzi);
@@ -122,5 +153,7 @@ export function useBackgroundAiGenerator(allItems: VocabItem[], apiKey?: string)
   return {
     ...state,
     triggerQueue: processQueue,
+    cancelQueue,
+    dismissCurrentQueue,
   };
 }

@@ -3,8 +3,8 @@ import pregenExamples from '../data/aiExamples.json';
 import { pinyin } from 'pinyin-pro';
 
 const STORAGE_CUSTOM_EXAMPLES_KEY = 'ai_custom_examples_v1';
-const FAILED_ATTEMPTS_STORAGE_KEY = 'ai_attempted_cooldown_v1';
-const COOLDOWN_MS = 5 * 60 * 1000; // 5 minutes cooldown before re-attempting a failed word
+const ATTEMPTED_STATUS_STORAGE_KEY = 'ai_attempted_history_v2';
+const COOLDOWN_MS = 24 * 60 * 60 * 1000; // 24 hours cooldown before retrying in the background
 
 // In-memory merge of pregen and local custom examples
 const pregenDict = pregenExamples as Record<string, AiExampleItem[]>;
@@ -65,8 +65,8 @@ export function isWordInCooldown(hanzi: string): boolean {
   const clean = normalizeHanziKey(hanzi);
   if (!clean) return false;
   try {
-    if (typeof sessionStorage === 'undefined') return false;
-    const raw = sessionStorage.getItem(FAILED_ATTEMPTS_STORAGE_KEY);
+    if (typeof localStorage === 'undefined') return false;
+    const raw = localStorage.getItem(ATTEMPTED_STATUS_STORAGE_KEY);
     if (!raw) return false;
     const records: Record<string, number> = JSON.parse(raw);
     const lastTime = records[clean];
@@ -81,11 +81,26 @@ export function markWordFailedCooldown(hanzi: string) {
   const clean = normalizeHanziKey(hanzi);
   if (!clean) return;
   try {
-    if (typeof sessionStorage === 'undefined') return;
-    const raw = sessionStorage.getItem(FAILED_ATTEMPTS_STORAGE_KEY);
+    if (typeof localStorage === 'undefined') return;
+    const raw = localStorage.getItem(ATTEMPTED_STATUS_STORAGE_KEY);
     const records: Record<string, number> = raw ? JSON.parse(raw) : {};
     records[clean] = Date.now();
-    sessionStorage.setItem(FAILED_ATTEMPTS_STORAGE_KEY, JSON.stringify(records));
+    localStorage.setItem(ATTEMPTED_STATUS_STORAGE_KEY, JSON.stringify(records));
+  } catch {}
+}
+
+export function dismissWordsFromAiQueue(hanzis: string[]) {
+  if (!hanzis || hanzis.length === 0) return;
+  try {
+    if (typeof localStorage === 'undefined') return;
+    const raw = localStorage.getItem(ATTEMPTED_STATUS_STORAGE_KEY);
+    const records: Record<string, number> = raw ? JSON.parse(raw) : {};
+    const now = Date.now();
+    for (const h of hanzis) {
+      const clean = normalizeHanziKey(h);
+      if (clean) records[clean] = now;
+    }
+    localStorage.setItem(ATTEMPTED_STATUS_STORAGE_KEY, JSON.stringify(records));
   } catch {}
 }
 

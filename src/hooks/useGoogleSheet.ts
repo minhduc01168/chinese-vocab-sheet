@@ -332,19 +332,19 @@ export function useGoogleSheet(initialUrl: string) {
     // Initial fetch
     fetchData(url);
 
-    // Auto-sync when user returns to this tab (e.g. from Google Sheet tab)
-    const handleFocus = () => {
+    // Auto-sync when user returns to this tab (e.g. from Google Sheet tab) with 60s throttle
+    let lastTabReturnSync = 0;
+    const handleTabReturn = () => {
+      const now = Date.now();
+      // Throttle: Chỉ đồng bộ ngầm khi đã rời tab ít nhất 60 giây để tránh spam mạng và trigger AI lặp lại
+      if (now - lastTabReturnSync < 60000) return;
+      lastTabReturnSync = now;
+      if (typeof document !== 'undefined' && document.visibilityState !== 'visible') return;
       fetchData(url, true);
     };
 
-    const handleVisibilityChange = () => {
-      if (typeof document !== 'undefined' && document.visibilityState === 'visible') {
-        fetchData(url, true);
-      }
-    };
-
-    window.addEventListener('focus', handleFocus);
-    document.addEventListener('visibilitychange', handleVisibilityChange);
+    window.addEventListener('focus', handleTabReturn);
+    document.addEventListener('visibilitychange', handleTabReturn);
 
     // Periodic auto-sync every 3 minutes (silent background update)
     const intervalTimer = setInterval(() => {
@@ -352,8 +352,8 @@ export function useGoogleSheet(initialUrl: string) {
     }, 3 * 60 * 1000);
 
     return () => {
-      window.removeEventListener('focus', handleFocus);
-      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      window.removeEventListener('focus', handleTabReturn);
+      document.removeEventListener('visibilitychange', handleTabReturn);
       clearInterval(intervalTimer);
       if (fetchAbortController.current) {
         fetchAbortController.current.abort();

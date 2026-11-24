@@ -1649,7 +1649,7 @@
       "开关"
     ],
     "meaning": "công tắc; bộ chuyển mạch",
-    "pinyin": "kāiguān",
+    "pinyin": "k��iguān",
     "sinoVietnamese": "khai quan",
     "example": "打开开关吧/开灯吧"
   },
@@ -1735,7 +1735,18 @@
     "meaning": "ngoài; bên ngoài; mặt ngoài",
     "pinyin": "wàibian",
     "sinoVietnamese": "ngoại biên",
-    "example": "外边很冷，多穿些衣服"
+    "example": "外边很冷，多穿些衣���"
+  },
+  {
+    "id": "default_148",
+    "originalIndex": 148,
+    "hanzi": "走边",
+    "validAnswers": [
+      "走边"
+    ],
+    "meaning": "tẩu biên; đi rón rén trong đêm (động tác trong Kinh kịch)",
+    "pinyin": "zǒubiān",
+    "sinoVietnamese": "tẩu biên"
   },
   {
     "id": "default_149",
@@ -2159,7 +2170,7 @@
     "validAnswers": [
       "慌张"
     ],
-    "meaning": "bối rối; luống cuống; lật đật; hoang mang; lúng túng; hoảng hốt; cuống lên; căng thẳng; hoảng loạn; cuống cuồng",
+    "meaning": "bối r��i; luống cuống; lật đật; hoang mang; lúng túng; hoảng hốt; cuống lên; căng thẳng; hoảng loạn; cuống cuồng",
     "pinyin": "huāngzhāng",
     "sinoVietnamese": "hoảng trương"
   },
@@ -2528,7 +2539,7 @@
     ],
     "meaning": "đi; đi bộ; đi qua",
     "pinyin": "zǒu",
-    "sinoVietnamese": "tẩu",
+    "sinoVietnamese": "t���u",
     "example": "我们明天要走了"
   },
   {
@@ -3119,7 +3130,7 @@
     "validAnswers": [
       "苦"
     ],
-    "meaning": "đắng\n đau khổ; khổ\n sâu; tả tơi; hao tốn qua nhiều",
+    "meaning": "đắng\n đau khổ; khổ\n sâu; tả tơi; hao t���n qua nhiều",
     "pinyin": "kǔ",
     "sinoVietnamese": "khổ",
     "example": "你瞧他太苦了"
@@ -3523,7 +3534,7 @@
     "meaning": "quầy lễ tân",
     "pinyin": "qiántái]",
     "sinoVietnamese": "tiền đài",
-    "example": "前台小姐很热情接待我"
+    "example": "前台小姐很热情接���我"
   },
   {
     "id": "default_302",
@@ -3842,7 +3853,7 @@
     "validAnswers": [
       "常用"
     ],
-    "meaning": "hay dùng; thường dùng\nphổ biến; được sử dụng phổ biến",
+    "meaning": "hay dùng; thường dùng\nphổ biến; được s��� dụng phổ biến",
     "pinyin": "chángyòng",
     "sinoVietnamese": "thường dụng"
   },
@@ -3923,7 +3934,7 @@
       "本来"
     ],
     "meaning": "vốn có; lúc đầu; ban đầu\nlẽ ra; đáng nhẽ; đáng lẽ\n trước đây; lúc trước; lúc đầu; vốn dĩ",
-    "pinyin": "běnlái",
+    "pinyin": "běnl��i",
     "sinoVietnamese": "bản lai",
     "example": "我本来想说你可以关心我一下吧"
   },
@@ -4080,5 +4091,105 @@
     "pinyin": "[tíjiāo",
     "sinoVietnamese": "[đề giao]",
     "example": "我们要在周末提交工作报告"
+  },
+  {
+    "id": "default_350",
+    "originalIndex": 350,
+    "hanzi": "放松",
+    "validAnswers": [
+      "放松"
+    ],
+    "meaning": "thả lỏng; buông lỏng; nới lỏng; lơi ra; thư giãn; buông lơi; giãn bớt; bỏ lỏng; nhảng; lơi lỏng",
+    "pinyin": "fàngsōng",
+    "sinoVietnamese": "phóng tùng"
+  },
+  {
+    "id": "default_351",
+    "originalIndex": 351,
+    "hanzi": "天时地利人和",
+    "validAnswers": [
+      "天时地利人和"
+    ],
+    "meaning": "thiên thời địa lợi nhân hoà",
+    "pinyin": "tiānshí dìlì rén hé",
+    "sinoVietnamese": "thiên thì địa lợi nhân hoà"
+  },
+  {
+    "id": "default_352",
+    "originalIndex": 352,
+    "hanzi": "完全正确",
+    "validAnswers": [
+      "完全正确"
+    ],
+    "meaning": "hoàn toàn chính xác",
+    "pinyin": "wánquán zhèngquè"
+  },
+  {
+    "id": "default_353",
+    "originalIndex": 353,
+    "hanzi": "好像",
+    "validAnswers": [
+      "好像"
+    ],
+    "meaning": "như; hình như; dường như; giống như; giống hệt; na ná; y như; có vẻ",
+    "pinyin": "hǎoxiàng",
+    "sinoVietnamese": "[hảo tượng"
+  },
+  {
+    "id": "default_354",
+    "originalIndex": 354,
+    "hanzi": "顺利",
+    "validAnswers": [
+      "顺利"
+    ],
+    "meaning": "thuận lợi; suôn sẻ; trơn tru",
+    "pinyin": "shùnlì",
+    "sinoVietnamese": "thuận lợi",
+    "example": "希望你工作顺利"
+  },
+  {
+    "id": "default_355",
+    "originalIndex": 355,
+    "hanzi": "比赛",
+    "validAnswers": [
+      "比赛"
+    ],
+    "meaning": "thi đấu; đấu\ntrận thi đấu; cuộc đấu; cuộc thi",
+    "pinyin": "bǐsài",
+    "sinoVietnamese": "tỉ tái"
+  },
+  {
+    "id": "default_356",
+    "originalIndex": 356,
+    "hanzi": "练习",
+    "validAnswers": [
+      "练习"
+    ],
+    "meaning": "tập; luyện tập; ôn tập; rèn tập",
+    "pinyin": "liànxí",
+    "sinoVietnamese": "luyện tập"
+  },
+  {
+    "id": "default_357",
+    "originalIndex": 357,
+    "hanzi": "久",
+    "validAnswers": [
+      "久"
+    ],
+    "meaning": "lâu; lâu dài\n bao lâu; lâu dài (trong một khoảng thời gian xác định)",
+    "pinyin": "jiǔ",
+    "sinoVietnamese": "cửu",
+    "example": "我们很久没见了"
+  },
+  {
+    "id": "default_358",
+    "originalIndex": 358,
+    "hanzi": "感冒",
+    "validAnswers": [
+      "感冒"
+    ],
+    "meaning": "ốm; cảm c��m\nquan tâm; khoái; thích; hứng thú",
+    "pinyin": "gǎnmào",
+    "sinoVietnamese": "cảm mạo"
   }
 ]
