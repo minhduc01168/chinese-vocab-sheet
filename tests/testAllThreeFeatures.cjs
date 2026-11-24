@@ -336,25 +336,25 @@ runTest(SUITE_3, '3.3: Lưu trữ ví dụ sinh mới vào localStorage và ưu 
 });
 
 runTest(SUITE_3, '3.4: Cơ chế Multi-model Fallback khi gặp lỗi 429 theo thứ tự yêu cầu', () => {
-  // Chuỗi model theo đúng yêu cầu: gemini-2.5-flash -> gemma-4-31b-it -> gemma-4-31b -> Gemma 4 26B -> gemini-3.8-flash -> Gemini 3 Flash -> Gemini 3.1 Flash Lite
+  // Chuỗi model theo đúng thứ tự chốt: gemini-2.5-flash -> gemma-4-31b-it -> gemma-4-26b-a4b-it -> gemini-3.8-flash -> gemini-3-flash-preview -> gemini-3.1-flash-lite -> gemini-3.5-flash-lite
   const fallbackChain = [
     { id: 'gemini-2.5-flash', name: 'Gemini 2.5 Flash' },
     { id: 'gemma-4-31b-it', name: 'Gemma 4 31B (it)' },
-    { id: 'gemma-4-31b', name: 'Gemma 4 31B' },
-    { id: 'gemma-4-26b', name: 'Gemma 4 26B' },
+    { id: 'gemma-4-26b-a4b-it', name: 'Gemma 4 26B (a4b-it)' },
     { id: 'gemini-3.8-flash', name: 'Gemini 3.8 Flash' },
-    { id: 'gemini-3-flash', name: 'Gemini 3 Flash' },
+    { id: 'gemini-3-flash-preview', name: 'Gemini 3 Flash (Preview)' },
     { id: 'gemini-3.1-flash-lite', name: 'Gemini 3.1 Flash Lite' },
+    { id: 'gemini-3.5-flash-lite', name: 'Gemini 3.5 Flash Lite' },
   ];
 
   assert.strictEqual(fallbackChain.length, 7, 'Chuỗi fallback gồm đúng 7 model theo yêu cầu');
   assert.strictEqual(fallbackChain[0].id, 'gemini-2.5-flash');
   assert.strictEqual(fallbackChain[1].id, 'gemma-4-31b-it');
-  assert.strictEqual(fallbackChain[2].id, 'gemma-4-31b');
-  assert.strictEqual(fallbackChain[3].id, 'gemma-4-26b');
-  assert.strictEqual(fallbackChain[4].id, 'gemini-3.8-flash');
-  assert.strictEqual(fallbackChain[5].id, 'gemini-3-flash');
-  assert.strictEqual(fallbackChain[6].id, 'gemini-3.1-flash-lite');
+  assert.strictEqual(fallbackChain[2].id, 'gemma-4-26b-a4b-it');
+  assert.strictEqual(fallbackChain[3].id, 'gemini-3.8-flash');
+  assert.strictEqual(fallbackChain[4].id, 'gemini-3-flash-preview');
+  assert.strictEqual(fallbackChain[5].id, 'gemini-3.1-flash-lite');
+  assert.strictEqual(fallbackChain[6].id, 'gemini-3.5-flash-lite');
 
   // Đảm bảo đã bỏ hoàn toàn 2 model gemini-2.0-flash và gemini-1.5-flash
   assert.strictEqual(fallbackChain.some(m => m.id.includes('2.0') || m.id.includes('1.5')), false, 'Đã loại bỏ 2.0-flash và 1.5-flash');

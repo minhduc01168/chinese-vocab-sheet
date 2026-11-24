@@ -167,31 +167,27 @@ export interface FallbackModelConfig {
 }
 
 /**
- * Chuỗi Fallback Model theo yêu cầu chuẩn:
+ * Chuỗi Fallback Model chính thức chốt theo yêu cầu:
  * 1. gemini-2.5-flash
  * 2. gemma-4-31b-it
- * 3. gemma-4-31b
- * 4. Gemma 4 26B (gemma-4-26b)
- * 5. gemini-3.8-flash
- * 6. Gemini 3 Flash (gemini-3-flash)
- * 7. Gemini 3.1 Flash Lite (gemini-3.1-flash-lite)
- * (Đã loại bỏ hoàn toàn 2 model: gemini-2.0-flash và gemini-1.5-flash)
+ * 3. gemma-4-26b-a4b-it
+ * 4. gemini-3.8-flash
+ * 5. gemini-3-flash-preview
+ * 6. gemini-3.1-flash-lite
+ * 7. gemini-3.5-flash-lite
  */
 export const FALLBACK_MODEL_CHAIN: FallbackModelConfig[] = [
   { id: 'gemini-2.5-flash', name: 'Gemini 2.5 Flash' },
-  { id: 'gemma-4-31b-it', name: 'gemma-4-31b-it' },
-  { id: 'gemma-4-31b', name: 'gemma-4-31b' },
+  { id: 'gemma-4-31b-it', name: 'Gemma 4 31B (it)' },
   { id: 'gemma-4-26b-a4b-it', name: 'Gemma 4 26B (a4b-it)' },
-  { id: 'gemma-4-26b', name: 'Gemma 4 26B' },
-  { id: 'gemini-3.8-flash', name: 'gemini-3.8-flash' },
+  { id: 'gemini-3.8-flash', name: 'Gemini 3.8 Flash' },
   { id: 'gemini-3-flash-preview', name: 'Gemini 3 Flash (Preview)' },
-  { id: 'gemini-3-flash', name: 'Gemini 3 Flash' },
   { id: 'gemini-3.1-flash-lite', name: 'Gemini 3.1 Flash Lite' },
   { id: 'gemini-3.5-flash-lite', name: 'Gemini 3.5 Flash Lite' },
 ];
 
 /**
- * Call Gemini API (gemini-2.5-flash -> gemma-4-31b-it -> gemma-4-31b -> Gemma 4 26B -> gemini-3.8-flash -> Gemini 3 Flash -> Gemini 3.1 Flash Lite)
+ * Call Gemini API (gemini-2.5-flash -> gemma-4-31b-it -> gemma-4-26b-a4b-it -> gemini-3.8-flash -> gemini-3-flash-preview -> gemini-3.1-flash-lite -> gemini-3.5-flash-lite)
  */
 export async function generateExamplesWithGemini(
   apiKey: string,

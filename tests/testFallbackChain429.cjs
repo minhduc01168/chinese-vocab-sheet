@@ -34,22 +34,22 @@ async function itAsync(desc, fn) {
 const FALLBACK_MODEL_CHAIN = [
   { id: 'gemini-2.5-flash', name: 'Gemini 2.5 Flash' },
   { id: 'gemma-4-31b-it', name: 'Gemma 4 31B (it)' },
-  { id: 'gemma-4-31b', name: 'Gemma 4 31B' },
-  { id: 'gemma-4-26b', name: 'Gemma 4 26B' },
+  { id: 'gemma-4-26b-a4b-it', name: 'Gemma 4 26B (a4b-it)' },
   { id: 'gemini-3.8-flash', name: 'Gemini 3.8 Flash' },
-  { id: 'gemini-3-flash', name: 'Gemini 3 Flash' },
+  { id: 'gemini-3-flash-preview', name: 'Gemini 3 Flash (Preview)' },
   { id: 'gemini-3.1-flash-lite', name: 'Gemini 3.1 Flash Lite' },
+  { id: 'gemini-3.5-flash-lite', name: 'Gemini 3.5 Flash Lite' },
 ];
 
 it('1. Thứ tự chuỗi 7 model fallback chuẩn xác theo yêu cầu người dùng', () => {
   assert.strictEqual(FALLBACK_MODEL_CHAIN.length, 7);
   assert.strictEqual(FALLBACK_MODEL_CHAIN[0].id, 'gemini-2.5-flash');
   assert.strictEqual(FALLBACK_MODEL_CHAIN[1].id, 'gemma-4-31b-it');
-  assert.strictEqual(FALLBACK_MODEL_CHAIN[2].id, 'gemma-4-31b');
-  assert.strictEqual(FALLBACK_MODEL_CHAIN[3].id, 'gemma-4-26b');
-  assert.strictEqual(FALLBACK_MODEL_CHAIN[4].id, 'gemini-3.8-flash');
-  assert.strictEqual(FALLBACK_MODEL_CHAIN[5].id, 'gemini-3-flash');
-  assert.strictEqual(FALLBACK_MODEL_CHAIN[6].id, 'gemini-3.1-flash-lite');
+  assert.strictEqual(FALLBACK_MODEL_CHAIN[2].id, 'gemma-4-26b-a4b-it');
+  assert.strictEqual(FALLBACK_MODEL_CHAIN[3].id, 'gemini-3.8-flash');
+  assert.strictEqual(FALLBACK_MODEL_CHAIN[4].id, 'gemini-3-flash-preview');
+  assert.strictEqual(FALLBACK_MODEL_CHAIN[5].id, 'gemini-3.1-flash-lite');
+  assert.strictEqual(FALLBACK_MODEL_CHAIN[6].id, 'gemini-3.5-flash-lite');
 
   // Đảm bảo không chứa 2 model cũ (gemini-2.0-flash và gemini-1.5-flash)
   const hasOldModels = FALLBACK_MODEL_CHAIN.some(m => m.id === 'gemini-2.0-flash' || m.id === 'gemini-1.5-flash');
@@ -126,12 +126,11 @@ async function runAsyncTests() {
     assert.deepStrictEqual(res.callsMade, ['gemini-2.5-flash', 'gemma-4-31b-it']);
   });
 
-  await itAsync('3. Khi chuỗi gặp lỗi 429 tuần tự: chuyển tiếp qua gemma-4-31b -> Gemma 4 26B -> gemini-3.8-flash', async () => {
+  await itAsync('3. Khi chuỗi gặp lỗi 429 tuần tự: chuyển tiếp qua gemma-4-31b-it -> gemma-4-26b-a4b-it -> gemini-3.8-flash', async () => {
     const mockResponses = {
       'gemini-2.5-flash': { status: 429, message: '429 Rate Limit' },
       'gemma-4-31b-it': { status: 429, message: '429 Too Many Requests' },
-      'gemma-4-31b': { status: 429, message: 'Quota exceeded' },
-      'gemma-4-26b': { status: 429, message: 'Resource has been exhausted' },
+      'gemma-4-26b-a4b-it': { status: 429, message: 'Quota exceeded' },
       'gemini-3.8-flash': {
         status: 200,
         data: [{ hanzi: '这是3.8生成的句子。', pinyin: 'Zhè shì 3.8 shēngchéng de jùzi.', meaning: 'Đây là câu do 3.8 sinh.' }]
@@ -144,21 +143,20 @@ async function runAsyncTests() {
     assert.deepStrictEqual(res.callsMade, [
       'gemini-2.5-flash',
       'gemma-4-31b-it',
-      'gemma-4-31b',
-      'gemma-4-26b',
+      'gemma-4-26b-a4b-it',
       'gemini-3.8-flash'
     ]);
   });
 
-  await itAsync('4. Khi toàn bộ các model trước đều lỗi 429, fallback tiếp tục tới Gemini 3 Flash và Gemini 3.1 Flash Lite', async () => {
+  await itAsync('4. Khi toàn bộ các model trước đều lỗi 429/503, fallback tới gemini-3.5-flash-lite', async () => {
     const mockResponses = {
       'gemini-2.5-flash': { status: 429, message: '429' },
-      'gemma-4-31b-it': { status: 429, message: '429' },
-      'gemma-4-31b': { status: 429, message: '429' },
-      'gemma-4-26b': { status: 429, message: '429' },
-      'gemini-3.8-flash': { status: 429, message: '429' },
-      'gemini-3-flash': { status: 429, message: '429' },
-      'gemini-3.1-flash-lite': {
+      'gemma-4-31b-it': { status: 503, message: 'High demand' },
+      'gemma-4-26b-a4b-it': { status: 503, message: 'High demand' },
+      'gemini-3.8-flash': { status: 503, message: 'High demand' },
+      'gemini-3-flash-preview': { status: 503, message: 'High demand' },
+      'gemini-3.1-flash-lite': { status: 503, message: 'High demand' },
+      'gemini-3.5-flash-lite': {
         status: 200,
         data: [{ hanzi: '最终轻量模型成功。', pinyin: 'Zuìzhōng qīngliàng móxíng chénggōng.', meaning: 'Model nhẹ cuối cùng thành công.' }]
       }
@@ -166,7 +164,7 @@ async function runAsyncTests() {
 
     const res = await simulateGenerateContentWithMock(mockResponses);
     assert.strictEqual(res.success, true);
-    assert.strictEqual(res.modelUsed, 'gemini-3.1-flash-lite');
+    assert.strictEqual(res.modelUsed, 'gemini-3.5-flash-lite');
     assert.strictEqual(res.callsMade.length, 7);
   });
 
