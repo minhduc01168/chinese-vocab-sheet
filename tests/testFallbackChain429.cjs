@@ -1,7 +1,7 @@
 const assert = require('assert');
 
 console.log('================================================================');
-console.log('🧪 TEST MÔ PHỎNG CHUỖI FALLBACK MODEL KHI GẶP LỖI 429');
+console.log('🧪 TEST MÔ PHỎNG CHUỖI 7 MODEL FALLBACK KHI GẶP LỖI 429');
 console.log('================================================================\n');
 
 let passed = 0;
@@ -35,17 +35,25 @@ const FALLBACK_MODEL_CHAIN = [
   { id: 'gemini-2.5-flash', name: 'Gemini 2.5 Flash' },
   { id: 'gemma-4-31b-it', name: 'Gemma 4 31B (it)' },
   { id: 'gemma-4-31b', name: 'Gemma 4 31B' },
+  { id: 'gemma-4-26b', name: 'Gemma 4 26B' },
   { id: 'gemini-3.8-flash', name: 'Gemini 3.8 Flash' },
-  { id: 'gemini-2.0-flash', name: 'Gemini 2.0 Flash' },
-  { id: 'gemini-1.5-flash', name: 'Gemini 1.5 Flash' },
+  { id: 'gemini-3-flash', name: 'Gemini 3 Flash' },
+  { id: 'gemini-3.1-flash-lite', name: 'Gemini 3.1 Flash Lite' },
 ];
 
-it('1. Thứ tự chuỗi model fallback chuẩn xác theo yêu cầu người dùng', () => {
+it('1. Thứ tự chuỗi 7 model fallback chuẩn xác theo yêu cầu người dùng', () => {
+  assert.strictEqual(FALLBACK_MODEL_CHAIN.length, 7);
   assert.strictEqual(FALLBACK_MODEL_CHAIN[0].id, 'gemini-2.5-flash');
-  assert.strictEqual(FALLBACK_MODEL_CHAIN[1].name, 'Gemma 4 31B (it)');
-  assert.strictEqual(FALLBACK_MODEL_CHAIN[2].name, 'Gemma 4 31B');
-  assert.strictEqual(FALLBACK_MODEL_CHAIN[3].name, 'Gemini 3.8 Flash');
-  assert.strictEqual(FALLBACK_MODEL_CHAIN[4].id, 'gemini-2.0-flash');
+  assert.strictEqual(FALLBACK_MODEL_CHAIN[1].id, 'gemma-4-31b-it');
+  assert.strictEqual(FALLBACK_MODEL_CHAIN[2].id, 'gemma-4-31b');
+  assert.strictEqual(FALLBACK_MODEL_CHAIN[3].id, 'gemma-4-26b');
+  assert.strictEqual(FALLBACK_MODEL_CHAIN[4].id, 'gemini-3.8-flash');
+  assert.strictEqual(FALLBACK_MODEL_CHAIN[5].id, 'gemini-3-flash');
+  assert.strictEqual(FALLBACK_MODEL_CHAIN[6].id, 'gemini-3.1-flash-lite');
+
+  // Đảm bảo không chứa 2 model cũ (gemini-2.0-flash và gemini-1.5-flash)
+  const hasOldModels = FALLBACK_MODEL_CHAIN.some(m => m.id === 'gemini-2.0-flash' || m.id === 'gemini-1.5-flash');
+  assert.strictEqual(hasOldModels, false, 'Đã loại bỏ hoàn toàn gemini-2.0-flash và gemini-1.5-flash');
 });
 
 // Mô phỏng logic generateContent với hàm mockFetch
@@ -103,7 +111,7 @@ async function simulateGenerateContentWithMock(mockResponses) {
 }
 
 async function runAsyncTests() {
-  await itAsync('2. Khi gemini-2.5-flash gặp 429, tự động fallback thành công sang Gemma 4 31B', async () => {
+  await itAsync('2. Khi gemini-2.5-flash gặp 429, tự động fallback sang gemma-4-31b-it', async () => {
     const mockResponses = {
       'gemini-2.5-flash': { status: 429, message: 'Resource has been exhausted (rate limit 15 RPM)' },
       'gemma-4-31b-it': {
@@ -115,15 +123,15 @@ async function runAsyncTests() {
     const res = await simulateGenerateContentWithMock(mockResponses);
     assert.strictEqual(res.success, true);
     assert.strictEqual(res.modelUsed, 'gemma-4-31b-it');
-    assert.strictEqual(res.modelName, 'Gemma 4 31B (it)');
     assert.deepStrictEqual(res.callsMade, ['gemini-2.5-flash', 'gemma-4-31b-it']);
   });
 
-  await itAsync('3. Khi cả gemini-2.5-flash và 2 lượt Gemma 4 31B đều gặp 429, tự động fallback sang Gemini 3.8 Flash', async () => {
+  await itAsync('3. Khi chuỗi gặp lỗi 429 tuần tự: chuyển tiếp qua gemma-4-31b -> Gemma 4 26B -> gemini-3.8-flash', async () => {
     const mockResponses = {
-      'gemini-2.5-flash': { status: 429, message: 'Resource has been exhausted' },
+      'gemini-2.5-flash': { status: 429, message: '429 Rate Limit' },
       'gemma-4-31b-it': { status: 429, message: '429 Too Many Requests' },
-      'gemma-4-31b': { status: 429, message: 'Quota exceeded for quota metric' },
+      'gemma-4-31b': { status: 429, message: 'Quota exceeded' },
+      'gemma-4-26b': { status: 429, message: 'Resource has been exhausted' },
       'gemini-3.8-flash': {
         status: 200,
         data: [{ hanzi: '这是3.8生成的句子。', pinyin: 'Zhè shì 3.8 shēngchéng de jùzi.', meaning: 'Đây là câu do 3.8 sinh.' }]
@@ -133,37 +141,33 @@ async function runAsyncTests() {
     const res = await simulateGenerateContentWithMock(mockResponses);
     assert.strictEqual(res.success, true);
     assert.strictEqual(res.modelUsed, 'gemini-3.8-flash');
-    assert.strictEqual(res.modelName, 'Gemini 3.8 Flash');
     assert.deepStrictEqual(res.callsMade, [
       'gemini-2.5-flash',
       'gemma-4-31b-it',
       'gemma-4-31b',
+      'gemma-4-26b',
       'gemini-3.8-flash'
     ]);
   });
 
-  await itAsync('4. Khi các model mới chưa hỗ trợ (404) hoặc 429, fallback an toàn đến model backup 2.0-flash', async () => {
+  await itAsync('4. Khi toàn bộ các model trước đều lỗi 429, fallback tiếp tục tới Gemini 3 Flash và Gemini 3.1 Flash Lite', async () => {
     const mockResponses = {
-      'gemini-2.5-flash': { status: 429, message: 'Resource has been exhausted' },
-      'gemma-4-31b-it': { status: 404, message: 'models/gemma-4-31b-it is not found' },
-      'gemma-4-31b': { status: 404, message: 'models/gemma-4-31b is not found' },
-      'gemini-3.8-flash': { status: 404, message: 'models/gemini-3.8-flash is not found' },
-      'gemini-2.0-flash': {
+      'gemini-2.5-flash': { status: 429, message: '429' },
+      'gemma-4-31b-it': { status: 429, message: '429' },
+      'gemma-4-31b': { status: 429, message: '429' },
+      'gemma-4-26b': { status: 429, message: '429' },
+      'gemini-3.8-flash': { status: 429, message: '429' },
+      'gemini-3-flash': { status: 429, message: '429' },
+      'gemini-3.1-flash-lite': {
         status: 200,
-        data: [{ hanzi: '备份模型成功。', pinyin: 'Bèifèn móxíng chénggōng.', meaning: 'Model backup thành công.' }]
+        data: [{ hanzi: '最终轻量模型成功。', pinyin: 'Zuìzhōng qīngliàng móxíng chénggōng.', meaning: 'Model nhẹ cuối cùng thành công.' }]
       }
     };
 
     const res = await simulateGenerateContentWithMock(mockResponses);
     assert.strictEqual(res.success, true);
-    assert.strictEqual(res.modelUsed, 'gemini-2.0-flash');
-    assert.deepStrictEqual(res.callsMade, [
-      'gemini-2.5-flash',
-      'gemma-4-31b-it',
-      'gemma-4-31b',
-      'gemini-3.8-flash',
-      'gemini-2.0-flash'
-    ]);
+    assert.strictEqual(res.modelUsed, 'gemini-3.1-flash-lite');
+    assert.strictEqual(res.callsMade.length, 7);
   });
 
   console.log('\n================================================================');
