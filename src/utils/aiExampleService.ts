@@ -179,12 +179,15 @@ export interface FallbackModelConfig {
  */
 export const FALLBACK_MODEL_CHAIN: FallbackModelConfig[] = [
   { id: 'gemini-2.5-flash', name: 'Gemini 2.5 Flash' },
-  { id: 'gemma-4-31b-it', name: 'Gemma 4 31B (it)' },
-  { id: 'gemma-4-31b', name: 'Gemma 4 31B' },
+  { id: 'gemma-4-31b-it', name: 'gemma-4-31b-it' },
+  { id: 'gemma-4-31b', name: 'gemma-4-31b' },
+  { id: 'gemma-4-26b-a4b-it', name: 'Gemma 4 26B (a4b-it)' },
   { id: 'gemma-4-26b', name: 'Gemma 4 26B' },
-  { id: 'gemini-3.8-flash', name: 'Gemini 3.8 Flash' },
+  { id: 'gemini-3.8-flash', name: 'gemini-3.8-flash' },
+  { id: 'gemini-3-flash-preview', name: 'Gemini 3 Flash (Preview)' },
   { id: 'gemini-3-flash', name: 'Gemini 3 Flash' },
   { id: 'gemini-3.1-flash-lite', name: 'Gemini 3.1 Flash Lite' },
+  { id: 'gemini-3.5-flash-lite', name: 'Gemini 3.5 Flash Lite' },
 ];
 
 /**
