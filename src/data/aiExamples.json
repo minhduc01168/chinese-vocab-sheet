@@ -5472,5 +5472,464 @@
       "pinyin": "Zhǎng wò “ kuài jì ” de shēn céng hán yì bìng zài shí zhàn zhōng líng huó yùn yòng ， shì tí shēng zhōng wén shuǐ píng de guān jiàn yí bù 。",
       "meaning": "Nắm vững ý nghĩa sâu sắc và vận dụng linh hoạt trong thực tế là một bước đi then chốt để nâng cao trình độ tiếng Trung."
     }
+  ],
+  "如此": [
+    {
+      "hanzi": "原来事情是如此简单。",
+      "pinyin": "Yuánlái shìqing shì rúcǐ jiǎndān.",
+      "meaning": "Hóa ra sự việc lại đơn giản như vậy."
+    },
+    {
+      "hanzi": "遇到如此热情的服务，大家都感到很满意。",
+      "pinyin": "Yù dào rúcǐ rèqíng de fúwù, dàjiā dōu gǎndào hěn mǎnyì.",
+      "meaning": "Gặp được dịch vụ nhiệt tình như thế này, mọi người đều cảm thấy rất hài lòng."
+    },
+    {
+      "hanzi": "尽管困难重重，他依然能够如此冷静地面对。",
+      "pinyin": "Jǐnguǎn kùnnan chóngchóng, tā yīrán nénggòu rúcǐ lěngjìng de miànduì.",
+      "meaning": "Mặc dù muôn vàn khó khăn, anh ấy vẫn có thể bình tĩnh đối mặt như vậy."
+    }
+  ],
+  "刚": [
+    {
+      "hanzi": "我刚到家，还没吃晚饭呢。",
+      "pinyin": "Wǒ gāng dào jiā, hái méi chī wǎnfàn ne.",
+      "meaning": "Tôi vừa về đến nhà, vẫn chưa ăn cơm tối."
+    },
+    {
+      "hanzi": "他刚从北京出差回来，有很多工作要处理。",
+      "pinyin": "Tā gāng cóng Běijīng chūchāi huílái, yǒu hěn duō gōngzuò yào chǔlǐ.",
+      "meaning": "Anh ấy vừa đi công tác Bắc Kinh về, có rất nhiều công việc cần xử lý."
+    },
+    {
+      "hanzi": "刚开始学习汉语的时候，我也觉得发音很难。",
+      "pinyin": "Gāng kāishǐ xuéxí hànyǔ de shíhou, wǒ yě juéde fāyīn hěn nán.",
+      "meaning": "Lúc vừa mới bắt đầu học tiếng Trung, tôi cũng cảm thấy phát âm rất khó."
+    }
+  ],
+  "亏欠": [
+    {
+      "hanzi": "我总觉得心中亏欠了他一份人情。",
+      "pinyin": "Wǒ zǒng juéde xīn zhōng kuīqiàn le tā yí fèn rénqíng.",
+      "meaning": "Tôi luôn cảm thấy trong lòng mắc nợ anh ấy một ân tình."
+    },
+    {
+      "hanzi": "这些年忙于工作，父母那边我深感亏欠。",
+      "pinyin": "Zhèxiē nián mángyú gōngzuò, fùmǔ nàbiān wǒ shēn gǎn kuīqiàn.",
+      "meaning": "Những năm qua mải mê công việc, đối với bố mẹ tôi cảm thấy rất có lỗi."
+    },
+    {
+      "hanzi": "只要尽心尽力去做了，自己就没有什么亏欠的。",
+      "pinyin": "Zhǐyào jìnxīn jìnlì qù zuò le, zìjǐ jiù méiyǒu shénme kuīqiàn de.",
+      "meaning": "Chỉ cần đã tận tâm tận lực làm rồi, thì bản thân không có gì phải áy náy."
+    }
+  ],
+  "常用": [
+    {
+      "hanzi": "这些都是日常生活中常用的词语。",
+      "pinyin": "Zhèxiē dōu shì rìcháng shēnghuó zhōng chángyòng de cíyǔ.",
+      "meaning": "Đây đều là những từ ngữ thường dùng trong cuộc sống hàng ngày."
+    },
+    {
+      "hanzi": "在中国工作，手机支付是最常用的付款方式。",
+      "pinyin": "Zài Zhōngguó gōngzuò, shǒujī zhīfù shì zuì chángyòng de fùkuǎn fāngshì.",
+      "meaning": "Làm việc ở Trung Quốc, thanh toán qua điện thoại là phương thức thanh toán phổ biến nhất."
+    },
+    {
+      "hanzi": "掌握好这些常用句型，你的口语水平会有很大提高。",
+      "pinyin": "Zhǎngwò hǎo zhèxiē chángyòng jùxíng, nǐ de kǒuyǔ shuǐpíng huì yǒu hěn dà tígāo.",
+      "meaning": "Nắm vững các mẫu câu thông dụng này, trình độ khẩu ngữ của bạn sẽ tiến bộ rất nhiều."
+    }
+  ],
+  "中很": [
+    {
+      "hanzi": "在这几个方案中，这个方案很合适。",
+      "pinyin": "Zài zhè jǐ gè fāng'àn zhōng, zhè gè fāng'àn hěn héshì.",
+      "meaning": "Trong mấy phương án này, phương án này rất phù hợp."
+    },
+    {
+      "hanzi": "在我们班同学中，他的汉语水平很高。",
+      "pinyin": "Zài wǒmen bān tóngxué zhōng, tā de hànyǔ shuǐpíng hěn gāo.",
+      "meaning": "Trong số các bạn học cùng lớp chúng tôi, trình độ tiếng Trung của bạn ấy rất cao."
+    },
+    {
+      "hanzi": "生活中很多小事情，其实都蕴含着大道理。",
+      "pinyin": "Shēnghuó zhōng hěn duō xiǎo shìqing, qíshí dōu yùnhán zhe dà dàolǐ.",
+      "meaning": "Rất nhiều chuyện nhỏ trong cuộc sống, thực ra đều ẩn chứa đạo lý lớn."
+    }
+  ],
+  "简单": [
+    {
+      "hanzi": "这道题看起来很复杂，其实做起来很简单。",
+      "pinyin": "Zhè dào tí kàn qǐlái hěn fùzá, qíshí zuò qǐlái hěn jiǎndān.",
+      "meaning": "Câu hỏi này trông thì phức tạp, thực ra làm lại rất đơn giản."
+    },
+    {
+      "hanzi": "请大家先做一个简单的自我介绍。",
+      "pinyin": "Qǐng dàjiā xiān zuò yí gè jiǎndān de zìwǒ jièshào.",
+      "meaning": "Xin mời mọi người trước tiên làm một bài tự giới thiệu bản thân đơn giản."
+    },
+    {
+      "hanzi": "他平时过着十分简单的生活，从不乱花钱。",
+      "pinyin": "Tā píngshí guò zhe shífēn jiǎndān de shēnghuó, cóngbù luàn huā qián.",
+      "meaning": "Ngày thường anh ấy sống một cuộc sống rất giản dị, không bao giờ tiêu tiền bừa bãi."
+    }
+  ],
+  "着急": [
+    {
+      "hanzi": "别着急，有什么事情我们慢慢商量。",
+      "pinyin": "Bié zháojí, yǒu shénme shìqing wǒmen mànmàn shāngliang.",
+      "meaning": "Đừng sốt ruột, có chuyện gì chúng ta từ từ bàn bạc."
+    },
+    {
+      "hanzi": "发现找不到护照，他心里十分着急。",
+      "pinyin": "Fāxiàn zhǎo bú dào hùzhào, tā xīn lǐ shífēn zháojí.",
+      "meaning": "Phát hiện không tìm thấy hộ chiếu, trong lòng anh ấy vô cùng lo lắng."
+    },
+    {
+      "hanzi": "时间还来得及，你不用这么着急出门。",
+      "pinyin": "Shíjiān hái láidejí, nǐ bú yòng zhème zháojí chūmén.",
+      "meaning": "Thời gian vẫn còn kịp, bạn không cần phải vội vã ra ngoài như vậy."
+    }
+  ],
+  "告诉": [
+    {
+      "hanzi": "请告诉我你的电话号码。",
+      "pinyin": "Qǐng gàosu wǒ nǐ de diànhuà hàomǎ.",
+      "meaning": "Xin hãy cho tôi biết số điện thoại của bạn."
+    },
+    {
+      "hanzi": "会议改到明天上午开，我已经告诉经理了。",
+      "pinyin": "Huìyì gǎi dào míngtiān shàngwǔ kāi, wǒ yǐjīng gàosu jīnglǐ le.",
+      "meaning": "Cuộc họp đổi sang sáng mai, tôi đã báo cho giám đốc rồi."
+    },
+    {
+      "hanzi": "如果路上遇到任何问题，记得第一时间告诉我。",
+      "pinyin": "Rúguǒ lù shang yù dào rènhé wèntí, jìde dì-yī shíjiān gàosu wǒ.",
+      "meaning": "Nếu trên đường gặp bất kỳ vấn đề gì, nhớ báo cho tôi biết ngay lập tức nhé."
+    }
+  ],
+  "黑色": [
+    {
+      "hanzi": "我今天穿了一件黑色的外套。",
+      "pinyin": "Wǒ jīntiān chuān le yí jiàn hēisè de wàitào.",
+      "meaning": "Hôm nay tôi mặc một chiếc áo khoác màu đen."
+    },
+    {
+      "hanzi": "他最喜欢的颜色是黑色，因为看起来沉稳大方。",
+      "pinyin": "Tā zuì xǐhuan de yánsè shì hēisè, yīnwèi kàn qǐlái chénwěn dàfang.",
+      "meaning": "Màu sắc anh ấy thích nhất là màu đen, bởi vì trông chững chạc và trang nhã."
+    },
+    {
+      "hanzi": "停在公司门口的那辆黑色小汽车是王总的。",
+      "pinyin": "Tíng zài gōngsī ménkǒu de nà liàng hēisè xiǎoqìchē shì Wáng zǒng de.",
+      "meaning": "Chiếc ô tô nhỏ màu đen đỗ ở cổng công ty là của Tổng giám đốc Vương."
+    }
+  ],
+  "一件事": [
+    {
+      "hanzi": "我今天必须先完成这一件事。",
+      "pinyin": "Wǒ jīntiān bìxū xiān wánchéng zhè yí jiàn shì.",
+      "meaning": "Hôm nay tôi phải hoàn thành việc này trước đã."
+    },
+    {
+      "hanzi": "经理刚刚交代了我一件事，让我马上去办。",
+      "pinyin": "Jīnglǐ gānggang jiāodài le wǒ yí jiàn shì, ràng wǒ mǎshàng qù bàn.",
+      "meaning": "Giám đốc vừa mới giao cho tôi một việc, bảo tôi đi làm ngay."
+    },
+    {
+      "hanzi": "坚持运动是唯一一件让我每天都充满活力的事情。",
+      "pinyin": "Jiānchí yùndòng shì wéiyī yí jiàn ràng wǒ měitiān dōu chōngmǎn huólì de shìqing.",
+      "meaning": "Kiên trì vận động là điều duy nhất giúp tôi tràn đầy năng lượng mỗi ngày."
+    }
+  ],
+  "本来": [
+    {
+      "hanzi": "我本来打算明天去买票，可是今天已经卖完了。",
+      "pinyin": "Wǒ běnlái dǎsuàn míngtiān qù mǎi piào, kěshì jīntiān yǐjīng mài wán le.",
+      "meaning": "Tôi vốn định ngày mai mới đi mua vé, nhưng hôm nay đã bán hết rồi."
+    },
+    {
+      "hanzi": "这份材料本来是归小李负责整理的。",
+      "pinyin": "Zhè fèn cáiliào běnlái shì guī Xiǎo Lǐ fùzé zhěnglǐ de.",
+      "meaning": "Tài liệu này vốn dĩ là do Tiểu Lý phụ trách sắp xếp."
+    },
+    {
+      "hanzi": "这件事情本来就不复杂，是大家想得太多了。",
+      "pinyin": "Zhè jiàn shìqing běnlái jiù bù fùzá, shì dàjiā xiǎng de tài duō le.",
+      "meaning": "Chuyện này vốn dĩ không phức tạp, là do mọi người suy nghĩ quá nhiều thôi."
+    }
+  ],
+  "正想说": [
+    {
+      "hanzi": "你说的正是我想说的话。",
+      "pinyin": "Nǐ shuō de zhèng shì wǒ xiǎng shuō de huà.",
+      "meaning": "Những gì bạn nói chính là điều tôi đang định nói."
+    },
+    {
+      "hanzi": "我正想说要去吃饭，你就打电话过来了。",
+      "pinyin": "Wǒ zhèng xiǎng shuō yào qù chīfàn, nǐ jiù dǎ diànhuà guò lái le.",
+      "meaning": "Tôi đang định nói muốn đi ăn cơm thì bạn lại gọi điện tới."
+    },
+    {
+      "hanzi": "关于这个项目，经理正想说明天的具体安排。",
+      "pinyin": "Guānyú zhè gè xiàngmù, jīnglǐ zhèng xiǎng shuō míngtiān de jùtǐ ānpái.",
+      "meaning": "Về dự án này, giám đốc đang định nói kế hoạch cụ thể cho ngày mai."
+    }
+  ],
+  "才": [
+    {
+      "hanzi": "现在才早上六点，路上行人很少。",
+      "pinyin": "Xiànzài cái zǎoshang liù diǎn, lù shang xíngrén hěn shǎo.",
+      "meaning": "Bây giờ mới sáu giờ sáng, trên đường rất ít người qua lại."
+    },
+    {
+      "hanzi": "经过几个月的努力，他才顺利通过了考试。",
+      "pinyin": "Jīngguò jǐ gè yuè de nǔlì, tā cái shùnlì tōngguò le kǎoshì.",
+      "meaning": "Trải qua mấy tháng nỗ lực, anh ấy mới thuận lợi thi đỗ kỳ thi."
+    },
+    {
+      "hanzi": "这件衣服才五十块钱，真的很便宜。",
+      "pinyin": "Zhè jiàn yīfu cái wǔshí kuài qián, zhēn de hěn piányi.",
+      "meaning": "Chiếc áo này chỉ có năm mươi tệ, thật sự rất rẻ."
+    }
+  ],
+  "飞行员": [
+    {
+      "hanzi": "成为一名优秀的飞行员是他从小的心愿。",
+      "pinyin": "Chéngwéi yì míng yōuxiù de fēixíngyuán shì tā cóngxiǎo de xīnyuàn.",
+      "meaning": "Trở thành một phi công xuất sắc là nguyện vọng từ nhỏ của anh ấy."
+    },
+    {
+      "hanzi": "飞机起飞前，飞行员认真检查了各项设备。",
+      "pinyin": "Fēijī qǐfēi qián, fēixíngyuán rènzhēn jiǎnchá le gè xiàng shèbèi.",
+      "meaning": "Trước khi máy bay cất cánh, phi công đã kiểm tra kỹ càng từng thiết bị."
+    },
+    {
+      "hanzi": "飞行员需要经过非常严格的身体检查和专业培训。",
+      "pinyin": "Fēixíngyuán xūyào jīngguò fēicháng yángé de shēntǐ jiǎnchá hé zhuānyè péixùn.",
+      "meaning": "Phi công cần phải trải qua kiểm tra sức khỏe và đào tạo chuyên môn vô cùng nghiêm ngặt."
+    }
+  ],
+  "驾驶员": [
+    {
+      "hanzi": "请驾驶员系好安全带，注意行车安全。",
+      "pinyin": "Qǐng jiàshǐyuán jì hǎo ānquándài, zhùyì xíngchē ānquán.",
+      "meaning": "Xin người lái xe hãy thắt dây an toàn, chú ý an toàn khi lái xe."
+    },
+    {
+      "hanzi": "这位驾驶员有着十多年丰富的长途行车经验。",
+      "pinyin": "Zhè wèi jiàshǐyuán yǒu zhe shí duō nián fēngfù de chángtú xíngchē jīngyàn.",
+      "meaning": "Người tài xế này có hơn mười năm kinh nghiệm phong phú lái xe đường dài."
+    },
+    {
+      "hanzi": "货车驾驶员正在认真核对要运送的货物清单。",
+      "pinyin": "Huòchē jiàshǐyuán zhèngzài rènzhēn héduì yào yùnsòng de huòwù qīngdān.",
+      "meaning": "Bác tài xế xe tải đang chăm chú đối chiếu danh sách hàng hóa cần vận chuyển."
+    }
+  ],
+  "司机": [
+    {
+      "hanzi": "司机师傅，请在前面的路口靠边停车。",
+      "pinyin": "Sījī shīfu, qǐng zài qiánmiàn de lùkǒu kàobiān tíngchē.",
+      "meaning": "Bác tài xế ơi, xin hãy dừng xe sát lề ở ngã tư phía trước."
+    },
+    {
+      "hanzi": "出租车司机对这片区域的路况非常熟悉。",
+      "pinyin": "Chūzūchē sījī duì zhè piàn qūyù de lùkuàng fēicháng shúxī.",
+      "meaning": "Bác tài xế taxi rất am hiểu tình hình đường sá của khu vực này."
+    },
+    {
+      "hanzi": "雨天路面湿滑，司机开车时一定要放慢车速。",
+      "pinyin": "Yǔtiān lùmiàn shīhuá, sījī kāichē shí yídìng yào fàngmàn chēsù.",
+      "meaning": "Trời mưa đường trơn, tài xế khi lái xe nhất định phải giảm tốc độ."
+    }
+  ],
+  "售货员": [
+    {
+      "hanzi": "商店里的售货员服务态度非常热情。",
+      "pinyin": "Shāngdiàn lǐ de shòuhuòyuán fúwù tàidu fēicháng rèqíng.",
+      "meaning": "Nhân viên bán hàng trong cửa hàng có thái độ phục vụ rất nhiệt tình."
+    },
+    {
+      "hanzi": "售货员耐心地向顾客介绍这款手机的功能。",
+      "pinyin": "Shòuhuòyuán nàixīn de xiàng gùkè jièshào zhè kuǎn shǒujī de gōngnéng.",
+      "meaning": "Người bán hàng kiên nhẫn giới thiệu các chức năng của mẫu điện thoại này cho khách."
+    },
+    {
+      "hanzi": "如果找不到想买的商品，你可以随时询问售货员。",
+      "pinyin": "Rúguǒ zhǎo bú dào xiǎng mǎi de shāngpǐn, nǐ kěyǐ suíshí xúnwèn shòuhuòyuán.",
+      "meaning": "Nếu không tìm thấy món hàng muốn mua, bạn có thể hỏi nhân viên bán hàng bất cứ lúc nào."
+    }
+  ],
+  "妻子": [
+    {
+      "hanzi": "他和妻子一起经营着一家温馨的咖啡馆。",
+      "pinyin": "Tā hé qīzi yìqǐ jīngyíng zhe yì jiā wēnxīn de kāfēiguǎn.",
+      "meaning": "Anh ấy cùng vợ cùng nhau kinh doanh một quán cà phê ấm cúng."
+    },
+    {
+      "hanzi": "下班以后，他常常帮妻子分担家务。",
+      "pinyin": "Xiàbān yǐhòu, tā chángcháng bāng qīzi fēndān jiāwù.",
+      "meaning": "Sau khi tan làm, anh ấy thường xuyên giúp vợ san sẻ việc nhà."
+    },
+    {
+      "hanzi": "经过多年共同奋斗，他和妻子终于买下了属于自己的房子。",
+      "pinyin": "Jīngguò duō nián gòngtóng fèndòu, tā hé qīzi zhōngyú mǎi xià le shǔyú zìjǐ de fángzi.",
+      "meaning": "Trải qua nhiều năm cùng nhau phấn đấu, anh ấy và vợ cuối cùng đã mua được ngôi nhà của riêng mình."
+    }
+  ],
+  "雪": [
+    {
+      "hanzi": "外面下起了大雪，地上白茫茫一片。",
+      "pinyin": "Wàimiàn xià qǐ le dà xuě, dì shang bái mángmáng yí piàn.",
+      "meaning": "Bên ngoài bắt đầu có tuyết rơi dày đặc, mặt đất trắng xóa một màu."
+    },
+    {
+      "hanzi": "冬天去北方旅游时，孩子们最喜欢在雪地里玩耍。",
+      "pinyin": "Dōngtiān qù běifāng lǚyóu shí, háizimen zuì xǐhuan zài xuě dì lǐ wánshuǎ.",
+      "meaning": "Mùa đông khi đi du lịch miền Bắc, lũ trẻ thích nhất là được vui đùa trong sân tuyết."
+    },
+    {
+      "hanzi": "今年的初雪来得比往年更早一些。",
+      "pinyin": "Jīnnián de chūxuě lái de bǐ wǎngnián gèng zǎo yìxiē.",
+      "meaning": "Trận tuyết đầu mùa năm nay đến sớm hơn mọi năm một chút."
+    }
+  ],
+  "进": [
+    {
+      "hanzi": "请进，请到里面坐下喝杯热茶吧。",
+      "pinyin": "Qǐng jìn, qǐng dào lǐmiàn zuò xià hē bēi rè chá ba.",
+      "meaning": "Mời vào, xin mời vào bên trong ngồi uống tách trà nóng nhé."
+    },
+    {
+      "hanzi": "外面风很大，我们快进屋去吧。",
+      "pinyin": "Wàimiàn fēng hěn dà, wǒmen kuài jìn wū qù ba.",
+      "meaning": "Bên ngoài gió to lắm, chúng mình mau vào trong nhà thôi."
+    },
+    {
+      "hanzi": "看到老师走进了教室，同学们立刻安静了下来。",
+      "pinyin": "Kàn dào lǎoshī zǒu jìn le jiàoshì, tóngxuémen lìkè ānjìng le xiàlai.",
+      "meaning": "Thấy thầy giáo bước vào lớp học, các bạn học sinh lập tức trật tự."
+    }
+  ],
+  "订舱": [
+    {
+      "hanzi": "我们需要提前一周为这批货物向船公司订舱。",
+      "pinyin": "Wǒmen xūyào tíqián yì zhōu wèi zhè pī huòwù xiàng chuán gōngsī dìngcāng.",
+      "meaning": "Chúng tôi cần đặt chỗ trước một tuần với hãng tàu cho lô hàng này."
+    },
+    {
+      "hanzi": "物流部门已经顺利完成了下个月的订舱工作。",
+      "pinyin": "Wùliú bùmén yǐjīng shùnlì wánchéng le xià gè yuè de dìngcāng gōngzuò.",
+      "meaning": "Bộ phận logistics đã hoàn thành thuận lợi công việc đặt chỗ vận chuyển cho tháng sau."
+    },
+    {
+      "hanzi": "旺季期间舱位十分紧张，建议尽早安排订舱。",
+      "pinyin": "Wàngjì qījiān cāngwèi shífēn jǐnzhāng, jiànyì jǐnzǎo ānpái dìngcāng.",
+      "meaning": "Trong mùa cao điểm chỗ trống rất khan hiếm, kiến nghị nên sớm sắp xếp đặt chỗ tàu."
+    }
+  ],
+  "放假": [
+    {
+      "hanzi": "下个星期我们学校放假三天。",
+      "pinyin": "Xià gè xīngqī wǒmen xuéxiào fàngjià sān tiān.",
+      "meaning": "Tuần sau trường chúng tôi được nghỉ ba ngày."
+    },
+    {
+      "hanzi": "放假期间，许多人都选择和家人一起外出旅游。",
+      "pinyin": "Fàngjià qījiān, xǔduō rén dōu xuǎnzé hé jiārén yìqǐ wàichū lǚyóu.",
+      "meaning": "Trong kỳ nghỉ lễ, rất nhiều người lựa chọn đi du lịch cùng gia đình."
+    },
+    {
+      "hanzi": "马上就要放寒假了，大家都在忙着订回家的火车票。",
+      "pinyin": "Mǎshàng jiù yào fàng hánjià le, dàjiā dōu zài máng zhe dìng huí jiā de huǒchē piào.",
+      "meaning": "Sắp được nghỉ đông rồi, mọi người đều đang bận rộn đặt vé tàu hỏa về quê."
+    }
+  ],
+  "回复": [
+    {
+      "hanzi": "收到您的邮件后，我会尽快给您回复。",
+      "pinyin": "Shōu dào nín de yóujiàn hòu, wǒ huì jǐnkuài gěi nín huífù.",
+      "meaning": "Sau khi nhận được email của quý khách, tôi sẽ hồi đáp sớm nhất có thể."
+    },
+    {
+      "hanzi": "客户刚刚回复了我们的合作方案，表示非常满意。",
+      "pinyin": "Kèhù gānggang huífù le wǒmen de hézuò fāng'àn, biǎoshì fēicháng mǎnyì.",
+      "meaning": "Khách hàng vừa mới phản hồi phương án hợp tác của chúng ta, bày tỏ rất hài lòng."
+    },
+    {
+      "hanzi": "经过一段时间的静养，他的身体已经完全回复了健康。",
+      "pinyin": "Jīngguò yí duàn shíjiān de jìngyǎng, tā de shēntǐ yǐjīng wánquán huífù le jiànkāng.",
+      "meaning": "Trải qua một thời gian tĩnh dưỡng, sức khỏe của anh ấy đã hoàn toàn hồi phục."
+    }
+  ],
+  "邮箱": [
+    {
+      "hanzi": "请把修改后的文件发到我的工作邮箱。",
+      "pinyin": "Qǐng bǎ xiūgǎi hòu de wénjiàn fā dào wǒ de gōngzuò yóuxiāng.",
+      "meaning": "Xin hãy gửi tài liệu sau khi chỉnh sửa vào hòm thư công việc của tôi."
+    },
+    {
+      "hanzi": "记得每天查看电子邮箱，以免错过重要通知。",
+      "pinyin": "Jìde měitiān chákàn diànzǐ yóuxiāng, yǐmiǎn cuòguò zhòngyào tōngzhī.",
+      "meaning": "Nhớ kiểm tra hòm thư điện tử mỗi ngày, để tránh bỏ lỡ các thông báo quan trọng."
+    },
+    {
+      "hanzi": "楼下的绿色邮箱里放着好几封寄给你的信件。",
+      "pinyin": "Lóu xià de lǜsè yóuxiāng lǐ fàng zhe hǎojǐ fēng jì gěi nǐ de xìnjiàn.",
+      "meaning": "Trong hòm thư màu xanh dưới tầng có để mấy lá thư gửi cho bạn."
+    }
+  ],
+  "邮件": [
+    {
+      "hanzi": "我刚刚给你发了一封确认邮件，请查收。",
+      "pinyin": "Wǒ gānggang gěi nǐ fā le yì fēng quèrèn yóujiàn, qǐng cháshōu.",
+      "meaning": "Tôi vừa gửi cho bạn một bức thư xác nhận, vui lòng kiểm tra."
+    },
+    {
+      "hanzi": "国际快递邮件通常需要三到五天才能送达。",
+      "pinyin": "Guójì kuàidì yóujiàn tōngcháng xūyào sān dào wǔ tiān cái néng sòngdá.",
+      "meaning": "Bưu phẩm chuyển phát nhanh quốc tế thông thường cần từ ba đến năm ngày mới tới nơi."
+    },
+    {
+      "hanzi": "请在邮件中附上你的个人简历和作品集。",
+      "pinyin": "Qǐng zài yóujiàn zhōng fù shàng nǐ de gèrén jiǎnlì hé zuòpǐn jí.",
+      "meaning": "Xin vui lòng đính kèm sơ yếu lý lịch và hồ sơ tác phẩm trong email."
+    }
+  ],
+  "提交": [
+    {
+      "hanzi": "请在今天下午五点之前提交本周的工作报告。",
+      "pinyin": "Qǐng zài jīntiān xiàwǔ wǔ diǎn zhīqián tíjiāo běn zhōu de gōngzuò bàogào.",
+      "meaning": "Xin hãy nộp báo cáo công việc tuần này trước năm giờ chiều hôm nay."
+    },
+    {
+      "hanzi": "填写完表格后，点击右下角的按钮即可提交申请。",
+      "pinyin": "Tiánxiě wán biǎogé hòu, diǎnjī yòuxiàjiǎo de ànniǔ jíkě tíjiāo shēnqǐng.",
+      "meaning": "Sau khi điền xong biểu mẫu, bấm vào nút ở góc dưới bên phải là có thể nộp đơn xin."
+    },
+    {
+      "hanzi": "我们已经把最终的项目预算方案提交给领导审批。",
+      "pinyin": "Wǒmen yǐjīng bǎ zuìzhōng de xiàngmù yùsuàn fāng'àn tíjiāo gěi lǐngdǎo shěnpī.",
+      "meaning": "Chúng tôi đã đệ trình phương án ngân sách dự án cuối cùng cho lãnh đạo phê duyệt."
+    }
+  ],
+  "走边": [
+    {
+      "hanzi": "路上车多，走路的时候一定要靠右走边。",
+      "pinyin": "Lù shang chē duō, zǒu lù de shíhou yídìng yào kào yòu zǒu biān.",
+      "meaning": "Trên đường xe đông, khi đi bộ nhất định phải đi sát mép bên phải."
+    },
+    {
+      "hanzi": "湖边的风景很美，傍晚很多人喜欢在湖畔走边散步。",
+      "pinyin": "Hú biān de fēngjǐng hěn měi, bàngwǎn hěn duō rén xǐhuan zài húpàn zǒu biān sànbù.",
+      "meaning": "Phong cảnh ven hồ rất đẹp, chiều muộn rất nhiều người thích đi dạo dọc theo bờ hồ."
+    },
+    {
+      "hanzi": "山路狭窄陡峭，向导提醒大家尽量走边小心脚下。",
+      "pinyin": "Shānlù xiázhǎi dǒuqiào, xiàngdǎo tíxǐng dàjiā jǐnliàng zǒu biān xiǎoxīn jiǎoxià.",
+      "meaning": "Đường núi hẹp và dốc, hướng dẫn viên nhắc nhở mọi người cố gắng đi sát mép và cẩn thận dưới chân."
+    }
   ]
 }

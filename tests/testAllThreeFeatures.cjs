@@ -107,31 +107,32 @@ function filterItemsByRange(items, studyRange, flaggedIds = new Set()) {
   return [...items];
 }
 
-runTest(SUITE_1, '1.1: Tạo chính xác các khối STT cho kho 325 từ gốc', () => {
+runTest(SUITE_1, '1.1: Tạo chính xác các khối STT cho kho từ gốc', () => {
   const blocks = computeBlocks(defaultVocab.length);
-  assert.strictEqual(blocks.length, 4);
+  assert.strictEqual(blocks.length, Math.ceil(defaultVocab.length / 100));
   assert.strictEqual(blocks[0].key, 'block_1_100');
   assert.strictEqual(blocks[1].key, 'block_101_200');
   assert.strictEqual(blocks[2].key, 'block_201_300');
-  assert.strictEqual(blocks[3].key, 'block_301_325');
+  assert.strictEqual(blocks[3].key, `block_301_${defaultVocab.length}`);
 });
 
 runTest(SUITE_1, '1.2: Lọc đúng số lượng và biên index của từng khối STT', () => {
+  const lastBlockKey = `block_301_${defaultVocab.length}`;
   const b1 = filterItemsByRange(defaultVocab, 'block_1_100');
   const b2 = filterItemsByRange(defaultVocab, 'block_101_200');
   const b3 = filterItemsByRange(defaultVocab, 'block_201_300');
-  const b4 = filterItemsByRange(defaultVocab, 'block_301_325');
+  const b4 = filterItemsByRange(defaultVocab, lastBlockKey);
 
   assert.strictEqual(b1.length, 100, 'Block 1-100 phải có 100 từ');
   assert.strictEqual(b2.length, 100, 'Block 101-200 phải có 100 từ');
   assert.strictEqual(b3.length, 100, 'Block 201-300 phải có 100 từ');
-  assert.strictEqual(b4.length, 25, 'Block 301-325 phải có 25 từ');
+  assert.strictEqual(b4.length, defaultVocab.length - 300, `Block cuối phải có ${defaultVocab.length - 300} từ`);
 
   // Kiểm tra không bị chồng chéo index
   assert.strictEqual(b1[0].id, defaultVocab[0].id);
   assert.strictEqual(b1[99].id, defaultVocab[99].id);
   assert.strictEqual(b2[0].id, defaultVocab[100].id);
-  assert.strictEqual(b4[24].id, defaultVocab[324].id);
+  assert.strictEqual(b4[b4.length - 1].id, defaultVocab[defaultVocab.length - 1].id);
 });
 
 runTest(SUITE_1, '1.3: Chế độ random100 chọn đúng 100 từ không trùng lặp và phân phối ngẫu nhiên', () => {

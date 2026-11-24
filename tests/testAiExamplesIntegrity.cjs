@@ -36,9 +36,9 @@ function it(desc, fn) {
 }
 
 // TEST 1: Số lượng từ vựng và câu ví dụ
-it('1. Toàn bộ 322 từ vựng đều có mặt và mỗi từ có đúng 3 câu ví dụ', () => {
+it('1. Toàn bộ các từ vựng đều có mặt và mỗi từ có đúng 3 câu ví dụ', () => {
   const words = Object.keys(aiExamples);
-  assert.strictEqual(words.length, 322, `Mong đợi 322 từ, thực tế có ${words.length}`);
+  assert.ok(words.length >= 345, `Mong đợi ít nhất 345 từ, thực tế có ${words.length}`);
 
   let totalExamples = 0;
   for (const [w, list] of Object.entries(aiExamples)) {
@@ -46,7 +46,7 @@ it('1. Toàn bộ 322 từ vựng đều có mặt và mỗi từ có đúng 3 c
     assert.strictEqual(list.length, 3, `Từ "${w}" phải có đúng 3 câu ví dụ (hiện có ${list.length})`);
     totalExamples += list.length;
   }
-  assert.strictEqual(totalExamples, 966, `Tổng số câu ví dụ phải là 966 (322 x 3)`);
+  assert.strictEqual(totalExamples, words.length * 3, `Tổng số câu ví dụ phải là ${words.length * 3}`);
 });
 
 // TEST 2: Đầy đủ trường và cấu trúc dữ liệu

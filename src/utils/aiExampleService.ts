@@ -3,26 +3,56 @@ import pregenExamples from '../data/aiExamples.json';
 import { pinyin } from 'pinyin-pro';
 
 const STORAGE_CUSTOM_EXAMPLES_KEY = 'ai_custom_examples_v1';
+const FAILED_ATTEMPTS_STORAGE_KEY = 'ai_attempted_cooldown_v1';
+const COOLDOWN_MS = 5 * 60 * 1000; // 5 minutes cooldown before re-attempting a failed word
 
 // In-memory merge of pregen and local custom examples
 const pregenDict = pregenExamples as Record<string, AiExampleItem[]>;
 
+// Fast in-memory cache to avoid repeated JSON.parse on every frame/render
+let memoryCustomStore: Record<string, AiExampleItem[]> | null = null;
+
+export function normalizeHanziKey(hanzi: string): string {
+  if (!hanzi) return '';
+  return hanzi
+    .split(/[\/\n\r;；,，、]/)[0]
+    .replace(/[（(].*?[）)]/g, '')
+    .replace(/[\[\]]/g, '')
+    .trim();
+}
+
 export function getCustomExamplesStore(): Record<string, AiExampleItem[]> {
+  if (memoryCustomStore !== null) {
+    return memoryCustomStore;
+  }
   try {
     const saved = localStorage.getItem(STORAGE_CUSTOM_EXAMPLES_KEY);
-    return saved ? JSON.parse(saved) : {};
+    memoryCustomStore = saved ? JSON.parse(saved) : {};
+    return memoryCustomStore!;
   } catch {
-    return {};
+    memoryCustomStore = {};
+    return memoryCustomStore;
   }
 }
 
 export function saveCustomExampleForWord(hanzi: string, examples: AiExampleItem[]) {
   if (!hanzi || !examples || examples.length === 0) return;
-  const cleanKey = hanzi.split(/[/;；,，]/)[0].trim();
+  const cleanKey = normalizeHanziKey(hanzi);
+  if (!cleanKey) return;
+
   try {
     const store = getCustomExamplesStore();
     store[cleanKey] = examples;
+
+    // Also store with raw trimmed key if different
+    const rawTrimmed = hanzi.trim();
+    if (rawTrimmed && rawTrimmed !== cleanKey) {
+      store[rawTrimmed] = examples;
+    }
+
+    memoryCustomStore = store;
     localStorage.setItem(STORAGE_CUSTOM_EXAMPLES_KEY, JSON.stringify(store));
+
     if (typeof window !== 'undefined') {
       window.dispatchEvent(new CustomEvent('ai_examples_updated', { detail: { hanzi: cleanKey } }));
     }
@@ -31,22 +61,57 @@ export function saveCustomExampleForWord(hanzi: string, examples: AiExampleItem[
   }
 }
 
+export function isWordInCooldown(hanzi: string): boolean {
+  const clean = normalizeHanziKey(hanzi);
+  if (!clean) return false;
+  try {
+    if (typeof sessionStorage === 'undefined') return false;
+    const raw = sessionStorage.getItem(FAILED_ATTEMPTS_STORAGE_KEY);
+    if (!raw) return false;
+    const records: Record<string, number> = JSON.parse(raw);
+    const lastTime = records[clean];
+    if (lastTime && Date.now() - lastTime < COOLDOWN_MS) {
+      return true;
+    }
+  } catch {}
+  return false;
+}
+
+export function markWordFailedCooldown(hanzi: string) {
+  const clean = normalizeHanziKey(hanzi);
+  if (!clean) return;
+  try {
+    if (typeof sessionStorage === 'undefined') return;
+    const raw = sessionStorage.getItem(FAILED_ATTEMPTS_STORAGE_KEY);
+    const records: Record<string, number> = raw ? JSON.parse(raw) : {};
+    records[clean] = Date.now();
+    sessionStorage.setItem(FAILED_ATTEMPTS_STORAGE_KEY, JSON.stringify(records));
+  } catch {}
+}
+
 /**
- * Get all available examples for a word (from pre-gen file, or localStorage, or sheet fallback)
+ * Get all available examples for a word (from custom localStorage store, pregen file, or sheet fallback)
  */
 export function getWordExamples(hanzi: string, sheetExample?: string): AiExampleItem[] {
   if (!hanzi) return [];
-  const clean = hanzi.split(/[/;；,，]/)[0].trim();
-
-  // 1. Check custom localStorage store (for newly generated words)
+  const clean = normalizeHanziKey(hanzi);
+  const raw = hanzi.trim();
   const customStore = getCustomExamplesStore();
-  if (customStore[clean] && customStore[clean].length > 0) {
+
+  // 1. Check custom localStorage store
+  if (clean && customStore[clean] && customStore[clean].length > 0) {
     return customStore[clean];
+  }
+  if (raw && customStore[raw] && customStore[raw].length > 0) {
+    return customStore[raw];
   }
 
   // 2. Check pre-generated file
-  if (pregenDict[clean] && pregenDict[clean].length > 0) {
+  if (clean && pregenDict[clean] && pregenDict[clean].length > 0) {
     return pregenDict[clean];
+  }
+  if (raw && pregenDict[raw] && pregenDict[raw].length > 0) {
+    return pregenDict[raw];
   }
 
   // 3. Fallback to sheet example if provided
@@ -69,15 +134,20 @@ export function getWordExamples(hanzi: string, sheetExample?: string): AiExample
  */
 export function hasWordExamples(hanzi: string): boolean {
   if (!hanzi) return false;
-  const clean = hanzi.split(/[/;；,，]/)[0].trim();
+  const clean = normalizeHanziKey(hanzi);
+  const raw = hanzi.trim();
   const customStore = getCustomExamplesStore();
-  if (customStore[clean] && customStore[clean].length > 0) return true;
-  if (pregenDict[clean] && pregenDict[clean].length > 0) return true;
+
+  if (clean && customStore[clean] && customStore[clean].length > 0) return true;
+  if (raw && customStore[raw] && customStore[raw].length > 0) return true;
+  if (clean && pregenDict[clean] && pregenDict[clean].length > 0) return true;
+  if (raw && pregenDict[raw] && pregenDict[raw].length > 0) return true;
+
   return false;
 }
 
 /**
- * Call Gemini API (supports gemini-2.5-flash with automatic fallback to gemini-2.0-flash / gemini-1.5-flash)
+ * Call Gemini API (gemini-2.0-flash with fallback to gemini-1.5-flash)
  */
 export async function generateExamplesWithGemini(
   apiKey: string,
@@ -88,13 +158,18 @@ export async function generateExamplesWithGemini(
     throw new Error('Chưa cấu hình Google Gemini API Key.');
   }
 
-  const cleanHanzi = hanzi.split(/[/;；,，]/)[0].trim();
+  const cleanHanzi = normalizeHanziKey(hanzi);
+  if (!cleanHanzi) {
+    throw new Error('Từ vựng không hợp lệ để tạo câu ví dụ.');
+  }
+
   const prompt = `Bạn là chuyên gia giảng dạy tiếng Trung Quốc cho người Việt Nam.
 Hãy tạo đúng 3 câu ví dụ tiếng Trung thông dụng, tự nhiên và thiết thực nhất cho từ vựng: "${cleanHanzi}" (nghĩa tiếng Việt: "${meaning}").
 Yêu cầu:
 1. Câu 1: Ngắn gọn, cơ bản, giao tiếp hàng ngày.
 2. Câu 2: Tình huống thực tế (học tập, công sở, mua sắm hoặc ăn uống).
 3. Câu 3: Câu ghép tự nhiên giúp mở rộng cách dùng từ.
+4. Cực kỳ quan trọng: Phần "meaning" TUYỆT ĐỐI KHÔNG chứa chữ Hán (chữ Trung Quốc), chỉ dịch nghĩa tiếng Việt tự nhiên chuẩn xác.
 
 BẮT BUỘC trả về định dạng JSON thuần túy (không bọc trong markdown code block, không thêm lời chào), cấu trúc:
 [
@@ -105,8 +180,8 @@ BẮT BUỘC trả về định dạng JSON thuần túy (không bọc trong mar
   }
 ]`;
 
-  // Candidate models: user preference first, with robust fallback
-  const candidateModels = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'];
+  // Candidate models: official stable Gemini 2.0 & 1.5 flash models
+  const candidateModels = ['gemini-2.0-flash', 'gemini-1.5-flash'];
   let lastErrorMsg = '';
 
   for (const model of candidateModels) {

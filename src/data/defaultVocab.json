@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "default_1",
     "originalIndex": 1,
     "hanzi": "我",
     "validAnswers": [
@@ -12,7 +12,7 @@
     "example": "我想你了"
   },
   {
-    "id": 2,
+    "id": "default_2",
     "originalIndex": 2,
     "hanzi": "你",
     "validAnswers": [
@@ -24,7 +24,7 @@
     "example": "你去哪？\n我和你是好朋友"
   },
   {
-    "id": 3,
+    "id": "default_3",
     "originalIndex": 3,
     "hanzi": "我们",
     "validAnswers": [
@@ -36,7 +36,7 @@
     "example": "我们能讲中文"
   },
   {
-    "id": 4,
+    "id": "default_4",
     "originalIndex": 4,
     "hanzi": "你们",
     "validAnswers": [
@@ -48,7 +48,7 @@
     "example": "你们是同学吗？"
   },
   {
-    "id": 5,
+    "id": "default_5",
     "originalIndex": 5,
     "hanzi": "好",
     "validAnswers": [
@@ -60,7 +60,7 @@
     "example": "我很好"
   },
   {
-    "id": 6,
+    "id": "default_6",
     "originalIndex": 6,
     "hanzi": "您",
     "validAnswers": [
@@ -72,7 +72,7 @@
     "example": "您今年多大了？"
   },
   {
-    "id": 7,
+    "id": "default_7",
     "originalIndex": 7,
     "hanzi": "对不起",
     "validAnswers": [
@@ -83,7 +83,7 @@
     "sinoVietnamese": "đối bất khởi"
   },
   {
-    "id": 8,
+    "id": "default_8",
     "originalIndex": 8,
     "hanzi": "没关系",
     "validAnswers": [
@@ -94,7 +94,7 @@
     "sinoVietnamese": "một quan hệ"
   },
   {
-    "id": 9,
+    "id": "default_9",
     "originalIndex": 9,
     "hanzi": "猫",
     "validAnswers": [
@@ -106,7 +106,7 @@
     "example": "我有两只小猫"
   },
   {
-    "id": 10,
+    "id": "default_10",
     "originalIndex": 10,
     "hanzi": "鱼",
     "validAnswers": [
@@ -118,7 +118,7 @@
     "example": "我很喜欢吃鱼"
   },
   {
-    "id": 11,
+    "id": "default_11",
     "originalIndex": 11,
     "hanzi": "咖啡",
     "validAnswers": [
@@ -130,7 +130,7 @@
     "example": "请喝咖啡，你想喝什么？"
   },
   {
-    "id": 12,
+    "id": "default_12",
     "originalIndex": 12,
     "hanzi": "可乐",
     "validAnswers": [
@@ -142,7 +142,7 @@
     "example": "我不喜欢喝可乐"
   },
   {
-    "id": 13,
+    "id": "default_13",
     "originalIndex": 13,
     "hanzi": "烤鸭",
     "validAnswers": [
@@ -154,7 +154,7 @@
     "example": "我妈妈很喜欢吃烤鸭"
   },
   {
-    "id": 14,
+    "id": "default_14",
     "originalIndex": 14,
     "hanzi": "火锅",
     "validAnswers": [
@@ -166,7 +166,7 @@
     "example": "我 爸爸喜欢吃火锅"
   },
   {
-    "id": 15,
+    "id": "default_15",
     "originalIndex": 15,
     "hanzi": "谢谢",
     "validAnswers": [
@@ -177,7 +177,7 @@
     "sinoVietnamese": "tạ tạ"
   },
   {
-    "id": 16,
+    "id": "default_16",
     "originalIndex": 16,
     "hanzi": "不客气",
     "validAnswers": [
@@ -188,7 +188,7 @@
     "sinoVietnamese": "bất khách khí"
   },
   {
-    "id": 17,
+    "id": "default_17",
     "originalIndex": 17,
     "hanzi": "再见",
     "validAnswers": [
@@ -199,7 +199,7 @@
     "sinoVietnamese": "tái kiến"
   },
   {
-    "id": 18,
+    "id": "default_18",
     "originalIndex": 18,
     "hanzi": "叫",
     "validAnswers": [
@@ -211,7 +211,7 @@
     "example": "你叫什么名字？"
   },
   {
-    "id": 19,
+    "id": "default_19",
     "originalIndex": 19,
     "hanzi": "什么",
     "validAnswers": [
@@ -223,7 +223,7 @@
     "example": "今天你想学什么？"
   },
   {
-    "id": 20,
+    "id": "default_20",
     "originalIndex": 20,
     "hanzi": "名字",
     "validAnswers": [
@@ -235,7 +235,7 @@
     "example": "我能知道你的名字吗？"
   },
   {
-    "id": 21,
+    "id": "default_21",
     "originalIndex": 21,
     "hanzi": "老师",
     "validAnswers": [
@@ -247,7 +247,7 @@
     "example": "李老师在哪儿？"
   },
   {
-    "id": 22,
+    "id": "default_22",
     "originalIndex": 22,
     "hanzi": "学生",
     "validAnswers": [
@@ -259,7 +259,7 @@
     "example": "你奴儿是学生吗？"
   },
   {
-    "id": 23,
+    "id": "default_23",
     "originalIndex": 23,
     "hanzi": "吗",
     "validAnswers": [
@@ -270,7 +270,7 @@
     "example": "好吃吗？"
   },
   {
-    "id": 24,
+    "id": "default_24",
     "originalIndex": 24,
     "hanzi": "中国",
     "validAnswers": [
@@ -281,7 +281,7 @@
     "example": "我的同学是中国人"
   },
   {
-    "id": 25,
+    "id": "default_25",
     "originalIndex": 25,
     "hanzi": "美国",
     "validAnswers": [
@@ -292,7 +292,7 @@
     "example": "我想去美国"
   },
   {
-    "id": 26,
+    "id": "default_26",
     "originalIndex": 26,
     "hanzi": "英国",
     "validAnswers": [
@@ -303,7 +303,7 @@
     "example": "你去过英国吗/"
   },
   {
-    "id": 27,
+    "id": "default_27",
     "originalIndex": 27,
     "hanzi": "是",
     "validAnswers": [
@@ -315,7 +315,7 @@
     "example": "你是Lily 的同事吗？"
   },
   {
-    "id": 28,
+    "id": "default_28",
     "originalIndex": 28,
     "hanzi": "他",
     "validAnswers": [
@@ -325,7 +325,7 @@
     "pinyin": "tā"
   },
   {
-    "id": 29,
+    "id": "default_29",
     "originalIndex": 29,
     "hanzi": "她",
     "validAnswers": [
@@ -335,7 +335,7 @@
     "pinyin": "tā"
   },
   {
-    "id": 30,
+    "id": "default_30",
     "originalIndex": 30,
     "hanzi": "谁",
     "validAnswers": [
@@ -347,7 +347,7 @@
     "example": "你后面那个人是谁？"
   },
   {
-    "id": 31,
+    "id": "default_31",
     "originalIndex": 31,
     "hanzi": "的",
     "validAnswers": [
@@ -359,7 +359,7 @@
     "example": "我的汉语老师是英国人"
   },
   {
-    "id": 32,
+    "id": "default_32",
     "originalIndex": 32,
     "hanzi": "A....B 呢？",
     "validAnswers": [
@@ -371,7 +371,7 @@
     "example": "星期日我和同事去公园， 你呢？"
   },
   {
-    "id": 33,
+    "id": "default_33",
     "originalIndex": 33,
     "hanzi": "同学",
     "validAnswers": [
@@ -383,7 +383,7 @@
     "example": "我同学会说英语"
   },
   {
-    "id": 34,
+    "id": "default_34",
     "originalIndex": 34,
     "hanzi": "哪",
     "validAnswers": [
@@ -395,7 +395,7 @@
     "example": "你爸爸在医院工作， 你妈妈在哪儿工作？"
   },
   {
-    "id": 35,
+    "id": "default_35",
     "originalIndex": 35,
     "hanzi": "朋友",
     "validAnswers": [
@@ -406,7 +406,7 @@
     "example": "你的朋友能做中国菜吗？"
   },
   {
-    "id": 36,
+    "id": "default_36",
     "originalIndex": 36,
     "hanzi": "女儿",
     "validAnswers": [
@@ -417,7 +417,7 @@
     "example": "您 女儿在哪儿工作？"
   },
   {
-    "id": 37,
+    "id": "default_37",
     "originalIndex": 37,
     "hanzi": "今年",
     "validAnswers": [
@@ -429,7 +429,7 @@
     "example": "我今年二十三岁了"
   },
   {
-    "id": 38,
+    "id": "default_38",
     "originalIndex": 38,
     "hanzi": "昨年\n去年",
     "validAnswers": [
@@ -442,7 +442,7 @@
     "example": "昨年我还在上学"
   },
   {
-    "id": 39,
+    "id": "default_39",
     "originalIndex": 39,
     "hanzi": "明年",
     "validAnswers": [
@@ -454,7 +454,7 @@
     "example": "明年我会去中国"
   },
   {
-    "id": 40,
+    "id": "default_40",
     "originalIndex": 40,
     "hanzi": "岁",
     "validAnswers": [
@@ -466,7 +466,7 @@
     "example": "我妹妹十六岁了"
   },
   {
-    "id": 41,
+    "id": "default_41",
     "originalIndex": 41,
     "hanzi": "几",
     "validAnswers": [
@@ -478,7 +478,7 @@
     "example": "今天几号？"
   },
   {
-    "id": 42,
+    "id": "default_42",
     "originalIndex": 42,
     "hanzi": "家",
     "validAnswers": [
@@ -490,7 +490,7 @@
     "example": "我 弟弟在家看电影"
   },
   {
-    "id": 43,
+    "id": "default_43",
     "originalIndex": 43,
     "hanzi": "有",
     "validAnswers": [
@@ -502,7 +502,7 @@
     "example": "你有钱吗？"
   },
   {
-    "id": 44,
+    "id": "default_44",
     "originalIndex": 44,
     "hanzi": "多",
     "validAnswers": [
@@ -514,7 +514,7 @@
     "example": "这一杯咖啡 多少钱"
   },
   {
-    "id": 45,
+    "id": "default_45",
     "originalIndex": 45,
     "hanzi": "大",
     "validAnswers": [
@@ -526,7 +526,7 @@
     "example": "李老师家很大"
   },
   {
-    "id": 46,
+    "id": "default_46",
     "originalIndex": 46,
     "hanzi": "弟弟",
     "validAnswers": [
@@ -538,7 +538,7 @@
     "example": "我弟弟是大学生"
   },
   {
-    "id": 47,
+    "id": "default_47",
     "originalIndex": 47,
     "hanzi": "妹妹",
     "validAnswers": [
@@ -550,7 +550,7 @@
     "example": "你妹妹今年多大了"
   },
   {
-    "id": 48,
+    "id": "default_48",
     "originalIndex": 48,
     "hanzi": "爷爷",
     "validAnswers": [
@@ -561,7 +561,7 @@
     "example": "我爷爷 每天早上都喝茶"
   },
   {
-    "id": 49,
+    "id": "default_49",
     "originalIndex": 49,
     "hanzi": "都",
     "validAnswers": [
@@ -572,7 +572,7 @@
     "example": "我妈妈每天都喝咖啡"
   },
   {
-    "id": 50,
+    "id": "default_50",
     "originalIndex": 50,
     "hanzi": "每天",
     "validAnswers": [
@@ -583,7 +583,7 @@
     "example": "我每天晚上做饭"
   },
   {
-    "id": 51,
+    "id": "default_51",
     "originalIndex": 51,
     "hanzi": "现在",
     "validAnswers": [
@@ -594,7 +594,7 @@
     "example": "现在是三点二十分"
   },
   {
-    "id": 52,
+    "id": "default_52",
     "originalIndex": 52,
     "hanzi": "住",
     "validAnswers": [
@@ -605,7 +605,7 @@
     "example": "你住哪里？/你住在哪儿？\n我在河内 （hénèi）/我在富寿 （fù shòu）"
   },
   {
-    "id": 53,
+    "id": "default_53",
     "originalIndex": 53,
     "hanzi": "早上",
     "validAnswers": [
@@ -617,7 +617,7 @@
     "example": "早上好，今天我们会开始一个新的项目（xiàngmù）"
   },
   {
-    "id": 54,
+    "id": "default_54",
     "originalIndex": 54,
     "hanzi": "中午",
     "validAnswers": [
@@ -629,7 +629,7 @@
     "example": "我每天中午都去商店买一公斤（gōngjīn）橙子"
   },
   {
-    "id": 55,
+    "id": "default_55",
     "originalIndex": 55,
     "hanzi": "下午",
     "validAnswers": [
@@ -641,7 +641,7 @@
     "example": "我每天下午下班以后都买一公斤葡萄（pútao）"
   },
   {
-    "id": 56,
+    "id": "default_56",
     "originalIndex": 56,
     "hanzi": "晚上",
     "validAnswers": [
@@ -653,7 +653,7 @@
     "example": "我晚上经常（[jīngcháng）喝茶"
   },
   {
-    "id": 57,
+    "id": "default_57",
     "originalIndex": 57,
     "hanzi": "上午",
     "validAnswers": [
@@ -665,7 +665,7 @@
     "example": "我上午去上班"
   },
   {
-    "id": 58,
+    "id": "default_58",
     "originalIndex": 58,
     "hanzi": "傍晚",
     "validAnswers": [
@@ -677,7 +677,7 @@
     "example": "我每天傍晚打羽毛球 （dǎ yǔ máo qiú）"
   },
   {
-    "id": 59,
+    "id": "default_59",
     "originalIndex": 59,
     "hanzi": "凌晨",
     "validAnswers": [
@@ -689,7 +689,7 @@
     "example": "我每天凌晨在公园锻炼"
   },
   {
-    "id": 60,
+    "id": "default_60",
     "originalIndex": 60,
     "hanzi": "白天",
     "validAnswers": [
@@ -701,7 +701,7 @@
     "example": "我白天去上班"
   },
   {
-    "id": 61,
+    "id": "default_61",
     "originalIndex": 61,
     "hanzi": "夜里",
     "validAnswers": [
@@ -713,7 +713,7 @@
     "example": "夜里天气很凉快 （liángkuai）"
   },
   {
-    "id": 62,
+    "id": "default_62",
     "originalIndex": 62,
     "hanzi": "见面",
     "validAnswers": [
@@ -725,7 +725,7 @@
     "example": "我们约定在公园见面"
   },
   {
-    "id": 63,
+    "id": "default_63",
     "originalIndex": 63,
     "hanzi": "分",
     "validAnswers": [
@@ -737,7 +737,7 @@
     "example": "一小时等于六十分钟"
   },
   {
-    "id": 64,
+    "id": "default_64",
     "originalIndex": 64,
     "hanzi": "刻",
     "validAnswers": [
@@ -749,7 +749,7 @@
     "example": "一刻等于十五分钟"
   },
   {
-    "id": 65,
+    "id": "default_65",
     "originalIndex": 65,
     "hanzi": "半",
     "validAnswers": [
@@ -761,7 +761,7 @@
     "example": "我八点半去 上班"
   },
   {
-    "id": 66,
+    "id": "default_66",
     "originalIndex": 66,
     "hanzi": "差",
     "validAnswers": [
@@ -773,7 +773,7 @@
     "example": "我差十分十点在公园锻炼 （duànliàn）"
   },
   {
-    "id": 67,
+    "id": "default_67",
     "originalIndex": 67,
     "hanzi": "时候",
     "validAnswers": [
@@ -785,7 +785,7 @@
     "example": "你什么时候下班？"
   },
   {
-    "id": 68,
+    "id": "default_68",
     "originalIndex": 68,
     "hanzi": "有时候",
     "validAnswers": [
@@ -796,7 +796,7 @@
     "example": "我有时候喝咖啡"
   },
   {
-    "id": 69,
+    "id": "default_69",
     "originalIndex": 69,
     "hanzi": "小时",
     "validAnswers": [
@@ -808,7 +808,7 @@
     "example": "一天有二十四小时"
   },
   {
-    "id": 70,
+    "id": "default_70",
     "originalIndex": 70,
     "hanzi": "时间",
     "validAnswers": [
@@ -820,7 +820,7 @@
     "example": "你什么时候有时间？"
   },
   {
-    "id": 71,
+    "id": "default_71",
     "originalIndex": 71,
     "hanzi": "钟",
     "validAnswers": [
@@ -832,7 +832,7 @@
     "example": "我昨天去商店买了一个钟"
   },
   {
-    "id": 72,
+    "id": "default_72",
     "originalIndex": 72,
     "hanzi": "回",
     "validAnswers": [
@@ -844,7 +844,7 @@
     "example": "我星期日要回家乡"
   },
   {
-    "id": 73,
+    "id": "default_73",
     "originalIndex": 73,
     "hanzi": "也",
     "validAnswers": [
@@ -856,7 +856,7 @@
     "example": "我也觉得学汉语很难"
   },
   {
-    "id": 74,
+    "id": "default_74",
     "originalIndex": 74,
     "hanzi": "忙",
     "validAnswers": [
@@ -868,7 +868,7 @@
     "example": "你晚上忙吗"
   },
   {
-    "id": 75,
+    "id": "default_75",
     "originalIndex": 75,
     "hanzi": "主人",
     "validAnswers": [
@@ -880,7 +880,7 @@
     "example": "主人给我们准备了晚餐"
   },
   {
-    "id": 76,
+    "id": "default_76",
     "originalIndex": 76,
     "hanzi": "家乡\n老家",
     "validAnswers": [
@@ -893,7 +893,7 @@
     "example": "我星期天经常（jīngcháng回老家"
   },
   {
-    "id": 77,
+    "id": "default_77",
     "originalIndex": 77,
     "hanzi": "觉得",
     "validAnswers": [
@@ -905,7 +905,7 @@
     "example": "我觉得我们应该早点出发"
   },
   {
-    "id": 78,
+    "id": "default_78",
     "originalIndex": 78,
     "hanzi": "左边",
     "validAnswers": [
@@ -917,7 +917,7 @@
     "example": "我站在他的左边/学校左边有一个医院"
   },
   {
-    "id": 79,
+    "id": "default_79",
     "originalIndex": 79,
     "hanzi": "右边",
     "validAnswers": [
@@ -929,7 +929,7 @@
     "example": "咖啡店在公司的右边"
   },
   {
-    "id": 80,
+    "id": "default_80",
     "originalIndex": 80,
     "hanzi": "一起",
     "validAnswers": [
@@ -941,7 +941,7 @@
     "example": "我跟你一起去"
   },
   {
-    "id": 81,
+    "id": "default_81",
     "originalIndex": 81,
     "hanzi": "知道",
     "validAnswers": [
@@ -952,7 +952,7 @@
     "sinoVietnamese": "tri đạo"
   },
   {
-    "id": 82,
+    "id": "default_82",
     "originalIndex": 82,
     "hanzi": "上学",
     "validAnswers": [
@@ -964,7 +964,7 @@
     "example": "我去年还上学，今年我已经上班了"
   },
   {
-    "id": 83,
+    "id": "default_83",
     "originalIndex": 83,
     "hanzi": "还",
     "validAnswers": [
@@ -976,7 +976,7 @@
     "example": "我还在工作"
   },
   {
-    "id": 84,
+    "id": "default_84",
     "originalIndex": 84,
     "hanzi": "已经",
     "validAnswers": [
@@ -988,7 +988,7 @@
     "example": "我已经回家了"
   },
   {
-    "id": 85,
+    "id": "default_85",
     "originalIndex": 85,
     "hanzi": "可以",
     "validAnswers": [
@@ -1000,7 +1000,7 @@
     "example": "你可以帮我拿一杯冰水吗？"
   },
   {
-    "id": 86,
+    "id": "default_86",
     "originalIndex": 86,
     "hanzi": "帮",
     "validAnswers": [
@@ -1012,7 +1012,7 @@
     "example": "你可以帮我一个忙吗"
   },
   {
-    "id": 87,
+    "id": "default_87",
     "originalIndex": 87,
     "hanzi": "拿",
     "validAnswers": [
@@ -1024,7 +1024,7 @@
     "example": "他拿着一个水果盒子"
   },
   {
-    "id": 88,
+    "id": "default_88",
     "originalIndex": 88,
     "hanzi": "要",
     "validAnswers": [
@@ -1036,7 +1036,7 @@
     "example": "我要买一件毛衣"
   },
   {
-    "id": 89,
+    "id": "default_89",
     "originalIndex": 89,
     "hanzi": "当然",
     "validAnswers": [
@@ -1048,7 +1048,7 @@
     "example": "当然可以"
   },
   {
-    "id": 90,
+    "id": "default_90",
     "originalIndex": 90,
     "hanzi": "天气",
     "validAnswers": [
@@ -1060,7 +1060,7 @@
     "example": "明天天气怎么样"
   },
   {
-    "id": 91,
+    "id": "default_91",
     "originalIndex": 91,
     "hanzi": "怎么样",
     "validAnswers": [
@@ -1071,7 +1071,7 @@
     "sinoVietnamese": "chẩm ma dạng"
   },
   {
-    "id": 92,
+    "id": "default_92",
     "originalIndex": 92,
     "hanzi": "冷",
     "validAnswers": [
@@ -1083,7 +1083,7 @@
     "example": "今天天气特别冷"
   },
   {
-    "id": 93,
+    "id": "default_93",
     "originalIndex": 93,
     "hanzi": "热",
     "validAnswers": [
@@ -1095,7 +1095,7 @@
     "example": "今天天气很热"
   },
   {
-    "id": 94,
+    "id": "default_94",
     "originalIndex": 94,
     "hanzi": "身体",
     "validAnswers": [
@@ -1107,7 +1107,7 @@
     "example": "她的身体很好"
   },
   {
-    "id": 95,
+    "id": "default_95",
     "originalIndex": 95,
     "hanzi": "水果",
     "validAnswers": [
@@ -1119,7 +1119,7 @@
     "example": "我喜欢吃水果捞"
   },
   {
-    "id": 96,
+    "id": "default_96",
     "originalIndex": 96,
     "hanzi": "太",
     "validAnswers": [
@@ -1131,7 +1131,7 @@
     "example": "他今天不太高兴"
   },
   {
-    "id": 97,
+    "id": "default_97",
     "originalIndex": 97,
     "hanzi": "下雨",
     "validAnswers": [
@@ -1143,7 +1143,7 @@
     "example": "河内七月常常下雨"
   },
   {
-    "id": 98,
+    "id": "default_98",
     "originalIndex": 98,
     "hanzi": "姑娘",
     "validAnswers": [
@@ -1155,7 +1155,7 @@
     "example": "姑娘给我买了衣服"
   },
   {
-    "id": 99,
+    "id": "default_99",
     "originalIndex": 99,
     "hanzi": "美女",
     "validAnswers": [
@@ -1167,7 +1167,7 @@
     "example": "她的朋友都是美女"
   },
   {
-    "id": 100,
+    "id": "default_100",
     "originalIndex": 100,
     "hanzi": "小妹",
     "validAnswers": [
@@ -1179,7 +1179,7 @@
     "example": "我的小妹已经长大了"
   },
   {
-    "id": 101,
+    "id": "default_101",
     "originalIndex": 101,
     "hanzi": "服务员",
     "validAnswers": [
@@ -1191,7 +1191,7 @@
     "example": "我叫服务员点餐"
   },
   {
-    "id": 102,
+    "id": "default_102",
     "originalIndex": 102,
     "hanzi": "来",
     "validAnswers": [
@@ -1202,7 +1202,7 @@
     "example": "你有时间来我家玩儿吧"
   },
   {
-    "id": 103,
+    "id": "default_103",
     "originalIndex": 103,
     "hanzi": "些",
     "validAnswers": [
@@ -1214,7 +1214,7 @@
     "example": "我买一些场子下班以后"
   },
   {
-    "id": 104,
+    "id": "default_104",
     "originalIndex": 104,
     "hanzi": "样子",
     "validAnswers": [
@@ -1226,7 +1226,7 @@
     "example": "这个花瓶的样子很特别"
   },
   {
-    "id": 105,
+    "id": "default_105",
     "originalIndex": 105,
     "hanzi": "一样",
     "validAnswers": [
@@ -1238,7 +1238,7 @@
     "example": "今天的天气和昨天一样"
   },
   {
-    "id": 106,
+    "id": "default_106",
     "originalIndex": 106,
     "hanzi": "多云",
     "validAnswers": [
@@ -1250,7 +1250,7 @@
     "example": "今天天气多云"
   },
   {
-    "id": 107,
+    "id": "default_107",
     "originalIndex": 107,
     "hanzi": "晴天",
     "validAnswers": [
@@ -1262,7 +1262,7 @@
     "example": "晴天的早晨特别宜人"
   },
   {
-    "id": 108,
+    "id": "default_108",
     "originalIndex": 108,
     "hanzi": "热情",
     "validAnswers": [
@@ -1274,7 +1274,7 @@
     "example": "谢谢你的热情帮助"
   },
   {
-    "id": 109,
+    "id": "default_109",
     "originalIndex": 109,
     "hanzi": "爱情",
     "validAnswers": [
@@ -1286,7 +1286,7 @@
     "example": "我希望有一个幸福的爱情"
   },
   {
-    "id": 110,
+    "id": "default_110",
     "originalIndex": 110,
     "hanzi": "爱",
     "validAnswers": [
@@ -1298,7 +1298,7 @@
     "example": "我很爱我的父母"
   },
   {
-    "id": 111,
+    "id": "default_111",
     "originalIndex": 111,
     "hanzi": "这里",
     "validAnswers": [
@@ -1310,7 +1310,7 @@
     "example": "这家中国商店 在这里"
   },
   {
-    "id": 112,
+    "id": "default_112",
     "originalIndex": 112,
     "hanzi": "苹果",
     "validAnswers": [
@@ -1322,7 +1322,7 @@
     "example": "桌子上有一个苹果"
   },
   {
-    "id": 113,
+    "id": "default_113",
     "originalIndex": 113,
     "hanzi": "香蕉",
     "validAnswers": [
@@ -1334,7 +1334,7 @@
     "example": "我去商店买一些香蕉"
   },
   {
-    "id": 114,
+    "id": "default_114",
     "originalIndex": 114,
     "hanzi": "草莓",
     "validAnswers": [
@@ -1346,7 +1346,7 @@
     "example": "草莓很甜，很好吃"
   },
   {
-    "id": 115,
+    "id": "default_115",
     "originalIndex": 115,
     "hanzi": "橙子",
     "validAnswers": [
@@ -1358,7 +1358,7 @@
     "example": "橙子很甜，你想吃吗？"
   },
   {
-    "id": 116,
+    "id": "default_116",
     "originalIndex": 116,
     "hanzi": "橘子",
     "validAnswers": [
@@ -1370,7 +1370,7 @@
     "example": "你要橘子水吗？"
   },
   {
-    "id": 117,
+    "id": "default_117",
     "originalIndex": 117,
     "hanzi": "柚子",
     "validAnswers": [
@@ -1382,7 +1382,7 @@
     "example": "这个柚子很甜"
   },
   {
-    "id": 118,
+    "id": "default_118",
     "originalIndex": 118,
     "hanzi": "桃子",
     "validAnswers": [
@@ -1394,7 +1394,7 @@
     "example": "这个桃子很好吃"
   },
   {
-    "id": 119,
+    "id": "default_119",
     "originalIndex": 119,
     "hanzi": "李子",
     "validAnswers": [
@@ -1406,7 +1406,7 @@
     "example": "w哦喜欢吃李子"
   },
   {
-    "id": 120,
+    "id": "default_120",
     "originalIndex": 120,
     "hanzi": "梨",
     "validAnswers": [
@@ -1418,7 +1418,7 @@
     "example": "我喜欢吃梨"
   },
   {
-    "id": 121,
+    "id": "default_121",
     "originalIndex": 121,
     "hanzi": "芒果",
     "validAnswers": [
@@ -1430,7 +1430,7 @@
     "example": "我喜欢吃芒果因为芒果很甜"
   },
   {
-    "id": 122,
+    "id": "default_122",
     "originalIndex": 122,
     "hanzi": "菠萝",
     "validAnswers": [
@@ -1442,7 +1442,7 @@
     "example": "我喜欢吃菠萝因为菠萝很甜"
   },
   {
-    "id": 123,
+    "id": "default_123",
     "originalIndex": 123,
     "hanzi": "榴莲",
     "validAnswers": [
@@ -1454,7 +1454,7 @@
     "example": "我妹妹很喜欢吃榴莲因为榴莲很好吃"
   },
   {
-    "id": 124,
+    "id": "default_124",
     "originalIndex": 124,
     "hanzi": "特别",
     "validAnswers": [
@@ -1466,7 +1466,7 @@
     "example": "我喜欢吃水果特别是葡萄"
   },
   {
-    "id": 125,
+    "id": "default_125",
     "originalIndex": 125,
     "hanzi": "最喜欢",
     "validAnswers": [
@@ -1477,7 +1477,7 @@
     "example": "我最喜欢吃橙子"
   },
   {
-    "id": 126,
+    "id": "default_126",
     "originalIndex": 126,
     "hanzi": "东西",
     "validAnswers": [
@@ -1489,7 +1489,7 @@
     "example": "今天我回国。我买了很多东西"
   },
   {
-    "id": 127,
+    "id": "default_127",
     "originalIndex": 127,
     "hanzi": "打电话",
     "validAnswers": [
@@ -1500,7 +1500,7 @@
     "example": "我给妈妈打电话"
   },
   {
-    "id": 128,
+    "id": "default_128",
     "originalIndex": 128,
     "hanzi": "给",
     "validAnswers": [
@@ -1512,7 +1512,7 @@
     "example": "你可以给我一杯冰水吗"
   },
   {
-    "id": 129,
+    "id": "default_129",
     "originalIndex": 129,
     "hanzi": "电话号码",
     "validAnswers": [
@@ -1523,7 +1523,7 @@
     "example": "你电话号码是多少，你可以给我你的电话号码吗"
   },
   {
-    "id": 130,
+    "id": "default_130",
     "originalIndex": 130,
     "hanzi": "小心",
     "validAnswers": [
@@ -1534,7 +1534,7 @@
     "sinoVietnamese": "tiểu tâm"
   },
   {
-    "id": 131,
+    "id": "default_131",
     "originalIndex": 131,
     "hanzi": "睡觉",
     "validAnswers": [
@@ -1546,7 +1546,7 @@
     "example": "我困了，我想去睡觉"
   },
   {
-    "id": 132,
+    "id": "default_132",
     "originalIndex": 132,
     "hanzi": "平时",
     "validAnswers": [
@@ -1558,7 +1558,7 @@
     "example": "我平时很晚才回家"
   },
   {
-    "id": 133,
+    "id": "default_133",
     "originalIndex": 133,
     "hanzi": "一点儿",
     "validAnswers": [
@@ -1570,7 +1570,7 @@
     "example": "我 下班以后去商店买一点儿橙子"
   },
   {
-    "id": 134,
+    "id": "default_134",
     "originalIndex": 134,
     "hanzi": "先",
     "validAnswers": [
@@ -1582,7 +1582,7 @@
     "example": "你先说吧"
   },
   {
-    "id": 135,
+    "id": "default_135",
     "originalIndex": 135,
     "hanzi": "开始",
     "validAnswers": [
@@ -1594,7 +1594,7 @@
     "example": "新的一天开始了"
   },
   {
-    "id": 136,
+    "id": "default_136",
     "originalIndex": 136,
     "hanzi": "先生",
     "validAnswers": [
@@ -1606,7 +1606,7 @@
     "example": "这位先生 请您稍等一下"
   },
   {
-    "id": 137,
+    "id": "default_137",
     "originalIndex": 137,
     "hanzi": "看见",
     "validAnswers": [
@@ -1618,7 +1618,7 @@
     "example": "你看见李老师了吗？"
   },
   {
-    "id": 138,
+    "id": "default_138",
     "originalIndex": 138,
     "hanzi": "开门",
     "validAnswers": [
@@ -1630,7 +1630,7 @@
     "example": "银行九点才开门"
   },
   {
-    "id": 139,
+    "id": "default_139",
     "originalIndex": 139,
     "hanzi": "关门",
     "validAnswers": [
@@ -1642,7 +1642,7 @@
     "example": "商店晚上十一点才关门"
   },
   {
-    "id": 140,
+    "id": "default_140",
     "originalIndex": 140,
     "hanzi": "开关",
     "validAnswers": [
@@ -1654,7 +1654,7 @@
     "example": "打开开关吧/开灯吧"
   },
   {
-    "id": 141,
+    "id": "default_141",
     "originalIndex": 141,
     "hanzi": "开车",
     "validAnswers": [
@@ -1666,7 +1666,7 @@
     "example": "你 会开车吗？"
   },
   {
-    "id": 142,
+    "id": "default_142",
     "originalIndex": 142,
     "hanzi": "上车",
     "validAnswers": [
@@ -1678,7 +1678,7 @@
     "example": "上车吧"
   },
   {
-    "id": 143,
+    "id": "default_143",
     "originalIndex": 143,
     "hanzi": "下车",
     "validAnswers": [
@@ -1690,7 +1690,7 @@
     "example": "下车了/我们到了"
   },
   {
-    "id": 144,
+    "id": "default_144",
     "originalIndex": 144,
     "hanzi": "回来",
     "validAnswers": [
@@ -1702,7 +1702,7 @@
     "example": "你什么时候回来"
   },
   {
-    "id": 145,
+    "id": "default_145",
     "originalIndex": 145,
     "hanzi": "衣服",
     "validAnswers": [
@@ -1714,7 +1714,7 @@
     "example": "外边冷，多穿些衣服"
   },
   {
-    "id": 146,
+    "id": "default_146",
     "originalIndex": 146,
     "hanzi": "里边",
     "validAnswers": [
@@ -1726,7 +1726,7 @@
     "example": "我们在里边车等你"
   },
   {
-    "id": 147,
+    "id": "default_147",
     "originalIndex": 147,
     "hanzi": "外边",
     "validAnswers": [
@@ -1738,8 +1738,8 @@
     "example": "外边很冷，多穿些衣服"
   },
   {
-    "id": 148,
-    "originalIndex": 148,
+    "id": "default_149",
+    "originalIndex": 149,
     "hanzi": "右边",
     "validAnswers": [
       "右边"
@@ -1750,8 +1750,8 @@
     "example": "我家右边有一个面包店"
   },
   {
-    "id": 149,
-    "originalIndex": 149,
+    "id": "default_150",
+    "originalIndex": 150,
     "hanzi": "件",
     "validAnswers": [
       "件"
@@ -1762,8 +1762,8 @@
     "example": "我买一件衣服"
   },
   {
-    "id": 150,
-    "originalIndex": 150,
+    "id": "default_151",
+    "originalIndex": 151,
     "hanzi": "票",
     "validAnswers": [
       "票"
@@ -1774,8 +1774,8 @@
     "example": "这张车票是去北京的"
   },
   {
-    "id": 151,
-    "originalIndex": 151,
+    "id": "default_152",
+    "originalIndex": 152,
     "hanzi": "张",
     "validAnswers": [
       "张"
@@ -1786,8 +1786,8 @@
     "example": "一张车票"
   },
   {
-    "id": 152,
-    "originalIndex": 152,
+    "id": "default_153",
+    "originalIndex": 153,
     "hanzi": "漂亮",
     "validAnswers": [
       "漂亮"
@@ -1798,8 +1798,8 @@
     "example": "你真是一位漂亮姑娘"
   },
   {
-    "id": 153,
-    "originalIndex": 153,
+    "id": "default_154",
+    "originalIndex": 154,
     "hanzi": "帅",
     "validAnswers": [
       "帅"
@@ -1810,8 +1810,8 @@
     "example": "他真是很帅"
   },
   {
-    "id": 154,
-    "originalIndex": 154,
+    "id": "default_155",
+    "originalIndex": 155,
     "hanzi": "丑",
     "validAnswers": [
       "丑"
@@ -1822,8 +1822,8 @@
     "example": "他很丑"
   },
   {
-    "id": 155,
-    "originalIndex": 155,
+    "id": "default_156",
+    "originalIndex": 156,
     "hanzi": "有名",
     "validAnswers": [
       "有名"
@@ -1834,8 +1834,8 @@
     "example": "这作者很有名"
   },
   {
-    "id": 156,
-    "originalIndex": 156,
+    "id": "default_157",
+    "originalIndex": 157,
     "hanzi": "不少·",
     "validAnswers": [
       "不少·"
@@ -1846,8 +1846,8 @@
     "example": "今天我去商店买了不少衣服"
   },
   {
-    "id": 157,
-    "originalIndex": 157,
+    "id": "default_158",
+    "originalIndex": 158,
     "hanzi": "认识",
     "validAnswers": [
       "认识"
@@ -1858,8 +1858,8 @@
     "example": "很高兴认识你"
   },
   {
-    "id": 158,
-    "originalIndex": 158,
+    "id": "default_159",
+    "originalIndex": 159,
     "hanzi": "高兴",
     "validAnswers": [
       "高兴"
@@ -1870,8 +1870,8 @@
     "example": "他今天很高兴"
   },
   {
-    "id": 159,
-    "originalIndex": 159,
+    "id": "default_160",
+    "originalIndex": 160,
     "hanzi": "出去",
     "validAnswers": [
       "出去"
@@ -1882,8 +1882,8 @@
     "example": "孩子们都出去了"
   },
   {
-    "id": 160,
-    "originalIndex": 160,
+    "id": "default_161",
+    "originalIndex": 161,
     "hanzi": "出来",
     "validAnswers": [
       "出来"
@@ -1894,8 +1894,8 @@
     "example": "你出来，我跟你收据话"
   },
   {
-    "id": 161,
-    "originalIndex": 161,
+    "id": "default_162",
+    "originalIndex": 162,
     "hanzi": "出租车",
     "validAnswers": [
       "出租车"
@@ -1906,8 +1906,8 @@
     "example": "我想叫辆出租车"
   },
   {
-    "id": 162,
-    "originalIndex": 162,
+    "id": "default_163",
+    "originalIndex": 163,
     "hanzi": "听",
     "validAnswers": [
       "听"
@@ -1918,8 +1918,8 @@
     "example": "耳朵聋了听不见/你手大声一点儿， 我听不见"
   },
   {
-    "id": 163,
-    "originalIndex": 163,
+    "id": "default_164",
+    "originalIndex": 164,
     "hanzi": "汽车",
     "validAnswers": [
       "汽车"
@@ -1930,8 +1930,8 @@
     "example": "我想叫辆汽车"
   },
   {
-    "id": 164,
-    "originalIndex": 164,
+    "id": "default_165",
+    "originalIndex": 165,
     "hanzi": "飞机",
     "validAnswers": [
       "飞机"
@@ -1942,8 +1942,8 @@
     "example": "飞机飞上天了"
   },
   {
-    "id": 165,
-    "originalIndex": 165,
+    "id": "default_166",
+    "originalIndex": 166,
     "hanzi": "火车",
     "validAnswers": [
       "火车"
@@ -1954,8 +1954,8 @@
     "example": "我喜欢坐火车去旅行"
   },
   {
-    "id": 166,
-    "originalIndex": 166,
+    "id": "default_167",
+    "originalIndex": 167,
     "hanzi": "手机",
     "validAnswers": [
       "手机"
@@ -1966,8 +1966,8 @@
     "example": "我的手机在哪儿？"
   },
   {
-    "id": 167,
-    "originalIndex": 167,
+    "id": "default_168",
+    "originalIndex": 168,
     "hanzi": "还是",
     "validAnswers": [
       "还是"
@@ -1978,8 +1978,8 @@
     "example": "明天还是下雨，记得带伞"
   },
   {
-    "id": 168,
-    "originalIndex": 168,
+    "id": "default_169",
+    "originalIndex": 169,
     "hanzi": "大巴",
     "validAnswers": [
       "大巴"
@@ -1990,8 +1990,8 @@
     "example": "这辆大巴痕迹"
   },
   {
-    "id": 169,
-    "originalIndex": 169,
+    "id": "default_170",
+    "originalIndex": 170,
     "hanzi": "超市",
     "validAnswers": [
       "超市"
@@ -2002,8 +2002,8 @@
     "example": "去超市吧，我想买酸奶"
   },
   {
-    "id": 170,
-    "originalIndex": 170,
+    "id": "default_171",
+    "originalIndex": 171,
     "hanzi": "等于",
     "validAnswers": [
       "等于"
@@ -2014,8 +2014,8 @@
     "example": "三加二等于五"
   },
   {
-    "id": 171,
-    "originalIndex": 171,
+    "id": "default_172",
+    "originalIndex": 172,
     "hanzi": "同时",
     "validAnswers": [
       "同时"
@@ -2026,8 +2026,8 @@
     "example": "今天，我和他们同时出发"
   },
   {
-    "id": 172,
-    "originalIndex": 172,
+    "id": "default_173",
+    "originalIndex": 173,
     "hanzi": "最近",
     "validAnswers": [
       "最近"
@@ -2038,8 +2038,8 @@
     "example": "最近，我早上很喜欢喝牛奶"
   },
   {
-    "id": 173,
-    "originalIndex": 173,
+    "id": "default_174",
+    "originalIndex": 174,
     "hanzi": "图书馆",
     "validAnswers": [
       "图书馆"
@@ -2050,8 +2050,8 @@
     "example": "我想去图书馆看书"
   },
   {
-    "id": 174,
-    "originalIndex": 174,
+    "id": "default_175",
+    "originalIndex": 175,
     "hanzi": "牛仔裤",
     "validAnswers": [
       "牛仔裤"
@@ -2062,8 +2062,8 @@
     "example": "这条牛仔裤是我在商场买的"
   },
   {
-    "id": 175,
-    "originalIndex": 175,
+    "id": "default_176",
+    "originalIndex": 176,
     "hanzi": "服务员",
     "validAnswers": [
       "服务员"
@@ -2074,8 +2074,8 @@
     "example": "我叫服务员点餐"
   },
   {
-    "id": 176,
-    "originalIndex": 176,
+    "id": "default_177",
+    "originalIndex": 177,
     "hanzi": "博物馆",
     "validAnswers": [
       "博物馆"
@@ -2086,8 +2086,8 @@
     "example": "我星期天经常去博物馆"
   },
   {
-    "id": 177,
-    "originalIndex": 177,
+    "id": "default_178",
+    "originalIndex": 178,
     "hanzi": "参观",
     "validAnswers": [
       "参观"
@@ -2098,8 +2098,8 @@
     "example": "我喜欢参观工厂"
   },
   {
-    "id": 178,
-    "originalIndex": 178,
+    "id": "default_179",
+    "originalIndex": 179,
     "hanzi": "原来",
     "validAnswers": [
       "原来"
@@ -2109,8 +2109,8 @@
     "sinoVietnamese": "nguyên lai"
   },
   {
-    "id": 179,
-    "originalIndex": 179,
+    "id": "default_180",
+    "originalIndex": 180,
     "hanzi": "相信",
     "validAnswers": [
       "相信"
@@ -2120,8 +2120,8 @@
     "sinoVietnamese": "tương tín"
   },
   {
-    "id": 180,
-    "originalIndex": 180,
+    "id": "default_181",
+    "originalIndex": 181,
     "hanzi": "感谢",
     "validAnswers": [
       "感谢"
@@ -2131,8 +2131,8 @@
     "sinoVietnamese": "cảm tạ"
   },
   {
-    "id": 181,
-    "originalIndex": 181,
+    "id": "default_182",
+    "originalIndex": 182,
     "hanzi": "邀请",
     "validAnswers": [
       "邀请"
@@ -2142,8 +2142,8 @@
     "sinoVietnamese": "yêu thỉnh"
   },
   {
-    "id": 182,
-    "originalIndex": 182,
+    "id": "default_183",
+    "originalIndex": 183,
     "hanzi": "眼眸",
     "validAnswers": [
       "眼眸"
@@ -2153,8 +2153,8 @@
     "sinoVietnamese": "nhãn mâu"
   },
   {
-    "id": 183,
-    "originalIndex": 183,
+    "id": "default_184",
+    "originalIndex": 184,
     "hanzi": "慌张",
     "validAnswers": [
       "慌张"
@@ -2164,8 +2164,8 @@
     "sinoVietnamese": "hoảng trương"
   },
   {
-    "id": 184,
-    "originalIndex": 184,
+    "id": "default_185",
+    "originalIndex": 185,
     "hanzi": "内心",
     "validAnswers": [
       "内心"
@@ -2175,8 +2175,8 @@
     "sinoVietnamese": "nội tâm"
   },
   {
-    "id": 185,
-    "originalIndex": 185,
+    "id": "default_186",
+    "originalIndex": 186,
     "hanzi": "希望",
     "validAnswers": [
       "希望"
@@ -2186,8 +2186,8 @@
     "sinoVietnamese": "hy vọng"
   },
   {
-    "id": 186,
-    "originalIndex": 186,
+    "id": "default_187",
+    "originalIndex": 187,
     "hanzi": "好像",
     "validAnswers": [
       "好像"
@@ -2197,8 +2197,8 @@
     "sinoVietnamese": "hảo tượng"
   },
   {
-    "id": 187,
-    "originalIndex": 187,
+    "id": "default_188",
+    "originalIndex": 188,
     "hanzi": "花瓶",
     "validAnswers": [
       "花瓶"
@@ -2209,8 +2209,8 @@
     "example": "我昨天买了一个花瓶"
   },
   {
-    "id": 188,
-    "originalIndex": 188,
+    "id": "default_189",
+    "originalIndex": 189,
     "hanzi": "工厂",
     "validAnswers": [
       "工厂"
@@ -2220,8 +2220,8 @@
     "sinoVietnamese": "công xưởng"
   },
   {
-    "id": 189,
-    "originalIndex": 189,
+    "id": "default_190",
+    "originalIndex": 190,
     "hanzi": "旅游",
     "validAnswers": [
       "旅游"
@@ -2231,8 +2231,8 @@
     "sinoVietnamese": "lữ du"
   },
   {
-    "id": 190,
-    "originalIndex": 190,
+    "id": "default_191",
+    "originalIndex": 191,
     "hanzi": "踢足球",
     "validAnswers": [
       "踢足球"
@@ -2242,8 +2242,8 @@
     "sinoVietnamese": "thích túc cầu"
   },
   {
-    "id": 191,
-    "originalIndex": 191,
+    "id": "default_192",
+    "originalIndex": 192,
     "hanzi": "精神",
     "validAnswers": [
       "精神"
@@ -2253,8 +2253,8 @@
     "sinoVietnamese": "tinh thần"
   },
   {
-    "id": 192,
-    "originalIndex": 192,
+    "id": "default_193",
+    "originalIndex": 193,
     "hanzi": "让",
     "validAnswers": [
       "让"
@@ -2264,8 +2264,8 @@
     "sinoVietnamese": "nhượng"
   },
   {
-    "id": 193,
-    "originalIndex": 193,
+    "id": "default_194",
+    "originalIndex": 194,
     "hanzi": "因为",
     "validAnswers": [
       "因为"
@@ -2275,8 +2275,8 @@
     "sinoVietnamese": "nhân vị"
   },
   {
-    "id": 194,
-    "originalIndex": 194,
+    "id": "default_195",
+    "originalIndex": 195,
     "hanzi": "所以",
     "validAnswers": [
       "所以"
@@ -2286,8 +2286,8 @@
     "sinoVietnamese": "sở dĩ"
   },
   {
-    "id": 195,
-    "originalIndex": 195,
+    "id": "default_196",
+    "originalIndex": 196,
     "hanzi": "运动",
     "validAnswers": [
       "运动"
@@ -2297,8 +2297,8 @@
     "sinoVietnamese": "vận động"
   },
   {
-    "id": 196,
-    "originalIndex": 196,
+    "id": "default_197",
+    "originalIndex": 197,
     "hanzi": "旅行",
     "validAnswers": [
       "旅行"
@@ -2308,8 +2308,8 @@
     "sinoVietnamese": "lữ hành"
   },
   {
-    "id": 197,
-    "originalIndex": 197,
+    "id": "default_198",
+    "originalIndex": 198,
     "hanzi": "旅游者",
     "validAnswers": [
       "旅游者"
@@ -2319,8 +2319,8 @@
     "sinoVietnamese": "lữ du giả"
   },
   {
-    "id": 198,
-    "originalIndex": 198,
+    "id": "default_199",
+    "originalIndex": 199,
     "hanzi": "为什么",
     "validAnswers": [
       "为什么"
@@ -2330,8 +2330,8 @@
     "sinoVietnamese": "[vị thậm ma"
   },
   {
-    "id": 199,
-    "originalIndex": 199,
+    "id": "default_200",
+    "originalIndex": 200,
     "hanzi": "新",
     "validAnswers": [
       "新"
@@ -2341,8 +2341,8 @@
     "sinoVietnamese": "tân"
   },
   {
-    "id": 200,
-    "originalIndex": 200,
+    "id": "default_201",
+    "originalIndex": 201,
     "hanzi": "它",
     "validAnswers": [
       "它"
@@ -2352,8 +2352,8 @@
     "sinoVietnamese": "xà"
   },
   {
-    "id": 201,
-    "originalIndex": 201,
+    "id": "default_202",
+    "originalIndex": 202,
     "hanzi": "眼睛",
     "validAnswers": [
       "眼睛"
@@ -2363,8 +2363,8 @@
     "sinoVietnamese": "nhãn tình"
   },
   {
-    "id": 202,
-    "originalIndex": 202,
+    "id": "default_203",
+    "originalIndex": 203,
     "hanzi": "准备",
     "validAnswers": [
       "准备"
@@ -2374,8 +2374,8 @@
     "sinoVietnamese": "chuẩn bị"
   },
   {
-    "id": 203,
-    "originalIndex": 203,
+    "id": "default_204",
+    "originalIndex": 204,
     "hanzi": "外国",
     "validAnswers": [
       "外国"
@@ -2385,8 +2385,8 @@
     "sinoVietnamese": "ngoại quốc"
   },
   {
-    "id": 204,
-    "originalIndex": 204,
+    "id": "default_205",
+    "originalIndex": 205,
     "hanzi": "非常",
     "validAnswers": [
       "非常"
@@ -2396,8 +2396,8 @@
     "sinoVietnamese": "phi thường"
   },
   {
-    "id": 205,
-    "originalIndex": 205,
+    "id": "default_206",
+    "originalIndex": 206,
     "hanzi": "困",
     "validAnswers": [
       "困"
@@ -2407,8 +2407,8 @@
     "sinoVietnamese": "khốn"
   },
   {
-    "id": 206,
-    "originalIndex": 206,
+    "id": "default_207",
+    "originalIndex": 207,
     "hanzi": "出名",
     "validAnswers": [
       "出名"
@@ -2418,8 +2418,8 @@
     "sinoVietnamese": "xuất danh"
   },
   {
-    "id": 207,
-    "originalIndex": 207,
+    "id": "default_208",
+    "originalIndex": 208,
     "hanzi": "游泳",
     "validAnswers": [
       "游泳"
@@ -2429,8 +2429,8 @@
     "sinoVietnamese": "du vịnh"
   },
   {
-    "id": 208,
-    "originalIndex": 208,
+    "id": "default_209",
+    "originalIndex": 209,
     "hanzi": "两难",
     "validAnswers": [
       "两难"
@@ -2440,8 +2440,8 @@
     "sinoVietnamese": "lưỡng nan"
   },
   {
-    "id": 209,
-    "originalIndex": 209,
+    "id": "default_210",
+    "originalIndex": 210,
     "hanzi": "真是",
     "validAnswers": [
       "真是"
@@ -2451,8 +2451,8 @@
     "sinoVietnamese": "chân thị]"
   },
   {
-    "id": 210,
-    "originalIndex": 210,
+    "id": "default_211",
+    "originalIndex": 211,
     "hanzi": "健康",
     "validAnswers": [
       "健康"
@@ -2462,8 +2462,8 @@
     "sinoVietnamese": "kiện khang"
   },
   {
-    "id": 211,
-    "originalIndex": 211,
+    "id": "default_212",
+    "originalIndex": 212,
     "hanzi": "麻烦",
     "validAnswers": [
       "麻烦"
@@ -2473,8 +2473,8 @@
     "sinoVietnamese": "ma phiền"
   },
   {
-    "id": 212,
-    "originalIndex": 212,
+    "id": "default_213",
+    "originalIndex": 213,
     "hanzi": "贵",
     "validAnswers": [
       "贵"
@@ -2484,8 +2484,8 @@
     "sinoVietnamese": "[quý"
   },
   {
-    "id": 213,
-    "originalIndex": 213,
+    "id": "default_214",
+    "originalIndex": 214,
     "hanzi": "但是",
     "validAnswers": [
       "但是"
@@ -2496,8 +2496,8 @@
     "example": "我很喜欢唱歌，但是唱的不好"
   },
   {
-    "id": 214,
-    "originalIndex": 214,
+    "id": "default_215",
+    "originalIndex": 215,
     "hanzi": "跳舞",
     "validAnswers": [
       "跳舞"
@@ -2508,8 +2508,8 @@
     "example": "我们经常一起去跳舞"
   },
   {
-    "id": 215,
-    "originalIndex": 215,
+    "id": "default_216",
+    "originalIndex": 216,
     "hanzi": "听说",
     "validAnswers": [
       "听说"
@@ -2520,8 +2520,8 @@
     "example": "我们听说你搬家了"
   },
   {
-    "id": 216,
-    "originalIndex": 216,
+    "id": "default_217",
+    "originalIndex": 217,
     "hanzi": "走",
     "validAnswers": [
       "走"
@@ -2532,8 +2532,8 @@
     "example": "我们明天要走了"
   },
   {
-    "id": 217,
-    "originalIndex": 217,
+    "id": "default_218",
+    "originalIndex": 218,
     "hanzi": "到",
     "validAnswers": [
       "到"
@@ -2544,8 +2544,8 @@
     "example": "他到了"
   },
   {
-    "id": 218,
-    "originalIndex": 218,
+    "id": "default_219",
+    "originalIndex": 219,
     "hanzi": "玩",
     "validAnswers": [
       "玩"
@@ -2556,8 +2556,8 @@
     "example": "我们每天一起玩羽毛球"
   },
   {
-    "id": 219,
-    "originalIndex": 219,
+    "id": "default_220",
+    "originalIndex": 220,
     "hanzi": "人生",
     "validAnswers": [
       "人生"
@@ -2568,8 +2568,8 @@
     "example": "他的人生 经历很丰富"
   },
   {
-    "id": 220,
-    "originalIndex": 220,
+    "id": "default_221",
+    "originalIndex": 221,
     "hanzi": "生活",
     "validAnswers": [
       "生活"
@@ -2580,8 +2580,8 @@
     "example": "他的生活经历很丰富"
   },
   {
-    "id": 221,
-    "originalIndex": 221,
+    "id": "default_222",
+    "originalIndex": 222,
     "hanzi": "盘子",
     "validAnswers": [
       "盘子"
@@ -2592,8 +2592,8 @@
     "example": "这个盘子很漂亮"
   },
   {
-    "id": 222,
-    "originalIndex": 222,
+    "id": "default_223",
+    "originalIndex": 223,
     "hanzi": "叉子",
     "validAnswers": [
       "叉子"
@@ -2604,8 +2604,8 @@
     "example": "我去超市买了一个叉子"
   },
   {
-    "id": 223,
-    "originalIndex": 223,
+    "id": "default_224",
+    "originalIndex": 224,
     "hanzi": "筷子",
     "validAnswers": [
       "筷子"
@@ -2616,8 +2616,8 @@
     "example": "我的英国同事不会用筷子"
   },
   {
-    "id": 224,
-    "originalIndex": 224,
+    "id": "default_225",
+    "originalIndex": 225,
     "hanzi": "勺子",
     "validAnswers": [
       "勺子"
@@ -2627,8 +2627,8 @@
     "sinoVietnamese": "thược tử"
   },
   {
-    "id": 225,
-    "originalIndex": 225,
+    "id": "default_226",
+    "originalIndex": 226,
     "hanzi": "刀子",
     "validAnswers": [
       "刀子"
@@ -2638,8 +2638,8 @@
     "sinoVietnamese": "đao tử"
   },
   {
-    "id": 226,
-    "originalIndex": 226,
+    "id": "default_227",
+    "originalIndex": 227,
     "hanzi": "有用",
     "validAnswers": [
       "有用"
@@ -2649,8 +2649,8 @@
     "sinoVietnamese": "hữu dụng"
   },
   {
-    "id": 227,
-    "originalIndex": 227,
+    "id": "default_228",
+    "originalIndex": 228,
     "hanzi": "教师",
     "validAnswers": [
       "教师"
@@ -2660,8 +2660,8 @@
     "sinoVietnamese": "giáo sư"
   },
   {
-    "id": 228,
-    "originalIndex": 228,
+    "id": "default_229",
+    "originalIndex": 229,
     "hanzi": "打篮球",
     "validAnswers": [
       "打篮球"
@@ -2671,8 +2671,8 @@
     "sinoVietnamese": "đả lam cầu"
   },
   {
-    "id": 229,
-    "originalIndex": 229,
+    "id": "default_230",
+    "originalIndex": 230,
     "hanzi": "起床",
     "validAnswers": [
       "起床"
@@ -2682,8 +2682,8 @@
     "sinoVietnamese": "khởi sàng"
   },
   {
-    "id": 230,
-    "originalIndex": 230,
+    "id": "default_231",
+    "originalIndex": 231,
     "hanzi": "公共汽车",
     "validAnswers": [
       "公共汽车"
@@ -2693,8 +2693,8 @@
     "sinoVietnamese": "công cộng khí xa"
   },
   {
-    "id": 231,
-    "originalIndex": 231,
+    "id": "default_232",
+    "originalIndex": 232,
     "hanzi": "出院",
     "validAnswers": [
       "出院"
@@ -2705,8 +2705,8 @@
     "example": "医生说下个星期可以出院"
   },
   {
-    "id": 232,
-    "originalIndex": 232,
+    "id": "default_233",
+    "originalIndex": 233,
     "hanzi": "高",
     "validAnswers": [
       "高"
@@ -2717,8 +2717,8 @@
     "example": "他多高？"
   },
   {
-    "id": 233,
-    "originalIndex": 233,
+    "id": "default_234",
+    "originalIndex": 234,
     "hanzi": "米",
     "validAnswers": [
       "米"
@@ -2729,8 +2729,8 @@
     "example": "我每天吃米饭"
   },
   {
-    "id": 234,
-    "originalIndex": 234,
+    "id": "default_235",
+    "originalIndex": 235,
     "hanzi": "生病",
     "validAnswers": [
       "生病"
@@ -2741,8 +2741,8 @@
     "example": "你很多少生病"
   },
   {
-    "id": 235,
-    "originalIndex": 235,
+    "id": "default_236",
+    "originalIndex": 236,
     "hanzi": "累",
     "validAnswers": [
       "累"
@@ -2753,8 +2753,8 @@
     "example": "我累了"
   },
   {
-    "id": 236,
-    "originalIndex": 236,
+    "id": "default_237",
+    "originalIndex": 237,
     "hanzi": "跑步",
     "validAnswers": [
       "跑步"
@@ -2765,8 +2765,8 @@
     "example": "早上我经常去公园跑步"
   },
   {
-    "id": 237,
-    "originalIndex": 237,
+    "id": "default_238",
+    "originalIndex": 238,
     "hanzi": "药",
     "validAnswers": [
       "药"
@@ -2777,8 +2777,8 @@
     "example": "你吃药了吗"
   },
   {
-    "id": 238,
-    "originalIndex": 238,
+    "id": "default_239",
+    "originalIndex": 239,
     "hanzi": "休息",
     "validAnswers": [
       "休息"
@@ -2789,8 +2789,8 @@
     "example": "休息吧"
   },
   {
-    "id": 239,
-    "originalIndex": 239,
+    "id": "default_240",
+    "originalIndex": 240,
     "hanzi": "手表",
     "validAnswers": [
       "手表"
@@ -2801,8 +2801,8 @@
     "example": "这块手表很贵"
   },
   {
-    "id": 240,
-    "originalIndex": 240,
+    "id": "default_241",
+    "originalIndex": 241,
     "hanzi": "红色",
     "validAnswers": [
       "红色"
@@ -2813,8 +2813,8 @@
     "example": "我喜欢红色"
   },
   {
-    "id": 241,
-    "originalIndex": 241,
+    "id": "default_242",
+    "originalIndex": 242,
     "hanzi": "蓝色",
     "validAnswers": [
       "蓝色"
@@ -2825,8 +2825,8 @@
     "example": "我的号同事最喜欢蓝色"
   },
   {
-    "id": 242,
-    "originalIndex": 242,
+    "id": "default_243",
+    "originalIndex": 243,
     "hanzi": "报纸",
     "validAnswers": [
       "报纸"
@@ -2837,8 +2837,8 @@
     "example": "早上你看见谁送报纸吗"
   },
   {
-    "id": 243,
-    "originalIndex": 243,
+    "id": "default_244",
+    "originalIndex": 244,
     "hanzi": "牛奶",
     "validAnswers": [
       "牛奶"
@@ -2849,8 +2849,8 @@
     "example": "我喜欢喝牛奶"
   },
   {
-    "id": 244,
-    "originalIndex": 244,
+    "id": "default_245",
+    "originalIndex": 245,
     "hanzi": "房间",
     "validAnswers": [
       "房间"
@@ -2861,8 +2861,8 @@
     "example": "我的房间是粉色"
   },
   {
-    "id": 245,
-    "originalIndex": 245,
+    "id": "default_246",
+    "originalIndex": 246,
     "hanzi": "丈夫",
     "validAnswers": [
       "丈夫"
@@ -2873,8 +2873,8 @@
     "example": "我的丈夫是AI工程师"
   },
   {
-    "id": 246,
-    "originalIndex": 246,
+    "id": "default_247",
+    "originalIndex": 247,
     "hanzi": "送",
     "validAnswers": [
       "送"
@@ -2885,8 +2885,8 @@
     "example": "我送礼物给邻居"
   },
   {
-    "id": 247,
-    "originalIndex": 247,
+    "id": "default_248",
+    "originalIndex": 248,
     "hanzi": "旁边",
     "validAnswers": [
       "旁边"
@@ -2897,8 +2897,8 @@
     "example": "我坐 在他旁边"
   },
   {
-    "id": 248,
-    "originalIndex": 248,
+    "id": "default_249",
+    "originalIndex": 249,
     "hanzi": "粉色",
     "validAnswers": [
       "粉色"
@@ -2909,8 +2909,8 @@
     "example": "我最喜欢粉色"
   },
   {
-    "id": 249,
-    "originalIndex": 249,
+    "id": "default_250",
+    "originalIndex": 250,
     "hanzi": "介绍",
     "validAnswers": [
       "介绍"
@@ -2921,8 +2921,8 @@
     "example": "我想介绍一下。我是小玉"
   },
   {
-    "id": 250,
-    "originalIndex": 250,
+    "id": "default_251",
+    "originalIndex": 251,
     "hanzi": "快乐",
     "validAnswers": [
       "快乐"
@@ -2933,8 +2933,8 @@
     "example": "我们今天好快乐"
   },
   {
-    "id": 251,
-    "originalIndex": 251,
+    "id": "default_252",
+    "originalIndex": 252,
     "hanzi": "礼物",
     "validAnswers": [
       "礼物"
@@ -2945,8 +2945,8 @@
     "example": "我送礼物给邻居"
   },
   {
-    "id": 252,
-    "originalIndex": 252,
+    "id": "default_253",
+    "originalIndex": 253,
     "hanzi": "长",
     "validAnswers": [
       "长"
@@ -2957,8 +2957,8 @@
     "example": "我家里没有常务\n这个项目拖得太长了"
   },
   {
-    "id": 253,
-    "originalIndex": 253,
+    "id": "default_254",
+    "originalIndex": 254,
     "hanzi": "邻居",
     "validAnswers": [
       "邻居"
@@ -2969,8 +2969,8 @@
     "example": "他是我的邻居"
   },
   {
-    "id": 254,
-    "originalIndex": 254,
+    "id": "default_255",
+    "originalIndex": 255,
     "hanzi": "自行车",
     "validAnswers": [
       "自行车"
@@ -2981,8 +2981,8 @@
     "example": "有时候我们骑自行车去公园运动"
   },
   {
-    "id": 255,
-    "originalIndex": 255,
+    "id": "default_256",
+    "originalIndex": 256,
     "hanzi": "场",
     "validAnswers": [
       "场"
@@ -2993,8 +2993,8 @@
     "example": "我在运动场打羽毛球"
   },
   {
-    "id": 256,
-    "originalIndex": 256,
+    "id": "default_257",
+    "originalIndex": 257,
     "hanzi": "鸳鸯",
     "validAnswers": [
       "鸳鸯"
@@ -3005,8 +3005,8 @@
     "example": "湖里有两只鸳鸯"
   },
   {
-    "id": 257,
-    "originalIndex": 257,
+    "id": "default_258",
+    "originalIndex": 258,
     "hanzi": "只有",
     "validAnswers": [
       "只有"
@@ -3017,8 +3017,8 @@
     "example": "只有死亡才能把我们分开"
   },
   {
-    "id": 258,
-    "originalIndex": 258,
+    "id": "default_259",
+    "originalIndex": 259,
     "hanzi": "会客室",
     "validAnswers": [
       "会客室"
@@ -3029,8 +3029,8 @@
     "example": "我们在会客室等他"
   },
   {
-    "id": 259,
-    "originalIndex": 259,
+    "id": "default_260",
+    "originalIndex": 260,
     "hanzi": "进去",
     "validAnswers": [
       "进去"
@@ -3041,8 +3041,8 @@
     "example": "他马上进去回家了"
   },
   {
-    "id": 260,
-    "originalIndex": 260,
+    "id": "default_261",
+    "originalIndex": 261,
     "hanzi": "错",
     "validAnswers": [
       "错"
@@ -3053,8 +3053,8 @@
     "example": "这件衣服还不错，你喜欢就买吧"
   },
   {
-    "id": 261,
-    "originalIndex": 261,
+    "id": "default_262",
+    "originalIndex": 262,
     "hanzi": "考试",
     "validAnswers": [
       "考试"
@@ -3065,8 +3065,8 @@
     "example": "考试的时候不能说话"
   },
   {
-    "id": 262,
-    "originalIndex": 262,
+    "id": "default_263",
+    "originalIndex": 263,
     "hanzi": "意思",
     "validAnswers": [
       "意思"
@@ -3077,8 +3077,8 @@
     "example": "大家的意思是一起去"
   },
   {
-    "id": 263,
-    "originalIndex": 263,
+    "id": "default_264",
+    "originalIndex": 264,
     "hanzi": "对",
     "validAnswers": [
       "对"
@@ -3089,8 +3089,8 @@
     "example": "医生说和茶对身体好"
   },
   {
-    "id": 264,
-    "originalIndex": 264,
+    "id": "default_265",
+    "originalIndex": 265,
     "hanzi": "地方",
     "validAnswers": [
       "地方"
@@ -3101,8 +3101,8 @@
     "example": "这个工程是地方管理"
   },
   {
-    "id": 265,
-    "originalIndex": 265,
+    "id": "default_266",
+    "originalIndex": 266,
     "hanzi": "哭",
     "validAnswers": [
       "哭"
@@ -3113,8 +3113,8 @@
     "example": "你哭哭什么？"
   },
   {
-    "id": 266,
-    "originalIndex": 266,
+    "id": "default_267",
+    "originalIndex": 267,
     "hanzi": "苦",
     "validAnswers": [
       "苦"
@@ -3125,8 +3125,8 @@
     "example": "你瞧他太苦了"
   },
   {
-    "id": 267,
-    "originalIndex": 267,
+    "id": "default_268",
+    "originalIndex": 268,
     "hanzi": "骑",
     "validAnswers": [
       "骑"
@@ -3137,8 +3137,8 @@
     "example": "他经常骑自行车"
   },
   {
-    "id": 268,
-    "originalIndex": 268,
+    "id": "default_269",
+    "originalIndex": 269,
     "hanzi": "羊肉",
     "validAnswers": [
       "羊肉"
@@ -3149,8 +3149,8 @@
     "example": "这个星期天天吃羊肉，我想吃烤鸭"
   },
   {
-    "id": 269,
-    "originalIndex": 269,
+    "id": "default_270",
+    "originalIndex": 270,
     "hanzi": "猪肉",
     "validAnswers": [
       "猪肉"
@@ -3161,8 +3161,8 @@
     "example": "这个星期你天天做猪肉，我不想吃"
   },
   {
-    "id": 270,
-    "originalIndex": 270,
+    "id": "default_271",
+    "originalIndex": 271,
     "hanzi": "难吃",
     "validAnswers": [
       "难吃"
@@ -3173,8 +3173,8 @@
     "example": "这家饭馆的猪肉菜太难吃"
   },
   {
-    "id": 271,
-    "originalIndex": 271,
+    "id": "default_272",
+    "originalIndex": 272,
     "hanzi": "面条",
     "validAnswers": [
       "面条"
@@ -3185,8 +3185,8 @@
     "example": "早上我经常吃面条"
   },
   {
-    "id": 272,
-    "originalIndex": 272,
+    "id": "default_273",
+    "originalIndex": 273,
     "hanzi": "跟",
     "validAnswers": [
       "跟"
@@ -3197,8 +3197,8 @@
     "example": "我跟你一起去看望爷爷和奶奶"
   },
   {
-    "id": 273,
-    "originalIndex": 273,
+    "id": "default_274",
+    "originalIndex": 274,
     "hanzi": "讨厌",
     "validAnswers": [
       "讨厌"
@@ -3209,8 +3209,8 @@
     "example": "这件事真讨厌啊，办不完"
   },
   {
-    "id": 274,
-    "originalIndex": 274,
+    "id": "default_275",
+    "originalIndex": 275,
     "hanzi": "性格",
     "validAnswers": [
       "性格"
@@ -3221,8 +3221,8 @@
     "example": "他的性格非常开朗"
   },
   {
-    "id": 275,
-    "originalIndex": 275,
+    "id": "default_276",
+    "originalIndex": 276,
     "hanzi": "游泳",
     "validAnswers": [
       "游泳"
@@ -3233,8 +3233,8 @@
     "example": "我喜欢在夏天游泳"
   },
   {
-    "id": 276,
-    "originalIndex": 276,
+    "id": "default_277",
+    "originalIndex": 277,
     "hanzi": "教室",
     "validAnswers": [
       "教室"
@@ -3245,8 +3245,8 @@
     "example": "他在教室学习"
   },
   {
-    "id": 277,
-    "originalIndex": 277,
+    "id": "default_278",
+    "originalIndex": 278,
     "hanzi": "休息室",
     "validAnswers": [
       "休息室"
@@ -3256,8 +3256,8 @@
     "example": "机场有一个舒适的休息室"
   },
   {
-    "id": 278,
-    "originalIndex": 278,
+    "id": "default_279",
+    "originalIndex": 279,
     "hanzi": "安静",
     "validAnswers": [
       "安静"
@@ -3268,8 +3268,8 @@
     "example": "病人需要安静"
   },
   {
-    "id": 279,
-    "originalIndex": 279,
+    "id": "default_280",
+    "originalIndex": 280,
     "hanzi": "时机",
     "validAnswers": [
       "时机"
@@ -3280,8 +3280,8 @@
     "example": "抓住时机才能成功"
   },
   {
-    "id": 280,
-    "originalIndex": 280,
+    "id": "default_281",
+    "originalIndex": 281,
     "hanzi": "机会",
     "validAnswers": [
       "机会"
@@ -3292,8 +3292,8 @@
     "example": "她给了我一个机会"
   },
   {
-    "id": 281,
-    "originalIndex": 281,
+    "id": "default_282",
+    "originalIndex": 282,
     "hanzi": "广场",
     "validAnswers": [
       "广场"
@@ -3304,8 +3304,8 @@
     "example": "我们在广场散步"
   },
   {
-    "id": 282,
-    "originalIndex": 282,
+    "id": "default_283",
+    "originalIndex": 283,
     "hanzi": "机场",
     "validAnswers": [
       "机场"
@@ -3315,8 +3315,8 @@
     "sinoVietnamese": "cơ trường"
   },
   {
-    "id": 283,
-    "originalIndex": 283,
+    "id": "default_284",
+    "originalIndex": 284,
     "hanzi": "应该",
     "validAnswers": [
       "应该"
@@ -3327,8 +3327,8 @@
     "example": "这是我应该做的"
   },
   {
-    "id": 284,
-    "originalIndex": 284,
+    "id": "default_285",
+    "originalIndex": 285,
     "hanzi": "愿望",
     "validAnswers": [
       "愿望"
@@ -3339,8 +3339,8 @@
     "example": "她的愿望是成为医生"
   },
   {
-    "id": 285,
-    "originalIndex": 285,
+    "id": "default_286",
+    "originalIndex": 286,
     "hanzi": "满足",
     "validAnswers": [
       "满足"
@@ -3351,8 +3351,8 @@
     "example": "我希望能满足你的愿望"
   },
   {
-    "id": 286,
-    "originalIndex": 286,
+    "id": "default_287",
+    "originalIndex": 287,
     "hanzi": "两肋插刀",
     "validAnswers": [
       "两肋插刀"
@@ -3362,8 +3362,8 @@
     "example": "她很讲义气，愿意为朋友两肋插刀"
   },
   {
-    "id": 287,
-    "originalIndex": 287,
+    "id": "default_288",
+    "originalIndex": 288,
     "hanzi": "赴汤蹈火",
     "validAnswers": [
       "赴汤蹈火"
@@ -3373,8 +3373,8 @@
     "example": "战士们，赴汤蹈火，保卫家园"
   },
   {
-    "id": 288,
-    "originalIndex": 288,
+    "id": "default_289",
+    "originalIndex": 289,
     "hanzi": "干什么",
     "validAnswers": [
       "干什么"
@@ -3385,8 +3385,8 @@
     "example": "你干什么不早说呀"
   },
   {
-    "id": 289,
-    "originalIndex": 289,
+    "id": "default_290",
+    "originalIndex": 290,
     "hanzi": "挂了",
     "validAnswers": [
       "挂了"
@@ -3395,8 +3395,8 @@
     "pinyin": "Guàle"
   },
   {
-    "id": 290,
-    "originalIndex": 290,
+    "id": "default_291",
+    "originalIndex": 291,
     "hanzi": "有缘",
     "validAnswers": [
       "有缘"
@@ -3407,8 +3407,8 @@
     "example": "我们有缘结为夫妻"
   },
   {
-    "id": 291,
-    "originalIndex": 291,
+    "id": "default_292",
+    "originalIndex": 292,
     "hanzi": "直接",
     "validAnswers": [
       "直接"
@@ -3419,8 +3419,20 @@
     "example": "他讲话很直接"
   },
   {
-    "id": 292,
-    "originalIndex": 292,
+    "id": "default_293",
+    "originalIndex": 293,
+    "hanzi": "如此",
+    "validAnswers": [
+      "如此"
+    ],
+    "meaning": "như vậy; như thế; dường ấy; như vầy",
+    "pinyin": "rúcǐ",
+    "sinoVietnamese": "như thử",
+    "example": "他的脾气向来如此"
+  },
+  {
+    "id": "default_294",
+    "originalIndex": 294,
     "hanzi": "同生共死 ~同甘共苦",
     "validAnswers": [
       "同生共死 ~同甘共苦"
@@ -3431,8 +3443,8 @@
     "example": "我们同生共死和同甘共苦"
   },
   {
-    "id": 293,
-    "originalIndex": 293,
+    "id": "default_295",
+    "originalIndex": 295,
     "hanzi": "条件反射",
     "validAnswers": [
       "条件反射"
@@ -3442,8 +3454,8 @@
     "sinoVietnamese": "điều kiện phản xạ"
   },
   {
-    "id": 294,
-    "originalIndex": 294,
+    "id": "default_296",
+    "originalIndex": 296,
     "hanzi": "胆小",
     "validAnswers": [
       "胆小"
@@ -3454,8 +3466,8 @@
     "example": "他是胆小的人"
   },
   {
-    "id": 295,
-    "originalIndex": 295,
+    "id": "default_297",
+    "originalIndex": 297,
     "hanzi": "从今往后",
     "validAnswers": [
       "从今往后"
@@ -3466,8 +3478,20 @@
     "example": "从今往后我会爱护你"
   },
   {
-    "id": 296,
-    "originalIndex": 296,
+    "id": "default_298",
+    "originalIndex": 298,
+    "hanzi": "刚",
+    "validAnswers": [
+      "刚"
+    ],
+    "meaning": "vừa; vừa mới",
+    "pinyin": "gāng",
+    "sinoVietnamese": "cương | cang",
+    "example": "雨刚停了"
+  },
+  {
+    "id": "default_299",
+    "originalIndex": 299,
     "hanzi": "感激",
     "validAnswers": [
       "感激"
@@ -3478,8 +3502,8 @@
     "example": "他感激朋友的支持"
   },
   {
-    "id": 297,
-    "originalIndex": 297,
+    "id": "default_300",
+    "originalIndex": 300,
     "hanzi": "宾馆",
     "validAnswers": [
       "宾馆"
@@ -3490,8 +3514,8 @@
     "example": "这件宾馆不错"
   },
   {
-    "id": 298,
-    "originalIndex": 298,
+    "id": "default_301",
+    "originalIndex": 301,
     "hanzi": "前台",
     "validAnswers": [
       "前台"
@@ -3502,8 +3526,8 @@
     "example": "前台小姐很热情接待我"
   },
   {
-    "id": 299,
-    "originalIndex": 299,
+    "id": "default_302",
+    "originalIndex": 302,
     "hanzi": "商场",
     "validAnswers": [
       "商场"
@@ -3514,8 +3538,8 @@
     "example": "我家前面有一个商场"
   },
   {
-    "id": 300,
-    "originalIndex": 300,
+    "id": "default_303",
+    "originalIndex": 303,
     "hanzi": "停车场",
     "validAnswers": [
       "停车场"
@@ -3526,8 +3550,8 @@
     "example": "停车场里有很多车"
   },
   {
-    "id": 301,
-    "originalIndex": 301,
+    "id": "default_304",
+    "originalIndex": 304,
     "hanzi": "运动场",
     "validAnswers": [
       "运动场"
@@ -3538,8 +3562,8 @@
     "example": "我们学校的运动场很大"
   },
   {
-    "id": 302,
-    "originalIndex": 302,
+    "id": "default_305",
+    "originalIndex": 305,
     "hanzi": "韶华",
     "validAnswers": [
       "韶华"
@@ -3550,8 +3574,8 @@
     "example": "奋斗点亮青春韶华"
   },
   {
-    "id": 303,
-    "originalIndex": 303,
+    "id": "default_306",
+    "originalIndex": 306,
     "hanzi": "疯狂",
     "validAnswers": [
       "疯狂"
@@ -3562,8 +3586,8 @@
     "example": "他的想法简直太疯狂了"
   },
   {
-    "id": 304,
-    "originalIndex": 304,
+    "id": "default_307",
+    "originalIndex": 307,
     "hanzi": "文雅",
     "validAnswers": [
       "文雅"
@@ -3573,8 +3597,8 @@
     "sinoVietnamese": "văn nhã"
   },
   {
-    "id": 305,
-    "originalIndex": 305,
+    "id": "default_308",
+    "originalIndex": 308,
     "hanzi": "男性",
     "validAnswers": [
       "男性"
@@ -3584,8 +3608,8 @@
     "sinoVietnamese": "nam tính"
   },
   {
-    "id": 306,
-    "originalIndex": 306,
+    "id": "default_309",
+    "originalIndex": 309,
     "hanzi": "唱歌",
     "validAnswers": [
       "唱歌"
@@ -3596,8 +3620,8 @@
     "example": "我很喜欢唱歌但是长的不好"
   },
   {
-    "id": 307,
-    "originalIndex": 307,
+    "id": "default_310",
+    "originalIndex": 310,
     "hanzi": "永远",
     "validAnswers": [
       "永远"
@@ -3608,8 +3632,8 @@
     "example": "关于这个段爱情永远是他们的秘密"
   },
   {
-    "id": 308,
-    "originalIndex": 308,
+    "id": "default_311",
+    "originalIndex": 311,
     "hanzi": "段",
     "validAnswers": [
       "段"
@@ -3620,8 +3644,8 @@
     "example": "关于这个段爱情永远是我们的秘密"
   },
   {
-    "id": 309,
-    "originalIndex": 309,
+    "id": "default_312",
+    "originalIndex": 312,
     "hanzi": "秘密",
     "validAnswers": [
       "秘密"
@@ -3632,8 +3656,8 @@
     "example": "这个秘密对我很重要"
   },
   {
-    "id": 310,
-    "originalIndex": 310,
+    "id": "default_313",
+    "originalIndex": 313,
     "hanzi": "总是",
     "validAnswers": [
       "总是"
@@ -3643,8 +3667,8 @@
     "sinoVietnamese": "tổng thị"
   },
   {
-    "id": 311,
-    "originalIndex": 311,
+    "id": "default_314",
+    "originalIndex": 314,
     "hanzi": "今生",
     "validAnswers": [
       "今生"
@@ -3655,19 +3679,20 @@
     "example": "今生我们注定无缘"
   },
   {
-    "id": 312,
-    "originalIndex": 312,
-    "hanzi": "亏钱",
+    "id": "default_315",
+    "originalIndex": 315,
+    "hanzi": "亏欠",
     "validAnswers": [
-      "亏钱"
+      "亏欠"
     ],
     "meaning": "thiếu hụt; mắc nợ; thiếu nợ",
     "pinyin": "kuīqiàn",
-    "sinoVietnamese": "khuy khiếm"
+    "sinoVietnamese": "khuy khiếm",
+    "example": "他亏欠了很多债务"
   },
   {
-    "id": 313,
-    "originalIndex": 313,
+    "id": "default_316",
+    "originalIndex": 316,
     "hanzi": "相见",
     "validAnswers": [
       "相见"
@@ -3677,8 +3702,8 @@
     "sinoVietnamese": "[tương kiến]"
   },
   {
-    "id": 314,
-    "originalIndex": 314,
+    "id": "default_317",
+    "originalIndex": 317,
     "hanzi": "依赖",
     "validAnswers": [
       "依赖"
@@ -3689,8 +3714,8 @@
     "example": "我们都不应该依赖别人"
   },
   {
-    "id": 315,
-    "originalIndex": 315,
+    "id": "default_318",
+    "originalIndex": 318,
     "hanzi": "去年",
     "validAnswers": [
       "去年"
@@ -3700,8 +3725,8 @@
     "sinoVietnamese": "khứ niên"
   },
   {
-    "id": 316,
-    "originalIndex": 316,
+    "id": "default_319",
+    "originalIndex": 319,
     "hanzi": "上个星期",
     "validAnswers": [
       "上个星期"
@@ -3710,8 +3735,8 @@
     "pinyin": "shàng gè xīngqī"
   },
   {
-    "id": 317,
-    "originalIndex": 317,
+    "id": "default_320",
+    "originalIndex": 320,
     "hanzi": "上个月",
     "validAnswers": [
       "上个月"
@@ -3720,8 +3745,8 @@
     "pinyin": "shàng gè yuè"
   },
   {
-    "id": 318,
-    "originalIndex": 318,
+    "id": "default_321",
+    "originalIndex": 321,
     "hanzi": "前天",
     "validAnswers": [
       "前天"
@@ -3730,8 +3755,8 @@
     "pinyin": "qiántiān"
   },
   {
-    "id": 319,
-    "originalIndex": 319,
+    "id": "default_322",
+    "originalIndex": 322,
     "hanzi": "便宜",
     "validAnswers": [
       "便宜"
@@ -3740,8 +3765,8 @@
     "pinyin": "piányi\nbiànyí]"
   },
   {
-    "id": 320,
-    "originalIndex": 320,
+    "id": "default_323",
+    "originalIndex": 323,
     "hanzi": "混乱",
     "validAnswers": [
       "混乱"
@@ -3752,8 +3777,8 @@
     "example": "他的计划非常混乱"
   },
   {
-    "id": 321,
-    "originalIndex": 321,
+    "id": "default_324",
+    "originalIndex": 324,
     "hanzi": "会议",
     "validAnswers": [
       "会议"
@@ -3764,8 +3789,8 @@
     "example": "我们今天有一个会议"
   },
   {
-    "id": 322,
-    "originalIndex": 322,
+    "id": "default_325",
+    "originalIndex": 325,
     "hanzi": "确认",
     "validAnswers": [
       "确认"
@@ -3776,8 +3801,8 @@
     "example": "她确认了付款方式"
   },
   {
-    "id": 323,
-    "originalIndex": 323,
+    "id": "default_326",
+    "originalIndex": 326,
     "hanzi": "尽快",
     "validAnswers": [
       "尽快"
@@ -3788,8 +3813,8 @@
     "example": "请尽快给我答复"
   },
   {
-    "id": 324,
-    "originalIndex": 324,
+    "id": "default_327",
+    "originalIndex": 327,
     "hanzi": "学会",
     "validAnswers": [
       "学会"
@@ -3799,8 +3824,8 @@
     "sinoVietnamese": "học hội"
   },
   {
-    "id": 325,
-    "originalIndex": 325,
+    "id": "default_328",
+    "originalIndex": 328,
     "hanzi": "会计",
     "validAnswers": [
       "会计"
@@ -3809,5 +3834,251 @@
     "pinyin": "kuàijì",
     "sinoVietnamese": "cối kế",
     "example": "会计工作很重要"
+  },
+  {
+    "id": "default_329",
+    "originalIndex": 329,
+    "hanzi": "常用",
+    "validAnswers": [
+      "常用"
+    ],
+    "meaning": "hay dùng; thường dùng\nphổ biến; được sử dụng phổ biến",
+    "pinyin": "chángyòng",
+    "sinoVietnamese": "thường dụng"
+  },
+  {
+    "id": "default_330",
+    "originalIndex": 330,
+    "hanzi": "中很",
+    "validAnswers": [
+      "中很"
+    ],
+    "meaning": "rất",
+    "pinyin": "Zhōng hěn"
+  },
+  {
+    "id": "default_331",
+    "originalIndex": 331,
+    "hanzi": "简单",
+    "validAnswers": [
+      "简单"
+    ],
+    "meaning": "giản đơn; đơn giản",
+    "pinyin": "jiǎndān",
+    "sinoVietnamese": "giản đơn",
+    "example": "请用“运动场”写一个简单的句子"
+  },
+  {
+    "id": "default_332",
+    "originalIndex": 332,
+    "hanzi": "着急",
+    "validAnswers": [
+      "着急"
+    ],
+    "meaning": "gấp; vội; vội vã; gấp gáp; lo lắng; nôn nóng; sốt ruột; vội vàng; cuống cuồng",
+    "pinyin": "zháojí",
+    "sinoVietnamese": "trước cấp",
+    "example": "请尽快我现在很着急"
+  },
+  {
+    "id": "default_333",
+    "originalIndex": 333,
+    "hanzi": "告诉",
+    "validAnswers": [
+      "告诉"
+    ],
+    "meaning": "kể; bảo; nói cho; báo cho; chỉ bảo; mách; mách cho; dặn dò; nói với; đi kiện",
+    "pinyin": "gàosu",
+    "sinoVietnamese": "cáo tố",
+    "example": "如果有消息，请及时告诉我"
+  },
+  {
+    "id": "default_334",
+    "originalIndex": 334,
+    "hanzi": "黑色",
+    "validAnswers": [
+      "黑色"
+    ],
+    "meaning": "màu đen; đen",
+    "pinyin": "hēisè",
+    "sinoVietnamese": "hắc sắc",
+    "example": "我的眼睛是黑色的"
+  },
+  {
+    "id": "default_335",
+    "originalIndex": 335,
+    "hanzi": "一件事",
+    "validAnswers": [
+      "一件事"
+    ],
+    "meaning": "một việc，Một điều",
+    "pinyin": "Yī jiàn shì",
+    "example": "昨天你想告诉我什么几件事"
+  },
+  {
+    "id": "default_336",
+    "originalIndex": 336,
+    "hanzi": "本来",
+    "validAnswers": [
+      "本来"
+    ],
+    "meaning": "vốn có; lúc đầu; ban đầu\nlẽ ra; đáng nhẽ; đáng lẽ\n trước đây; lúc trước; lúc đầu; vốn dĩ",
+    "pinyin": "běnlái",
+    "sinoVietnamese": "bản lai",
+    "example": "我本来想说你可以关心我一下吧"
+  },
+  {
+    "id": "default_337",
+    "originalIndex": 337,
+    "hanzi": "正想说",
+    "validAnswers": [
+      "正想说"
+    ],
+    "meaning": "đang định nói",
+    "pinyin": "Zhèng xiǎng shuō",
+    "example": "我正想说中午我们出去吃饭吧"
+  },
+  {
+    "id": "default_338",
+    "originalIndex": 338,
+    "hanzi": "才",
+    "validAnswers": [
+      "才"
+    ],
+    "meaning": "tài; tài năng\nnhân tài; người tài; người có tài\nmới, vừa mới (cách đây không lâu)\n chỉ; chỉ mới; chỉ có",
+    "pinyin": "cái",
+    "sinoVietnamese": "tài",
+    "example": "现在才八点\n我猜到了"
+  },
+  {
+    "id": "default_339",
+    "originalIndex": 339,
+    "hanzi": "飞行员",
+    "validAnswers": [
+      "飞行员"
+    ],
+    "meaning": "phi công; người lái máy bay",
+    "pinyin": "fēixíngyuán",
+    "sinoVietnamese": "phi hành viên"
+  },
+  {
+    "id": "default_340",
+    "originalIndex": 340,
+    "hanzi": "驾驶员\n司机",
+    "validAnswers": [
+      "驾驶员",
+      "司机"
+    ],
+    "meaning": "tài xế",
+    "pinyin": "jiàshǐ yuán\nsījī",
+    "example": "这位司机很有经验"
+  },
+  {
+    "id": "default_341",
+    "originalIndex": 341,
+    "hanzi": "售货员",
+    "validAnswers": [
+      "售货员"
+    ],
+    "meaning": "người bán hàng; nhân viên bán hàng",
+    "pinyin": "shòuhuòyuán",
+    "sinoVietnamese": "thụ hóa viên"
+  },
+  {
+    "id": "default_342",
+    "originalIndex": 342,
+    "hanzi": "妻子",
+    "validAnswers": [
+      "妻子"
+    ],
+    "meaning": "vợ",
+    "pinyin": "qīzi",
+    "sinoVietnamese": "thê tử",
+    "example": "他现在的妻子是后妻"
+  },
+  {
+    "id": "default_343",
+    "originalIndex": 343,
+    "hanzi": "雪",
+    "validAnswers": [
+      "雪"
+    ],
+    "meaning": "tuyết",
+    "pinyin": "xuě",
+    "sinoVietnamese": "tuyết",
+    "example": "昨晚下雪，早晨路面很滑"
+  },
+  {
+    "id": "default_344",
+    "originalIndex": 344,
+    "hanzi": "进",
+    "validAnswers": [
+      "进"
+    ],
+    "meaning": "tiến; tiến lên; tiến vào\nvào; vô; đi vào",
+    "pinyin": "jìn",
+    "sinoVietnamese": "tiến",
+    "example": "请进，欢迎光临！"
+  },
+  {
+    "id": "default_345",
+    "originalIndex": 345,
+    "hanzi": "订舱",
+    "validAnswers": [
+      "订舱"
+    ],
+    "meaning": "booking (logistics)",
+    "pinyin": "dìngcāng",
+    "sinoVietnamese": "đính thương",
+    "example": "明天我们会提交订舱申请"
+  },
+  {
+    "id": "default_346",
+    "originalIndex": 346,
+    "hanzi": "放假",
+    "validAnswers": [
+      "放假"
+    ],
+    "meaning": "nghỉ; nghỉ định kỳ",
+    "pinyin": "fàng//jià",
+    "sinoVietnamese": "phóng giá",
+    "example": "你们什么时候放假/今天我们放假，因为今天是越南文化日"
+  },
+  {
+    "id": "default_347",
+    "originalIndex": 347,
+    "hanzi": "回复",
+    "validAnswers": [
+      "回复"
+    ],
+    "meaning": "trả lời; hồi đáp; phúc đáp; hồi âm (thường chỉ thư từ)\n hồi phục; khôi phục; phục hồi (nguyên trạng)",
+    "pinyin": "huífù",
+    "sinoVietnamese": "hồi phục",
+    "example": "麻烦你尽快回复我的邮件"
+  },
+  {
+    "id": "default_348",
+    "originalIndex": 348,
+    "hanzi": "邮箱\n邮件",
+    "validAnswers": [
+      "邮箱",
+      "邮件"
+    ],
+    "meaning": "hòm thư; thùng thư，Email",
+    "pinyin": "yóuxiāng\nyóujiàn",
+    "sinoVietnamese": "bưu tương",
+    "example": "我刚检查邮件，还没看到你的回复"
+  },
+  {
+    "id": "default_349",
+    "originalIndex": 349,
+    "hanzi": "提交",
+    "validAnswers": [
+      "提交"
+    ],
+    "meaning": "nộp; đệ trình; đưa ra",
+    "pinyin": "[tíjiāo",
+    "sinoVietnamese": "[đề giao]",
+    "example": "我们要在周末提交工作报告"
   }
 ]
