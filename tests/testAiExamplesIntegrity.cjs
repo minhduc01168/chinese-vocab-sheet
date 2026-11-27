@@ -64,7 +64,7 @@ it('2. Mỗi câu ví dụ đều có đầy đủ trường hanzi, pinyin, mean
 });
 
 // TEST 3: Tuyệt đối KHÔNG có chữ Hán trong cột nghĩa tiếng Việt
-it('3. Tất cả 966 câu ví dụ: phần dịch tiếng Việt 100% thuần Việt (0 ký tự chữ Hán)', () => {
+it(`3. Tất cả ${Object.keys(aiExamples).length * 3} câu ví dụ: phần dịch tiếng Việt 100% thuần Việt (0 ký tự chữ Hán)`, () => {
   const violations = [];
   for (const [w, list] of Object.entries(aiExamples)) {
     list.forEach((ex, idx) => {

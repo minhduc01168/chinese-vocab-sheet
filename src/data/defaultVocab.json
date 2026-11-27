@@ -756,7 +756,7 @@
       "半"
     ],
     "meaning": "1 nửa， rưỡi",
-    "pinyin": "[bàn",
+    "pinyin": "bàn",
     "sinoVietnamese": "bán",
     "example": "我八点半去 上班"
   },
@@ -815,7 +815,7 @@
       "时间"
     ],
     "meaning": "thời gian",
-    "pinyin": "[shíjiān",
+    "pinyin": "shíjiān",
     "sinoVietnamese": "thì gian",
     "example": "你什么时候有时间？"
   },
@@ -834,9 +834,9 @@
   {
     "id": "default_72",
     "originalIndex": 72,
-    "hanzi": "回",
+    "hanzi": "回复",
     "validAnswers": [
-      "回"
+      "回复"
     ],
     "meaning": "về, quay lại",
     "pinyin": "huí",
@@ -995,7 +995,7 @@
       "可以"
     ],
     "meaning": "có thể; có khả năng; có năng lực",
-    "pinyin": "[kěyǐ]",
+    "pinyin": "kěyǐ",
     "sinoVietnamese": "khả dĩ",
     "example": "你可以帮我拿一杯冰水吗？"
   },
@@ -1007,7 +1007,7 @@
       "帮"
     ],
     "meaning": "giúp; giúp đỡ; trợ giúp\nàm thuê; làm mướn",
-    "pinyin": "bāng]",
+    "pinyin": "bāng",
     "sinoVietnamese": "bang",
     "example": "你可以帮我一个忙吗"
   },
@@ -1496,7 +1496,7 @@
       "打电话"
     ],
     "meaning": "gọi điện thoại",
-    "pinyin": "[dǎ diànhuà]",
+    "pinyin": "dǎ diànhuà",
     "example": "我给妈妈打电话"
   },
   {
@@ -1649,7 +1649,7 @@
       "开关"
     ],
     "meaning": "công tắc; bộ chuyển mạch",
-    "pinyin": "k��iguān",
+    "pinyin": "kāiguān",
     "sinoVietnamese": "khai quan",
     "example": "打开开关吧/开灯吧"
   },
@@ -1692,9 +1692,9 @@
   {
     "id": "default_144",
     "originalIndex": 144,
-    "hanzi": "回来",
+    "hanzi": "回复",
     "validAnswers": [
-      "回来"
+      "回复"
     ],
     "meaning": "về; trở về; trở lại; quay về",
     "pinyin": "huílái",
@@ -1735,7 +1735,7 @@
     "meaning": "ngoài; bên ngoài; mặt ngoài",
     "pinyin": "wàibian",
     "sinoVietnamese": "ngoại biên",
-    "example": "外边很冷，多穿些衣���"
+    "example": "外边很冷，多穿些衣服"
   },
   {
     "id": "default_148",
@@ -1840,7 +1840,7 @@
       "有名"
     ],
     "meaning": "có tiếng; nổi tiếng; nức danh; nức tiếng",
-    "pinyin": "[yǒumíng",
+    "pinyin": "yǒumíng",
     "sinoVietnamese": "hữu danh",
     "example": "这作者很有名"
   },
@@ -2009,7 +2009,7 @@
     ],
     "meaning": "siêu thị",
     "pinyin": "chāoshì",
-    "sinoVietnamese": "siêu thị",
+    "sinoVietnamese": "siêu th��",
     "example": "去超市吧，我想买酸奶"
   },
   {
@@ -2160,7 +2160,7 @@
       "眼眸"
     ],
     "meaning": "mắt; đôi mắt",
-    "pinyin": "yǎnmóu]",
+    "pinyin": "yǎnmóu",
     "sinoVietnamese": "nhãn mâu"
   },
   {
@@ -2170,7 +2170,7 @@
     "validAnswers": [
       "慌张"
     ],
-    "meaning": "bối r��i; luống cuống; lật đật; hoang mang; lúng túng; hoảng hốt; cuống lên; căng thẳng; hoảng loạn; cuống cuồng",
+    "meaning": "bối rối; luống cuống; lật đật; hoang mang; lúng túng; hoảng hốt; cuống lên; căng thẳng; hoảng loạn; cuống cuồng",
     "pinyin": "huāngzhāng",
     "sinoVietnamese": "hoảng trương"
   },
@@ -2326,7 +2326,7 @@
       "旅游者"
     ],
     "meaning": "du khách; khách du lịch",
-    "pinyin": "[lǚyóu zhě",
+    "pinyin": "lǚyóu zhě",
     "sinoVietnamese": "lữ du giả"
   },
   {
@@ -2457,9 +2457,9 @@
     "validAnswers": [
       "真是"
     ],
-    "meaning": "chân thị]",
+    "meaning": "thật là; rõ là; đúng là (biểu thị không hài lòng)",
     "pinyin": "zhēnshi",
-    "sinoVietnamese": "chân thị]"
+    "sinoVietnamese": "chân thị"
   },
   {
     "id": "default_211",
@@ -2539,7 +2539,7 @@
     ],
     "meaning": "đi; đi bộ; đi qua",
     "pinyin": "zǒu",
-    "sinoVietnamese": "t���u",
+    "sinoVietnamese": "tẩu",
     "example": "我们明天要走了"
   },
   {
@@ -2610,9 +2610,9 @@
       "叉子"
     ],
     "meaning": "cái dĩa; cái nĩa; cái xiên",
-    "pinyin": "[chāzi]",
+    "pinyin": "chāzi",
     "sinoVietnamese": "xoa tử",
-    "example": "我去超市买了一个叉子"
+    "example": "��去超市买了一个叉子"
   },
   {
     "id": "default_224",
@@ -2667,7 +2667,7 @@
       "教师"
     ],
     "meaning": "giáo viên; nhà giáo",
-    "pinyin": "[jiàoshī",
+    "pinyin": "jiàoshī",
     "sinoVietnamese": "giáo sư"
   },
   {
@@ -2891,7 +2891,7 @@
       "送"
     ],
     "meaning": "đem; đưa; gửi; nộp; giao; chuyển giao",
-    "pinyin": "sòng",
+    "pinyin": "s��ng",
     "sinoVietnamese": "tống",
     "example": "我送礼物给邻居"
   },
@@ -2962,8 +2962,8 @@
     "validAnswers": [
       "长"
     ],
-    "meaning": "dài; xa\ndư thừa; còn lại",
-    "pinyin": "cháng",
+    "meaning": "dài; xa\ndư thừa; còn lại\nlớn; nhiều tuổi; lớn tuổi\ntrông; nom; sinh trưởng; trưởng thành; lớn lên; phát triển",
+    "pinyin": "cháng\nzhǎng",
     "sinoVietnamese": "trường",
     "example": "我家里没有常务\n这个项目拖得太长了"
   },
@@ -3047,7 +3047,7 @@
       "进去"
     ],
     "meaning": "vào trong; đi vào; hướng vào trong (dùng sau động từ, biểu thị đi vào trong)",
-    "pinyin": "[jìnqù",
+    "pinyin": "jìnqù",
     "sinoVietnamese": "tiến khứ",
     "example": "他马上进去回家了"
   },
@@ -3119,7 +3119,7 @@
       "哭"
     ],
     "meaning": "khóc; khóc lóc",
-    "pinyin": "[kū",
+    "pinyin": "kū",
     "sinoVietnamese": "khốc",
     "example": "你哭哭什么？"
   },
@@ -3130,7 +3130,7 @@
     "validAnswers": [
       "苦"
     ],
-    "meaning": "đắng\n đau khổ; khổ\n sâu; tả tơi; hao t���n qua nhiều",
+    "meaning": "đắng\n đau khổ; khổ\n sâu; tả tơi; hao tốn qua nhiều",
     "pinyin": "kǔ",
     "sinoVietnamese": "khổ",
     "example": "你瞧他太苦了"
@@ -3167,7 +3167,7 @@
       "猪肉"
     ],
     "meaning": "thịt lợn; thịt heo",
-    "pinyin": "[zhūròu",
+    "pinyin": "zhūròu",
     "sinoVietnamese": "trư nhục",
     "example": "这个星期你天天做猪肉，我不想吃"
   },
@@ -3322,7 +3322,7 @@
       "机场"
     ],
     "meaning": "sân bay; phi trường",
-    "pinyin": "[jīchǎng",
+    "pinyin": "jīchǎng",
     "sinoVietnamese": "cơ trường"
   },
   {
@@ -3370,7 +3370,7 @@
     ],
     "meaning": "liều mạng đến quên mình",
     "pinyin": "liǎng lèi chā dāo",
-    "example": "她很讲义气，愿意为朋友两肋插刀"
+    "example": "她很讲义气，愿意为朋友两肋��刀"
   },
   {
     "id": "default_288",
@@ -3522,7 +3522,7 @@
     "meaning": "nhà khách; khách sạn",
     "pinyin": "bīnguǎn",
     "sinoVietnamese": "tân quán",
-    "example": "这件宾馆不错"
+    "example": "这���宾馆不错"
   },
   {
     "id": "default_301",
@@ -3532,9 +3532,9 @@
       "前台"
     ],
     "meaning": "quầy lễ tân",
-    "pinyin": "qiántái]",
+    "pinyin": "qiántái",
     "sinoVietnamese": "tiền đài",
-    "example": "前台小姐很热情接���我"
+    "example": "前台小姐很热情接待我"
   },
   {
     "id": "default_302",
@@ -3720,7 +3720,7 @@
       "依赖"
     ],
     "meaning": "ỷ lại; phụ thuộc vào",
-    "pinyin": "yīlài]",
+    "pinyin": "yīlài",
     "sinoVietnamese": "y lại",
     "example": "我们都不应该依赖别人"
   },
@@ -3773,7 +3773,7 @@
       "便宜"
     ],
     "meaning": "rẻ; hời; giá rẻ\ntiện lợi; tuỳ nghi; thuận tiện; tiện nghi",
-    "pinyin": "piányi\nbiànyí]"
+    "pinyin": "piányi\nbiànyí"
   },
   {
     "id": "default_323",
@@ -3783,7 +3783,7 @@
       "混乱"
     ],
     "meaning": "hỗn loạn; lẫn lộn; pha trộn; lộn xộn; lung tung; rối loạn; xộn xạo; tanh bành",
-    "pinyin": "hùnluàn]",
+    "pinyin": "hùnluàn",
     "sinoVietnamese": "hỗn loạn",
     "example": "他的计划非常混乱"
   },
@@ -3844,7 +3844,7 @@
     "meaning": "kế toán",
     "pinyin": "kuàijì",
     "sinoVietnamese": "cối kế",
-    "example": "会计工作很重要"
+    "example": "会计工作很重��"
   },
   {
     "id": "default_329",
@@ -3853,7 +3853,7 @@
     "validAnswers": [
       "常用"
     ],
-    "meaning": "hay dùng; thường dùng\nphổ biến; được s��� dụng phổ biến",
+    "meaning": "hay dùng; thường dùng\nphổ biến; được sử dụng phổ biến",
     "pinyin": "chángyòng",
     "sinoVietnamese": "thường dụng"
   },
@@ -3923,7 +3923,7 @@
       "一件事"
     ],
     "meaning": "một việc，Một điều",
-    "pinyin": "Yī jiàn shì",
+    "pinyin": "Yī ji��n shì",
     "example": "昨天你想告诉我什么几件事"
   },
   {
@@ -3934,7 +3934,7 @@
       "本来"
     ],
     "meaning": "vốn có; lúc đầu; ban đầu\nlẽ ra; đáng nhẽ; đáng lẽ\n trước đây; lúc trước; lúc đầu; vốn dĩ",
-    "pinyin": "běnl��i",
+    "pinyin": "běnlái",
     "sinoVietnamese": "bản lai",
     "example": "我本来想说你可以关心我一下吧"
   },
@@ -4088,7 +4088,7 @@
       "提交"
     ],
     "meaning": "nộp; đệ trình; đưa ra",
-    "pinyin": "[tíjiāo",
+    "pinyin": "tíjiāo",
     "sinoVietnamese": "[đề giao]",
     "example": "我们要在周末提交工作报告"
   },
@@ -4188,8 +4188,111 @@
     "validAnswers": [
       "感冒"
     ],
-    "meaning": "ốm; cảm c��m\nquan tâm; khoái; thích; hứng thú",
+    "meaning": "ốm; cảm cúm\nquan tâm; khoái; thích; hứng thú",
     "pinyin": "gǎnmào",
     "sinoVietnamese": "cảm mạo"
+  },
+  {
+    "id": "default_359",
+    "originalIndex": 359,
+    "hanzi": "穿",
+    "validAnswers": [
+      "穿"
+    ],
+    "meaning": "đi; đeo; mặc; mang (giày, tất",
+    "pinyin": "chuān",
+    "sinoVietnamese": "xuyên",
+    "example": "今天我穿运动鞋"
+  },
+  {
+    "id": "default_360",
+    "originalIndex": 360,
+    "hanzi": "得",
+    "validAnswers": [
+      "得"
+    ],
+    "meaning": "có; được\nphù hợp; thích hợp; đắc\nDùng để bổ sung mức độ, kết quả hoặc đánh giá của hành động.\n\nCấu trúc: Động từ + 得 + Bổ ngữ",
+    "pinyin": "dé",
+    "sinoVietnamese": "đắc",
+    "example": "忙得不可开交"
+  },
+  {
+    "id": "default_361",
+    "originalIndex": 361,
+    "hanzi": "温柔",
+    "validAnswers": [
+      "温柔"
+    ],
+    "meaning": "dịu dàng; mềm mại; hoà nhã; thuỳ mị; điềm đạm; nhẹ nhàng",
+    "pinyin": "wēnróu",
+    "sinoVietnamese": "ôn nhu",
+    "example": "他有意的温柔的妻子"
+  },
+  {
+    "id": "default_362",
+    "originalIndex": 362,
+    "hanzi": "大概",
+    "validAnswers": [
+      "大概"
+    ],
+    "meaning": "độ; tầm; chắc; khoảng chừng; có thể; có lẽ; rất có thể",
+    "pinyin": "dàgài",
+    "sinoVietnamese": "đại khái",
+    "example": "她大概不会同意这件事"
+  },
+  {
+    "id": "default_363",
+    "originalIndex": 363,
+    "hanzi": "你有空吗？",
+    "validAnswers": [
+      "你有空吗？"
+    ],
+    "meaning": "bạn có rảnh không",
+    "pinyin": "Nǐ yǒu kòng ma?"
+  },
+  {
+    "id": "default_364",
+    "originalIndex": 364,
+    "hanzi": "流利",
+    "validAnswers": [
+      "流利"
+    ],
+    "meaning": "lưu loát; trôi chảy",
+    "pinyin": "liúlì",
+    "sinoVietnamese": "lưu lợi",
+    "example": "他说汉语说得很流利"
+  },
+  {
+    "id": "default_365",
+    "originalIndex": 365,
+    "hanzi": "早起",
+    "validAnswers": [
+      "早起"
+    ],
+    "meaning": "dậy sớm; thức dậy sớm",
+    "pinyin": "zǎoqǐ",
+    "sinoVietnamese": "tảo khởi"
+  },
+  {
+    "id": "default_366",
+    "originalIndex": 366,
+    "hanzi": "不必",
+    "validAnswers": [
+      "不必"
+    ],
+    "meaning": "khỏi; không cần; khỏi phải; không đáng",
+    "pinyin": "bùbì",
+    "sinoVietnamese": "bất tất"
+  },
+  {
+    "id": "default_367",
+    "originalIndex": 367,
+    "hanzi": "度",
+    "validAnswers": [
+      "度"
+    ],
+    "meaning": "công cụ; tiêu chuẩn đo lường\nđộ (độ cứng, độ ẩm...)",
+    "pinyin": "dù",
+    "sinoVietnamese": "độ"
   }
 ]
